@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruby School Academic Platform</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Montserrat', 'sans-serif'],
+                    },
+                    colors: {
+                        cambridge: {
+                            starters: '#FFAD00',
+                            movers: '#B45CAC',
+                            flyers: '#AED976',
+                            ket: '#04999F',
+                            pet: '#CF3048',
+                            fce: '#8DC73F'
+                        },
+                        ruby: {
+                            dark: '#111827'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f3f4f6; }
+        h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', sans-serif; }
+        
+        .login-bg {
+            background-image: linear-gradient(rgba(17, 24, 39, 0.8), rgba(17, 24, 39, 0.9)), url('https://www.dropbox.com/scl/fi/i8jv9tahjxtrzu065kupj/ChatGPT-Image-22_22_04-10-thg-3-2026.png?rlkey=2zy4pgeulmvde0k0beyyndhh9&st=dezebevl&raw=1');
+            background-size: cover;
+            background-position: center;
+        }
+
+        #main-app { display: none; }
+        .level-card { transition: all 0.3s ease; }
+        .level-card:hover { transform: translateY(-5px); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col antialiased text-gray-800">
+
+    <div id="login-screen" class="fixed inset-0 z-50 login-bg flex flex-col items-center justify-center px-4">
+        <div class="bg-white/10 backdrop-blur-md p-8 sm:p-12 rounded-3xl shadow-2xl w-full max-w-md border border-white/20 text-center">
+            <img src="https://rubyschool.edu.vn/wp-content/uploads/2025/07/logo-ngang-vien-trang-1024x267.png" alt="Ruby School Logo" class="h-16 mx-auto mb-8 object-contain">
+            <h2 class="text-2xl font-bold text-white mb-2 font-heading tracking-wide">ACADEMIC PORTAL</h2>
+            <p class="text-gray-300 text-sm mb-8">Please enter the access code to continue</p>
+            <form id="login-form" class="space-y-4">
+                <div class="relative">
+                    <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                        <i class="fa-solid fa-lock text-gray-400"></i>
+                    </div>
+                    <input type="password" id="access-code" class="w-full pl-11 pr-4 py-4 bg-white/20 border border-white/30 rounded-xl text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-cambridge-starters focus:bg-white/30 transition-all font-medium" placeholder="Enter Access Code" required>
+                </div>
+                <p id="error-msg" class="text-red-400 text-sm font-medium hidden">Incorrect access code. Please try again.</p>
+                <button type="submit" class="w-full bg-gradient-to-r from-cambridge-starters to-orange-500 hover:from-orange-500 hover:to-orange-600 text-white font-bold py-4 rounded-xl transition-all shadow-lg transform hover:scale-[1.02]">
+                    VERIFY ACCESS
+                </button>
+            </form>
+        </div>
+        <div class="mt-8 text-white/60 text-xs text-center">
+            <p>&copy; 2026 Ruby School Academic Platform</p>
+        </div>
+    </div>
+
+    <div id="main-app" class="flex-col min-h-screen">
+        
+        <header class="bg-ruby-dark shadow-lg sticky top-0 z-40">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+                <div class="flex items-center">
+                    <img src="https://rubyschool.edu.vn/wp-content/uploads/2025/07/logo-ngang-vien-trang-1024x267.png" alt="Ruby School" class="h-12 object-contain">
+                </div>
+                <div class="hidden sm:flex items-center gap-3 text-white/90">
+                    <div class="text-right">
+                        <p class="text-xs font-bold tracking-widest text-cambridge-starters uppercase">Academic Year</p>
+                        <p class="font-heading font-bold">2026 - 2027</p>
+                    </div>
+                    <div class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center border border-white/20">
+                        <i class="fa-solid fa-user-graduate"></i>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="relative bg-gray-900 overflow-hidden">
+            <div class="absolute inset-0">
+                <img src="https://www.dropbox.com/scl/fi/i8jv9tahjxtrzu065kupj/ChatGPT-Image-22_22_04-10-thg-3-2026.png?rlkey=2zy4pgeulmvde0k0beyyndhh9&st=dezebevl&raw=1" alt="Welcome Banner" class="w-full h-full object-cover opacity-40">
+                <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 to-transparent"></div>
+            </div>
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 text-center">
+                <h1 class="text-3xl sm:text-5xl font-black text-white font-heading tracking-tight mb-4">
+                    STUDENT LEARNING & <span class="text-cambridge-starters">ASSESSMENT</span> PLATFORM
+                </h1>
+                <p class="text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto font-medium">
+                    Select your Cambridge English level below to access targeted practice materials and full test simulations.
+                </p>
+            </div>
+        </div>
+
+        <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 -mt-8 relative z-10">
+            
+            <div id="dashboard-view" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-2xl overflow-hidden level-card border border-gray-100 flex flex-col h-full">
+                    <div class="bg-cambridge-starters p-5 text-center"><h2 class="text-2xl font-black text-white font-heading tracking-wider">STARTERS</h2></div>
+                    <div class="p-6 flex-grow flex flex-col justify-center gap-4">
+                        <button onclick="openFolder('STARTERS', 'PRACTICE', 'bg-cambridge-starters', 'text-cambridge-starters', 'border-cambridge-starters')" class="group w-full flex items-center justify-between px-6 py-4 rounded-xl border-2 border-cambridge-starters text-cambridge-starters font-bold hover:bg-cambridge-starters hover:text-white transition-all">
+                            <span class="flex items-center gap-3"><i class="fa-solid fa-folder-open"></i> PRACTICE FILES</span>
+                            <i class="fa-solid fa-chevron-right transform group-hover:translate-x-1 transition-all"></i>
+                        </button>
+                        <button onclick="openFolder('STARTERS', 'SIMULATION', 'bg-cambridge-starters', 'text-cambridge-starters', 'border-cambridge-starters')" class="group w-full flex items-center justify-between px-6 py-4 rounded-xl bg-cambridge-starters text-white font-bold hover:bg-opacity-90 transition-all shadow-md">
+                            <span class="flex items-center gap-3"><i class="fa-solid fa-stopwatch"></i> TEST SIMULATION</span>
+                            <i class="fa-solid fa-chevron-right transform group-hover:translate-x-1 transition-all"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl overflow-hidden level-card border border-gray-100 flex flex-col h-full">
+                    <div class="bg-cambridge-movers p-5 text-center"><h2 class="text-2xl font-black text-white font-heading tracking-wider">MOVERS</h2></div>
+                    <div class="p-6 flex-grow flex flex-col justify-center gap-4">
+                        <button onclick="openFolder('MOVERS', 'PRACTICE', 'bg-cambridge-movers', 'text-cambridge-movers', 'border-cambridge-movers')" class="group w-full flex items-center justify-between px-6 py-4 rounded-xl border-2 border-cambridge-movers text-cambridge-movers font-bold hover:bg-cambridge-movers hover:text-white transition-all">
+                            <span class="flex items-center gap-3"><i class="fa-solid fa-folder-open"></i> PRACTICE FILES</span>
+                            <i class="fa-solid fa-chevron-right transform group-hover:translate-x-1 transition-all"></i>
+                        </button>
+                        <button onclick="openFolder('MOVERS', 'SIMULATION', 'bg-cambridge-movers', 'text-cambridge-movers', 'border-cambridge-movers')" class="group w-full flex items-center justify-between px-6 py-4 rounded-xl bg-cambridge-movers text-white font-bold hover:bg-opacity-90 transition-all shadow-md">
+                            <span class="flex items-center gap-3"><i class="fa-solid fa-stopwatch"></i> TEST SIMULATION</span>
+                            <i class="fa-solid fa-chevron-right transform group-hover:translate-x-1 transition-all"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl overflow-hidden level-card border border-gray-100 flex flex-col h-full">
+                    <div class="bg-cambridge-flyers p-5 text-center"><h2 class="text-2xl font-black text-white font-heading tracking-wider">FLYERS</h2></div>
+                    <div class="p-6 flex-grow flex flex-col justify-center gap-4">
+                        <button onclick="openFolder('FLYERS', 'PRACTICE', 'bg-cambridge-flyers', 'text-cambridge-flyers', 'border-cambridge-flyers')" class="group w-full flex items-center justify-between px-6 py-4 rounded-xl border-2 border-cambridge-flyers text-cambridge-flyers font-bold hover:bg-cambridge-flyers hover:text-white transition-all">
+                            <span class="flex items-center gap-3"><i class="fa-solid fa-folder-open"></i> PRACTICE FILES</span>
+                            <i class="fa-solid fa-chevron-right transform group-hover:translate-x-1 transition-all"></i>
+                        </button>
+                        <button onclick="openFolder('FLYERS', 'SIMULATION', 'bg-cambridge-flyers', 'text-cambridge-flyers', 'border-cambridge-flyers')" class="group w-full flex items-center justify-between px-6 py-4 rounded-xl bg-cambridge-flyers text-white font-bold hover:bg-opacity-90 transition-all shadow-md">
+                            <span class="flex items-center gap-3"><i class="fa-solid fa-stopwatch"></i> TEST SIMULATION</span>
+                            <i class="fa-solid fa-chevron-right transform group-hover:translate-x-1 transition-all"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl overflow-hidden level-card border border-gray-100 flex flex-col h-full">
+                    <div class="bg-cambridge-ket p-5 text-center"><h2 class="text-2xl font-black text-white font-heading tracking-wider">KET <span class="text-sm font-medium opacity-80">(A2 Key)</span></h2></div>
+                    <div class="p-6 flex-grow flex flex-col justify-center gap-4">
+                        <button onclick="openFolder('KET', 'PRACTICE', 'bg-cambridge-ket', 'text-cambridge-ket', 'border-cambridge-ket')" class="group w-full flex items-center justify-between px-6 py-4 rounded-xl border-2 border-cambridge-ket text-cambridge-ket font-bold hover:bg-cambridge-ket hover:text-white transition-all">
+                            <span class="flex items-center gap-3"><i class="fa-solid fa-folder-open"></i> PRACTICE FILES</span>
+                            <i class="fa-solid fa-chevron-right transform group-hover:translate-x-1 transition-all"></i>
+                        </button>
+                        <button onclick="openFolder('KET', 'SIMULATION', 'bg-cambridge-ket', 'text-cambridge-ket', 'border-cambridge-ket')" class="group w-full flex items-center justify-between px-6 py-4 rounded-xl bg-cambridge-ket text-white font-bold hover:bg-opacity-90 transition-all shadow-md">
+                            <span class="flex items-center gap-3"><i class="fa-solid fa-stopwatch"></i> TEST SIMULATION</span>
+                            <i class="fa-solid fa-chevron-right transform group-hover:translate-x-1 transition-all"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl overflow-hidden level-card border border-gray-100 flex flex-col h-full">
+                    <div class="bg-cambridge-pet p-5 text-center"><h2 class="text-2xl font-black text-white font-heading tracking-wider">PET <span class="text-sm font-medium opacity-80">(B1 Preliminary)</span></h2></div>
+                    <div class="p-6 flex-grow flex flex-col justify-center gap-4">
+                        <button onclick="openFolder('PET', 'PRACTICE', 'bg-cambridge-pet', 'text-cambridge-pet', 'border-cambridge-pet')" class="group w-full flex items-center justify-between px-6 py-4 rounded-xl border-2 border-cambridge-pet text-cambridge-pet font-bold hover:bg-cambridge-pet hover:text-white transition-all">
+                            <span class="flex items-center gap-3"><i class="fa-solid fa-folder-open"></i> PRACTICE FILES</span>
+                            <i class="fa-solid fa-chevron-right transform group-hover:translate-x-1 transition-all"></i>
+                        </button>
+                        <button onclick="openFolder('PET', 'SIMULATION', 'bg-cambridge-pet', 'text-cambridge-pet', 'border-cambridge-pet')" class="group w-full flex items-center justify-between px-6 py-4 rounded-xl bg-cambridge-pet text-white font-bold hover:bg-opacity-90 transition-all shadow-md">
+                            <span class="flex items-center gap-3"><i class="fa-solid fa-stopwatch"></i> TEST SIMULATION</span>
+                            <i class="fa-solid fa-chevron-right transform group-hover:translate-x-1 transition-all"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl overflow-hidden level-card border border-gray-100 flex flex-col h-full">
+                    <div class="bg-cambridge-fce p-5 text-center"><h2 class="text-2xl font-black text-white font-heading tracking-wider">FCE <span class="text-sm font-medium opacity-80">(B2 First)</span></h2></div>
+                    <div class="p-6 flex-grow flex flex-col justify-center gap-4">
+                        <button onclick="openFolder('FCE', 'PRACTICE', 'bg-cambridge-fce', 'text-cambridge-fce', 'border-cambridge-fce')" class="group w-full flex items-center justify-between px-6 py-4 rounded-xl border-2 border-cambridge-fce text-cambridge-fce font-bold hover:bg-cambridge-fce hover:text-white transition-all">
+                            <span class="flex items-center gap-3"><i class="fa-solid fa-folder-open"></i> PRACTICE FILES</span>
+                            <i class="fa-solid fa-chevron-right transform group-hover:translate-x-1 transition-all"></i>
+                        </button>
+                        <button onclick="openFolder('FCE', 'SIMULATION', 'bg-cambridge-fce', 'text-cambridge-fce', 'border-cambridge-fce')" class="group w-full flex items-center justify-between px-6 py-4 rounded-xl bg-cambridge-fce text-white font-bold hover:bg-opacity-90 transition-all shadow-md">
+                            <span class="flex items-center gap-3"><i class="fa-solid fa-stopwatch"></i> TEST SIMULATION</span>
+                            <i class="fa-solid fa-chevron-right transform group-hover:translate-x-1 transition-all"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="folder-view" class="hidden">
+                <button onclick="goBack()" class="mb-6 flex items-center gap-2 text-gray-600 hover:text-gray-900 font-bold transition">
+                    <i class="fa-solid fa-arrow-left"></i> Back to Dashboard
+                </button>
+                
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden">
+                    <div id="folder-header" class="p-6 text-white text-center font-heading font-black text-2xl tracking-wider">
+                        </div>
+                    
+                    <div class="p-6 sm:p-8">
+                        <div id="file-list" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            </div>
+                        <div id="empty-state" class="hidden text-center py-12 text-gray-500">
+                            <i class="fa-regular fa-folder-open text-5xl mb-3 text-gray-300"></i>
+                            <p class="font-medium text-lg">No tests available in this folder yet.</p>
+                            <p class="text-sm mt-1">Files are coming soon!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="bg-ruby-dark text-center py-10 mt-auto border-t border-gray-800">
+            <div class="max-w-7xl mx-auto px-4 flex flex-col items-center">
+                <img src="https://rubyschool.edu.vn/wp-content/uploads/2025/07/logo-ngang-vien-trang-1024x267.png" alt="Ruby School" class="h-10 mb-6 opacity-80 grayscale hover:grayscale-0 transition-all duration-500">
+                <h3 class="text-white font-heading font-bold text-lg mb-1">Ruby School Academic Platform</h3>
+                <p class="text-gray-400 font-medium mb-4">Student Learning & Assessment Platform</p>
+                <div class="inline-flex items-center gap-2 px-4 py-2 bg-gray-800 rounded-full border border-gray-700">
+                    <i class="fa-solid fa-bolt text-cambridge-starters"></i>
+                    <p class="text-xs text-gray-300 uppercase tracking-widest font-bold">Powered by Ruby Academic Team</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script>
+        // BẢO MẬT ĐĂNG NHẬP
+        document.getElementById('login-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const inputCode = document.getElementById('access-code').value;
+            const errorMsg = document.getElementById('error-msg');
+            
+            if(inputCode === 'rubyaicore2026') {
+                document.getElementById('login-screen').style.display = 'none';
+                document.getElementById('main-app').style.display = 'flex';
+            } else {
+                errorMsg.classList.remove('hidden');
+                document.getElementById('access-code').classList.add('border-red-500', 'ring-red-500');
+            }
+        });
+
+        // =======================================================================
+        // CƠ SỞ DỮ LIỆU ĐƯỜNG LINK (QUẢN LÝ THƯ MỤC)
+        // Cô thêm bớt các file HTML bằng cách copy/paste vào mảng tương ứng bên dưới
+        // =======================================================================
+        const database = {
+            'FCE': {
+                'PRACTICE': [
+                    // VD: Các file Practice HTML cô đặt trong folder FCE/practice/ trên Vercel
+                    { title: "FCE Writing Practice - Test 1", url: "fce/practice/test1.html", icon: "fa-pen" },
+                    { title: "FCE Reading & UOE - Test 1", url: "fce/practice/reading1.html", icon: "fa-book" },
+                    { title: "FCE Listening Practice - Test 1", url: "fce/practice/listening1.html", icon: "fa-headphones" }
+                ],
+                'SIMULATION': [
+                    // File thi Full Mock Test
+                    { title: "FCE FULL MOCK TEST - VOLUME 1", url: "fce/simulation/mock1.html", icon: "fa-star" },
+                    { title: "FCE FULL MOCK TEST - VOLUME 2", url: "fce/simulation/mock2.html", icon: "fa-star" }
+                ]
+            },
+            'PET': {
+                'PRACTICE': [], // Trống thì sẽ hiện "Coming soon"
+                'SIMULATION': []
+            }
+            // Cô có thể thêm KET, FLYERS, MOVERS, STARTERS tương tự như trên...
+        };
+
+        // HÀM MỞ THƯ MỤC CON
+        function openFolder(level, type, bgClass, textClass, borderClass) {
+            // Đổi giao diện
+            document.getElementById('dashboard-view').style.display = 'none';
+            document.getElementById('folder-view').style.display = 'block';
+
+            // Thiết lập Header Thư mục
+            const header = document.getElementById('folder-header');
+            header.className = `p-6 text-white text-center font-heading font-black text-2xl tracking-wider ${bgClass}`;
+            header.innerHTML = `<i class="fa-solid fa-folder-open mr-2 opacity-80"></i> ${level} - ${type}`;
+
+            // Lấy danh sách file từ database
+            const fileList = (database[level] && database[level][type]) ? database[level][type] : [];
+            const container = document.getElementById('file-list');
+            const emptyState = document.getElementById('empty-state');
+
+            container.innerHTML = ''; // Xóa list cũ
+
+            if (fileList.length === 0) {
+                emptyState.classList.remove('hidden');
+            } else {
+                emptyState.classList.add('hidden');
+                
+                // Vẽ các thẻ file
+                fileList.forEach(file => {
+                    const card = document.createElement('a');
+                    card.href = file.url;
+                    // Cấu trúc nút bấm file HTML
+                    card.className = `group flex items-center justify-between p-4 bg-gray-50 hover:bg-white border-2 border-gray-100 hover:${borderClass} rounded-xl transition-all shadow-sm hover:shadow-md cursor-pointer`;
+                    card.innerHTML = `
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-lg ${bgClass} text-white flex items-center justify-center shadow-inner">
+                                <i class="fa-solid ${file.icon || 'fa-file-lines'} text-xl"></i>
+                            </div>
+                            <div class="font-bold text-gray-700 group-hover:${textClass} transition-colors">${file.title}</div>
+                        </div>
+                        <i class="fa-solid fa-play text-gray-300 group-hover:${textClass} transition-colors mr-2"></i>
+                    `;
+                    container.appendChild(card);
+                });
+            }
+        }
+
+        // HÀM QUAY LẠI MÀN HÌNH CHÍNH
+        function goBack() {
+            document.getElementById('folder-view').style.display = 'none';
+            document.getElementById('dashboard-view').style.display = 'grid'; // Grid vì dashboard dùng grid
+        }
+    </script>
+</body>
+</html>
