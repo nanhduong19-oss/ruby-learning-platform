@@ -1,0 +1,114 @@
+[
+  {
+    "id": "ket_p4_test1",
+    "type": "part4",
+    "title": "Philo T. Farnsworth",
+    "passage": "Philo T. Farnsworth was born in the USA in 1906. As a child, he was very interested in science and electricity and spent a lot of time (19) ___ about it. He also won a national (20) ___ for young engineers when he was just 13.\n\nWhen he was 20, Farnsworth (21) ___ his own business. In 1927, he showed everyone his new idea: a (22) ___ of sending pictures using electricity. Many other people were working on ideas for a machine to do this, but Farnsworth's was the first that had no moving parts. In fact, it was the first true electronic TV.\n\nAfter many business problems, Farnsworth had success in 1938 when another company (23) ___ him $1 million for his idea. He is not very famous these (24) ___, but, as the father of electronic television, Farnsworth changed the world.",
+    "questions": [
+      { "number": 19, "options": ["A. learning", "B. studying", "C. understanding"], "answer": "A", "explanation": "Chọn A vì collocation tự nhiên: 'spend a lot of time learning about ...' = dành nhiều thời gian tìm hiểu về. B 'studying about it' kém tự nhiên (study thường đi với môn/đối tượng cụ thể: study science/physics). C 'understanding about' sai collocation; 'understand' không dùng theo mẫu này." },
+      { "number": 20, "options": ["A. game", "B. match", "C. competition"], "answer": "C", "explanation": "Chọn C vì 'win a national competition' = thắng cuộc thi cấp quốc gia. A game = trò chơi (không trang trọng/không đúng ngữ cảnh giải cho kỹ sư trẻ). B match = trận đấu (thường thể thao/thi đấu đối kháng), không hợp ngữ cảnh." },
+      { "number": 21, "options": ["A. became", "B. turned", "C. started"], "answer": "C", "explanation": "Chọn C vì 'start a business' = thành lập/khởi nghiệp. A became = trở thành (thiếu tân ngữ phù hợp). B turned không dùng theo cấu trúc 'turned his own business'." },
+      { "number": 22, "options": ["A. plan", "B. way", "C. thing"], "answer": "B", "explanation": "Chọn B vì cấu trúc chuẩn: 'a way of + V-ing' = một cách để làm gì. A 'a plan of sending...' sai cấu trúc (phải là plan to send/plan for sending). C 'a thing of sending...' sai nghĩa/cấu trúc." },
+      { "number": 23, "options": ["A. offered", "B. took", "C. sold"], "answer": "A", "explanation": "Chọn A vì 'offer someone $1 million' = đề nghị/đưa cho ai 1 triệu đô (để mua ý tưởng). B took = lấy (không hợp). C sold = bán (chủ ngữ phải là Farnsworth/company bán thứ gì đó), không đúng vai trò trong câu." },
+      { "number": 24, "options": ["A. times", "B. days", "C. years"], "answer": "B", "explanation": "Chọn B vì cụm cố định: 'these days' = dạo này/hiện nay. A 'these times' không tự nhiên trong ngữ cảnh này. C 'these years' sai collocation." }
+    ]
+  },
+  {
+    "id": "ket_p4_test2",
+    "type": "part4",
+    "title": "Sally Ride",
+    "passage": "Sally Ride was born on 26th May, 1951, in California, USA. After high school, she went to Stanford University to study physics. While she was there, she saw an advertisement in her university newspaper (19) ___ women to join the US space programme. Six women, including Sally, were (20) ___ to become astronauts. On 18th June 1983, Sally became the first American woman to fly into space. Six days later, on 24th June, she (21) ___ to Earth.\n\nWhen Sally (22) ___ working as an astronaut in 1987, she started teaching at the University of California. She wanted to find ways to get more people, (23) ___ girls, interested in studying science and mathematics. She also found time to write science books for children about (24) ___ space.",
+    "questions": [
+      { "number": 19, "options": ["A. inviting", "B. showing", "C. looking"], "answer": "A", "explanation": "Chọn A vì 'an advertisement inviting women to...' = một quảng cáo mời/phát động phụ nữ tham gia. B 'showing women to join' sai cấu trúc/nghĩa. C 'looking women' sai ngữ pháp (phải là looking for women)." },
+      { "number": 20, "options": ["A. thought", "B. decided", "C. chosen"], "answer": "C", "explanation": "Chọn C vì bị động đúng nghĩa: 'were chosen to become astronauts' = được tuyển chọn để trở thành phi hành gia. A thought/ B decided không đi với bị động kiểu này (không ai 'were thought/decided' để trở thành...)." },
+      { "number": 21, "options": ["A. completed", "B. returned", "C. arrived"], "answer": "B", "explanation": "Chọn B vì collocation chuẩn: 'return to Earth' = trở về Trái Đất. A completed (hoàn thành) không hợp động từ chuyển động. C arrived to Earth sai giới từ (phải là arrived on Earth/arrived back on Earth) và không tự nhiên bằng 'returned'." },
+      { "number": 22, "options": ["A. ended", "B. closed", "C. stopped"], "answer": "C", "explanation": "Chọn C vì 'stop working as...' = ngừng làm việc với vai trò... A ended có thể đúng ý nhưng ít tự nhiên hơn trong cấu trúc 'ended working' (thường: ended her career/ended her work). B closed không dùng cho 'working'." },
+      { "number": 23, "options": ["A. especially", "B. exactly", "C. clearly"], "answer": "A", "explanation": "Chọn A vì 'more people, especially girls,' = đặc biệt là các bạn gái (bổ sung/nhấn mạnh đối tượng). B exactly = chính xác (không phù hợp). C clearly = rõ ràng (không phù hợp chức năng trong câu)." },
+      { "number": 24, "options": ["A. exploring", "B. going", "C. travelling"], "answer": "A", "explanation": "Chọn A vì 'books about exploring space' = sách về việc khám phá không gian. B 'going space' sai (thiếu giới từ/không tự nhiên). C 'travelling space' không đúng collocation (thường: travelling in space/space travel), nhưng câu đang cần V-ing mô tả chủ đề chung - 'exploring' là tự nhiên nhất." }
+    ]
+  },
+  {
+    "id": "ket_p4_test3",
+    "type": "part4",
+    "title": "Art you can eat",
+    "passage": "Yujia Hu was born in China, but moved to Milan, in Italy, when he was eight. His family have a Japanese restaurant there. When Yujia left school, he (19) ___ a course at an art school, but he didn't complete it. (20) ___, he went to work in the family restaurant as a sushi chef.\n\nYujia is a big (21) ___ of basketball, and a few years ago he (22) ___ to start using sushi to make models of the faces of famous players. His next idea was to make little shoes, usually trainers, out of sushi. It (23) ___ him about 30 minutes to make each shoe. Yujia doesn't serve the sushi shoes to customers at his family's restaurant, but he (24) ___ photographs of them online.",
+    "questions": [
+      { "number": 19, "options": ["A. got", "B. held", "C. began"], "answer": "C", "explanation": "Chọn C vì collocation: 'begin a course' = bắt đầu một khoá học. A got không đi trực tiếp với 'a course' theo nghĩa này (thường: got a job/chance). B held = tổ chức/giữ (không hợp ngữ cảnh học viên tham gia khoá học)." },
+      { "number": 20, "options": ["A. Instead", "B. Really", "C. Maybe"], "answer": "A", "explanation": "Chọn A vì 'Instead,' dùng để đối lập: không học tiếp nữa, thay vào đó đi làm sushi chef. B Really chỉ nhấn mạnh (không tạo quan hệ logic đúng). C Maybe diễn tả khả năng (sai nghĩa)." },
+      { "number": 21, "options": ["A. partner", "B. fan", "C. member"], "answer": "B", "explanation": "Chọn B vì cụm cố định: 'a big fan of' = rất hâm mộ. A partner = đối tác/người cùng nhóm (sai). C member = thành viên (thiếu thông tin tổ chức/CLB; không tự nhiên bằng 'fan')." },
+      { "number": 22, "options": ["A. believed", "B. understood", "C. decided"], "answer": "C", "explanation": "Chọn C vì 'decided to start' = quyết định bắt đầu. A believed to start sai cấu trúc (believe không đi với to start theo nghĩa quyết định). B understood to start sai nghĩa/cấu trúc." },
+      { "number": 23, "options": ["A. spends", "B. takes", "C. delays"], "answer": "B", "explanation": "Chọn B vì cấu trúc thời gian: 'It takes (someone) + time + to V' = mất bao lâu để làm gì. A spends cần chủ ngữ là người ('He spends 30 minutes...'), không phải 'It spends'. C delays = làm chậm/trì hoãn, không có nghĩa 'mất thời gian' theo cấu trúc này." },
+      { "number": 24, "options": ["A. sends", "B. shares", "C. joins"], "answer": "B", "explanation": "Chọn B vì 'share photographs online' = chia sẻ ảnh lên mạng. A sends photographs online có thể đúng ngữ pháp nhưng nghĩa thường là 'gửi cho ai đó' (cần người nhận). C joins photographs sai nghĩa." }
+    ]
+  },
+  {
+    "id": "ket_p4_test4",
+    "type": "part4",
+    "title": "Eric Koston",
+    "passage": "Eric Koston is one of the world's best-known skateboarders. He was born in Thailand, but his family (19) ___ to the US when he was a baby. His love of skateboarding began at the (20) ___ of 11, when his older brother gave him a skateboard. It was an old, broken board, but he learned how to skateboard by watching other kids and then he (21) ___ by himself every day.\n\nThree years later, he was so good that a company that made skateboards offered him a summer (22) ___. That's when he (23) ___ to make skateboarding his life. Since then, Eric has (24) ___ many international competitions, made boarding videos and starred in a skateboarding video game. Now he owns a successful company making sports shoes and clothes.",
+    "questions": [
+      { "number": 19, "options": ["A. changed", "B. moved", "C. left"], "answer": "B", "explanation": "Chọn B vì 'his family moved to the US' = gia đình chuyển đến Mỹ. A changed = thay đổi (thiếu tân ngữ; không đúng nghĩa di chuyển). C left = rời đi (thiếu điểm đến; nếu dùng phải là 'left Thailand for the US')." },
+      { "number": 20, "options": ["A. year", "B. time", "C. age"], "answer": "C", "explanation": "Chọn C vì cụm cố định: 'at the age of 11' = ở tuổi 11. A year sai collocation. B time sai nghĩa." },
+      { "number": 21, "options": ["A. practised", "B. taught", "C. followed"], "answer": "A", "explanation": "Chọn A vì 'practise by himself' = tự luyện tập. B taught (dạy) cần tân ngữ người học; không hợp. C followed (theo dõi/đi theo) không đúng ngữ cảnh học kỹ năng." },
+      { "number": 22, "options": ["A. career", "B. job", "C. work"], "answer": "B", "explanation": "Chọn B vì 'a summer job' = công việc mùa hè (cụm cố định). A career = sự nghiệp (quá lớn cho việc mùa hè). C work là danh từ không đếm được; không dùng 'a work'." },
+      { "number": 23, "options": ["A. thought", "B. felt", "C. decided"], "answer": "C", "explanation": "Chọn C vì 'decided to make skateboarding his life' = quyết định theo đuổi trượt ván như sự nghiệp/đời mình. A thought/felt có thể đi với mệnh đề nhưng không mạnh bằng hành động quyết định; và không tự nhiên bằng 'decided' trong ngữ cảnh bước ngoặt." },
+      { "number": 24, "options": ["A. won", "B. taken", "C. tried"], "answer": "A", "explanation": "Chọn A vì 'won competitions' = giành chiến thắng các cuộc thi. B taken competitions sai collocation. C tried competitions sai nghĩa." }
+    ]
+  },
+  {
+    "id": "ket_p4_test5",
+    "type": "part4",
+    "title": "The London Marathon",
+    "passage": "In 1979, two British men called John Disley and Chris Brasher (19) ___ to run the New York Marathon. This 42-kilometre race goes through the city, past many of its famous tourist sights. Disley and Brasher found that it was very different from marathons in the UK.\n\nAt that (20) ___ in the UK, nobody was interested in marathons, but in New York, there were large (21) ___ of people watching. Afterwards, the two men had the (22) ___ of starting a similar race in London.\n\nThe first London Marathon was in 1981, and over six thousand runners (23) ___ part. Since then, the race has happened every year, and has become popular with runners from all over the world. Over a million people have completed it, and it is (24) ___ on TV in nearly 200 countries.",
+    "questions": [
+      { "number": 19, "options": ["A. thought", "B. said", "C. decided"], "answer": "C", "explanation": "Chọn C vì cấu trúc đúng: \"decided to + V\" = quyết định làm gì. Nghĩa: A thought = nghĩ; B said = nói; C decided = quyết định. Loại A vì \"thought to run\" không tự nhiên (phải là thought about running). Loại B vì \"said to run\" sai nghĩa/ngữ pháp trong ngữ cảnh kể sự kiện." },
+      { "number": 20, "options": ["A. year", "B. day", "C. time"], "answer": "C", "explanation": "Chọn C vì cụm cố định: \"at that time\" = vào thời điểm đó. Nghĩa: A year = năm; B day = ngày; C time = thời điểm/thời gian. Loại A/B vì không có cụm chuẩn \"at that year/day\" trong ngữ cảnh hồi tưởng chung." },
+      { "number": 21, "options": ["A. members", "B. crowds", "C. visitors"], "answer": "B", "explanation": "Chọn B vì collocation: \"large crowds of people\" = đám đông người. Nghĩa: A members = thành viên; B crowds = đám đông; C visitors = khách tham quan. Loại A/C vì không đi với cấu trúc tự nhiên \"large ___ of people watching\" như \"crowds\"." },
+      { "number": 22, "options": ["A. idea", "B. answer", "C. fact"], "answer": "A", "explanation": "Chọn A vì cụm: \"have the idea of + V-ing\" = có ý tưởng làm gì. Nghĩa: A idea = ý tưởng; B answer = câu trả lời; C fact = sự thật. Loại B/C vì \"had the answer/fact of starting...\" sai collocation và sai nghĩa." },
+      { "number": 23, "options": ["A. stayed", "B. took", "C. made"], "answer": "B", "explanation": "Chọn B vì collocation: \"take part\" = tham gia. Nghĩa: A stayed = ở lại; B took = lấy/đã tham gia (take part); C made = làm. Loại A/C vì không có cụm \"stay/make part\"." },
+      { "number": 24, "options": ["A. shown", "B. made", "C. held"], "answer": "A", "explanation": "Chọn A vì cấu trúc bị động: \"is shown on TV\" = được phát/chiếu trên TV. Nghĩa: A shown = được chiếu; B made = được làm; C held = được tổ chức/cầm giữ. Loại B/C vì không dùng \"made/held on TV\" trong nghĩa phát sóng." }
+    ]
+  },
+  {
+    "id": "ket_p4_test6",
+    "type": "part4",
+    "title": "Walter Bonatti",
+    "passage": "Walter Bonatti, one of the greatest alpine mountain climbers of all time, was born in Italy in 1930. As a child, he (19) ___ his holidays in Bergamo with his uncles. He loved the mountains there, and at the age of 18, he (20) ___ to climb the highest and most difficult ones. He was one of the (21) ___ people to do this and he was very (22) ___ at it.\n\nHe went on to climb many other mountains, including the famous K2 in the Himalayas. At the age of just 35, he decided to (23) ___ his climbing career. However, he continued to work as a mountain guide and photographer. He also wrote several books about his climbing (24) ___, which are read in all Italian schools.",
+    "questions": [
+      { "number": 19, "options": ["A. travelled", "B. went", "C. spent"], "answer": "C", "explanation": "Chọn C vì collocation: \"spend (time/holidays)\" = dành (thời gian/kỳ nghỉ). Nghĩa: A travelled = đi du lịch; B went = đã đi; C spent = đã dành. Loại A vì \"travelled his holidays\" sai cấu trúc (phải travel during/on holiday). Loại B vì \"went his holidays\" sai ngữ pháp." },
+      { "number": 20, "options": ["A. became", "B. began", "C. turned"], "answer": "B", "explanation": "Chọn B vì cấu trúc đúng: \"began to + V\" = bắt đầu làm gì. Nghĩa: A became = trở thành; B began = bắt đầu; C turned = quay/chuyển thành. Loại A/C vì không diễn đạt hành động bắt đầu leo núi." },
+      { "number": 21, "options": ["A. early", "B. first", "C. soon"], "answer": "B", "explanation": "Chọn B vì cụm: \"one of the first people to do this\" = một trong những người đầu tiên làm việc này. Nghĩa: A early = sớm; B first = đầu tiên; C soon = sớm/chẳng bao lâu. Loại A/C vì không đứng đúng vai trò bổ nghĩa cho \"people\" trong cấu trúc này." },
+      { "number": 22, "options": ["A. successful", "B. interested", "C. popular"], "answer": "A", "explanation": "Chọn A vì collocation: \"successful at (something)\" = thành công ở việc gì. Nghĩa: A successful = thành công; B interested = quan tâm; C popular = nổi tiếng/được yêu thích. Loại B vì \"interested at it\" sai giới từ (thường: interested in). Loại C vì \"popular at it\" không tự nhiên." },
+      { "number": 23, "options": ["A. shut", "B. close", "C. end"], "answer": "C", "explanation": "Chọn C vì collocation rõ nhất: \"end a career\" = kết thúc sự nghiệp. Nghĩa: A shut = đóng (cửa/tiệm); B close = đóng/khép; C end = kết thúc. Loại A/B vì thường dùng cho cửa hàng/cửa ra vào; với \"career\" thì \"end\" chuẩn nhất." },
+      { "number": 24, "options": ["A. experiences", "B. occupations", "C. subjects"], "answer": "A", "explanation": "Chọn A vì \"climbing experiences\" = các trải nghiệm leo núi (nội dung sách). Nghĩa: A experiences = trải nghiệm; B occupations = nghề nghiệp; C subjects = môn học/chủ đề. Loại B/C vì không đúng nghĩa: sách viết về trải nghiệm leo núi, không phải nghề hay môn học." }
+    ]
+  },
+  {
+    "id": "ket_p4_test7",
+    "type": "part4",
+    "title": "Camels",
+    "passage": "Camels are one of the only large animals that can live happily in the Sahara Desert. The hot weather and strong winds are not a (19) ___ for them. Also, they do not need to eat or drink every day, and this (20) ___ them very useful to the people who live there.\n\nCamels begin working at the age of about four years old and don’t stop until they are around 25 to 30. They can carry people or things a very long (21) ___, and because of this they are sometimes (22) ___ the ‘ships of the desert’.\n\nThese days, there are roads across some (23) ___ of the Sahara, so buses and lorries are often (24) ___. However, in places where there are no roads, camels are still the only type of transport.",
+    "questions": [
+      { "number": 19, "options": ["A. trouble", "B. mistake", "C. problem"], "answer": "C", "explanation": "Chọn C vì collocation tự nhiên: \"not a problem for them\" = không phải vấn đề với chúng. Nghĩa: A trouble = rắc rối; B mistake = lỗi; C problem = vấn đề. Loại B vì \"not a mistake for them\" vô nghĩa. Loại A vì \"not a trouble for them\" kém tự nhiên hơn trong ngữ cảnh này." },
+      { "number": 20, "options": ["A. gets", "B. has", "C. makes"], "answer": "C", "explanation": "Chọn C vì cấu trúc: \"make + O + adj\" = làm cho ai/cái gì trở nên... -> \"makes them very useful\". Nghĩa: A gets = lấy/nhận; B has = có; C makes = làm cho. Loại A/B vì không đi với mẫu \"___ them very useful\" chuẩn như \"make\"." },
+      { "number": 21, "options": ["A. way", "B. path", "C. road"], "answer": "A", "explanation": "Chọn A vì collocation: \"a long way\" = một quãng đường dài. Nghĩa: A way = quãng đường/cách; B path = lối mòn; C road = đường lớn. Loại B/C vì câu cần cụm cố định \"a long way\"." },
+      { "number": 22, "options": ["A. described", "B. said", "C. called"], "answer": "C", "explanation": "Chọn C vì cấu trúc bị động đúng: \"are called ...\" = được gọi là... Nghĩa: A described = được mô tả; B said = được nói; C called = được gọi. Loại A/B vì không có cụm chuẩn \"are said/described the ships of the desert\" (phải là called/named)." },
+      { "number": 23, "options": ["A. parts", "B. examples", "C. things"], "answer": "A", "explanation": "Chọn A vì collocation: \"some parts of the Sahara\" = một vài phần của Sahara. Nghĩa: A parts = phần/khu vực; B examples = ví dụ; C things = đồ vật/thứ. Loại B/C vì sai nghĩa." },
+      { "number": 24, "options": ["A. put", "B. used", "C. done"], "answer": "B", "explanation": "Chọn B vì câu bị động hợp nghĩa: \"buses and lorries are often used\" = thường được sử dụng. Nghĩa: A put = đặt/để; B used = được dùng; C done = được làm. Loại A/C vì \"are put/done\" không khớp nghĩa vận chuyển." }
+    ]
+  },
+  {
+    "id": "ket_p4_test8",
+    "type": "part4",
+    "title": "An unusual holiday",
+    "passage": "Most people go on holiday to get away from work. But in the beautiful Scottish village of Wigtown, it’s (19) ___ to rent a flat above a bookshop, and work as the (20) ___ of the bookshop for a week. This holiday is very popular with people who love books and who have always (21) ___ their own bookshop.\n\nHowever, this is a holiday, so people staying there don’t have to work very hard. They can (22) ___ the opening hours of the shop, and they just have a few jobs to do, such as (23) ___ the shelves with books.\n\nGuests also get a bike, so they can (24) ___ the area when the shop is closed. The holiday is so popular that the flat is fully booked for the next three years.",
+    "questions": [
+      { "number": 19, "options": ["A. able", "B. possible", "C. available"], "answer": "B", "explanation": "Chọn B vì cấu trúc: \"It’s possible to + V\" = có thể làm gì. Nghĩa: A able = có khả năng (thường dùng cho người: be able to); B possible = có thể; C available = có sẵn. Loại A vì \"it’s able to rent\" sai (able dùng cho chủ thể có năng lực). Loại C vì \"available to rent\" đổi nghĩa sang “có sẵn để thuê”, không khớp ý bài về “có thể thuê” như mẫu chuẩn." },
+      { "number": 20, "options": ["A. manager", "B. colleague", "C. customer"], "answer": "A", "explanation": "Chọn A vì \"work as the manager of the bookshop\" = làm quản lý hiệu sách. Nghĩa: A manager = quản lý; B colleague = đồng nghiệp; C customer = khách hàng. Loại B/C vì không thể “làm như đồng nghiệp/khách hàng” của cửa hàng." },
+      { "number": 21, "options": ["A. hoped", "B. wanted", "C. decided"], "answer": "B", "explanation": "Chọn B vì collocation: \"have always wanted\" = luôn luôn muốn. Nghĩa: A hoped = hy vọng; B wanted = muốn; C decided = quyết định. Loại A vì \"hoped their own bookshop\" thiếu cấu trúc (hope to...). Loại C vì \"have always decided\" không logic." },
+      { "number": 22, "options": ["A. think", "B. find", "C. choose"], "answer": "C", "explanation": "Chọn C vì hợp nghĩa: khách được \"choose the opening hours\" = chọn giờ mở cửa. Nghĩa: A think = nghĩ; B find = tìm; C choose = chọn. Loại A/B vì không đi với \"opening hours\" theo nghĩa quyết định giờ." },
+      { "number": 23, "options": ["A. putting", "B. adding", "C. filling"], "answer": "C", "explanation": "Chọn C vì collocation: \"fill the shelves with books\" = lấp/kê đầy sách lên kệ. Nghĩa: A putting = đặt; B adding = thêm; C filling = làm đầy. Loại A/B vì không đúng cụm tự nhiên trong ngữ cảnh “làm đầy kệ sách”." },
+      { "number": 24, "options": ["A. look", "B. ride", "C. explore"], "answer": "C", "explanation": "Chọn C vì collocation: \"explore the area\" = khám phá khu vực. Nghĩa: A look = nhìn; B ride = đi xe/ cưỡi; C explore = khám phá. Loại A vì \"look the area\" sai cấu trúc (phải look at). Loại B vì \"ride the area\" không tự nhiên (đi xe để khám phá -> explore)." }
+    ]
+  }
+]
