@@ -1,4 +1,4 @@
-{
+[
     { "id": "demo", "name": "demo", "class": "7/1" },
     { "id": "71030MK", "name": "LÌU MẠNH KHANG", "class": "7/1" },
     { "id": "71029KM", "name": "NGUYỄN KHÁNH MY", "class": "7/1" },
@@ -85,4 +85,4 @@
     { "id": "92016QT", "name": "Nguyễn Quốc Thịnh", "class": "9/2" },
     { "id": "92017DT", "name": "Nguyễn Đức Toàn", "class": "9/2" },
     { "id": "92018MT", "name": "Trần Lê Minh Trí", "class": "9/2" }
-}
+]
