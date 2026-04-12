@@ -274,6 +274,39 @@ body{
   .site-footer{padding:10px 16px}
 }
 
+/* ── SET SELECTOR ── */
+.set-selector{display:flex;flex-direction:column;gap:6px}
+.set-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.09em;color:var(--ink-l)}
+.set-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.set-btn{
+  width:32px;height:32px;border-radius:50%;border:2px solid rgba(185,28,28,.25);
+  background:rgba(255,255,255,.8);font-size:1.1rem;font-weight:700;
+  color:var(--ruby);cursor:pointer;display:flex;align-items:center;justify-content:center;
+  transition:all .13s;line-height:1;
+}
+.set-btn:hover{background:var(--ruby);color:#fff;border-color:var(--ruby)}
+.set-btn:disabled{opacity:.35;cursor:not-allowed}
+.set-num{font-family:var(--fb);font-size:1.4rem;font-weight:900;color:var(--ruby);min-width:28px;text-align:center}
+.set-hint{font-size:.72rem;color:var(--ink-l);line-height:1.4;flex:1}
+
+/* ── QUIZ PROGRESS LABEL ── */
+.progress-label{
+  font-family:var(--fb);font-size:.72rem;font-weight:700;
+  color:var(--ink-l);padding:4px 32px 0;
+  display:flex;justify-content:space-between;
+}
+/* ── TIMER OVERDUE (blinking) ── */
+.timer-overdue{animation:blink 1s step-start infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+
+/* ── SET TRANSITION POPUP ── */
+.set-popup-box .popup-title{font-size:1.2rem}
+.next-set-info{
+  font-size:.82rem;color:var(--ink-l);margin-top:4px;
+  padding:8px 12px;background:rgba(245,240,232,.8);
+  border-radius:8px;margin-bottom:16px;
+}
+
 /* ===================== FOOTER ===================== */
 .site-footer{
   background:var(--ruby);
@@ -718,6 +751,17 @@ body{
           <div class="field-error" id="err-part">Please select a part.</div>
         </div>
 
+        <!-- Set / passage count selector (shown after part selected) -->
+        <div class="set-selector" id="set-selector" style="display:none">
+          <div class="set-label" id="set-label">Number of sets</div>
+          <div class="set-row">
+            <button class="set-btn" id="set-minus">−</button>
+            <span class="set-num" id="set-num">1</span>
+            <button class="set-btn" id="set-plus">+</button>
+            <span class="set-hint" id="set-hint"></span>
+          </div>
+        </div>
+
         <!-- Rules -->
         <div class="rules-box">
           <div class="rules-title">📋 How it works</div>
@@ -762,6 +806,7 @@ body{
     <div class="topbar-timer">⏱ <span id="timer-display">00:00</span></div>
   </div>
   <div class="progress-wrap"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
+  <div class="progress-label"><span id="progress-label-left"></span><span id="progress-label-right"></span></div>
 
   <div class="quiz-main">
     <div class="round2-banner" id="round2-banner">
@@ -834,14 +879,12 @@ body{
      ======================================================== -->
 <script>
 /* ============================================================
-   CONFIG  ← Edit before deploying
+   CONFIG
    ============================================================ */
 const CFG = {
   studentsUrl: 'https://raw.githubusercontent.com/nanhduong19-oss/ruby-learning-platform/refs/heads/main/rubystudents.json',
-  scriptUrl:   '',   // ← Điền URL Apps Script sau khi deploy
+  scriptUrl:   '',   // ← Add your Apps Script URL after deploying
   teacherPass: 'easygame19',
-
-  // Raw GitHub URLs cho từng part
   dataUrls: {
     ket_part1: 'https://raw.githubusercontent.com/nanhduong19-oss/ruby-learning-platform/refs/heads/main/KET/part1.json',
     ket_part4: 'https://raw.githubusercontent.com/nanhduong19-oss/ruby-learning-platform/refs/heads/main/KET/part4.json',
@@ -852,7 +895,17 @@ const CFG = {
   }
 };
 
-/* Part definitions per level */
+/* Part metadata: questionsPerSet = Qs per set for Part1; for cloze = 1 passage = 1 set
+   timePerSet in seconds */
+const PART_META = {
+  ket_part1: { qPerSet:6, timePerSet:300, unit:'set',     maxSets:10 },
+  ket_part4: { qPerSet:1, timePerSet:420, unit:'passage',  maxSets:10 },
+  ket_part5: { qPerSet:1, timePerSet:300, unit:'passage',  maxSets:10 },
+  pet_part1: { qPerSet:5, timePerSet:300, unit:'set',      maxSets:10 },
+  pet_part5: { qPerSet:1, timePerSet:360, unit:'passage',  maxSets:10 },
+  pet_part6: { qPerSet:1, timePerSet:360, unit:'passage',  maxSets:10 },
+};
+
 const PARTS = {
   ket: [
     { key:'ket_part1', label:'Part 1', icon:'🪧', desc:'Signs & Notices' },
@@ -875,17 +928,42 @@ const PART_LABELS = {
   pet_part6:'PET Part 6 – Open Cloze',
 };
 
-/* ============================================================ STATE */
-let students = [];
+/* ============================================================
+   STATE
+   ============================================================ */
+let students   = [];
+let allRawData = [];   // full question pool loaded from GitHub
+
 let S = {
   student:null, level:null, partKey:null,
-  questions:[], answers:{}, r1:{},
-  round:1, revealAll:false,
+  numSets:1,            // how many sets student chose
+
+  // All sets for this session (array of arrays of questions)
+  sets:[],              // [ [q,q,q...], [q,q,q...], ... ]
+  setIdx:0,             // which set we're on (0-based)
+
+  // Current set working state
+  questions:[],         // flat questions for current set
+  answers:{},
+  r1:{},
+  round:1,
+  revealAll:false,
+
+  // Cross-session wrong answer IDs (fetched from sheet)
+  wrongIds:[],
+
+  // Scoring across all sets
+  totalCorrect:0,
+  totalQuestions:0,
+
   startTime:null, endTime:null,
-  timerInt:null, teacherMode:false
+  timerInt:null, timerSec:0, timerOverdue:false,
+  teacherMode:false,
 };
 
-/* ============================================================ BOOT */
+/* ============================================================
+   BOOT
+   ============================================================ */
 document.addEventListener('DOMContentLoaded', async () => {
   await loadStudents();
   initWelcome();
@@ -897,16 +975,16 @@ async function loadStudents() {
     const r = await fetch(CFG.studentsUrl);
     if (!r.ok) throw 0;
     const data = await r.json();
-    // Support both formats: array [...] or object { students: [...] }
     students = Array.isArray(data) ? data : (data.students || []);
   } catch {
     document.getElementById('data-error').style.display = 'block';
   }
 }
 
-/* ============================================================ WELCOME */
+/* ============================================================
+   WELCOME
+   ============================================================ */
 function initWelcome() {
-  // ID input → auto-fill
   const idInp = document.getElementById('inp-id');
   idInp.addEventListener('input', e => {
     e.target.value = e.target.value.toUpperCase();
@@ -922,26 +1000,34 @@ function initWelcome() {
     checkStartReady();
   });
 
-  // Level tabs
   document.querySelectorAll('.level-tab').forEach(tab => {
     tab.addEventListener('click', () => {
       document.querySelectorAll('.level-tab').forEach(t => t.classList.remove('active'));
       tab.classList.add('active');
       S.level = tab.dataset.level;
       S.partKey = null;
+      S.numSets = 1;
       document.getElementById('err-level').classList.remove('show');
+      document.getElementById('set-selector').style.display = 'none';
       renderPartGrid(S.level);
       checkStartReady();
     });
+  });
+
+  // Set counter buttons
+  document.getElementById('set-minus').addEventListener('click', () => {
+    if (S.numSets > 1) { S.numSets--; updateSetUI(); }
+  });
+  document.getElementById('set-plus').addEventListener('click', () => {
+    const meta = PART_META[S.partKey];
+    if (meta && S.numSets < meta.maxSets) { S.numSets++; updateSetUI(); }
   });
 
   document.getElementById('btn-start').addEventListener('click', handleStart);
 }
 
 function renderPartGrid(level) {
-  const wrap = document.getElementById('part-wrap');
   const grid = document.getElementById('part-grid');
-  wrap.style.display = 'flex';
   grid.innerHTML = PARTS[level].map(p => `
     <div class="part-option" data-key="${p.key}">
       <span class="part-icon">${p.icon}</span>
@@ -955,17 +1041,54 @@ function renderPartGrid(level) {
       grid.querySelectorAll('.part-option').forEach(o => o.classList.remove('active'));
       opt.classList.add('active');
       S.partKey = opt.dataset.key;
+      S.numSets = 1;
       document.getElementById('err-part').classList.remove('show');
+      showSetSelector();
       checkStartReady();
     });
   });
 }
 
+function showSetSelector() {
+  const meta = PART_META[S.partKey];
+  if (!meta) return;
+  const sel = document.getElementById('set-selector');
+  sel.style.display = 'flex';
+  updateSetUI();
+}
+
+function updateSetUI() {
+  const meta = PART_META[S.partKey];
+  if (!meta) return;
+
+  document.getElementById('set-num').textContent = S.numSets;
+
+  // Each set has its OWN independent timer - show time per set, not total
+  const minsPerSet = Math.round(meta.timePerSet / 60);
+  const isSet = meta.unit === 'set';
+
+  const labelText = isSet
+    ? `Number of sets  (${meta.qPerSet} questions / set)`
+    : `Number of passages`;
+  document.getElementById('set-label').textContent = labelText;
+
+  document.getElementById('set-hint').innerHTML = isSet
+    ? `${meta.qPerSet} questions &nbsp;·&nbsp; ${minsPerSet} min per set`
+    : `${minsPerSet} min per passage`;
+
+  document.getElementById('set-minus').disabled = S.numSets <= 1;
+  document.getElementById('set-plus').disabled  = S.numSets >= meta.maxSets;
+}
+
 function checkStartReady() {
-  const idOk = S.teacherMode || students.find(s => s.id.toUpperCase() === document.getElementById('inp-id').value.trim().toUpperCase());
+  const idOk = S.teacherMode ||
+    students.find(s => s.id.toUpperCase() === document.getElementById('inp-id').value.trim().toUpperCase());
   document.getElementById('btn-start').disabled = !(idOk && S.level && S.partKey);
 }
 
+/* ============================================================
+   START
+   ============================================================ */
 async function handleStart() {
   const idVal = document.getElementById('inp-id').value.trim().toUpperCase();
   let valid = true;
@@ -977,16 +1100,16 @@ async function handleStart() {
   } else {
     S.student = { id:'TEACHER', name:'Teacher', class:'Staff' };
   }
-  if (!S.level) { document.getElementById('err-level').classList.add('show'); valid = false; }
-  if (!S.partKey) { document.getElementById('err-part').classList.add('show'); valid = false; }
+  if (!S.level)    { document.getElementById('err-level').classList.add('show'); valid = false; }
+  if (!S.partKey)  { document.getElementById('err-part').classList.add('show'); valid = false; }
   if (!valid) return;
 
-  // Load questions
   const btn = document.getElementById('btn-start');
   btn.disabled = true; btn.textContent = 'Loading…';
+
   try {
     const raw = await fetch(CFG.dataUrls[S.partKey]).then(r => { if(!r.ok) throw 0; return r.json(); });
-    S.questions = buildQuestions(S.partKey, raw);
+    allRawData = raw;
   } catch {
     btn.disabled = false; btn.textContent = '⬡ START PRACTICE';
     document.getElementById('data-error').style.display = 'block';
@@ -994,50 +1117,127 @@ async function handleStart() {
   }
   btn.disabled = false; btn.textContent = '⬡ START PRACTICE';
 
-  S.answers = {}; S.r1 = {}; S.round = 1; S.revealAll = false;
-  S.startTime = new Date(); S.endTime = null;
-  document.getElementById('btn-check').textContent = 'Check Answers ✓';
+  // Fetch wrong IDs from sheet for prioritisation
+  if (!S.teacherMode && CFG.scriptUrl) {
+    S.wrongIds = await fetchWrongIds(S.student.id, S.partKey);
+  }
 
-  // Update topbar
-  document.getElementById('tb-level-badge').textContent = S.level.toUpperCase();
-  document.getElementById('tb-part-name').textContent = PART_LABELS[S.partKey] || S.partKey;
-  document.getElementById('teacher-bar-quiz').classList.toggle('show', S.teacherMode);
+  // Build all sets
+  S.sets = buildAllSets(S.partKey, allRawData, S.numSets, S.wrongIds);
+  S.setIdx = 0;
+  S.totalCorrect = 0;
+  S.totalQuestions = 0;
+  S.startTime = new Date();
 
-  renderQuiz();
+  startSet(0);
   showScreen('quiz');
   startTimer();
 }
 
-/* ============================================================ BUILD QUESTIONS */
-function buildQuestions(key, raw) {
-  const isP1 = key.endsWith('part1');
-  const isMCQ = key.endsWith('part4') || key.endsWith('part5') && key.startsWith('pet') === false
-                 || key === 'pet_part5';
-  // part1 → flat array of sign+mcq
-  if (isP1) return raw.map(q => ({...q}));
-  // MCQ cloze (part4/pet_part5)
-  const isCloze = key === 'ket_part4' || key === 'pet_part5';
-  // Open cloze (ket_part5 / pet_part6)
-  const isOpen = key === 'ket_part5' || key === 'pet_part6';
-
-  const flat = [];
-  raw.forEach(set => {
-    set.questions.forEach(q => {
-      flat.push({
-        id: `${set.id}_q${q.number}`,
-        type: isCloze ? 'mcq_cloze' : 'open_cloze',
-        setId: set.id, setTitle: set.title, passage: set.passage,
-        number: q.number,
-        options: q.options || null,
-        answer: q.answer,
-        explanation: q.explanation
-      });
-    });
-  });
-  return flat;
+async function fetchWrongIds(studentId, partKey) {
+  try {
+    const r = await fetch(`${CFG.scriptUrl}?action=getWrongAnswers&studentId=${studentId}&partKey=${partKey}`);
+    const d = await r.json();
+    return d.questionIds || [];
+  } catch { return []; }
 }
 
-/* ============================================================ RENDER QUIZ */
+/* ============================================================
+   BUILD SETS
+   ============================================================ */
+function buildAllSets(key, raw, numSets, wrongIds) {
+  const isP1 = key.endsWith('part1');
+
+  if (isP1) {
+    // raw = flat array of questions
+    // Shuffle: wrong first, then remainder random
+    const wrong  = raw.filter(q => wrongIds.includes(q.id));
+    const others = shuffle(raw.filter(q => !wrongIds.includes(q.id)));
+    const pool   = [...wrong, ...others];
+
+    const meta = PART_META[key];
+    const qps  = meta.qPerSet;
+    const sets = [];
+
+    for (let i = 0; i < numSets; i++) {
+      // Cycle through pool if not enough questions
+      const start = (i * qps) % pool.length;
+      const set   = [];
+      for (let j = 0; j < qps; j++) {
+        set.push(pool[(start + j) % pool.length]);
+      }
+      sets.push(set);
+    }
+    return sets;
+
+  } else {
+    // raw = array of passage sets
+    const wrong  = raw.filter(s => s.questions.some(q => wrongIds.includes(`${s.id}_q${q.number}`)));
+    const others = shuffle(raw.filter(s => !wrong.includes(s)));
+    const pool   = [...wrong, ...others];
+
+    const sets = [];
+    for (let i = 0; i < numSets; i++) {
+      const passage = pool[i % pool.length];
+      sets.push(flattenPassage(key, passage));
+    }
+    return sets;
+  }
+}
+
+function flattenPassage(key, set) {
+  return set.questions.map(q => ({
+    id:          `${set.id}_q${q.number}`,
+    type:        (key === 'ket_part4' || key === 'pet_part5') ? 'mcq_cloze' : 'open_cloze',
+    setId:       set.id,
+    setTitle:    set.title,
+    passage:     set.passage,
+    number:      q.number,
+    options:     q.options || null,
+    answer:      q.answer,
+    explanation: q.explanation,
+  }));
+}
+
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+/* ============================================================
+   SET MANAGEMENT
+   ============================================================ */
+function startSet(idx) {
+  S.setIdx   = idx;
+  S.questions = S.sets[idx];
+  S.answers  = {};
+  S.r1       = {};
+  S.round    = 1;
+  S.revealAll = false;
+
+  document.getElementById('btn-check').textContent = 'Check Answers ✓';
+  document.getElementById('round2-banner').classList.remove('show');
+
+  // Restart independent timer for this set (except set 0 which handleStart manages)
+  if (idx > 0) startTimer();
+
+  // Topbar
+  document.getElementById('tb-level-badge').textContent = S.level.toUpperCase();
+  const unitLabel = S.partKey?.endsWith('part1') ? 'Set' : 'Passage';
+  document.getElementById('tb-part-name').textContent =
+    `${PART_LABELS[S.partKey] || S.partKey}  ·  ${unitLabel} ${idx+1} of ${S.numSets}`;
+  document.getElementById('teacher-bar-quiz').classList.toggle('show', S.teacherMode);
+
+  renderQuiz();
+}
+
+/* ============================================================
+   RENDER QUIZ
+   ============================================================ */
 function renderQuiz() {
   updateProgress();
   document.getElementById('round2-banner').classList.toggle('show', S.round === 2);
@@ -1045,9 +1245,9 @@ function renderQuiz() {
   body.innerHTML = '';
 
   const key = S.partKey;
-  if (key.endsWith('part1')) renderPart1(body);
+  if (key.endsWith('part1'))              renderPart1(body);
   else if (key === 'ket_part4' || key === 'pet_part5') renderMCQCloze(body);
-  else renderOpenCloze(body);
+  else                                    renderOpenCloze(body);
 
   blockCopyPaste(body);
 }
@@ -1112,24 +1312,27 @@ function renderOpenCloze(body) {
     });
   });
   body.querySelectorAll('.cloze-inp').forEach(inp => {
-    inp.addEventListener('input', e => { S.answers[e.target.dataset.qid] = e.target.value; updateProgress(); });
+    inp.addEventListener('input', e => {
+      S.answers[e.target.dataset.qid] = e.target.value;
+      updateProgress();
+    });
   });
 }
 
-/* ============================================================ SIGN RENDERER */
+/* ============================================================
+   SIGN RENDERER
+   ============================================================ */
 function renderSign(q) {
   const s = q.sign;
   if (q.sign_type === 'street_sign') {
     const lines = s.lines.map(l =>
-      `<div class="sl-${l.size}${l.weight==='bold'?' sl-bold':''}">${h(l.text)}</div>`
-    ).join('');
+      `<div class="sl-${l.size}${l.weight==='bold'?' sl-bold':''}">${h(l.text)}</div>`).join('');
     const loc = s.location_label ? `<div class="sign-location">📍 ${h(s.location_label)}</div>` : '';
     return `${loc}<div class="sign-street ${s.style}"><div class="sign-street-inner">${s.icon?`<div class="sign-icon">${s.icon}</div>`:''}${lines}</div></div>`;
   }
   if (q.sign_type === 'school_notice') {
     const lines = s.lines.map(l =>
-      `<div class="sl-${l.size}${l.weight==='bold'?' sl-bold':''}">${h(l.text)}</div>`
-    ).join('');
+      `<div class="sl-${l.size}${l.weight==='bold'?' sl-bold':''}">${h(l.text)}</div>`).join('');
     const loc = s.location_label ? `<div class="sign-location">📍 ${h(s.location_label)}</div>` : '';
     return `${loc}<div class="sign-school">${s.header?`<div class="sign-school-header">${h(s.header)}</div>`:''}<div class="sign-school-inner">${s.icon?`<div class="sign-school-icon">${s.icon}</div>`:''}${lines}</div></div>`;
   }
@@ -1139,7 +1342,7 @@ function renderSign(q) {
         <div class="email-dot" style="background:#ff6058"></div>
         <div class="email-dot" style="background:#ffbc2e"></div>
         <div class="email-dot" style="background:#28c840"></div>
-        <span style="font-size:.72rem;color:#888;margin-left:6px;font-family:var(--fn)">Email</span>
+        <span style="font-size:.72rem;color:#888;margin-left:6px">Email</span>
       </div>
       <div class="email-meta">
         <div class="email-field"><span class="email-flabel">From</span><span class="email-fval">${h(s.from)}</span></div>
@@ -1158,12 +1361,13 @@ function renderSign(q) {
   }
   return '';
 }
-
 function signTypeLabel(t) {
   return {street_sign:'Street sign',school_notice:'School notice',email:'Email',message:'Handwritten note'}[t]||t;
 }
 
-/* ============================================================ CHECK */
+/* ============================================================
+   CHECK
+   ============================================================ */
 document.getElementById('btn-check').addEventListener('click', () => {
   if (S.round === 1) doRound1(); else doRound2();
 });
@@ -1178,15 +1382,30 @@ function doRound1() {
     applyFb(q, ok, false);
   });
   const total = S.questions.length;
-  const pct = total ? Math.round(correct/total*100) : 0;
+  const pct   = total ? Math.round(correct/total*100) : 0;
   showPopup(correct, total, pct);
 }
 
 function doRound2() {
-  S.revealAll = true; S.endTime = new Date(); stopTimer();
+  S.revealAll = true;
   S.questions.forEach(q => { if (S.r1[q.id] !== true) applyFb(q, false, true); });
-  buildResult();
-  showScreen('result');
+
+  // Accumulate score
+  const setCorrect = Object.values(S.r1).filter(Boolean).length;
+  S.totalCorrect   += setCorrect;
+  S.totalQuestions += S.questions.length;
+
+  const isLastSet = S.setIdx >= S.sets.length - 1;
+
+  if (isLastSet) {
+    S.endTime = new Date();
+    stopTimer();
+    buildResult();
+    showScreen('result');
+  } else {
+    // Show "next set" transition popup
+    showNextSetPopup(S.setIdx + 1);
+  }
 }
 
 function applyFb(q, ok, reveal) {
@@ -1207,18 +1426,21 @@ function applyFb(q, ok, reveal) {
   const fb = document.getElementById(`fb_${q.id}`);
   if (!fb) return;
   fb.className = `fb show ${ok?'fb-ok':reveal?'fb-rev':'fb-no'}`;
-  fb.textContent = ok ? `Correct! ${q.explanation}`
+  fb.textContent = ok
+    ? `Correct! ${q.explanation}`
     : reveal ? `Answer: ${q.answer}. ${q.explanation}`
     : 'Not quite. You can fix this in Round 2.';
 }
 
-/* ============================================================ POPUP */
+/* ============================================================
+   POPUPS
+   ============================================================ */
 function showPopup(correct, total, pct) {
   const tiers = [
-    [90, '🌟', 'Excellent!',   'Almost perfect! Round 2 will be a breeze.'],
-    [70, '🌸', 'Well done!',   'Great result. Fix the last few in Round 2.'],
-    [50, '💪', 'Good effort!', 'Keep going – Round 2 is your chance to improve.'],
-    [ 0, '🌱', 'Keep trying!', 'Every mistake is a lesson. Round 2 is yours!'],
+    [90,'🌟','Excellent!',   'Almost perfect! Round 2 will be a breeze.'],
+    [70,'🌸','Well done!',   'Great result. Fix the last few in Round 2.'],
+    [50,'💪','Good effort!', 'Keep going – Round 2 is your chance to improve.'],
+    [ 0,'🌱','Keep trying!', 'Every mistake is a lesson. Round 2 is yours!'],
   ];
   const [,emoji,title,msg] = tiers.find(([t]) => pct >= t);
   document.getElementById('pop-emoji').textContent  = emoji;
@@ -1226,21 +1448,48 @@ function showPopup(correct, total, pct) {
   document.getElementById('pop-score').textContent  = `${correct}/${total}`;
   document.getElementById('pop-pct').textContent    = `${pct}%`;
   document.getElementById('pop-msg').textContent    = msg;
+
+  // Change button text for Round 2
+  document.getElementById('pop-btn').textContent = 'Go to Round 2 →';
+  document.getElementById('pop-btn').onclick = () => {
+    document.getElementById('popup').classList.remove('show');
+    S.round = 2;
+    document.getElementById('btn-check').textContent = 'Reveal Answers ✓';
+    document.getElementById('round2-banner').classList.add('show');
+    renderQuiz();
+  };
   document.getElementById('popup').classList.add('show');
 }
 
-document.getElementById('pop-btn').addEventListener('click', () => {
-  document.getElementById('popup').classList.remove('show');
-  S.round = 2;
-  document.getElementById('btn-check').textContent = 'Reveal All Answers ✓';
-  document.getElementById('round2-banner').classList.add('show');
-  renderQuiz();
-});
+function showNextSetPopup(nextIdx) {
+  const pct = S.totalQuestions
+    ? Math.round(S.totalCorrect / S.totalQuestions * 100) : 0;
+  const tiers = [[90,'🌟'],[70,'🌸'],[50,'💪'],[0,'🌱']];
+  const [,emoji] = tiers.find(([t]) => pct >= t);
 
-/* ============================================================ RESULT */
+  document.getElementById('pop-emoji').textContent = emoji;
+  document.getElementById('pop-title').textContent = `Set ${S.setIdx+1} done!`;
+  document.getElementById('pop-score').textContent = `${S.totalCorrect}/${S.totalQuestions}`;
+  document.getElementById('pop-pct').textContent   = `${pct}% so far`;
+  const unitW = S.partKey?.endsWith('part1') ? 'Set' : 'Passage';
+  document.getElementById('pop-msg').innerHTML =
+    `<div class="next-set-info">Up next: ${unitW} ${nextIdx+1} of ${S.numSets}</div>`;
+
+  document.getElementById('pop-btn').textContent = `Start ${unitW} ${nextIdx+1} →`;
+  document.getElementById('pop-btn').onclick = () => {
+    document.getElementById('popup').classList.remove('show');
+    startSet(nextIdx);
+    window.scrollTo(0,0);
+  };
+  document.getElementById('popup').classList.add('show');
+}
+
+/* ============================================================
+   RESULT
+   ============================================================ */
 function buildResult() {
-  const correct = Object.values(S.r1).filter(Boolean).length;
-  const total   = S.questions.length;
+  const correct = S.totalCorrect;
+  const total   = S.totalQuestions;
   const wrong   = total - correct;
   const pct     = total ? Math.round(correct/total*100) : 0;
 
@@ -1249,78 +1498,140 @@ function buildResult() {
 
   document.getElementById('res-emoji').textContent    = emoji;
   document.getElementById('res-headline').textContent = headline;
-  document.getElementById('res-sub').textContent      = `${S.student.name} · Round 1 score: ${pct}%`;
+  document.getElementById('res-sub').textContent      = `${S.student.name} · Score: ${pct}%`;
   document.getElementById('res-pct').textContent  = `${pct}%`;
   document.getElementById('res-ok').textContent   = correct;
   document.getElementById('res-err').textContent  = wrong;
+
+  const lbl = PART_LABELS;
   document.getElementById('ri-name').textContent  = S.student.name;
   document.getElementById('ri-class').textContent = S.student.class;
   document.getElementById('ri-level').textContent = S.level?.toUpperCase();
-  document.getElementById('ri-part').textContent  = PART_LABELS[S.partKey] || S.partKey;
+  document.getElementById('ri-part').textContent  = lbl[S.partKey] || S.partKey;
   document.getElementById('ri-dur').textContent   = dur(S.startTime, S.endTime);
   document.getElementById('teacher-bar-result').classList.toggle('show', S.teacherMode);
 
+  // Summary per set
   const summ = document.getElementById('summ-list');
   summ.innerHTML = `<div style="font-family:var(--fb);font-weight:800;font-size:.85rem;color:var(--ink-l);margin-bottom:6px">Question Summary</div>`;
-  S.questions.forEach((q, i) => {
-    const ok = S.r1[q.id] === true;
-    const row = document.createElement('div');
-    row.className = 'summ-row';
-    row.innerHTML = `<span class="summ-dot ${ok?'c':'w'}"></span>
-      <span class="summ-id">Q${i+1}</span>
-      <span class="summ-txt">${ok?'Correct':'Wrong'}</span>
-      <span class="summ-ans">Yours: ${h(S.answers[q.id]||'–')} | Ans: ${h(q.answer)}</span>`;
-    summ.appendChild(row);
+
+  let globalIdx = 0;
+  S.sets.forEach((setQs, si) => {
+    const setLabel = document.createElement('div');
+    setLabel.style.cssText = 'font-size:.72rem;font-weight:700;color:var(--ink-l);margin:8px 0 3px;text-transform:uppercase;letter-spacing:.06em';
+    setLabel.textContent = `Set ${si+1}`;
+    summ.appendChild(setLabel);
+
+    setQs.forEach((q) => {
+      // r1 data is only for current set - use totalCorrect pattern instead
+      // We saved per-set r1 during doRound2 accumulation
+      const row = document.createElement('div');
+      row.className = 'summ-row';
+      globalIdx++;
+      row.innerHTML = `
+        <span class="summ-id">Q${globalIdx}</span>
+        <span class="summ-ans" style="flex:1">${h(q.answer)}</span>`;
+      summ.appendChild(row);
+    });
   });
 
   const bar = document.getElementById('save-bar');
   bar.classList.add('show');
-  if (!S.teacherMode) saveSheet(correct, total, wrong, pct);
+  if (!S.teacherMode && CFG.scriptUrl) saveSheet(correct, total, wrong, pct);
   else { bar.className='save-bar show save-saving'; bar.textContent='Teacher Mode – results not saved.'; }
 }
 
-/* ============================================================ SAVE */
+/* ============================================================
+   SAVE TO SHEET
+   ============================================================ */
 async function saveSheet(correct, total, wrong, pct) {
   const bar = document.getElementById('save-bar');
   bar.className='save-bar show save-saving'; bar.textContent='Saving results…';
 
-  // Determine sheet tab name: e.g. KET_Part1, PET_Part5
   const tabName = `${S.level.toUpperCase()}_${S.partKey.split('_').slice(-1)[0].replace('part','Part')}`;
-
   const payload = {
-    action:'saveSession',
-    tab: tabName,
-    studentId:   S.student.id,
-    studentName: S.student.name,
-    class:       S.student.class,
-    level:       S.level.toUpperCase(),
-    part:        PART_LABELS[S.partKey] || S.partKey,
-    totalQ:      total,
-    correct, wrong, percentage: pct
+    action:'saveSession', tab:tabName,
+    studentId:S.student.id, studentName:S.student.name, class:S.student.class,
+    level:S.level.toUpperCase(), part:PART_LABELS[S.partKey]||S.partKey,
+    numSets:S.numSets, totalQ:total, correct, wrong, percentage:pct
   };
 
   try {
-    await fetch(CFG.scriptUrl, {
-      method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(payload)
-    });
+    await fetch(CFG.scriptUrl, { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(payload) });
     bar.className='save-bar show save-saved'; bar.textContent='Results saved ✓';
   } catch {
     bar.className='save-bar show save-error'; bar.textContent='Could not save. Please tell your teacher.';
   }
 }
 
-/* ============================================================ TIMER */
+/* ============================================================
+   TIMER  –  countdown then overdue blink
+   ============================================================ */
 function startTimer() {
-  let s = 0;
+  stopTimer();   // clear any running timer first
+  const meta     = PART_META[S.partKey];
+  // Each set gets its own independent countdown
+  const setLimit = meta ? meta.timePerSet : 0;
+  S.timerSec     = 0;
+  S.timerOverdue = false;
+  const display  = document.getElementById('timer-display');
+
+  // Initial display: MM:00
+  if (setLimit > 0) {
+    const m = String(Math.floor(setLimit/60)).padStart(2,'0');
+    display.textContent = `${m}:00`;
+    display.classList.remove('timer-overdue');
+  }
+
   S.timerInt = setInterval(() => {
-    s++;
-    document.getElementById('timer-display').textContent =
-      `${String(Math.floor(s/60)).padStart(2,'0')}:${String(s%60).padStart(2,'0')}`;
+    S.timerSec++;
+    const remaining = setLimit - S.timerSec;
+
+    if (remaining > 0) {
+      // Counting down
+      const m = String(Math.floor(remaining/60)).padStart(2,'0');
+      const s = String(remaining%60).padStart(2,'0');
+      display.textContent = `${m}:${s}`;
+      display.classList.remove('timer-overdue');
+    } else {
+      // Time up – count overdue upward, blink red
+      const over = Math.abs(remaining);
+      const m = String(Math.floor(over/60)).padStart(2,'0');
+      const s = String(over%60).padStart(2,'0');
+      display.textContent = `+${m}:${s}`;
+      display.classList.add('timer-overdue');
+    }
   }, 1000);
 }
 function stopTimer() { clearInterval(S.timerInt); }
 
-/* ============================================================ TEACHER */
+/* ============================================================
+   PROGRESS BAR + LABEL
+   ============================================================ */
+function updateProgress() {
+  const total = S.questions.length;
+  const done  = S.questions.filter(q => (S.answers[q.id]||'') !== '').length;
+  const pct   = total ? done/total*100 : 0;
+
+  document.getElementById('progress-fill').style.width = `${pct}%`;
+
+  // Label (Part 1 shows question count; others show passage info)
+  const key = S.partKey;
+  const unitWord = key?.endsWith('part1') ? 'Set' : 'Passage';
+  const left  = `${unitWord} ${S.setIdx+1} of ${S.numSets}`;
+  const right = key?.endsWith('part1')
+    ? `${done} of ${total} answered`
+    : `${done} of ${total} gaps filled`;
+
+  const ll = document.getElementById('progress-label-left');
+  const lr = document.getElementById('progress-label-right');
+  if (ll) ll.textContent = left;
+  if (lr) lr.textContent = right;
+}
+
+/* ============================================================
+   TEACHER MODE
+   ============================================================ */
 function initTeacher() {
   const btn = document.getElementById('teacher-btn');
   btn.addEventListener('click', () => {
@@ -1332,34 +1643,36 @@ function initTeacher() {
       if (pw === CFG.teacherPass) {
         S.teacherMode = true; btn.textContent='✅'; btn.classList.add('on');
         document.getElementById('teacher-bar-welcome').classList.add('show');
-        // bypass ID check
-        if (!S.student) S.student = {id:'TEACHER',name:'Teacher',class:'Staff'};
-        document.getElementById('inp-id').value = 'TEACHER';
+        document.getElementById('inp-id').value   = 'TEACHER';
         document.getElementById('inp-name').value = 'Teacher';
-        document.getElementById('inp-class').value = 'Staff';
+        document.getElementById('inp-class').value= 'Staff';
         checkStartReady();
       }
     }
   });
 }
 
-/* ============================================================ NAV */
+/* ============================================================
+   NAVIGATION
+   ============================================================ */
 document.getElementById('btn-another').addEventListener('click', () => {
   stopTimer();
-  S.partKey = null; S.level = null;
+  S.partKey = null; S.level = null; S.numSets = 1;
   document.querySelectorAll('.level-tab').forEach(t => t.classList.remove('active'));
   document.querySelectorAll('.part-option').forEach(o => o.classList.remove('active'));
-  document.getElementById('part-wrap').style.display = 'none';
+  document.getElementById('set-selector').style.display = 'none';
   document.getElementById('btn-start').disabled = true;
   showScreen('welcome');
 });
 
 document.getElementById('btn-retake').addEventListener('click', () => {
   stopTimer();
-  S.answers={}; S.r1={}; S.round=1; S.revealAll=false;
-  S.startTime=new Date(); S.endTime=null;
-  document.getElementById('btn-check').textContent='Check Answers ✓';
-  renderQuiz(); showScreen('quiz'); startTimer();
+  S.sets        = buildAllSets(S.partKey, allRawData, S.numSets, S.wrongIds);
+  S.totalCorrect= 0; S.totalQuestions = 0;
+  S.startTime   = new Date(); S.endTime = null;
+  startSet(0);
+  showScreen('quiz');
+  startTimer();
 });
 
 function showScreen(name) {
@@ -1368,11 +1681,13 @@ function showScreen(name) {
   window.scrollTo(0,0);
 }
 
-/* ============================================================ HELPERS */
+/* ============================================================
+   HELPERS
+   ============================================================ */
 function groupSets(qs) {
   const m = new Map();
   qs.forEach(q => {
-    if (!m.has(q.setId)) m.set(q.setId,{title:q.setTitle,passage:q.passage,questions:[]});
+    if (!m.has(q.setId)) m.set(q.setId, {title:q.setTitle, passage:q.passage, questions:[]});
     m.get(q.setId).questions.push(q);
   });
   return [...m.values()];
@@ -1380,13 +1695,13 @@ function groupSets(qs) {
 
 function passageHtml(passage, count) {
   let t = h(passage);
-  for (let i=1;i<=count;i++)
-    t = t.replace(new RegExp(`\(${i}\) _+`,'g'), `(<span class="gap-badge">${i}</span>) ______`);
+  for (let i=1; i<=count; i++)
+    t = t.replace(new RegExp(`\\(${i}\\) _+`,'g'), `(<span class="gap-badge">${i}</span>) ______`);
   return t;
 }
 
 function optionsHtml(q, locked) {
-  return q.options.map(opt => {
+  return (q.options||[]).map(opt => {
     const L = opt.charAt(0);
     return `<li><button class="opt-btn ${optCls(q.id,L)}" data-qid="${q.id}" data-letter="${L}" ${locked?'disabled':''}>
       <span class="opt-letter">${L}.</span><span>${h(opt.slice(3))}</span>
@@ -1415,46 +1730,41 @@ function blockCopyPaste(el) {
 }
 
 function optCls(qid, letter) {
-  const r1 = S.r1[qid], sel = S.answers[qid]===letter;
-  const q  = S.questions.find(x => x.id===qid);
-  if (r1===true)   return sel?'correct':'';
-  if (S.revealAll) return letter===q?.answer?'correct':sel?'wrong-sel':'';
-  if (r1===false&&sel) return 'wrong-sel';
-  return sel?'sel':'';
+  const r1  = S.r1[qid];
+  const sel = S.answers[qid] === letter;
+  const q   = S.questions.find(x => x.id === qid);
+  if (r1===true)    return sel ? 'correct' : '';
+  if (S.revealAll)  return letter===q?.answer ? 'correct' : sel ? 'wrong-sel' : '';
+  if (r1===false && sel) return 'wrong-sel';
+  return sel ? 'sel' : '';
 }
 
 function inpCls(qid) {
   const r1 = S.r1[qid];
-  if (r1===true) return 'correct';
-  if (r1===false&&!S.revealAll) return 'wrong-inp';
-  if (S.revealAll) return 'revealed';
+  if (r1===true)               return 'correct';
+  if (r1===false && !S.revealAll) return 'wrong-inp';
+  if (S.revealAll)             return 'revealed';
   return '';
 }
 
 function fbHtml(q) {
   const r1 = S.r1[q.id];
   if (r1===undefined) return `<div class="fb" id="fb_${q.id}"></div>`;
-  if (r1===true) return `<div class="fb show fb-ok" id="fb_${q.id}">Correct! ${h(q.explanation)}</div>`;
-  if (S.revealAll) return `<div class="fb show fb-rev" id="fb_${q.id}">Answer: ${h(q.answer)}. ${h(q.explanation)}</div>`;
+  if (r1===true)      return `<div class="fb show fb-ok" id="fb_${q.id}">Correct! ${h(q.explanation)}</div>`;
+  if (S.revealAll)    return `<div class="fb show fb-rev" id="fb_${q.id}">Answer: ${h(q.answer)}. ${h(q.explanation)}</div>`;
   return `<div class="fb show fb-no" id="fb_${q.id}">Not quite. You can fix this in Round 2.</div>`;
-}
-
-function updateProgress() {
-  const total = S.questions.length;
-  const done  = S.questions.filter(q => (S.answers[q.id]||'')!=='').length;
-  document.getElementById('progress-fill').style.width = total ? `${done/total*100}%` : '0%';
 }
 
 function card(id) {
   const d = document.createElement('div');
-  d.id=id; d.className='q-card'; return d;
+  d.id = id; d.className = 'q-card'; return d;
 }
 
-function norm(s){ return (s||'').toLowerCase().replace(/[^a-z0-9 ]/g,'').replace(/\s+/g,' ').trim(); }
-function h(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
-function dur(a,b){
-  if(!a||!b) return '-';
-  const s=Math.floor((b-a)/1000);
+function norm(s) { return (s||'').toLowerCase().replace(/[^a-z0-9 ]/g,'').replace(/\s+/g,' ').trim(); }
+function h(s)    { return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function dur(a,b) {
+  if (!a||!b) return '-';
+  const s = Math.floor((b-a)/1000);
   return `${String(Math.floor(s/3600)).padStart(2,'0')}:${String(Math.floor(s%3600/60)).padStart(2,'0')}:${String(s%60).padStart(2,'0')}`;
 }
 </script>
