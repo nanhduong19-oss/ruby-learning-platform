@@ -959,7 +959,7 @@ function renderPartGrid(level) {
 }
 
 function checkStartReady() {
-  const idOk = S.teacherMode || students.find(s => s.id === document.getElementById('inp-id').value.trim());
+  const idOk = S.teacherMode || students.find(s => s.id.toUpperCase() === document.getElementById('inp-id').value.trim().toUpperCase());
   document.getElementById('btn-start').disabled = !(idOk && S.level && S.partKey);
 }
 
