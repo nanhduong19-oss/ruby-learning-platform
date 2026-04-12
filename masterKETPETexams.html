@@ -908,7 +908,7 @@ function initWelcome() {
   const idInp = document.getElementById('inp-id');
   idInp.addEventListener('input', e => {
     e.target.value = e.target.value.toUpperCase();
-    const found = students.find(s => s.id === e.target.value.trim());
+    const found = students.find(s => s.id.toUpperCase() === e.target.value.trim().toUpperCase());
     if (found) {
       document.getElementById('inp-name').value = found.name;
       document.getElementById('inp-class').value = found.class;
@@ -968,7 +968,7 @@ async function handleStart() {
   let valid = true;
 
   if (!S.teacherMode) {
-    const found = students.find(s => s.id === idVal);
+    const found = students.find(s => s.id.toUpperCase() === idVal.toUpperCase());
     if (!found) { document.getElementById('err-id').classList.add('show'); valid = false; }
     else { S.student = found; }
   } else {
