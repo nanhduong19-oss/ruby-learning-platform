@@ -894,7 +894,9 @@ async function loadStudents() {
   try {
     const r = await fetch(CFG.studentsUrl);
     if (!r.ok) throw 0;
-    students = await r.json();
+    const data = await r.json();
+    // Support both formats: array [...] or object { students: [...] }
+    students = Array.isArray(data) ? data : (data.students || []);
   } catch {
     document.getElementById('data-error').style.display = 'block';
   }
