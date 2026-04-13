@@ -1254,7 +1254,8 @@ function flattenPassage(key, set) {
     passage:     set.passage,
     number:      q.number,
     options:     q.options || null,
-    answer:      q.answer,
+    answer:      Array.isArray(q.answer) ? q.answer[0] : q.answer,
+    accepted:    q.accepted || (Array.isArray(q.answer) ? q.answer : [q.answer]),
     explanation: q.explanation,
   }));
 }
@@ -1497,8 +1498,11 @@ function renderClozeFeeback(wrapper, questions, prefix) {
       row.className = 'cloze-fb-row fb-ok';
       row.innerHTML = `<span class="cloze-fb-num">(${q.number})</span><span>Correct! ${h(q.explanation)}</span>`;
     } else if (S.revealAll) {
+      const ansDisplay = (q.accepted && q.accepted.length > 1)
+        ? q.accepted.join(' / ')
+        : q.answer;
       row.className = 'cloze-fb-row fb-rev';
-      row.innerHTML = `<span class="cloze-fb-num">(${q.number})</span><span>Answer: <strong>${h(q.answer)}</strong>. ${h(q.explanation)}</span>`;
+      row.innerHTML = `<span class="cloze-fb-num">(${q.number})</span><span>Answer: <strong>${h(ansDisplay)}</strong>. ${h(q.explanation)}</span>`;
     } else {
       row.className = 'cloze-fb-row fb-no';
       row.innerHTML = `<span class="cloze-fb-num">(${q.number})</span><span>Not quite. Fix this in Round 2.</span>`;
@@ -1531,7 +1535,9 @@ function doRound1() {
   let correct = 0;
   S.questions.forEach(q => {
     if (S.r1[q.id] === true) { correct++; return; }
-    const ok = norm(S.answers[q.id]) === norm(q.answer);
+    const typed   = norm(S.answers[q.id]);
+    const accepted = (q.accepted || [q.answer]).map(a => norm(a));
+    const ok = accepted.includes(typed);
     S.r1[q.id] = ok;
     if (ok) correct++;
     applyFb(q, ok, false);
@@ -1620,7 +1626,10 @@ function applyFb(q, ok, reveal) {
     if (inp) {
       inp.readOnly = true;
       if (reveal && !ok) {
-        inp.value     = q.answer.toUpperCase();
+        const displayAns = (q.accepted && q.accepted.length > 1)
+          ? q.accepted.join(' / ').toUpperCase()
+          : q.answer.toUpperCase();
+        inp.value     = displayAns;
         inp.className = 'inline-gap-inp revealed';
       } else {
         inp.className = `inline-gap-inp ${inpCls(q.id)}`;
@@ -1794,6 +1803,26 @@ async function saveSheet(correct, total, wrong, pct) {
   bar.className='save-bar show save-saving'; bar.textContent='Saving results…';
 
   const tabName = `${S.level.toUpperCase()}_${S.partKey.split('_').slice(-1)[0].replace('part','Part')}`;
+
+  // Build part detail: Part1 → p1_q3, p1_q7... | Cloze → passage titles
+  const isP1 = S.partKey?.endsWith('part1');
+  let partDetail = '';
+  if (isP1) {
+    // List individual question IDs: p1_q3, p1_q11, ...
+    // q.id from JSON is like "ket_p1_q3" → extract number after _q
+    const qIds = S.sets.flat().map(q => {
+      const match = String(q.id).match(/_q(\w+)$/);
+      return match ? `p1_q${match[1]}` : String(q.id);
+    });
+    partDetail = qIds.join(', ');
+  } else {
+    // List passage titles (or IDs as fallback), one per set
+    partDetail = S.sets.map((setQs, si) => {
+      const title = setQs[0]?.setTitle || setQs[0]?.setId || `Passage ${si+1}`;
+      return title;
+    }).join(' | ');
+  }
+
   const payload = {
     action:      'saveSession',
     tab:         tabName,
@@ -1802,8 +1831,7 @@ async function saveSheet(correct, total, wrong, pct) {
     studentName: S.student.name,
     class:       S.student.class,
     level:       S.level.toUpperCase(),
-    part:        PART_LABELS[S.partKey] || S.partKey,
-    numSets:     S.numSets,
+    part:        partDetail,
     totalQ:      total,
     correct,
     wrong,
