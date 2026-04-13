@@ -1,0 +1,358 @@
+[
+  {
+    "id": "ket_p2_test1",
+    "level": "KET",
+    "test": 1,
+    "type": "part2",
+    "title": "My favourite book",
+    "persons": [
+      {
+        "name": "Jian",
+        "label": "A",
+        "text": "This well-known book was in a box of old books that a neighbour gave me. I wasn't sure about it when I picked it up because I saw the pictures and thought it was a book for little children. But I was bored, so I started reading. After a few pages I couldn't stop, and when I got to the last page, I was quite upset that there wasn't more. It's about two friends who play a game, and how it changes their lives. It's brilliant!"
+      },
+      {
+        "name": "Max",
+        "label": "B",
+        "text": "This was one of the first books I ever had, but it's still a favourite. Even before I could read, I loved looking at the drawings as my parents read the story to me. Now my little sister's got it, and she loves it too. The writer has become quite famous, but this is the first book she wrote, and not many people have heard of it. It's very different from the books she wrote later. I suppose what you write about changes as your life changes."
+      },
+      {
+        "name": "Kojo",
+        "label": "C",
+        "text": "I read this book for the first time when I was about eight. One of the reasons I liked it was that it was about people growing up in a place which I knew nothing about. My friend read it too, and our ideas for games often came from this book. I read it again recently, and I still think it's great, except the last few pages. What happens in them doesn't seem real."
+      }
+    ],
+    "questions": [
+      {
+        "number": 7,
+        "question": "Who does not like the way the book ends?",
+        "answer": "C",
+        "answer_name": "Kojo",
+        "keyword": "except the last few pages; what happens in them doesn't seem real",
+        "paraphrase": "does not like the way the book ends = thinks the ending is unrealistic",
+        "explanation": "Kojo nói rằng cậu ấy vẫn thích cuốn sách, \"trừ mấy trang cuối\", và còn nói những gì xảy ra ở phần đó \"không có vẻ thật\". Điều này cho thấy rõ cậu ấy không thích cách cuốn sách kết thúc."
+      },
+      {
+        "number": 8,
+        "question": "Who enjoyed the pictures in the book?",
+        "answer": "B",
+        "answer_name": "Max",
+        "keyword": "I loved looking at the drawings",
+        "paraphrase": "pictures = drawings",
+        "explanation": "Max nói rằng cậu ấy \"rất thích ngắm các hình vẽ\" khi bố mẹ đọc truyện cho nghe. Từ \"drawings\" chính là cách diễn đạt tương đương với \"pictures\" trong câu hỏi."
+      },
+      {
+        "number": 9,
+        "question": "Who explains how he got the book?",
+        "answer": "A",
+        "answer_name": "Jian",
+        "keyword": "in a box of old books that a neighbour gave me",
+        "paraphrase": "explains how he got the book = says where it came from and who gave it to him",
+        "explanation": "Jian nói rất rõ cuốn sách đến với mình như thế nào: nó nằm trong một hộp sách cũ do người hàng xóm đưa cho. Đó chính là cách cậu ấy có được cuốn sách."
+      },
+      {
+        "number": 10,
+        "question": "Who enjoyed learning about lives which are different from his own?",
+        "answer": "C",
+        "answer_name": "Kojo",
+        "keyword": "people growing up in a place which I knew nothing about",
+        "paraphrase": "lives which are different from his own = people living in a very unfamiliar place/background",
+        "explanation": "Kojo nói rằng cậu ấy thích cuốn sách vì nó kể về những người lớn lên ở một nơi mà cậu ấy hoàn toàn không biết gì. Điều đó cho thấy cậu ấy thích tìm hiểu về cuộc sống khác với cuộc sống của mình."
+      },
+      {
+        "number": 11,
+        "question": "Who says something about what happens in the story?",
+        "answer": "A",
+        "answer_name": "Jian",
+        "keyword": "It's about two friends who play a game, and how it changes their lives",
+        "paraphrase": "what happens in the story = the plot / events in the story",
+        "explanation": "Jian có nhắc đến nội dung câu chuyện khi nói nó kể về hai người bạn chơi một trò chơi và trò chơi đó đã thay đổi cuộc đời họ như thế nào. Cậu ấy là người duy nhất tóm tắt sự việc xảy ra trong truyện."
+      },
+      {
+        "number": 12,
+        "question": "Who says the book is not very well-known?",
+        "answer": "B",
+        "answer_name": "Max",
+        "keyword": "not many people have heard of it",
+        "paraphrase": "not very well-known = not many people know about it",
+        "explanation": "Max nói rằng \"không nhiều người từng nghe về cuốn sách này\". Ý này khớp trực tiếp với nghĩa \"cuốn sách không quá nổi tiếng / không được nhiều người biết đến\"."
+      },
+      {
+        "number": 13,
+        "question": "Who felt sad when he finished the book?",
+        "answer": "A",
+        "answer_name": "Jian",
+        "keyword": "I was quite upset that there wasn't more",
+        "paraphrase": "felt sad when he finished the book = was upset because the book ended",
+        "explanation": "Jian nói rằng khi đọc đến trang cuối, cậu ấy \"khá buồn vì không còn thêm nữa\". Điều này cho thấy cậu ấy cảm thấy buồn hoặc tiếc nuối khi đọc xong cuốn sách."
+      }
+    ]
+  },
+  {
+    "id": "ket_p2_test2",
+    "level": "KET",
+    "test": 2,
+    "type": "part2",
+    "title": "How three young people became DJs",
+    "persons": [
+      {
+        "name": "DJ Fire",
+        "label": "A",
+        "text": "This Russian DJ grew up travelling with his parents who were in a rock band. He started learning piano at four, and drums at twelve. As a teenager, he wrote songs and posted them online as a hobby. Then, at 20, a music company started paying him to write songs for pop bands - and some have been on the radio. Later he became interested in electronic music and started playing it in clubs. He's hoping to get an invitation to play at some international festivals this summer."
+      },
+      {
+        "name": "DJ Goldrock",
+        "label": "B",
+        "text": "This South African DJ started playing the piano when he was 5. At 15, he played pop songs at a cousin's birthday party, and got a hundred kids dancing. At that moment, he knew he wanted to be a DJ and never have a normal job. He started a website where he played his favourite songs, and soon had lots of fans. He's now 20 and has his own show on national radio. For the past three years, he's spent his summers going around the world playing dance music at festivals."
+      },
+      {
+        "name": "DJ Mango",
+        "label": "C",
+        "text": "At 15, this Brazilian DJ's parents gave him a new computer and DJ equipment for making electronic dance music. Later that year, he started playing music at local dance parties to make some extra money, and the parties just got bigger and bigger. A few years later, a journalist asked him why he became a DJ. He said that as a child his dream was to play the electric guitar for a rock group, but he wasn't good enough!"
+      }
+    ],
+    "questions": [
+      {
+        "number": 7,
+        "question": "Who travels to different countries every year to play his music?",
+        "answer": "B",
+        "answer_name": "DJ Goldrock",
+        "keyword": "for the past three years, he's spent his summers going around the world playing dance music at festivals",
+        "paraphrase": "travels to different countries every year = spends every summer going around the world to perform",
+        "explanation": "DJ Goldrock nói rằng trong suốt ba năm qua, mỗi mùa hè anh ấy đều đi khắp thế giới để chơi nhạc tại các lễ hội. Điều này khớp rõ với ý \"đi đến nhiều quốc gia khác nhau mỗi năm để biểu diễn âm nhạc\"."
+      },
+      {
+        "number": 8,
+        "question": "Who comes from a family of musicians?",
+        "answer": "A",
+        "answer_name": "DJ Fire",
+        "keyword": "his parents were in a rock band",
+        "paraphrase": "comes from a family of musicians = his parents are musicians",
+        "explanation": "DJ Fire lớn lên cùng bố mẹ là thành viên của một ban nhạc rock, vì vậy rõ ràng anh ấy xuất thân từ một gia đình có truyền thống âm nhạc."
+      },
+      {
+        "number": 9,
+        "question": "Who was paid to make music as a teenager?",
+        "answer": "C",
+        "answer_name": "DJ Mango",
+        "keyword": "At 15 ... he started playing music at local dance parties to make some extra money",
+        "paraphrase": "was paid to make music as a teenager = earned money from playing music when he was 15",
+        "explanation": "DJ Mango bắt đầu chơi nhạc ở các buổi tiệc khi mới 15 tuổi để kiếm thêm tiền. Vì vậy, anh ấy là người được trả tiền để làm nhạc khi còn ở tuổi thiếu niên. DJ Fire chỉ được trả tiền khi 20 tuổi nên không phù hợp."
+      },
+      {
+        "number": 10,
+        "question": "Who knows how to play more than one musical instrument?",
+        "answer": "A",
+        "answer_name": "DJ Fire",
+        "keyword": "learning piano at four, and drums at twelve",
+        "paraphrase": "more than one musical instrument = two instruments",
+        "explanation": "DJ Fire học piano từ năm 4 tuổi và học trống từ năm 12 tuổi. Như vậy, anh ấy biết chơi hơn một loại nhạc cụ."
+      },
+      {
+        "number": 11,
+        "question": "Who works for a radio station?",
+        "answer": "B",
+        "answer_name": "DJ Goldrock",
+        "keyword": "has his own show on national radio",
+        "paraphrase": "works for a radio station = has a radio show",
+        "explanation": "DJ Goldrock hiện có chương trình riêng trên đài phát thanh quốc gia. Điều đó cho thấy anh ấy làm việc cho một đài phát thanh."
+      },
+      {
+        "number": 12,
+        "question": "Who writes music for other musicians?",
+        "answer": "A",
+        "answer_name": "DJ Fire",
+        "keyword": "a music company started paying him to write songs for pop bands",
+        "paraphrase": "writes music for other musicians = writes songs for pop bands",
+        "explanation": "DJ Fire được một công ty âm nhạc trả tiền để viết bài hát cho các ban nhạc pop. Vì thế, anh ấy là người viết nhạc cho những nghệ sĩ khác."
+      },
+      {
+        "number": 13,
+        "question": "Who wanted to play in a band when he was younger?",
+        "answer": "C",
+        "answer_name": "DJ Mango",
+        "keyword": "as a child his dream was to play the electric guitar for a rock group",
+        "paraphrase": "wanted to play in a band = dreamed of playing guitar for a rock group",
+        "explanation": "DJ Mango nói rằng khi còn nhỏ, ước mơ của anh ấy là chơi guitar điện cho một ban nhạc rock. Ý này trùng khớp trực tiếp với việc muốn chơi trong một ban nhạc khi còn nhỏ."
+      }
+    ]
+  },
+  {
+    "id": "ket_p2_test3",
+    "level": "KET",
+    "test": 3,
+    "type": "part2",
+    "title": "A great science teacher",
+    "persons": [
+      {
+        "name": "Joshua",
+        "label": "A",
+        "text": "Mrs Philips was my science teacher when I joined my school and she still is, so I don't know what the other teachers are like. But I think Mrs Philips is amazing. Her lessons always seem to go really fast - she gives us so much great stuff to do. Even when we think something is too hard for us, she says she knows we can all do it, and she's usually right! She also shows us drawings, photos and websites to explain how things work, which I love."
+      },
+      {
+        "name": "Dan",
+        "label": "B",
+        "text": "I have a fantastic science teacher called Mrs Rhodes. She loves her subject - especially plants. She is able to draw wonderful pictures of them on the board, which helps us understand them. She never seems to get tired or bored when she's teaching. She takes time to get to know each student in the class so that she can help them better. I think she's the reason I want to be a science teacher one day."
+      },
+      {
+        "name": "Chris",
+        "label": "C",
+        "text": "In just one year, Mrs James has become my favourite teacher. Until I joined her class, I was very bad at science, but she explained things so well that I soon understood them better. My marks went up almost immediately. She's always happy to spend extra time with us at the end of lessons if we're having problems. But it isn't just teaching that makes her great. She's also interested in our lives and gives advice on how to be a better person."
+      }
+    ],
+    "questions": [
+      {
+        "number": 7,
+        "question": "Who says his teacher helps with things other than science?",
+        "answer": "C",
+        "answer_name": "Chris",
+        "keyword": "she's also interested in our lives and gives advice on how to be a better person",
+        "paraphrase": "helps with things other than science = gives personal advice, not only subject teaching",
+        "explanation": "Chris nói rằng cô giáo không chỉ dạy khoa học mà còn quan tâm đến cuộc sống của học sinh và đưa ra lời khuyên để các em trở thành người tốt hơn. Điều này cho thấy cô giúp đỡ cả những vấn đề ngoài môn khoa học."
+      },
+      {
+        "number": 8,
+        "question": "Who says his teacher is really interested in what she teaches?",
+        "answer": "B",
+        "answer_name": "Dan",
+        "keyword": "she loves her subject - especially plants; she never seems to get tired or bored when she's teaching",
+        "paraphrase": "is really interested in what she teaches = loves her subject and stays enthusiastic",
+        "explanation": "Dan miêu tả cô giáo là người rất yêu môn học của mình, đặc biệt là thực vật, và không bao giờ có vẻ mệt mỏi hay chán nản khi giảng dạy. Điều đó cho thấy cô thực sự hứng thú với môn mình dạy."
+      },
+      {
+        "number": 9,
+        "question": "Who says his teacher believes every student can be successful?",
+        "answer": "A",
+        "answer_name": "Joshua",
+        "keyword": "she says she knows we can all do it",
+        "paraphrase": "believes every student can be successful = thinks all students are able to do well",
+        "explanation": "Joshua nói rằng ngay cả khi bài học khó, cô giáo vẫn bảo rằng tất cả các em đều có thể làm được. Điều này cho thấy cô tin rằng mọi học sinh đều có thể thành công."
+      },
+      {
+        "number": 10,
+        "question": "Who says he has chosen his future career because of his teacher?",
+        "answer": "B",
+        "answer_name": "Dan",
+        "keyword": "she's the reason I want to be a science teacher one day",
+        "paraphrase": "has chosen his future career because of his teacher = wants that job because his teacher inspired him",
+        "explanation": "Dan nói thẳng rằng chính cô giáo là lý do khiến cậu ấy muốn trở thành giáo viên khoa học trong tương lai. Đây là sự khớp nghĩa trực tiếp với câu hỏi."
+      },
+      {
+        "number": 11,
+        "question": "Who says his teacher helped him to improve quickly?",
+        "answer": "C",
+        "answer_name": "Chris",
+        "keyword": "I soon understood them better; my marks went up almost immediately",
+        "paraphrase": "improve quickly = understand better soon and get better marks immediately",
+        "explanation": "Chris nói rằng cậu ấy nhanh chóng hiểu bài hơn và điểm số tăng lên gần như ngay lập tức. Điều này cho thấy cô giáo đã giúp cậu ấy tiến bộ rất nhanh."
+      },
+      {
+        "number": 12,
+        "question": "Who says he's only ever had one science teacher at his school?",
+        "answer": "A",
+        "answer_name": "Joshua",
+        "keyword": "when I joined my school and she still is, so I don't know what the other teachers are like",
+        "paraphrase": "only ever had one science teacher at his school = the same teacher since he arrived",
+        "explanation": "Joshua nói rằng cô Philips là giáo viên khoa học của cậu ấy từ khi mới vào trường và đến bây giờ vẫn vậy. Vì thế, ở ngôi trường đó cậu ấy chỉ mới học với một giáo viên khoa học duy nhất."
+      },
+      {
+        "number": 13,
+        "question": "Who says his teacher is very good at drawing?",
+        "answer": "B",
+        "answer_name": "Dan",
+        "keyword": "she is able to draw wonderful pictures of them on the board",
+        "paraphrase": "very good at drawing = can draw wonderful pictures",
+        "explanation": "Dan nói rằng cô giáo có thể vẽ những bức hình rất đẹp lên bảng để giúp học sinh hiểu bài. Như vậy, cô ấy rõ ràng vẽ rất giỏi."
+      }
+    ]
+  },
+  {
+    "id": "ket_p2_test4",
+    "level": "KET",
+    "test": 4,
+    "type": "part2",
+    "title": "My trip to Rome",
+    "persons": [
+      {
+        "name": "Rhodri",
+        "label": "A",
+        "text": "I had a great time in Rome with my family. It was my first holiday outside my own country and I couldn't wait to go. I found out all I could about Rome from the library and on the internet. Knowing about the history made seeing all the old buildings, like the Colosseum, much more interesting. We were able to do lots of sightseeing because the taxis and buses and the metro were cheap and fast."
+      },
+      {
+        "name": "Patrick",
+        "label": "B",
+        "text": "It was really hot when I arrived at Rome airport with my parents last summer. I loved walking around famous places like the Trevi Fountain, but all the cars and buses in the city sometimes made walking difficult. I really loved the food. The Italians have a special kind of ice cream called 'gelato' which is wonderful, but the best thing I had was a pizza at a local market. I also got some great things to take back for my friends."
+      },
+      {
+        "name": "Josh",
+        "label": "C",
+        "text": "It was so hot when my dad and I went to Rome last year that we usually waited until after the sun went down to explore the city on foot. During the day we went to museums, shops and restaurants. The pasta there is amazing, and I had some Italian ice cream, called 'gelato', for the first time. That was the thing I liked most. After a few days in Rome, we decided to take a train into the countryside for a day. It was nice to see all the small villages and farms."
+      }
+    ],
+    "questions": [
+      {
+        "number": 7,
+        "question": "Who says it was easy to travel around in Rome?",
+        "answer": "A",
+        "answer_name": "Rhodri",
+        "keyword": "the taxis and buses and the metro were cheap and fast",
+        "paraphrase": "easy to travel around = transport was convenient, cheap and fast",
+        "explanation": "Rhodri nói rằng taxi, xe buýt và tàu điện ngầm đều rẻ và nhanh, nên việc đi tham quan rất thuận tiện. Điều này khớp với ý \"dễ đi lại quanh Rome\"."
+      },
+      {
+        "number": 8,
+        "question": "Who says he felt very excited before his holiday?",
+        "answer": "A",
+        "answer_name": "Rhodri",
+        "keyword": "I couldn't wait to go",
+        "paraphrase": "felt very excited before his holiday = couldn't wait to go",
+        "explanation": "Rhodri nói \"I couldn't wait to go\", đây là cách diễn đạt quen thuộc để nói rằng ai đó rất háo hức và mong chờ chuyến đi."
+      },
+      {
+        "number": 9,
+        "question": "Who says there was a lot of traffic in Rome?",
+        "answer": "B",
+        "answer_name": "Patrick",
+        "keyword": "all the cars and buses in the city sometimes made walking difficult",
+        "paraphrase": "there was a lot of traffic = many cars and buses in the city",
+        "explanation": "Patrick nói rằng xe hơi và xe buýt trong thành phố nhiều đến mức đôi khi làm việc đi bộ trở nên khó khăn. Chi tiết này cho thấy giao thông ở Rome khá đông."
+      },
+      {
+        "number": 10,
+        "question": "Who says he prepared carefully for his trip?",
+        "answer": "A",
+        "answer_name": "Rhodri",
+        "keyword": "I found out all I could about Rome from the library and on the internet",
+        "paraphrase": "prepared carefully = learned as much as possible before going",
+        "explanation": "Rhodri nói rằng trước chuyến đi, cậu ấy đã tìm hiểu tất cả những gì có thể về Rome qua thư viện và Internet. Điều đó chứng tỏ cậu ấy chuẩn bị rất kỹ cho chuyến đi."
+      },
+      {
+        "number": 11,
+        "question": "Who said his favourite food on the trip was Italian ice cream?",
+        "answer": "C",
+        "answer_name": "Josh",
+        "keyword": "I had some Italian ice cream, called 'gelato' ... That was the thing I liked most",
+        "paraphrase": "favourite food was Italian ice cream = gelato was the food he liked most",
+        "explanation": "Josh nói rằng cậu ấy đã ăn gelato và đó là thứ cậu ấy thích nhất. Patrick cũng thích gelato, nhưng lại nói món ngon nhất với cậu ấy là pizza, nên đáp án đúng là Josh."
+      },
+      {
+        "number": 12,
+        "question": "Who bought some things to give as gifts?",
+        "answer": "B",
+        "answer_name": "Patrick",
+        "keyword": "I also got some great things to take back for my friends",
+        "paraphrase": "bought some things to give as gifts = got presents/souvenirs for friends",
+        "explanation": "Patrick nói rằng cậu ấy đã mua vài món đồ tuyệt vời để mang về cho bạn bè. Điều này có nghĩa là cậu ấy mua quà hoặc đồ lưu niệm để tặng."
+      },
+      {
+        "number": 13,
+        "question": "Who took a short trip outside Rome?",
+        "answer": "C",
+        "answer_name": "Josh",
+        "keyword": "we decided to take a train into the countryside for a day",
+        "paraphrase": "a short trip outside Rome = a one-day trip into the countryside",
+        "explanation": "Josh nói rằng sau vài ngày ở Rome, hai bố con đã đi tàu ra vùng nông thôn trong một ngày. Đây chính là một chuyến đi ngắn ra ngoài Rome."
+      }
+    ]
+  }
+]
