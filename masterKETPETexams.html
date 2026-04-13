@@ -314,7 +314,7 @@ html.fs-xlarge {font-size:21px}
   position:sticky;top:0;z-index:50;
   background:rgba(249,248,243,.92);backdrop-filter:blur(16px);
   border-bottom:1px solid rgba(0,0,0,.07);
-  padding:10px 24px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;
+  padding:8px 20px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;
 }
 .topbar-logo{font-family:var(--fb);font-size:.9rem;font-weight:800;color:var(--ruby)}
 .topbar-sep{color:rgba(185,28,28,.25)}
@@ -340,19 +340,21 @@ html.fs-xlarge {font-size:21px}
 /* quiz layout */
 .quiz-main{
   position:relative;z-index:1;max-width:680px;margin:0 auto;width:100%;
-  padding:20px 16px 80px;
+  padding:16px 12px 64px;
 }
+/* Part2 needs wider canvas for split layout */
+.quiz-main.p2-wide{max-width:1100px}
 .round2-banner{
   display:none;background:#EFF6FF;border:1.5px solid #BFDBFE;
-  border-radius:12px;padding:11px 16px;
-  font-size:.88rem;font-weight:700;color:#1e40af;margin-bottom:16px;
+  border-radius:12px;padding:9px 13px;
+  font-size:.88rem;font-weight:700;color:#1e40af;margin-bottom:13px;
 }
 .round2-banner.show{display:flex;align-items:center;gap:8px}
 
 /* question card */
 .q-card{
   background:#fff;border:1px solid rgba(0,0,0,.07);border-radius:20px;
-  box-shadow:0 1px 12px rgba(0,0,0,.06);padding:24px 28px;margin-bottom:14px;
+  box-shadow:0 1px 12px rgba(0,0,0,.06);padding:20px 22px;margin-bottom:11px;
 }
 .q-meta{display:flex;align-items:center;gap:8px;margin-bottom:16px}
 .q-num{
@@ -438,7 +440,7 @@ html.fs-xlarge {font-size:21px}
 /* passage box (open cloze) */
 .passage-box{
   background:#FAFAF8;border:1.5px solid rgba(0,0,0,.08);
-  border-radius:14px;padding:20px 22px;margin-bottom:14px;
+  border-radius:14px;padding:16px 18px;margin-bottom:11px;
   line-height:2.8;font-size:.97rem;color:var(--ink);
 }
 .passage-title{font-family:var(--fb);font-size:.95rem;font-weight:800;color:var(--ruby);margin-bottom:10px;display:block}
@@ -447,8 +449,8 @@ html.fs-xlarge {font-size:21px}
 /* MCQ cloze inline passage */
 .inline-cloze-passage{
   background:#FAFAF8;border:1.5px solid rgba(0,0,0,.08);
-  border-radius:14px;padding:20px 22px;
-  line-height:2.6;font-size:.97rem;color:var(--ink);margin-bottom:12px;
+  border-radius:14px;padding:16px 18px;
+  line-height:2.6;font-size:.97rem;color:var(--ink);margin-bottom:10px;
 }
 .inline-cloze-passage .passage-title{
   font-family:var(--fb);font-size:.95rem;font-weight:800;
@@ -543,14 +545,126 @@ html.fs-xlarge {font-size:21px}
 /* check button */
 .btn-check{
   font-family:var(--fb);font-weight:800;font-size:1.02rem;
-  padding:15px;border-radius:50px;border:none;cursor:pointer;
-  width:100%;margin-top:20px;background:#166534;color:#fff;letter-spacing:.04em;
+  padding:12px;border-radius:50px;border:none;cursor:pointer;
+  width:100%;margin-top:16px;background:#166534;color:#fff;letter-spacing:.04em;
   box-shadow:0 4px 18px rgba(22,101,52,.3);transition:all .18s ease;
   display:flex;align-items:center;justify-content:center;gap:8px;
 }
 .btn-check:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(22,101,52,.38)}
 .btn-check:active{transform:translateY(0)}
 
+
+/* ===================== PART 2 – MATCHING ===================== */
+
+/* Split layout: reading left, questions right */
+.p2-layout{
+  display:grid;
+  grid-template-columns:5fr 3fr;
+  gap:10px;
+  align-items:stretch;
+}
+@media(max-width:700px){
+  .p2-layout{grid-template-columns:1fr}
+}
+
+/* Reading panel (left) */
+.p2-reading{
+  background:#fff;border:1px solid rgba(0,0,0,.07);border-radius:20px;
+  box-shadow:0 1px 12px rgba(0,0,0,.06);padding:16px 14px;
+  overflow-y:auto;font-size:.92rem;line-height:1.75;color:var(--ink);
+  scrollbar-width:thin;scrollbar-color:rgba(185,28,28,.2) transparent;
+}
+.p2-reading::-webkit-scrollbar{width:4px}
+.p2-reading::-webkit-scrollbar-thumb{background:rgba(185,28,28,.2);border-radius:2px}
+.p2-reading-title{
+  font-family:var(--fb);font-size:1rem;font-weight:800;
+  color:var(--ruby);margin-bottom:12px;text-align:center;
+}
+/* KET: person sections */
+.p2-person{margin-bottom:13px;padding-bottom:13px;border-bottom:1px solid rgba(0,0,0,.07)}
+.p2-person:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0}
+.p2-person-name{
+  font-family:var(--fb);font-size:.85rem;font-weight:800;
+  color:var(--ruby);margin-bottom:5px;
+}
+/* PET: paragraph sections with letter badge */
+.p2-para{margin-bottom:10px;padding:8px 10px;border-radius:10px;background:#fafaf8;
+  border:1.5px solid rgba(0,0,0,.07);transition:background .2s,border-color .2s;}
+.p2-para-badge{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:24px;height:24px;border-radius:6px;
+  background:var(--ruby);color:#fff;
+  font-family:var(--fb);font-size:.78rem;font-weight:800;
+  margin-right:6px;flex-shrink:0;vertical-align:middle;
+}
+
+/* Questions panel (right) */
+.p2-questions{display:flex;flex-direction:column;gap:8px}
+
+/* KET question row */
+.p2-qrow{
+  background:#fff;border:1px solid rgba(0,0,0,.07);border-radius:14px;
+  box-shadow:0 1px 8px rgba(0,0,0,.05);padding:11px 13px;
+}
+.p2-qrow-meta{display:flex;align-items:center;gap:8px;margin-bottom:10px}
+.p2-qrow-num{font-family:var(--fb);font-size:.68rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:rgba(0,0,0,.35)}
+.p2-qrow-text{font-size:.95rem;font-weight:700;color:var(--ink);margin-bottom:10px;line-height:1.5}
+.p2-opts{display:flex;gap:8px;flex-wrap:wrap}
+.p2-opt{
+  padding:7px 14px;border-radius:50px;border:2px solid #E5E7EB;
+  background:#fff;font-family:var(--fb);font-size:.82rem;font-weight:800;
+  color:var(--ink-l);cursor:pointer;transition:all .13s;white-space:nowrap;
+}
+.p2-opt:hover:not([disabled]){border-color:var(--ruby-l);color:var(--ruby)}
+.p2-opt.sel{border-color:#2563EB;background:#EFF6FF;color:#2563EB}
+.p2-opt.correct{border-color:#16A34A;background:#F0FDF4;color:#166534}
+.p2-opt.wrong-sel{border-color:#DC2626;background:#FEF2F2;color:#991B1B}
+.p2-opt[disabled]{cursor:default}
+
+/* PET gap row */
+.p2-gap-row{
+  background:#fff;border:1px solid rgba(0,0,0,.07);border-radius:14px;
+  box-shadow:0 1px 8px rgba(0,0,0,.05);padding:11px 13px;
+}
+.p2-gap-sentence{font-size:.95rem;color:var(--ink);line-height:1.7;margin-bottom:8px}
+.p2-gap-select{
+  display:inline-block;padding:4px 10px;border-radius:8px;
+  border:2px solid #D1D5DB;background:#fff;
+  font-family:var(--fb);font-size:.88rem;font-weight:700;color:var(--ink);
+  cursor:pointer;outline:none;transition:border .13s;
+  -webkit-appearance:auto;appearance:auto;min-width:80px;
+}
+.p2-gap-select:focus{border-color:#2563EB;box-shadow:0 0 0 3px rgba(37,99,235,.1)}
+.p2-gap-select.correct-gap{border-color:#16A34A;background:#F0FDF4;color:#166534}
+.p2-gap-select.wrong-gap  {border-color:#DC2626;background:#FEF2F2;color:#991B1B}
+.p2-gap-select.revealed-gap{border-color:#2563EB;background:#EFF6FF;color:#1E40AF}
+.p2-gap-select:disabled{cursor:default}
+
+/* Highlight toolbar */
+.hl-toolbar{
+  position:fixed;z-index:500;
+  background:#1e1e2e;border-radius:10px;padding:5px 8px;
+  display:none;align-items:center;gap:4px;
+  box-shadow:0 4px 20px rgba(0,0,0,.3);
+  pointer-events:none;
+}
+.hl-toolbar.show{display:flex;pointer-events:all;}
+.hl-btn{
+  width:22px;height:22px;border-radius:50%;border:2px solid rgba(255,255,255,.3);
+  cursor:pointer;transition:transform .1s;flex-shrink:0;
+}
+.hl-btn:hover{transform:scale(1.15)}
+.hl-btn.hl-yellow{background:#FBBF24}
+.hl-btn.hl-green {background:#34D399}
+.hl-btn.hl-pink  {background:#F472B6}
+.hl-btn.hl-blue  {background:#60A5FA}
+.hl-btn.hl-clear {background:transparent;border-color:rgba(255,255,255,.5);font-size:.65rem;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;}
+
+/* Highlight marks */
+.hl-yellow{background:#FEF08A;border-radius:2px}
+.hl-green {background:#BBF7D0;border-radius:2px}
+.hl-pink  {background:#FBCFE8;border-radius:2px}
+.hl-blue  {background:#BFDBFE;border-radius:2px}
 
 /* ===================== FOOTER ===================== */
 .site-footer{
@@ -706,8 +820,8 @@ html.fs-xlarge {font-size:21px}
   .score-grid{grid-template-columns:repeat(3,1fr)}
   .tile-num{font-size:1.5rem}
   .result-actions{flex-direction:column}
-  .quiz-main{padding:20px 14px 80px}
-  .q-card{padding:18px}
+  .quiz-main{padding:16px 11px 64px}
+  .q-card{padding:14px}
 }
 </style>
 </head>
@@ -737,7 +851,7 @@ html.fs-xlarge {font-size:21px}
         <!-- Student ID -->
         <div class="field">
           <label class="field-label">Student ID</label>
-          <input class="field-input" id="inp-id" type="text" placeholder="e.g. 71001BT"
+          <input class="field-input" id="inp-id" type="text" placeholder="e.g. HS001"
             autocomplete="off" spellcheck="false" autocorrect="off" />
           <div class="field-error" id="err-id">ID not found. Please check again.</div>
         </div>
@@ -923,6 +1037,15 @@ html.fs-xlarge {font-size:21px}
 
 <button id="teacher-btn" title="Teacher Mode">🔑</button>
 
+<!-- HIGHLIGHT TOOLBAR -->
+<div class="hl-toolbar" id="hl-toolbar">
+  <div class="hl-btn hl-yellow" data-color="hl-yellow" title="Yellow"></div>
+  <div class="hl-btn hl-green"  data-color="hl-green"  title="Green"></div>
+  <div class="hl-btn hl-pink"   data-color="hl-pink"   title="Pink"></div>
+  <div class="hl-btn hl-blue"   data-color="hl-blue"   title="Blue"></div>
+  <div class="hl-btn hl-clear"  data-color="clear"      title="Clear">✕</div>
+</div>
+
 
 <!-- ========================================================
      JAVASCRIPT
@@ -933,13 +1056,15 @@ html.fs-xlarge {font-size:21px}
    ============================================================ */
 const CFG = {
   studentsUrl: 'https://raw.githubusercontent.com/nanhduong19-oss/ruby-learning-platform/refs/heads/main/rubystudents.json',
-  scriptUrl:   'https://script.google.com/macros/s/AKfycbwqJPwrjqxV0Y4OvnYcAa8tgOLVhry-2aNJe4NKSgsSP0Rxglh3GlzZ6DdGruwIQDyb/exec',   // ← Add your Apps Script URL after deploying
+  scriptUrl:   '',   // ← Add your Apps Script URL after deploying
   teacherPass: 'easygame19',
   dataUrls: {
     ket_part1: 'https://raw.githubusercontent.com/nanhduong19-oss/ruby-learning-platform/refs/heads/main/KET/part1.json',
-    ket_part4: 'https://raw.githubusercontent.com/nanhduong19-oss/ruby-learning-platform/refs/heads/main/KET/part4.json',
+    ket_part2: 'https://raw.githubusercontent.com/nanhduong19-oss/ruby-learning-platform/refs/heads/main/KET/part2.json',
+    ket_part4: 'https://raw.githubusercontent.com/nanhduang19-oss/ruby-learning-platform/refs/heads/main/KET/part4.json',
     ket_part5: 'https://raw.githubusercontent.com/nanhduong19-oss/ruby-learning-platform/refs/heads/main/KET/part5.json',
     pet_part1: 'https://raw.githubusercontent.com/nanhduong19-oss/ruby-learning-platform/refs/heads/main/PET/part1.json',
+    pet_part2: 'https://raw.githubusercontent.com/nanhduong19-oss/ruby-learning-platform/refs/heads/main/PET/part2.json',
     pet_part5: 'https://raw.githubusercontent.com/nanhduong19-oss/ruby-learning-platform/refs/heads/main/PET/part5.json',
     pet_part6: 'https://raw.githubusercontent.com/nanhduong19-oss/ruby-learning-platform/refs/heads/main/PET/part6.json',
   }
@@ -949,9 +1074,11 @@ const CFG = {
    timePerSet in seconds */
 const PART_META = {
   ket_part1: { qPerSet:6, timePerSet:300, unit:'set',     maxSets:10 },
+  ket_part2: { qPerSet:1, timePerSet:480, unit:'passage',  maxSets:10 },
   ket_part4: { qPerSet:1, timePerSet:420, unit:'passage',  maxSets:10 },
   ket_part5: { qPerSet:1, timePerSet:300, unit:'passage',  maxSets:10 },
   pet_part1: { qPerSet:5, timePerSet:300, unit:'set',      maxSets:10 },
+  pet_part2: { qPerSet:1, timePerSet:480, unit:'passage',  maxSets:10 },
   pet_part5: { qPerSet:1, timePerSet:360, unit:'passage',  maxSets:10 },
   pet_part6: { qPerSet:1, timePerSet:360, unit:'passage',  maxSets:10 },
 };
@@ -959,11 +1086,13 @@ const PART_META = {
 const PARTS = {
   ket: [
     { key:'ket_part1', label:'Part 1', icon:'🪧', desc:'Signs & Notices' },
+    { key:'ket_part2', label:'Part 2', icon:'🔍', desc:'Matching' },
     { key:'ket_part4', label:'Part 4', icon:'🔤', desc:'Multiple Choice Cloze' },
     { key:'ket_part5', label:'Part 5', icon:'✏️', desc:'Open Cloze (one word)' },
   ],
   pet: [
     { key:'pet_part1', label:'Part 1', icon:'🪧', desc:'Signs & Notices' },
+    { key:'pet_part2', label:'Part 2', icon:'🔍', desc:'Matching' },
     { key:'pet_part5', label:'Part 5', icon:'🔤', desc:'Multiple Choice Cloze' },
     { key:'pet_part6', label:'Part 6', icon:'✏️', desc:'Open Cloze (one word)' },
   ]
@@ -971,9 +1100,11 @@ const PARTS = {
 
 const PART_LABELS = {
   ket_part1:'KET Part 1 – Signs & Notices',
+  ket_part2:'KET Part 2 – Matching',
   ket_part4:'KET Part 4 – MCQ Cloze',
   ket_part5:'KET Part 5 – Open Cloze',
   pet_part1:'PET Part 1 – Signs & Notices',
+  pet_part2:'PET Part 2 – Matching',
   pet_part5:'PET Part 5 – MCQ Cloze',
   pet_part6:'PET Part 6 – Open Cloze',
 };
@@ -1204,7 +1335,18 @@ async function fetchWrongIds(studentId, partKey) {
    BUILD SETS
    ============================================================ */
 function buildAllSets(key, raw, numSets, wrongIds) {
-  const isP1 = key.endsWith('part1');
+  const isP1  = key.endsWith('part1');
+  const isP2  = key.endsWith('part2');
+
+  if (isP2) {
+    // raw = array of matching sets; each set is one full exercise
+    const valid = raw.filter(s => s && s.questions && s.questions.length > 0);
+    if (!valid.length) return [];
+    const pool  = shuffle(valid);
+    const sets  = [];
+    for (let i = 0; i < numSets; i++) sets.push([pool[i % pool.length]]);
+    return sets;
+  }
 
   if (isP1) {
     // raw = flat array of questions
@@ -1274,9 +1416,30 @@ function shuffle(arr) {
    ============================================================ */
 function startSet(idx) {
   S.setIdx   = idx;
-  S.questions = S.sets[idx] || [];
+  const rawSet = S.sets[idx] || [];
+
+  // Part2: sets[idx] = [exerciseObject] - flatten questions for scoring
+  if (S.partKey?.endsWith('part2') && rawSet.length === 1 && rawSet[0]?.questions) {
+    const ex = rawSet[0];
+    S.questions = ex.questions.map(q => ({
+      id:          `p2_${ex.id}_q${q.number}`,
+      type:        'matching',
+      setId:       ex.id,
+      setTitle:    ex.title,
+      number:      q.number,
+      question:    q.question || q.sentence || '',
+      sentence:    q.sentence || q.question || '',
+      answer:      q.answer,
+      accepted:    q.accepted || [q.answer],
+      explanation: q.explanation || '',
+      paraphrase:  q.paraphrase || '',
+      keywords:    q.keywords   || '',
+    }));
+  } else {
+    S.questions = rawSet;
+  }
+
   if (!S.questions.length) {
-    // Empty set - show error and go back to welcome
     alert('No questions available for this selection. Please check your data files.');
     showScreen('welcome'); return;
   }
@@ -1289,13 +1452,11 @@ function startSet(idx) {
   _cb.textContent = 'Check Answers ✓';
   _cb.style.background = '';
   _cb.onclick = null;
-  _cb._customOnclick = null;   // clear any leftover handler
+  _cb._customOnclick = null;
   document.getElementById('round2-banner').classList.remove('show');
 
-  // Restart independent timer for this set (except set 0 which handleStart manages)
   if (idx > 0) startTimer();
 
-  // Topbar
   document.getElementById('tb-level-badge').textContent = S.level.toUpperCase();
   const unitLabel = S.partKey?.endsWith('part1') ? 'Set' : 'Passage';
   document.getElementById('tb-part-name').textContent =
@@ -1315,9 +1476,13 @@ function renderQuiz() {
   body.innerHTML = '';
 
   const key = S.partKey;
-  if (key.endsWith('part1'))              renderPart1(body);
-  else if (key === 'ket_part4' || key === 'pet_part5') renderMCQCloze(body);
-  else                                    renderOpenCloze(body);
+  // Widen canvas for Part2 split layout
+  document.querySelector('.quiz-main').classList.toggle('p2-wide', key.endsWith('part2'));
+
+  if (key.endsWith('part1'))                            renderPart1(body);
+  else if (key.endsWith('part2'))                       renderPart2(body);
+  else if (key === 'ket_part4' || key === 'pet_part5')  renderMCQCloze(body);
+  else                                                  renderOpenCloze(body);
 
   blockCopyPaste(body);
 }
@@ -1431,6 +1596,251 @@ function renderOpenCloze(body) {
 }
 
 /* ============================================================
+   PART 2 – MATCHING (KET: person MCQ | PET: paragraph gapfill)
+   ============================================================ */
+function renderPart2(body) {
+  const set = S.sets[S.setIdx]?.[0];  // Part2: each set = 1 exercise object
+  if (!set) return;
+
+  const isKET = S.partKey === 'ket_part2';
+
+  // Wrap everything in split layout
+  const layout = document.createElement('div');
+  layout.className = 'p2-layout';
+
+  // ── LEFT: Reading panel ──
+  const reading = document.createElement('div');
+  reading.className = 'p2-reading';
+  reading.id = 'p2-reading-panel';
+  reading.innerHTML = `<div class="p2-reading-title">${h(set.title || '')}</div>`;
+
+  if (isKET) {
+    // KET: show persons (A/B/C) with their texts
+    (set.persons || []).forEach(p => {
+      const sec = document.createElement('div');
+      sec.className = 'p2-person';
+      sec.innerHTML = `<div class="p2-person-name">${h(p.name)}</div><div>${h(p.text)}</div>`;
+      reading.appendChild(sec);
+    });
+  } else {
+    // PET: show lettered paragraphs A–H
+    (set.paragraphs || []).forEach(para => {
+      const sec = document.createElement('div');
+      sec.className = 'p2-para';
+      sec.id = `p2para_${para.letter}`;
+      sec.innerHTML = `<span class="p2-para-badge">${h(para.letter)}</span>${h(para.text)}`;
+      reading.appendChild(sec);
+    });
+  }
+
+  // ── RIGHT: Questions panel ──
+  const qPanel = document.createElement('div');
+  qPanel.className = 'p2-questions';
+
+  if (isKET) {
+    // KET: each question → person options showing name (from persons[].name)
+    const persons = (set.persons || []);
+    set.questions.forEach((q, i) => {
+      const locked = S.r1[`p2_${set.id}_q${q.number}`] === true;
+      const qid    = `p2_${set.id}_q${q.number}`;
+
+      const row = document.createElement('div');
+      row.className = 'p2-qrow';
+      row.innerHTML = `
+        <div class="p2-qrow-meta"><span class="p2-qrow-num">Question ${q.number}</span></div>
+        <div class="p2-qrow-text">${h(q.question)}</div>
+        <div class="p2-opts">
+          ${persons.map((p, pi) => {
+            const letter = String.fromCharCode(65 + pi);
+            const state  = p2OptCls(qid, letter);
+            const displayName = p.answer_name || p.name || letter;
+            return `<button class="p2-opt ${state}" data-qid="${qid}" data-letter="${letter}" ${locked?'disabled':''}>${h(displayName)}</button>`;
+          }).join('')}
+        </div>
+        <div class="fb" id="fb_${qid}"></div>`;
+      qPanel.appendChild(row);
+    });
+    // bind clicks
+    qPanel.querySelectorAll('.p2-opt').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const qid = btn.dataset.qid;
+        if (S.r1[qid] === true) return;
+        S.answers[qid] = btn.dataset.letter;
+        updateProgress();
+        qPanel.querySelectorAll(`[data-qid="${qid}"]`).forEach(b => {
+          b.className = `p2-opt ${p2OptCls(qid, b.dataset.letter)}`;
+        });
+      });
+    });
+
+  } else {
+    // PET: each question = gap sentence + dropdown A–H
+    const letters = (set.paragraphs || []).map(p => p.letter);
+    set.questions.forEach((q, i) => {
+      const qid    = `p2_${set.id}_q${q.number}`;
+      const r1     = S.r1[qid];
+      const selVal = S.answers[qid] || '';
+      const locked = r1 === true;
+
+      let selCls = 'p2-gap-select';
+      if (r1 === true)                       selCls += ' correct-gap';
+      else if (r1 === false && !S.revealAll) selCls += ' wrong-gap';
+      else if (r1 === false && S.revealAll)  selCls += ' revealed-gap';
+
+      const optHtml = `<option value="" disabled ${selVal===''?'selected':''}>▾</option>`
+        + letters.map(lt => {
+            const picked = selVal === lt || (S.revealAll && r1 === false && lt === q.answer);
+            return `<option value="${lt}" ${picked?'selected':''}>${lt}</option>`;
+          }).join('');
+
+      const row = document.createElement('div');
+      row.className = 'p2-gap-row';
+      row.innerHTML = `
+        <div class="p2-qrow-meta"><span class="p2-qrow-num">Question ${q.number}</span></div>
+        <div class="p2-gap-sentence">${h(q.sentence)}</div>
+        <select class="${selCls}" id="pg_${qid}" data-qid="${qid}" ${locked?'disabled':''}>
+          ${optHtml}
+        </select>
+        <div class="fb" id="fb_${qid}" style="margin-top:8px"></div>`;
+      qPanel.appendChild(row);
+    });
+
+    // bind change: update used-option disabling across all dropdowns
+    qPanel.querySelectorAll('.p2-gap-select:not([disabled])').forEach(sel => {
+      sel.addEventListener('change', e => {
+        const qid = e.target.dataset.qid;
+        S.answers[qid] = e.target.value;
+        updateProgress();
+        refreshPetDropdowns(qPanel, set);
+      });
+    });
+    refreshPetDropdowns(qPanel, set);
+  }
+
+  layout.appendChild(reading);
+  layout.appendChild(qPanel);
+  body.appendChild(layout);
+
+  // Store set reference for check
+  body._p2set = set;
+  body._p2isKET = isKET;
+}
+
+function refreshPetDropdowns(qPanel, set) {
+  // Collect which letter is chosen per qid
+  const chosen = {};
+  qPanel.querySelectorAll('.p2-gap-select').forEach(sel => {
+    if (sel.value) chosen[sel.dataset.qid] = sel.value;
+  });
+  const usedLetters = new Set(Object.values(chosen));
+
+  // For each dropdown, disable options already chosen by OTHER questions
+  qPanel.querySelectorAll('.p2-gap-select:not([disabled])').forEach(sel => {
+    const myLetter = chosen[sel.dataset.qid] || '';
+    Array.from(sel.options).forEach(opt => {
+      if (!opt.value) return; // skip placeholder
+      // disable if used by another question (not this one)
+      opt.disabled = usedLetters.has(opt.value) && opt.value !== myLetter;
+    });
+  });
+}
+
+/* Build structured feedback HTML for Part2 matching questions.
+   Supports fields: explanation, paraphrase, keywords */
+function p2FbBody(q) {
+  let parts = [];
+  if (q.explanation) parts.push(h(q.explanation));
+  if (q.paraphrase)  parts.push(`<br><strong>Paraphrase:</strong> ${h(q.paraphrase)}`);
+  if (q.keywords)    parts.push(`<br><strong>Key words:</strong> ${h(q.keywords)}`);
+  return parts.join('');
+}
+
+function p2OptCls(qid, letter) {
+  const r1  = S.r1[qid];
+  const sel = S.answers[qid] === letter;
+  const q   = S.questions.find(x => x.id === qid);
+  if (r1 === true)   return sel ? 'correct' : '';
+  if (S.revealAll)   return letter === (q?.answer) ? 'correct' : sel ? 'wrong-sel' : '';
+  if (r1 === false && sel) return 'wrong-sel';
+  return sel ? 'sel' : '';
+}
+
+/* Override doRound1 scoring for Part2 - questions stored flat in S.questions */
+/* Part2 flattens into S.questions via startSet below */
+
+/* ============================================================
+   HIGHLIGHT TOOLBAR
+   ============================================================ */
+(function initHighlight() {
+  const toolbar = document.getElementById('hl-toolbar');
+  if (!toolbar) return;
+
+  let lastRange = null;
+
+  document.addEventListener('mouseup', e => {
+    if (e.target.closest('#hl-toolbar')) return;
+    const sel = window.getSelection();
+    if (!sel || sel.isCollapsed || !sel.toString().trim()) {
+      toolbar.classList.remove('show'); return;
+    }
+    // Allow highlight inside reading panel OR questions panel
+    const node = sel.anchorNode?.parentElement;
+    if (!node?.closest('#p2-reading-panel') && !node?.closest('.p2-questions')) {
+      toolbar.classList.remove('show'); return;
+    }
+    lastRange = sel.getRangeAt(0).cloneRange();
+    const rect = sel.getRangeAt(0).getBoundingClientRect();
+
+    // position:fixed uses viewport coords - do NOT add scrollY/scrollX
+    const tbW  = 148;
+    const left = Math.min(
+      Math.max(8, rect.left + rect.width / 2 - tbW / 2),
+      window.innerWidth - tbW - 8
+    );
+    const top  = rect.top - 48;  // 48px above selection, in viewport space
+    toolbar.style.left = `${left}px`;
+    toolbar.style.top  = `${Math.max(8, top)}px`;
+    toolbar.classList.add('show');
+  });
+
+  toolbar.querySelectorAll('.hl-btn').forEach(btn => {
+    btn.addEventListener('mousedown', e => {
+      e.preventDefault();
+      const color = btn.dataset.color;
+      if (!lastRange) return;
+
+      if (color === 'clear') {
+        document.querySelectorAll('.hl-yellow,.hl-green,.hl-pink,.hl-blue').forEach(el => {
+          if (lastRange.intersectsNode(el)) {
+            const parent = el.parentNode;
+            while (el.firstChild) parent.insertBefore(el.firstChild, el);
+            parent.removeChild(el);
+          }
+        });
+      } else {
+        const span = document.createElement('mark');
+        span.className = color;
+        try {
+          lastRange.surroundContents(span);
+        } catch {
+          const frag = lastRange.extractContents();
+          span.appendChild(frag);
+          lastRange.insertNode(span);
+        }
+      }
+      window.getSelection().removeAllRanges();
+      toolbar.classList.remove('show');
+      lastRange = null;
+    });
+  });
+
+  document.addEventListener('mousedown', e => {
+    if (!e.target.closest('#hl-toolbar')) toolbar.classList.remove('show');
+  });
+  document.addEventListener('scroll', () => toolbar.classList.remove('show'), true);
+})();
+
+/* ============================================================
    SIGN RENDERER
    ============================================================ */
 function renderSign(q) {
@@ -1516,22 +1926,26 @@ function renderClozeFeeback(wrapper, questions, prefix) {
    ============================================================ */
 // Single managed click handler - avoids double-fire with btn.onclick
 function handleCheckClick() {
-  // If a custom onclick is set (post-round2 navigation), let that run
-  // This function is the base handler via addEventListener
+  const btn = document.getElementById('btn-check');
+  // If custom onclick set (post-round2 navigation), it handles itself via btn.onclick
+  if (btn._customOnclick) return;
+
   if (S.round === 1) {
     doRound1();
   } else if (S.round === 2) {
-    // Only call doRound2 if no custom onclick has been set yet
-    const btn = document.getElementById('btn-check');
-    if (!btn._customOnclick) {
-      doRound2();
-    }
-    // If _customOnclick exists, it was already called by the onclick attribute
+    doRound2();
   }
 }
 document.getElementById('btn-check').addEventListener('click', handleCheckClick);
 
 function doRound1() {
+  // For PET Part2: sync current dropdown values into S.answers before scoring
+  if (S.partKey === 'pet_part2') {
+    document.querySelectorAll('.p2-gap-select').forEach(sel => {
+      if (sel.value && sel.dataset.qid) S.answers[sel.dataset.qid] = sel.value;
+    });
+  }
+
   let correct = 0;
   S.questions.forEach(q => {
     if (S.r1[q.id] === true) { correct++; return; }
@@ -1594,6 +2008,45 @@ function doRound2() {
 
 function applyFb(q, ok, reveal) {
   const body = document.getElementById('quiz-body');
+
+  // ── MATCHING (Part 2) ──
+  if (q.type === 'matching') {
+    if (S.partKey === 'ket_part2') {
+      // KET: update p2-opt buttons
+      body.querySelectorAll(`[data-qid="${q.id}"]`).forEach(btn => {
+        btn.disabled = true;
+        btn.className = `p2-opt ${p2OptCls(q.id, btn.dataset.letter)}`;
+      });
+    } else {
+      // PET: update gap select
+      const selEl = document.getElementById(`pg_${q.id}`);
+      if (selEl) {
+        selEl.disabled = true;
+        selEl.classList.remove('correct-gap','wrong-gap','revealed-gap');
+        if (ok)           selEl.classList.add('correct-gap');
+        else if (reveal)  { selEl.classList.add('revealed-gap'); selEl.value = q.answer; }
+        else              selEl.classList.add('wrong-gap');
+      }
+      // refresh dropdown disabled states after reveal
+      const qPanelEl = document.querySelector('.p2-questions');
+      const p2set = S.sets[S.setIdx]?.[0];
+      if (p2set && qPanelEl) refreshPetDropdowns(qPanelEl, p2set);
+    }
+    // feedback bubble with structured explanation
+    const fb = document.getElementById(`fb_${q.id}`);
+    if (fb) {
+      fb.className = `fb show ${ok?'fb-ok':reveal?'fb-rev':'fb-no'}`;
+      if (ok) {
+        fb.innerHTML = `Correct! ${p2FbBody(q)}`;
+      } else if (reveal) {
+        fb.innerHTML = `Answer: <strong>${h(q.answer)}</strong>. ${p2FbBody(q)}`;
+      } else {
+        fb.textContent = 'Not quite. Fix this in Round 2.';
+      }
+    }
+    return;
+  }
+
   if (q.type === 'mcq_cloze') {
     // Update <select> dropdown appearance
     const selEl = document.getElementById(`gs_${q.id}`);
@@ -1736,11 +2189,24 @@ function buildResult() {
   // Summary per set
   const summ = document.getElementById('summ-list');
   const isP1 = S.partKey?.endsWith('part1');
+  const isP2 = S.partKey?.endsWith('part2');
   summ.innerHTML = `<div style="font-family:var(--fb);font-weight:800;font-size:.85rem;color:var(--ink-l);margin-bottom:6px">Question Summary</div>`;
 
   let globalIdx = 0;
   S.sets.forEach((setQs, si) => {
     const r1snap = S.savedR1[si] || {};
+
+    // Part 2: sets[si] = [exerciseObject] → flatten to question list
+    let flatQs = setQs;
+    if (isP2 && setQs.length === 1 && setQs[0]?.questions) {
+      const ex = setQs[0];
+      flatQs = ex.questions.map(q => ({
+        id:     `p2_${ex.id}_q${q.number}`,
+        number: q.number,
+        question: q.question || q.sentence || '',
+        answer: q.answer,
+      }));
+    }
 
     if (isP1) {
       // Part 1: show "Set N" header + individual Q rows
@@ -1763,10 +2229,10 @@ function buildResult() {
       });
 
     } else {
-      // Cloze / Fill-in: show passage title + correct x/y, then gap rows
-      const passTitle = setQs[0]?.setTitle || `Passage ${si+1}`;
-      const passCorrect = setQs.filter(q => r1snap[q.id] === true).length;
-      const passTotal   = setQs.length;
+      // Cloze / Matching / Fill-in: show passage title + correct x/y, then gap rows
+      const passTitle = flatQs[0]?.setTitle || setQs[0]?.title || `Passage ${si+1}`;
+      const passCorrect = flatQs.filter(q => r1snap[q.id] === true).length;
+      const passTotal   = flatQs.length;
 
       const header = document.createElement('div');
       header.style.cssText = 'display:flex;align-items:center;justify-content:space-between;margin:10px 0 4px;padding:8px 12px;background:rgba(185,28,28,.06);border-radius:10px;';
@@ -1775,7 +2241,7 @@ function buildResult() {
         <span style="font-family:var(--fb);font-size:.82rem;font-weight:800;color:${passCorrect===passTotal?'var(--correct)':'var(--ruby)'}">${passCorrect}/${passTotal}</span>`;
       summ.appendChild(header);
 
-      setQs.forEach(q => {
+      flatQs.forEach(q => {
         const ok = r1snap[q.id] === true;
         const row = document.createElement('div');
         row.className = 'summ-row';
