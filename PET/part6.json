@@ -91,7 +91,7 @@
     "questions": [
       { "number": 27, "answer": "so", "explanation": "Cấu trúc kết quả: **so + adj + that + clause** -> 'so nervous that I couldn't...'." },
       { "number": 28, "answer": "every", "accepted": ["every", "each"], "explanation": "Ý nghĩa khái quát: **every/each student** = mọi sinh viên; đều đúng ngữ pháp trong câu này." },
-      { "number": 29, "answer": ["if", "when", "whenever"], "accepted": ["if", "when", "whenever"], "explanation": "Liên từ chỉ tình huống: **if/when/whenever you're not sure** = nếu/khi/bất cứ khi nào bạn không chắc; đều phù hợp nghĩa khuyên 'cứ hỏi'." },
+      { "number": 29, "answer": "if", "accepted": ["if", "when", "whenever"], "explanation": "Liên từ chỉ tình huống: **if/when/whenever you're not sure** = nếu/khi/bất cứ khi nào bạn không chắc; đều phù hợp nghĩa khuyên 'cứ hỏi'." },
       { "number": 30, "answer": "why", "explanation": "Câu gợi ý: **Why not + V (bare infinitive)?** -> 'Why not spend...?'." },
       { "number": 31, "answer": "about", "explanation": "Cấu trúc gợi ý: **How about + V-ing?** -> 'How about joining...?'." },
       { "number": 32, "answer": "there", "explanation": "Cấu trúc tồn tại: **There are + plural noun** -> 'There are lots to choose from'." }
@@ -107,7 +107,7 @@
       { "number": 28, "answer": "me", "explanation": "Động từ cần tân ngữ: **encourage somebody to do** -> 'encouraged **me** to start lessons'." },
       { "number": 29, "answer": "for", "explanation": "Mục đích: **go (somewhere) for lessons** = đến ... để học; không dùng 'to lessons' ở cấu trúc này." },
       { "number": 30, "answer": "same", "explanation": "Cụm cố định: **at the same time** = cùng lúc; cần 'same'." },
-      { "number": 31, "answer": ["one", "some"], "accepted": ["one", "some"], "explanation": "Cụm nói về tương lai: **one day / some day** = một ngày nào đó; cả hai đều chấp nhận." },
+      { "number": 31, "answer": "one", "accepted": ["one", "some"], "explanation": "Cụm nói về tương lai: **one day / some day** = một ngày nào đó; cả hai đều chấp nhận." },
       { "number": 32, "answer": "than", "explanation": "So sánh hơn: **better than** -> 'even better **than** you are'." }
     ]
   }
