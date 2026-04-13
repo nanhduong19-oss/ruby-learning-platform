@@ -933,7 +933,7 @@ html.fs-xlarge {font-size:21px}
    ============================================================ */
 const CFG = {
   studentsUrl: 'https://raw.githubusercontent.com/nanhduong19-oss/ruby-learning-platform/refs/heads/main/rubystudents.json',
-  scriptUrl:   'https://script.google.com/macros/s/AKfycbzFx4OxeiAI1O63ZmfswMV9bT1HtwnZJyKtl47-mRLru2lI-AgD65oFtEtgyQOTOWAs/exec',   // ← Add your Apps Script URL after deploying
+  scriptUrl:   'https://script.google.com/macros/s/AKfycbwqJPwrjqxV0Y4OvnYcAa8tgOLVhry-2aNJe4NKSgsSP0Rxglh3GlzZ6DdGruwIQDyb/exec',   // ← Add your Apps Script URL after deploying
   teacherPass: 'easygame19',
   dataUrls: {
     ket_part1: 'https://raw.githubusercontent.com/nanhduong19-oss/ruby-learning-platform/refs/heads/main/KET/part1.json',
@@ -1811,18 +1811,19 @@ async function saveSheet(correct, total, wrong, pct) {
   };
 
   try {
-    const res = await fetch(CFG.scriptUrl, {
+    // Apps Script requires no-cors mode when called from a browser file/web app
+    // Data is sent as a JSON string in a form field to bypass CORS preflight
+    const form = new FormData();
+    form.append('payload', JSON.stringify(payload));
+
+    await fetch(CFG.scriptUrl, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload)
+      mode:   'no-cors',   // Apps Script does not return CORS headers
+      body:   form
     });
-    const json = await res.json().catch(() => ({}));
-    if (json.ok) {
-      bar.className = 'save-bar show save-saved';
-      bar.textContent = 'Results saved ✓';
-    } else {
-      throw new Error(json.error || 'Unknown error');
-    }
+    // no-cors → response is opaque, we can't read it; assume success if no throw
+    bar.className = 'save-bar show save-saved';
+    bar.textContent = 'Results saved ✓';
   } catch (err) {
     bar.className = 'save-bar show save-error';
     bar.textContent = 'Could not save. Please tell your teacher.';
