@@ -1,0 +1,134 @@
+[
+  {
+    "id": "ket_p5_test1",
+    "type": "part5",
+    "title": "Family holiday in the US",
+    "passage": "From: Rachel | To: Chris\nWe’re back (0) ___ our family holiday in the US. It was amazing! It’s (25) ___ biggest country I’ve ever been to. We travelled from Los Angeles to Seattle (26) ___ car. It’s nearly 2000 km and the trip took us (27) ___ very long time - nearly a week.\n\nMy family liked Los Angeles best, (28) ___ I didn’t agree - Seattle was my favourite place. It’s smaller (29) ___ Los Angeles, and the food was better. Seattle is near the sea and we ate lots of fish. The only problem was that (30) ___ rained almost every day!",
+    "example": {
+      "number": 0,
+      "answer": "from",
+      "explanation": "Cụm cố định: be back from + nơi chốn = vừa trở về từ đâu."
+    },
+    "questions": [
+      { "number": 25, "answer": "the", "explanation": "Superlative cần mạo từ: the biggest. Không dùng a/an vì ‘biggest’ là so sánh nhất." },
+      { "number": 26, "answer": "by", "explanation": "Phương tiện đi lại: by + car/bus/train… = bằng (phương tiện). Không dùng ‘with’ hay ‘in’ trong cấu trúc chuẩn này." },
+      { "number": 27, "answer": "a", "explanation": "Cụm cố định: take (someone) a long time = mất (ai đó) một khoảng thời gian dài. ‘a’ dùng với danh từ đếm được số ít ‘time’ (trong nghĩa ‘khoảng thời gian’)." },
+      { "number": 28, "answer": "but", "accepted": ["but", "although", "though", "however"], "explanation": "Cần từ nối thể hiện tương phản: gia đình thích LA nhưng mình không đồng ý. ‘but’ trực tiếp nhất; ‘although/though/however’ cũng diễn đạt ý đối lập trong ngữ cảnh này." },
+      { "number": 29, "answer": "than", "explanation": "So sánh hơn: smaller than + N. Không dùng ‘to/of’." },
+      { "number": 30, "answer": "it", "explanation": "Cấu trúc thời tiết: It rained… Chủ ngữ giả ‘it’ dùng cho hiện tượng tự nhiên." }
+    ]
+  },
+  {
+    "id": "ket_p5_test2",
+    "type": "part5",
+    "title": "Hockey match tickets",
+    "passage": "Message 1\nFrom: Riley | To: Kris\nMy dad’s (0) ___ three tickets for the hockey match next Wednesday. One was for my brother, but now he’s (25) ___ free that day, so we have an extra one. Do you (26) ___ to come? Dad would like to leave our house at 4 o’clock. Let me know as soon (27) ___ possible.\n\nMessage 2\nFrom: Kris | To: Riley\nWow! That’s really kind (28) ___ you. Thanks! I finish school a bit later (29) ___ you, so Mum will drive me to your house at 4 o’clock. Is there anything I need (30) ___ bring with me?",
+    "example": {
+      "number": 0,
+      "answer": "got",
+      "explanation": "Hiện tại hoàn thành: have/has got = đã có/nhận được. (Dad’s got = Dad has got)."
+    },
+    "questions": [
+      { "number": 25, "answer": "not", "explanation": "Phủ định tính từ: not free = không rảnh. Cần ‘not’ để đảo nghĩa câu." },
+      { "number": 26, "answer": "want", "explanation": "Cấu trúc: want to + V = muốn làm gì. ‘Do you want to come?’ là lời mời." },
+      { "number": 27, "answer": "as", "explanation": "Cụm cố định: as soon as possible = sớm nhất có thể. Thiếu ‘as’ là sai cấu trúc." },
+      { "number": 28, "answer": "of", "explanation": "Cụm cố định: kind of you = bạn thật tốt/bụng tốt. Không dùng ‘to/for’ ở đây." },
+      { "number": 29, "answer": "than", "explanation": "So sánh hơn: later than you = muộn hơn bạn." },
+      { "number": 30, "answer": "to", "explanation": "Cấu trúc: need to + V = cần làm gì. ‘need bring’ thiếu ‘to’." }
+    ]
+  },
+  {
+    "id": "ket_p5_test3",
+    "type": "part5",
+    "title": "Camping in the forest",
+    "passage": "From: Jason | To: Mum\nWe (0) ___ all having a great time camping in the forest. My class has got (25) ___ best place on the campsite, with a great view of the mountains.\n\nLast night, (26) ___ rained really hard. Lots of people got wet, (27) ___ I was lucky my new tent stayed dry all night! I’m really glad we decided to buy it. It’s much better (28) ___ my old one.\n\nBy the way, I forgot (29) ___ tell the football coach that I’m away (30) ___ the moment. Can you let him know that I can’t come to practice this week?",
+    "example": {
+      "number": 0,
+      "answer": "are",
+      "explanation": "Hiện tại tiếp diễn: We are all having… = chúng con đang có…"
+    },
+    "questions": [
+      { "number": 25, "answer": "the", "explanation": "Superlative: the best. So sánh nhất luôn đi với ‘the’." },
+      { "number": 26, "answer": "it", "explanation": "Thời tiết: It rained… dùng ‘it’ làm chủ ngữ giả." },
+      { "number": 27, "answer": "but", "accepted": ["but", "although", "though", "however", "so"], "explanation": "Ý chính là tương phản: nhiều người bị ướt nhưng lều mới của mình vẫn khô. ‘but/however/(al)though’ thể hiện đối lập; một số đáp án key cho phép ‘so’ (ngụ ý ‘so I was lucky compared with them’)." },
+      { "number": 28, "answer": "than", "explanation": "So sánh hơn: better than my old one." },
+      { "number": 29, "answer": "to", "explanation": "Cấu trúc: forget to + V = quên làm gì (chưa làm). ‘forget tell’ sai." },
+      { "number": 30, "answer": "at", "explanation": "Cụm cố định: at the moment = lúc này/hiện tại." }
+    ]
+  },
+  {
+    "id": "ket_p5_test4",
+    "type": "part5",
+    "title": "Looking for a penfriend",
+    "passage": "Hi everyone. My name is Juan and I’ve joined this website because I’m looking for a penfriend. I come (0) ___ Mexico and I live in a town called Playa del Carmen on the Caribbean Sea, near the city of Cancun. It’s not as famous (25) ___ Cancun but I think it is one of (26) ___ most beautiful places in Mexico.\n\nTourists come to Playa del Carmen from (27) ___ over the world because the weather’s always warm and the food’s great. (28) ___ fact, my friends and I go to the beach almost every day. It’s brilliant!\n\nDo you want (29) ___ know more about Playa del Carmen? (30) ___ you do, write to me soon.",
+    "example": {
+      "number": 0,
+      "answer": "from",
+      "explanation": "Cấu trúc: come from + country = đến từ (quốc gia)."
+    },
+    "questions": [
+      { "number": 25, "answer": "as", "explanation": "So sánh ngang bằng: not as + adj + as. ‘Not as famous as Cancun’." },
+      { "number": 26, "answer": "the", "explanation": "Superlative: one of the most + adj + plural noun. Thiếu ‘the’ là sai cấu trúc." },
+      { "number": 27, "answer": "all", "explanation": "Cụm cố định: all over the world = khắp thế giới." },
+      { "number": 28, "answer": "In", "explanation": "Cụm cố định: In fact = thực tế là." },
+      { "number": 29, "answer": "to", "explanation": "Cấu trúc: want to + V = muốn làm gì." },
+      { "number": 30, "answer": "If", "explanation": "Câu điều kiện loại 1 dạng rút gọn: If you do, write to me soon. ‘If’ diễn tả ‘nếu bạn muốn/ nếu đúng vậy’." }
+    ]
+  },
+  {
+    "id": "ket_p5_test5",
+    "type": "part5",
+    "title": "My blog",
+    "passage": "Welcome (0) ________ my blog! My name is Mark and I’m 23 years old. I was born in Australia, but I grew (25) ________ in France. (26) ________ the moment, I am working in Paris, as a photographer for a fashion magazine.\n\nI live near my office and (27) ________ only takes me ten minutes to get there. Sometimes I have to travel to other countries to work, (28) ________ example, last month I went to (29) ________ USA to take photos at a big fashion show.\n\nI get to meet a lot of very interesting people. Leave me a message (30) ________ you want to ask me any questions.",
+    "questions": [
+      { "number": 25, "answer": "up", "explanation": "Cụm đúng là **grow up** = lớn lên. 'grow' một mình không đi với nghĩa 'lớn lên' trong ngữ cảnh này." },
+      { "number": 26, "answer": "At", "explanation": "Cụm thời gian cố định: **At the moment** = hiện tại/lúc này. Không dùng 'In/On the moment'." },
+      { "number": 27, "answer": "it", "explanation": "Dùng **it** làm chủ ngữ giả để thay cho cả ý 'living near my office': **it only takes me...** (Cấu trúc: it takes + (someone) + time + to V)." },
+      { "number": 28, "answer": "for", "explanation": "Cụm cố định: **for example** = ví dụ. Không dùng 'as example'." },
+      { "number": 29, "answer": "the", "explanation": "Tên nước **USA** thường đi với mạo từ: **the USA** (giống the UK, the UAE)." },
+      { "number": 30, "answer": "if", "explanation": "Câu điều kiện/diễn đạt điều kiện đơn giản: **Leave me a message if you want...** = Nếu bạn muốn... thì nhắn cho tôi." }
+    ]
+  },
+  {
+    "id": "ket_p5_test6",
+    "type": "part5",
+    "title": "Going to the theatre",
+    "passage": "How are things? Are you busy (0) ________ the moment? (25) ________ you remember our conversation last weekend about going (26) ________ the theatre? Well, the play ‘Fathers and Sons’ (27) ________ showing next week at West Theatre. Shall (28) ________ go and see it together? I’ve heard it’s very good!\n\nThat sounds great! (29) ________ would you like to go? I’m busy on Friday next week, (30) ________ I’m free the other days. Shall I get the tickets? I can buy them online. We’ve both got student ID cards, so they won’t be too expensive.",
+    "questions": [
+      { "number": 25, "answer": "Do", "accepted": ["Do", "Can"], "explanation": "Hỏi về khả năng/nhớ thông tin: **Do you remember...?** (bạn có nhớ không?) hoặc **Can you remember...?** (bạn có thể nhớ không?)." },
+      { "number": 26, "answer": "to", "explanation": "Cụm cố định: **go to the theatre** = đi xem kịch/đi nhà hát." },
+      { "number": 27, "answer": "is", "explanation": "Hiện tại tiếp diễn mô tả sự việc đã sắp xếp/đang diễn ra theo lịch: **is showing next week**." },
+      { "number": 28, "answer": "we", "explanation": "Cấu trúc đề nghị: **Shall we + V...?** = Chúng ta cùng... nhé?" },
+      { "number": 29, "answer": "When", "explanation": "Hỏi thời điểm: **When would you like to go?** = Bạn muốn đi khi nào?" },
+      { "number": 30, "answer": "but", "accepted": ["but", "although", "however"], "explanation": "Diễn đạt tương phản: **I’m busy..., but I’m free...**. 'However' cũng đúng nếu dùng như trạng từ chuyển ý; 'although' đúng theo key chấp nhận, nhưng thường cần cấu trúc mệnh đề nhượng bộ rõ ràng." }
+    ]
+  },
+  {
+    "id": "ket_p5_test7",
+    "type": "part5",
+    "title": "Birthday present",
+    "passage": "Hi David,\nI (0) ________ you’re well. It’s my brother Tom’s birthday (25) ________ month, and I don’t know (26) ________ to buy him for a present. Have you got (27) ________ ideas? He’s the same age (28) ________ you, and likes the same kind of things.\n\nHi Jenny,\nI think I can help you! Why not get Tom a book? I’ve just read Dragon Teeth, which was written (29) ________ Michael Crichton. He’s such a fantastic author! I loved it, and I think (30) ________ brother would like it too.",
+    "questions": [
+      { "number": 25, "answer": "next", "accepted": ["next", "this"], "explanation": "Cả **next month** (tháng sau) và **this month** (tháng này) đều có thể đúng tuỳ ngữ cảnh; key chấp nhận cả hai." },
+      { "number": 26, "answer": "what", "explanation": "Cấu trúc đúng: **don’t know what to buy** = không biết mua gì." },
+      { "number": 27, "answer": "any", "accepted": ["any", "some"], "explanation": "Xin gợi ý: **Have you got any ideas?** (phổ biến). 'some ideas' cũng có thể dùng khi kỳ vọng câu trả lời tích cực." },
+      { "number": 28, "answer": "as", "explanation": "So sánh bằng: **the same ... as** → **the same age as you**." },
+      { "number": 29, "answer": "by", "explanation": "Bị động + tác giả: **was written by Michael Crichton**." },
+      { "number": 30, "answer": "your", "explanation": "Đại từ sở hữu: **your brother** = anh/em trai của bạn." }
+    ]
+  },
+  {
+    "id": "ket_p5_test8",
+    "type": "part5",
+    "title": "Holiday in Ireland",
+    "passage": "I’m in Ireland staying (0) ________ my friend and we’re having a great holiday. My friend’s house is near the sea, so we can (25) ________ swimming every day, and there are lots of other things to do as well. Yesterday we rode horses on the beach and had (26) ________ lovely picnic in the mountains.\n\nHow are you? (27) ________ you been on holiday yet? I’ll be back home at the weekend. (28) ________ you want to go to the cinema (29) ________ week? There’s a new film I really want to see. Please (30) ________ me know.",
+    "questions": [
+      { "number": 25, "answer": "go", "accepted": ["go", "enjoy"], "explanation": "Cụm tự nhiên nhất: **go swimming** (đi bơi). 'enjoy swimming' cũng đúng nghĩa nhưng cấu trúc câu gốc phù hợp nhất với 'go'." },
+      { "number": 26, "answer": "a", "accepted": ["a", "this"], "explanation": "**a lovely picnic** = một buổi picnic dễ thương (lần đầu nhắc). 'this lovely picnic' cũng có thể đúng nếu người viết coi đó là sự kiện vừa diễn ra và nhấn mạnh 'buổi picnic này'." },
+      { "number": 27, "answer": "Have", "explanation": "Hỏi trải nghiệm đến hiện tại: **Have you been on holiday yet?** (Hiện tại hoàn thành + yet)." },
+      { "number": 28, "answer": "Do", "explanation": "Câu hỏi Yes/No hiện tại đơn: **Do you want to...?**" },
+      { "number": 29, "answer": "next", "accepted": ["next", "this", "that"], "explanation": "Cụm thời gian: **next week/this week/that week** đều có thể hợp lý tuỳ ngữ cảnh trao đổi; key chấp nhận nhiều đáp án." },
+      { "number": 30, "answer": "let", "explanation": "Cụm cố định: **let me know** = cho mình biết nhé." }
+    ]
+  }
+]
