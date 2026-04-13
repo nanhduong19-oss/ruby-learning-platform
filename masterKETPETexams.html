@@ -933,7 +933,7 @@ html.fs-xlarge {font-size:21px}
    ============================================================ */
 const CFG = {
   studentsUrl: 'https://raw.githubusercontent.com/nanhduong19-oss/ruby-learning-platform/refs/heads/main/rubystudents.json',
-  scriptUrl:   '',   // ← Add your Apps Script URL after deploying
+  scriptUrl:   'https://script.google.com/macros/s/AKfycbzFx4OxeiAI1O63ZmfswMV9bT1HtwnZJyKtl47-mRLru2lI-AgD65oFtEtgyQOTOWAs/exec',   // ← Add your Apps Script URL after deploying
   teacherPass: 'easygame19',
   dataUrls: {
     ket_part1: 'https://raw.githubusercontent.com/nanhduong19-oss/ruby-learning-platform/refs/heads/main/KET/part1.json',
@@ -1795,17 +1795,38 @@ async function saveSheet(correct, total, wrong, pct) {
 
   const tabName = `${S.level.toUpperCase()}_${S.partKey.split('_').slice(-1)[0].replace('part','Part')}`;
   const payload = {
-    action:'saveSession', tab:tabName,
-    studentId:S.student.id, studentName:S.student.name, class:S.student.class,
-    level:S.level.toUpperCase(), part:PART_LABELS[S.partKey]||S.partKey,
-    numSets:S.numSets, totalQ:total, correct, wrong, percentage:pct
+    action:      'saveSession',
+    tab:         tabName,
+    duration:    dur(S.startTime, S.endTime),
+    studentId:   S.student.id,
+    studentName: S.student.name,
+    class:       S.student.class,
+    level:       S.level.toUpperCase(),
+    part:        PART_LABELS[S.partKey] || S.partKey,
+    numSets:     S.numSets,
+    totalQ:      total,
+    correct,
+    wrong,
+    percentage:  pct
   };
 
   try {
-    await fetch(CFG.scriptUrl, { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(payload) });
-    bar.className='save-bar show save-saved'; bar.textContent='Results saved ✓';
-  } catch {
-    bar.className='save-bar show save-error'; bar.textContent='Could not save. Please tell your teacher.';
+    const res = await fetch(CFG.scriptUrl, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+    const json = await res.json().catch(() => ({}));
+    if (json.ok) {
+      bar.className = 'save-bar show save-saved';
+      bar.textContent = 'Results saved ✓';
+    } else {
+      throw new Error(json.error || 'Unknown error');
+    }
+  } catch (err) {
+    bar.className = 'save-bar show save-error';
+    bar.textContent = 'Could not save. Please tell your teacher.';
+    console.error('saveSheet error:', err);
   }
 }
 
