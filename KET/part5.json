@@ -13,7 +13,7 @@
       { "number": 25, "answer": "the", "explanation": "Superlative cần mạo từ: the biggest. Không dùng a/an vì ‘biggest’ là so sánh nhất." },
       { "number": 26, "answer": "by", "explanation": "Phương tiện đi lại: by + car/bus/train… = bằng (phương tiện). Không dùng ‘with’ hay ‘in’ trong cấu trúc chuẩn này." },
       { "number": 27, "answer": "a", "explanation": "Cụm cố định: take (someone) a long time = mất (ai đó) một khoảng thời gian dài. ‘a’ dùng với danh từ đếm được số ít ‘time’ (trong nghĩa ‘khoảng thời gian’)." },
-      { "number": 28, "answer": "but", "accepted": ["but", "although", "though", "however"], "explanation": "Cần từ nối thể hiện tương phản: gia đình thích LA nhưng mình không đồng ý. ‘but’ trực tiếp nhất; ‘although/though/however’ cũng diễn đạt ý đối lập trong ngữ cảnh này." },
+      { "number": 28, "answer": ["but", "although", "though", "however"], "accepted": ["but", "although", "though", "however"], "explanation": "Cần từ nối thể hiện tương phản: gia đình thích LA nhưng mình không đồng ý. ‘but’ trực tiếp nhất; ‘although/though/however’ cũng diễn đạt ý đối lập trong ngữ cảnh này." },
       { "number": 29, "answer": "than", "explanation": "So sánh hơn: smaller than + N. Không dùng ‘to/of’." },
       { "number": 30, "answer": "it", "explanation": "Cấu trúc thời tiết: It rained… Chủ ngữ giả ‘it’ dùng cho hiện tượng tự nhiên." }
     ]
@@ -50,7 +50,7 @@
     "questions": [
       { "number": 25, "answer": "the", "explanation": "Superlative: the best. So sánh nhất luôn đi với ‘the’." },
       { "number": 26, "answer": "it", "explanation": "Thời tiết: It rained… dùng ‘it’ làm chủ ngữ giả." },
-      { "number": 27, "answer": "but", "accepted": ["but", "although", "though", "however", "so"], "explanation": "Ý chính là tương phản: nhiều người bị ướt nhưng lều mới của mình vẫn khô. ‘but/however/(al)though’ thể hiện đối lập; một số đáp án key cho phép ‘so’ (ngụ ý ‘so I was lucky compared with them’)." },
+      { "number": 27, "answer": ["but", "although", "though", "however", "so"], "accepted": ["but", "although", "though", "however", "so"], "explanation": "Ý chính là tương phản: nhiều người bị ướt nhưng lều mới của mình vẫn khô. ‘but/however/(al)though’ thể hiện đối lập; một số đáp án key cho phép ‘so’ (ngụ ý ‘so I was lucky compared with them’)." },
       { "number": 28, "answer": "than", "explanation": "So sánh hơn: better than my old one." },
       { "number": 29, "answer": "to", "explanation": "Cấu trúc: forget to + V = quên làm gì (chưa làm). ‘forget tell’ sai." },
       { "number": 30, "answer": "at", "explanation": "Cụm cố định: at the moment = lúc này/hiện tại." }
