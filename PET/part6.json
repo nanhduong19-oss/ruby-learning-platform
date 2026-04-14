@@ -21,7 +21,7 @@
     "questions": [
       { "number": 27, "answer": "from", "explanation": "Giới từ đi với \"far\": \"not too far from\" = không quá xa (so với) khách sạn." },
       { "number": 28, "answer": "up", "explanation": "Phrasal verb: \"pick someone up\" = đón ai: \"picked us up\"." },
-      { "number": 29, "answer": "because", "explanation": "Liên từ chỉ nguyên nhân: \"didn't matter because...\". (Có thể dùng \"as/since\" cũng đúng)." },
+      { "number": 29, "answer": "because", "accepted": ["as", "since"], "explanation": "Liên từ chỉ nguyên nhân: \"didn't matter because...\". (Có thể dùng \"as/since\" cũng đúng)." },
       { "number": 30, "answer": "there", "explanation": "Cấu trúc tồn tại: \"there were very few people\" = có rất ít người." },
       { "number": 31, "answer": "more", "explanation": "So sánh hơn với \"than\": \"learnt more than we'd expected\" = học được nhiều hơn mong đợi." },
       { "number": 32, "answer": "one", "explanation": "Cấu trúc: \"one of the best\" = một trong những điều tuyệt nhất." }
