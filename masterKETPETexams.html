@@ -1388,18 +1388,32 @@ function buildAllSets(key, raw, numSets, wrongIds) {
 }
 
 function flattenPassage(key, set) {
-  return set.questions.map(q => ({
-    id:          `${set.id}_q${q.number}`,
-    type:        (key === 'ket_part4' || key === 'pet_part5') ? 'mcq_cloze' : 'open_cloze',
-    setId:       set.id,
-    setTitle:    set.title,
-    passage:     set.passage,
-    number:      q.number,
-    options:     q.options || null,
-    answer:      Array.isArray(q.answer) ? q.answer[0] : q.answer,
-    accepted:    q.accepted || (Array.isArray(q.answer) ? q.answer : [q.answer]),
-    explanation: q.explanation,
-  }));
+  return set.questions.map(q => {
+    // Normalize answer and accepted from JSON
+    // JSON may have: answer=string, answer=array, accepted=array, or none
+    const answerRaw  = q.answer;
+    const primaryAns = Array.isArray(answerRaw) ? answerRaw[0] : answerRaw;
+    let acceptedList;
+    if (Array.isArray(q.accepted) && q.accepted.length > 0) {
+      acceptedList = q.accepted;
+    } else if (Array.isArray(answerRaw) && answerRaw.length > 0) {
+      acceptedList = answerRaw;
+    } else {
+      acceptedList = [primaryAns];
+    }
+    return {
+      id:          `${set.id}_q${q.number}`,
+      type:        (key === 'ket_part4' || key === 'pet_part5') ? 'mcq_cloze' : 'open_cloze',
+      setId:       set.id,
+      setTitle:    set.title,
+      passage:     set.passage,
+      number:      q.number,
+      options:     q.options || null,
+      answer:      primaryAns,
+      accepted:    acceptedList,
+      explanation: q.explanation,
+    };
+  });
 }
 
 function shuffle(arr) {
@@ -1949,9 +1963,21 @@ function doRound1() {
   let correct = 0;
   S.questions.forEach(q => {
     if (S.r1[q.id] === true) { correct++; return; }
-    const typed   = norm(S.answers[q.id]);
-    const accepted = (q.accepted || [q.answer]).map(a => norm(a));
-    const ok = accepted.includes(typed);
+    const typed = norm(S.answers[q.id] || '');
+
+    // Build accepted list: use q.accepted if present, else fall back to q.answer
+    // Handle all cases: accepted=array, answer=string, answer=array
+    let acceptedRaw = [];
+    if (Array.isArray(q.accepted) && q.accepted.length > 0) {
+      acceptedRaw = q.accepted;
+    } else if (Array.isArray(q.answer)) {
+      acceptedRaw = q.answer;
+    } else {
+      acceptedRaw = [q.answer];
+    }
+    const accepted = acceptedRaw.map(a => norm(String(a)));
+    const ok = typed !== '' && accepted.includes(typed);
+
     S.r1[q.id] = ok;
     if (ok) correct++;
     applyFb(q, ok, false);
