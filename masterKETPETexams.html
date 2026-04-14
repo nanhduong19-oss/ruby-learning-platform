@@ -1056,7 +1056,7 @@ html.fs-xlarge {font-size:21px}
    ============================================================ */
 const CFG = {
   studentsUrl: 'https://raw.githubusercontent.com/nanhduong19-oss/ruby-learning-platform/refs/heads/main/rubystudents.json',
-  scriptUrl:   'https://script.google.com/macros/s/AKfycbwqJPwrjqxV0Y4OvnYcAa8tgOLVhry-2aNJe4NKSgsSP0Rxglh3GlzZ6DdGruwIQDyb/exec',   // ← Add your Apps Script URL after deploying
+  scriptUrl:   'https://script.google.com/macros/s/AKfycbxbxLRSWva6tPoQMN0m-L-cfiLA20Sngfz7siAk4o8t5OmhVgkpfPoO_cRnJ7FXGCtS/exec',   // ← Add your Apps Script URL after deploying
   teacherPass: 'easygame19',
   dataUrls: {
     ket_part1: 'https://raw.githubusercontent.com/nanhduong19-oss/ruby-learning-platform/refs/heads/main/KET/part1.json',
@@ -2605,6 +2605,29 @@ function dur(a,b) {
   const s = Math.floor((b-a)/1000);
   return `${String(Math.floor(s/3600)).padStart(2,'0')}:${String(Math.floor(s%3600/60)).padStart(2,'0')}:${String(s%60).padStart(2,'0')}`;
 }
+/* ============================================================
+   SOURCE PROTECTION
+   Chặn chuột phải, phím tắt xem nguồn và DevTools thông dụng
+   ============================================================ */
+(function(){
+  // Chặn chuột phải
+  document.addEventListener('contextmenu', e => e.preventDefault());
+
+  // Chặn các phím tắt xem nguồn / DevTools
+  document.addEventListener('keydown', e => {
+    const k = e.key;
+    const ctrl  = e.ctrlKey  || e.metaKey;
+    const shift = e.shiftKey;
+
+    // Ctrl+U (view source), Ctrl+S (save), Ctrl+Shift+I/J/C (DevTools)
+    if (ctrl && (k === 'u' || k === 'U'))               { e.preventDefault(); return; }
+    if (ctrl && (k === 's' || k === 'S'))               { e.preventDefault(); return; }
+    if (ctrl && shift && ['i','I','j','J','c','C'].includes(k)) { e.preventDefault(); return; }
+    // F12 (DevTools)
+    if (k === 'F12')                                    { e.preventDefault(); return; }
+  });
+})();
+
 </script>
 </body>
 </html>
