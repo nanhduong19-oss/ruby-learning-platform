@@ -1056,7 +1056,7 @@ html.fs-xlarge {font-size:21px}
    ============================================================ */
 const CFG = {
   studentsUrl: 'https://raw.githubusercontent.com/nanhduong19-oss/ruby-learning-platform/refs/heads/main/rubystudents.json',
-  scriptUrl:   'https://script.google.com/macros/s/AKfycbxbxLRSWva6tPoQMN0m-L-cfiLA20Sngfz7siAk4o8t5OmhVgkpfPoO_cRnJ7FXGCtS/exec',   // ← Add your Apps Script URL after deploying
+  scriptUrl:   'https://script.google.com/macros/s/AKfycbwqJPwrjqxV0Y4OvnYcAa8tgOLVhry-2aNJe4NKSgsSP0Rxglh3GlzZ6DdGruwIQDyb/exec',   // ← Add your Apps Script URL after deploying
   teacherPass: 'easygame19',
   dataUrls: {
     ket_part1: 'https://raw.githubusercontent.com/nanhduong19-oss/ruby-learning-platform/refs/heads/main/KET/part1.json',
@@ -1763,7 +1763,7 @@ function refreshPetDropdowns(qPanel, set) {
    Supports fields: explanation, paraphrase, keywords */
 function p2FbBody(q) {
   let parts = [];
-  if (q.explanation) parts.push(h(q.explanation));
+  if (q.explanation) parts.push(hb(q.explanation));
   if (q.paraphrase)  parts.push(`<br><strong>Paraphrase:</strong> ${h(q.paraphrase)}`);
   if (q.keywords)    parts.push(`<br><strong>Key words:</strong> ${h(q.keywords)}`);
   return parts.join('');
@@ -1920,13 +1920,13 @@ function renderClozeFeeback(wrapper, questions, prefix) {
     const row = document.createElement('div');
     if (r1 === true) {
       row.className = 'cloze-fb-row fb-ok';
-      row.innerHTML = `<span class="cloze-fb-num">(${q.number})</span><span>Correct! ${h(q.explanation)}</span>`;
+      row.innerHTML = `<span class="cloze-fb-num">(${q.number})</span><span>Correct! ${hb(q.explanation)}</span>`;
     } else if (S.revealAll) {
       const ansDisplay = (q.accepted && q.accepted.length > 1)
         ? q.accepted.join(' / ')
         : q.answer;
       row.className = 'cloze-fb-row fb-rev';
-      row.innerHTML = `<span class="cloze-fb-num">(${q.number})</span><span>Answer: <strong>${h(ansDisplay)}</strong>. ${h(q.explanation)}</span>`;
+      row.innerHTML = `<span class="cloze-fb-num">(${q.number})</span><span>Answer: <strong>${h(ansDisplay)}</strong>. ${hb(q.explanation)}</span>`;
     } else {
       row.className = 'cloze-fb-row fb-no';
       row.innerHTML = `<span class="cloze-fb-num">(${q.number})</span><span>Not quite. Fix this in Round 2.</span>`;
@@ -2123,9 +2123,9 @@ function applyFb(q, ok, reveal) {
   const fb = document.getElementById(`fb_${q.id}`);
   if (!fb) return;
   fb.className = `fb show ${ok?'fb-ok':reveal?'fb-rev':'fb-no'}`;
-  fb.textContent = ok
-    ? `Correct! ${q.explanation}`
-    : reveal ? `Answer: ${q.answer}. ${q.explanation}`
+  fb.innerHTML = ok
+    ? `Correct! ${hb(q.explanation)}`
+    : reveal ? `Answer: <strong>${h(q.answer)}</strong>. ${hb(q.explanation)}`
     : 'Not quite. You can fix this in Round 2.';
 }
 
@@ -2588,8 +2588,8 @@ function inpCls(qid) {
 function fbHtml(q) {
   const r1 = S.r1[q.id];
   if (r1===undefined) return `<div class="fb" id="fb_${q.id}"></div>`;
-  if (r1===true)      return `<div class="fb show fb-ok" id="fb_${q.id}">Correct! ${h(q.explanation)}</div>`;
-  if (S.revealAll)    return `<div class="fb show fb-rev" id="fb_${q.id}">Answer: ${h(q.answer)}. ${h(q.explanation)}</div>`;
+  if (r1===true)      return `<div class="fb show fb-ok" id="fb_${q.id}">Correct! ${hb(q.explanation)}</div>`;
+  if (S.revealAll)    return `<div class="fb show fb-rev" id="fb_${q.id}">Answer: ${h(q.answer)}. ${hb(q.explanation)}</div>`;
   return `<div class="fb show fb-no" id="fb_${q.id}">Not quite. You can fix this in Round 2.</div>`;
 }
 
@@ -2600,6 +2600,8 @@ function card(id) {
 
 function norm(s) { return (s||'').toLowerCase().replace(/[^a-z0-9 ]/g,'').replace(/\s+/g,' ').trim(); }
 function h(s)    { return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+// hb() = h() + render **text** → <strong>text</strong>  (dùng cho explanation)
+function hb(s)   { return h(s||'').replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>'); }
 function dur(a,b) {
   if (!a||!b) return '-';
   const s = Math.floor((b-a)/1000);
