@@ -110,5 +110,173 @@
       { "number": 31, "answer": "one", "accepted": ["one", "some"], "explanation": "Cụm nói về tương lai: **one day / some day** = một ngày nào đó; cả hai đều chấp nhận." },
       { "number": 32, "answer": "than", "explanation": "So sánh hơn: **better than** -> 'even better **than** you are'." }
     ]
+  },
+  {
+    "id": "pet_part6_trainer1test1",
+    "type": "part6",
+    "title": "A visit to the museum",
+    "passage": "Hi Anna,\n\nI’ve just been to the museum in our city. That was my first visit, believe it or (27) __________! I wanted to collect some information for our class history project. We have to hand it (28) __________ soon, don’t we?\n\nI went to the Ancient History section, (29) __________ the museum keeps all its ancient Egyptian stuff. It was really interesting! There were some amazing statues of various animals, so I drew some pictures of them and then (30) __________ some research about them online when I got home.\n\nI’ve still got some work to do on my project, so I’ll need to go back to the museum again some time soon. In fact, (31) __________ don’t we go together? I don’t think you’ve been there before, (32) __________ you? I’m sure you’ll find something that you could use for your project.\n\nSee you soon!\n\nSally",
+    "questions": [
+      { "number": 27, "answer": "not", "explanation": "Cụm từ cố định: **believe it or not** = dù tin hay không." },
+      { "number": 28, "answer": "in", "explanation": "Cụm động từ (Phrasal verb): **hand something in** = nộp bài." },
+      { "number": 29, "answer": "where", "explanation": "Đại từ quan hệ thay thế cho nơi chốn (the Ancient History section): **where** = nơi mà." },
+      { "number": 30, "answer": "did", "explanation": "Sự kết hợp từ (Collocation): **do research** = làm nghiên cứu. Chia thì quá khứ đơn theo ngữ cảnh câu thành **did**." },
+      { "number": 31, "answer": "why", "explanation": "Cấu trúc đưa ra lời đề nghị: **Why don't we + V(nguyên mẫu)** = Tại sao chúng ta không...?" },
+      { "number": 32, "answer": "have", "explanation": "Câu hỏi đuôi (Tag question): Mệnh đề trước là phủ định ở thì hiện tại hoàn thành (haven't been), nên phần đuôi là khẳng định **have you**." }
+    ]
+  },
+  {
+    "id": "pet_part6_trainer1test2",
+    "type": "part6",
+    "title": "Central College student fashion show – review",
+    "passage": "Central College student fashion show – review\n\nAs you may know, we had a fantastic fashion show here at the college last week. The aim was to display the work that the fashion students (27) __________ recently been involved in all year here at the college, and show parents and friends the results. And it was clear to us that (28) __________ were impressed by it.\n\nThe models that (29) __________ part in the show were actually the students themselves, wearing their own clothes designs. (30) __________ were some amazingly creative clothes on show, such as a dress made of recycled materials, and a coat that included every colour you could possibly think of! And the scenery, created (31) __________ the students in the Art Department, was really spectacular too.\n\nMrs Jackson, Head of Design, said: ‘There’s absolutely (32) __________ doubt in my mind that all these students are extremely talented – and I’m sure we’ll hear more about them in the future. I wish them every success in their careers.’",
+    "questions": [
+      { "number": 27, "answer": "have", "accepted": ["have", "had"], "explanation": "Thì hiện tại hoàn thành (hoặc quá khứ hoàn thành) dạng bị động/tiếp diễn: **have/had been involved in**." },
+      { "number": 28, "answer": "they", "explanation": "Đại từ nhân xưng đóng vai trò chủ ngữ, thay thế cho 'parents and friends' ở câu trước." },
+      { "number": 29, "answer": "took", "explanation": "Sự kết hợp từ (Collocation): **take part in** = tham gia vào. Chia quá khứ đơn thành **took**." },
+      { "number": 30, "answer": "there", "explanation": "Cấu trúc chỉ sự tồn tại: **There were + N (số nhiều)** = Có những..." },
+      { "number": 31, "answer": "by", "explanation": "Câu bị động rút gọn: created **by** somebody = được tạo ra bởi ai đó." },
+      { "number": 32, "answer": "no", "explanation": "Cụm từ: **There is no doubt** = Không có sự nghi ngờ nào cả / Chắc chắn là." }
+    ]
+  },
+  {
+    "id": "pet_part6_trainer1test3",
+    "type": "part6",
+    "title": "A Saturday job",
+    "passage": "Hi Marta,\n\nHow are you? Sorry I haven’t written for a while. But now I have some news – I’ve got a Saturday job! As you know, I’ve (27) __________ meaning to look for a job for ages. But then Mum offered to let (28) __________ work in her clothes shop, so I started last week. I’m really enjoying it, although it’s hard work. There’s (29) __________ time at all to chat with the other assistants, sadly. That’s (30) __________ we’re always so busy.\n\nThe good thing is that I’m finally earning a bit of money of my own, (31) __________ I can use to buy the things I want. I’m also getting some great work experience.\n\nWhy don’t you come to the shop (32) __________ day soon? It’s called Modes, and it’s on Green Street. I’m sure you’ll find lots of clothes that you like!\n\nHope to see you soon.\n\nJanine",
+    "questions": [
+      { "number": 27, "answer": "been", "explanation": "Thì hiện tại hoàn thành tiếp diễn: **have been + V-ing** diễn tả hành động kéo dài từ quá khứ đến hiện tại." },
+      { "number": 28, "answer": "me", "explanation": "Đại từ tân ngữ sau động từ 'let': **let somebody do something** -> let **me** work." },
+      { "number": 29, "answer": "no", "explanation": "Cấu trúc: **There is no time at all** = Hoàn toàn không có thời gian." },
+      { "number": 30, "answer": "because", "explanation": "Liên từ chỉ nguyên nhân: **That's because + mệnh đề** = Đó là bởi vì..." },
+      { "number": 31, "answer": "which", "explanation": "Đại từ quan hệ chỉ vật, thay thế cho 'a bit of money' phía trước." },
+      { "number": 32, "answer": "one", "accepted": ["one", "some"], "explanation": "Cụm từ chỉ thời gian trong tương lai: **one day / some day** = một ngày nào đó." }
+    ]
+  },
+  {
+    "id": "pet_part6_trainer1test4",
+    "type": "part6",
+    "title": "My thoughts on how to write",
+    "passage": "My thoughts on how to write\n\nWelcome to my blog! That’s for anyone who’s new and has (27) __________ visited this site before! But if you (28) __________ seen some of my blogs, then you’ll know I like sharing ideas about creative writing and how to do it.\n\nAt the moment, I’m sitting at my desk in my room, (29) __________ I do most of my writing. I love writing stories, but not every day. I’ll often update my diary or something, too – and this blog, (30) __________ course! But I have a notebook of things I would like to include in my writing and new words I like the sound of.\n\nBut I recently discovered the most important thing is just to (31) __________ going once you’ve started writing. And (32) __________ doesn’t matter how bad your writing is at the beginning, because you can always go back and make improvements. In fact, that’s the part I enjoy most!",
+    "questions": [
+      { "number": 27, "answer": "never", "accepted": ["never", "not"], "explanation": "Thì hiện tại hoàn thành mang nghĩa phủ định: **has never visited / has not visited**." },
+      { "number": 28, "answer": "have", "explanation": "Trợ động từ cho thì hiện tại hoàn thành: **have seen** (chủ ngữ là 'you')." },
+      { "number": 29, "answer": "where", "explanation": "Đại từ quan hệ thay thế cho nơi chốn (my room): **where** = nơi mà." },
+      { "number": 30, "answer": "of", "explanation": "Cụm từ cố định: **of course** = tất nhiên." },
+      { "number": 31, "answer": "keep", "explanation": "Cấu trúc: **keep (on) + V-ing** = tiếp tục làm gì đó -> keep going." },
+      { "number": 32, "answer": "it", "explanation": "Chủ ngữ giả (Dummy subject): **It doesn't matter** = Điều đó không quan trọng." }
+    ]
+  },
+  {
+    "id": "pet_part6_trainer1test5",
+    "type": "part6",
+    "title": "Joining a football team",
+    "passage": "Hi Karina,\n\nGuess what! I’ve finally joined the local girls’ football team in my town! As you know, it’s something I’ve wanted to do (27) __________ ages, so I’m glad I’ve finally signed up.\n\nI think my parents were a bit surprised, though, as I’d never really taken very (28) __________ interest in sport, but after watching a women’s football match on TV, I just knew it was for me.\n\nI’ve attended football training every week (29) __________ then, and last Saturday I played in my first match. It was really exciting! And (30) __________ of the best things was that I actually scored a goal! We didn’t go on to win the match, but our coach was still really pleased with our performance.\n\nOur next match is on 25th. You’re not on holiday with your parents then, (31) __________ you? So why don’t you come along and watch? It would (32) __________ great to see you!\n\nSamantha",
+    "questions": [
+      { "number": 27, "answer": "for", "explanation": "Cụm giới từ chỉ khoảng thời gian: **for ages** = từ rất lâu rồi." },
+      { "number": 28, "answer": "much", "explanation": "Danh từ không đếm được 'interest' đi với lượng từ **much**." },
+      { "number": 29, "answer": "since", "explanation": "Giới từ chỉ mốc thời gian trong thì hoàn thành: **since then** = kể từ đó." },
+      { "number": 30, "answer": "one", "explanation": "Cấu trúc: **one of the + so sánh nhất + danh từ số nhiều** = một trong những..." },
+      { "number": 31, "answer": "are", "explanation": "Câu hỏi đuôi (Tag question): Mệnh đề trước là 'You're not' (phủ định), nên phần đuôi là khẳng định **are you?**" },
+      { "number": 32, "answer": "be", "explanation": "Động từ nguyên mẫu sau modal verb (would): **would be great** = sẽ rất tuyệt." }
+    ]
+  },
+  {
+    "id": "pet_part6_trainer1test6",
+    "type": "part6",
+    "title": "Learning to swim",
+    "passage": "Learning to swim\n\nLast month, I did something amazing, which I’d almost begun to think wasn’t possible. I actually swam one length of the swimming pool! I know it doesn’t seem like (27) __________ achievement, because swimming is something that everyone seems to learn really easily. But there was just (28) __________ way I could manage it.\n\nAnd it wasn’t as if I hadn’t tried. Apart (29) __________ all the lessons I had at school, I also went swimming with Dad (30) __________ week. But in (31) __________ of all the practice I was getting, I still wasn’t able to swim.\n\nThen one day, when I thought Dad was holding me up in the water as usual, I suddenly realised – he wasn’t! I was swimming on (32) __________ own, without help! After that, I swam several lengths of the pool.\n\nSo if you’re having trouble learning something, don’t give up. It will definitely happen one day!",
+    "questions": [
+      { "number": 27, "answer": "an", "explanation": "Mạo từ không xác định đứng trước danh từ số ít bắt đầu bằng nguyên âm: **an achievement**." },
+      { "number": 28, "answer": "no", "explanation": "Cụm từ mang nghĩa phủ định: **There was no way** = Không có cách nào." },
+      { "number": 29, "answer": "from", "explanation": "Cụm giới từ: **Apart from** = Ngoài ra, bên cạnh..." },
+      { "number": 30, "answer": "every", "accepted": ["every", "each"], "explanation": "Từ chỉ tần suất: **every week / each week** = mỗi tuần." },
+      { "number": 31, "answer": "spite", "explanation": "Cụm giới từ chỉ sự nhượng bộ: **in spite of** = mặc dù." },
+      { "number": 32, "answer": "my", "explanation": "Cụm từ chỉ sự tự lực: **on my own** = tự bản thân tôi làm, không có sự trợ giúp." }
+    ]
+  },
+  {
+    "id": "pet_part6_trainer2test1",
+    "type": "part6",
+    "title": "Review of our school trip to City Theatre",
+    "passage": "Review of our school trip to City Theatre\n\nLast week, my class and I went to the City Theatre to see a play called Surprise Party. Our teacher wanted us to see it because it is (27) __________ of the plays that we are studying at school this year. I (28) __________ never been to the City Theatre before the class trip, so I was really excited about it. I am pleased to say that I certainly wasn’t disappointed! There was a great view (29) __________ the stage from our seats, and my friends and I were able (30) __________ hear everything the actors said very clearly. On the coach on the way home after the performance, (31) __________ all agreed that the actor in the lead role was particularly good. If you want a good night out, and a change from the cinema, I would definitely recommend going to the theatre to watch (32) __________ live performance.",
+    "questions": [
+      { "number": 27, "answer": "one", "explanation": "Cấu trúc: **one of the + N (số nhiều)** = một trong những..." },
+      { "number": 28, "answer": "had", "accepted": ["had", "’d"], "explanation": "Thì quá khứ hoàn thành (had + PII) diễn tả hành động chưa từng xảy ra tính đến một thời điểm trong quá khứ ('before the class trip')." },
+      { "number": 29, "answer": "of", "accepted": ["of", "over"], "explanation": "Cụm danh từ: **a view of / over something** = tầm nhìn hướng ra..." },
+      { "number": 30, "answer": "to", "explanation": "Cấu trúc chỉ khả năng: **be able to do something** = có thể làm gì." },
+      { "number": 31, "answer": "we", "explanation": "Đại từ nhân xưng làm chủ ngữ, thay thế cho 'my friends and I' ở câu trước." },
+      { "number": 32, "answer": "a", "explanation": "Mạo từ không xác định đứng trước cụm danh từ đếm được số ít: **a live performance** (một buổi biểu diễn trực tiếp)." }
+    ]
+  },
+  {
+    "id": "pet_part6_trainer2test2",
+    "type": "part6",
+    "title": "History homework",
+    "passage": "Hi Johann,\n\nI really need your help with the history homework that Mr Wilson gave us (27) __________ few days ago. I really need to start it. I (28) __________ been too busy to think about it until now, I’m afraid! Mr Wilson said it might be a good idea to go through our ideas with a friend before we start doing any work on the project. What (29) __________ you think? I know it would be really helpful to show you what I’m planning. I can look at yours too (30) __________ you think that could be useful. (31) __________ you know, out of all our school subjects, history is (32) __________ one I like most, so I really want to do my best!\n\nLet me know, and we can arrange a time, OK?\n\nHarvey",
+    "questions": [
+      { "number": 27, "answer": "a", "explanation": "Cụm từ chỉ thời gian: **a few days ago** = một vài ngày trước." },
+      { "number": 28, "answer": "have", "accepted": ["have", "’ve"], "explanation": "Thì hiện tại hoàn thành: **have been** diễn tả trạng thái bận rộn kéo dài cho đến tận bây giờ ('until now')." },
+      { "number": 29, "answer": "do", "explanation": "Trợ động từ cho câu hỏi ở thì hiện tại đơn với chủ ngữ 'you': **What do you think?**" },
+      { "number": 30, "answer": "if", "explanation": "Câu điều kiện loại 1: **if you think...** = nếu bạn nghĩ..." },
+      { "number": 31, "answer": "As", "explanation": "Cụm từ nối: **As you know** = Như bạn đã biết." },
+      { "number": 32, "answer": "the", "explanation": "Mạo từ xác định đi với đại từ chỉ định: **the one** (chỉ môn học duy nhất/nổi bật nhất mà người nói thích)." }
+    ]
+  },
+  {
+    "id": "pet_part6_trainer2test3",
+    "type": "part6",
+    "title": "My blog",
+    "passage": "My blog\n\nWelcome to my blog! This week I want to tell you about a photography course I joined recently. (27) __________ begin with, the course is held every weekend in my local college, and there are only six of (28) __________ who go. This means that Mark, our teacher, has quite (29) __________ bit of time to help everyone.\n\nLast week, we took weather photos. It was much harder (30) __________ it sounds! Some people took pictures of clouds, and one person took a beautiful one of leaves that (31) __________ fallen onto the ground. Mark is arranging to put on exhibition of our photos in the library soon, (32) __________ gives everyone a goal to work towards.",
+    "questions": [
+      { "number": 27, "answer": "To", "explanation": "Cụm từ nối: **To begin with** = Đầu tiên là / Để bắt đầu." },
+      { "number": 28, "answer": "us", "explanation": "Đại từ tân ngữ chỉ một nhóm người bao gồm cả người nói: **six of us** = 6 người trong số chúng tôi." },
+      { "number": 29, "answer": "a", "explanation": "Cụm từ chỉ số lượng: **quite a bit of + danh từ không đếm được** = khá nhiều (thời gian)." },
+      { "number": 30, "answer": "than", "explanation": "Cấu trúc so sánh hơn: tính từ ngắn + er + **than** -> harder than." },
+      { "number": 31, "answer": "had", "explanation": "Thì quá khứ hoàn thành (had + PII): lá đã rụng xuống đất trước khi được chụp ảnh." },
+      { "number": 32, "answer": "which", "explanation": "Đại từ quan hệ **which** thay thế cho toàn bộ mệnh đề phía trước (việc Mark sắp xếp triển lãm)." }
+    ]
+  },
+  {
+    "id": "pet_part6_trainer2test4",
+    "type": "part6",
+    "title": "Review: the Maple Café",
+    "passage": "Review: the Maple Café\n\nLast week, my friends and I visited the Maple Café which opened recently. Cafés are places teenagers like to visit, and that is (27) __________ I decided to write a review about it! The café is in a nice location, next to the river. It is in a building that (28) __________ to be a bike shop, and the new owners put some old bikes on the walls, which is really unusual!\n\nThere is plenty of space inside, or (29) __________ you prefer, there are tables outside, too. When we visited, there was a special offer to celebrate the café opening. We (30) __________ given a free slice of chocolate cake and we all agreed that the Maple Café chocolate cake was better than anything we (31) __________ ever tried before! There are the normal hot and cold drinks you would expect to see, and (32) __________ prices are good.\n\nI would certainly recommend that everyone visits!",
+    "questions": [
+      { "number": 27, "answer": "why", "explanation": "Đại từ quan hệ chỉ lý do: **that is why** = đó là lý do tại sao." },
+      { "number": 28, "answer": "used", "explanation": "Cấu trúc chỉ thói quen/tình trạng trong quá khứ: **used to be** = đã từng là." },
+      { "number": 29, "answer": "if", "explanation": "Câu điều kiện loại 1: **or if you prefer** = hoặc nếu bạn thích." },
+      { "number": 30, "answer": "were", "explanation": "Câu bị động ở thì quá khứ đơn (chủ ngữ 'we'): **were given** = được tặng/cho." },
+      { "number": 31, "answer": "had", "accepted": ["had", "’d"], "explanation": "Thì quá khứ hoàn thành kết hợp với 'ever' trong cấu trúc so sánh: ngon hơn bất cứ thứ gì chúng tôi **đã từng thử trước đó**." },
+      { "number": 32, "answer": "the", "accepted": ["the", "their"], "explanation": "Mạo từ xác định **the prices** (giá cả ở đó) hoặc tính từ sở hữu **their prices** (giá của họ)." }
+    ]
+  },
+  {
+    "id": "pet_part6_trainer2test5",
+    "type": "part6",
+    "title": "Running Blog",
+    "passage": "Running Blog\n\nHi and welcome to my blog! It’s all about my hobby, (27) __________ is running! I joined a running club a few months ago. Since then, I (28) __________ already been on lots of longer runs with the group.\n\nAs well as helping us improve (29) __________ running technique, the coaches also give lots of really useful information about different types of kit. Good shoes are important, but (30) __________ they can cost a lot of money, it’s useful to get advice before you buy any.\n\nLast session, we heard about a big race in a few weeks’ time. I am wondering whether or (31) __________ to enter. There’s plenty of time for me to improve my speed before the race. In fact, I (32) __________ given a running plan last week which should help me get quicker.",
+    "questions": [
+      { "number": 27, "answer": "which", "explanation": "Đại từ quan hệ chỉ vật, thay thế cho 'my hobby' ở phía trước." },
+      { "number": 28, "answer": "have", "explanation": "Thì hiện tại hoàn thành với 'already': **I have already been**." },
+      { "number": 29, "answer": "our", "explanation": "Tính từ sở hữu tương ứng với đại từ 'us': **our running technique** = kỹ thuật chạy của chúng tôi." },
+      { "number": 30, "answer": "as", "accepted": ["as", "since", "because"], "explanation": "Liên từ chỉ nguyên nhân: **as / since / because** = bởi vì (chúng có thể tốn rất nhiều tiền)." },
+      { "number": 31, "answer": "not", "explanation": "Cấu trúc: **whether or not to do something** = có nên làm việc gì đó hay không." },
+      { "number": 32, "answer": "was", "explanation": "Câu bị động ở thì quá khứ đơn (có từ nhận biết 'last week'): **I was given** = Tôi được đưa cho." }
+    ]
+  },
+  {
+    "id": "pet_part6_trainer2test6",
+    "type": "part6",
+    "title": "Shopping trip!",
+    "passage": "To: Katie\n\nAbout: Shopping trip!\n\nHi!\n\nGuess what – I went to that new shopping centre in town this afternoon with Mum! We had a really good time. You should go if you can because I know you (27) __________ love it.\n\nDo you remember my favourite blue shirt, the one with flowers on it? Well, I found another similar one with leaves instead (28) __________ flowers and I decided to get it. It’s really nice! There were (29) __________ many clothes shops that even I needed to have a rest after a bit. Luckily, there were quite a few really nice cafés for lunch.\n\nThen, while Mum (30) __________ having a coffee, I went into the video game shop and bought a new game (31) __________ the money I got for my birthday. (32) __________ don’t you come over at the weekend so we can play it together?\n\nMandy",
+    "questions": [
+      { "number": 27, "answer": "will", "accepted": ["will", "’ll", "would", "’d"], "explanation": "Động từ khuyết thiếu đưa ra lời dự đoán: **will / would love it** = sẽ thích nó." },
+      { "number": 28, "answer": "of", "explanation": "Giới từ: **instead of** = thay vì." },
+      { "number": 29, "answer": "so", "explanation": "Cấu trúc: **so + many/much + N + that...** = quá nhiều... đến nỗi mà." },
+      { "number": 30, "answer": "was", "explanation": "Thì quá khứ tiếp diễn diễn tả hành động đang xảy ra tại một thời điểm trong quá khứ: **while Mum was having...**" },
+      { "number": 31, "answer": "with", "accepted": ["with", "using"], "explanation": "Giới từ chỉ công cụ/phương tiện: mua một trò chơi mới **bằng** (với) số tiền sinh nhật." },
+      { "number": 32, "answer": "Why", "explanation": "Cấu trúc đưa ra lời đề nghị: **Why don't you + V(nguyên thể)?** = Tại sao bạn không...?" }
+    ]
   }
 ]
