@@ -1028,5 +1028,516 @@
 ],
 "answer": "A",
 "explanation": "Đáp án A đúng vì biển báo hướng dẫn khách hàng có thể hỏi phục vụ bàn ('waiter'/'staff') nếu muốn biết thông tin chi tiết về các nguyên liệu ('ingredients') trong món ăn. Các nguyên liệu này chính là những thứ dùng để nấu món ăn đó ('what we've used to make our dishes'). Đáp án B sai vì thông tin thành phần không được ghi in sẵn trên thực đơn, nếu có thì khách hàng đã tự đọc chứ không cần hỏi phục vụ. Đáp án C sai vì khách hàng chỉ được phép hỏi về nguyên liệu, chứ không phải yêu cầu nấu một món hoàn toàn ngoài menu."
-}
+},
+  {
+    "id": "p1_q41",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "📝",
+      "from": "Katy",
+      "to": "Mum",
+      "body": "I’m next door at Amelia’s. We decided to do some practice for the school concert there – it will be quite noisy, but her parents are out. I’ll be back in time for dinner."
+    },
+    "question": "What does the note say?",
+    "options": [
+      "A. Katy and Amelia have gone to school to practise for the concert.",
+      "B. There’s too much noise at Amelia’s house to practise there.",
+      "C. Amelia and Katy can practise at Amelia’s house without disturbing anyone."
+    ],
+    "answer": "C",
+    "explanation": "Đáp án C đúng vì Katy nói rằng ba mẹ của Amelia đã ra ngoài ('her parents are out'), do đó việc tập luyện dù có ồn ào ('quite noisy') cũng sẽ không làm phiền đến ai. Đáp án A sai vì hai bạn đang ở nhà của Amelia ('next door at Amelia's'), không phải ở trường. Đáp án B sai vì dù ồn ào nhưng họ vẫn quyết định tập ở đó, chứ không phải vì ồn mà không tập được."
+  },
+  {
+    "id": "p1_q42",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "📱",
+      "from": "Sue",
+      "to": "Jenny",
+      "body": "I’ve got an idea for the music project – can we get together soon? I didn’t forget about that website you mentioned. It looks really useful. Let me know,"
+    },
+    "question": "Sue is texting to",
+    "options": [
+      "A. remind Jenny to find some information for the music project.",
+      "B. suggest they should meet to talk about the music project.",
+      "C. recommend a website that will be good for the project."
+    ],
+    "answer": "B",
+    "explanation": "Đáp án B đúng vì Sue đang đề nghị Jenny gặp mặt nhau sớm ('can we get together soon?') để bàn về dự án âm nhạc vì cô ấy vừa có một ý tưởng mới ('got an idea'). Đáp án A sai vì Sue không nhắc Jenny đi tìm thông tin. Đáp án C sai vì website đó là do Jenny từng nhắc đến trước đó ('website you mentioned'), không phải là Sue đi giới thiệu cho Jenny."
+  },
+  {
+    "id": "p1_q43",
+    "type": "part1",
+    "sign_type": "email",
+    "sign": {
+      "location_label": "Computer Screen",
+      "style": "email",
+      "icon": "🚴",
+      "from": "Cycling club coach",
+      "to": "Members",
+      "subject": "",
+      "body": "The 10 km and 20 km races are at 9 a.m. tomorrow. If you’re not sure which distance to race, see me. We’re expecting wet weather, so be prepared – bring suitable kit."
+    },
+    "question": "What is the coach doing?",
+    "options": [
+      "A. telling members to prepare for the cycling to be cancelled due to bad weather",
+      "B. warning members that he expects them to be on time for the cycling races",
+      "C. offering to give members advice on the best cycling race for them to enter"
+    ],
+    "answer": "C",
+    "explanation": "Đáp án C đúng vì huấn luyện viên đề nghị các thành viên đến gặp ông ấy nếu không chắc chắn nên chọn cự ly đua nào ('If you’re not sure which distance to race, see me'). Điều này tương đương với việc đề nghị cho lời khuyên (offering to give advice). Đáp án A sai vì huấn luyện viên chỉ nhắc mang đồ phù hợp với thời tiết ẩm ướt ('bring suitable kit'), không hề nói giải đua sẽ bị hủy. Đáp án B sai vì không có lời cảnh báo nào về việc phải đến đúng giờ."
+  },
+  {
+    "id": "p1_q44",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "💬",
+      "from": "Melanie",
+      "to": "Jack",
+      "body": "What time are you getting to Tom’s party tonight? Is your mum driving you there? I might be a bit late, so tell him I’ll be there as soon as I can."
+    },
+    "question": "Melanie wants Jack to",
+    "options": [
+      "A. let her know what time something begins.",
+      "B. pass on a message to someone.",
+      "C. give her a lift somewhere."
+    ],
+    "answer": "B",
+    "explanation": "Đáp án B đúng vì Melanie nhờ Jack truyền đạt lại một tin nhắn cho Tom ('tell him I’ll be there as soon as I can' - nhờ bảo với Tom rằng tôi sẽ đến nhanh nhất có thể). Đáp án A sai vì Melanie hỏi Jack mấy giờ Jack đến ('What time are you getting...'), không phải hỏi giờ bắt đầu bữa tiệc. Đáp án C sai vì Melanie hỏi mẹ Jack có chở cậu ấy đi không, chứ không xin đi nhờ xe."
+  },
+  {
+    "id": "p1_q45",
+    "type": "part1",
+    "sign_type": "email",
+    "sign": {
+      "location_label": "Computer Screen",
+      "style": "email",
+      "icon": "🎭",
+      "from": "Mr Thompson",
+      "to": "Drama club members",
+      "subject": "",
+      "body": "I’d like us to have a new logo for our drama club, and I’m offering a T-shirt for the best design! Email me your ideas, and then you can all vote for the best one!"
+    },
+    "question": "",
+    "options": [
+      "A. There’s a competition for drama club members to create a new logo.",
+      "B. The winning drama club logo will be chosen by Mr Thompson.",
+      "C. The drama club members have decided they need a new logo."
+    ],
+    "answer": "A",
+    "explanation": "Đáp án A đúng vì thầy Thompson đang treo thưởng một chiếc áo thun cho thiết kế logo đẹp nhất ('offering a T-shirt for the best design'), điều này tương đương với việc tổ chức một cuộc thi ('competition'). Đáp án B sai vì người chiến thắng sẽ do chính các thành viên bỏ phiếu bình chọn ('you can all vote for the best one'), không phải do thầy Thompson tự quyết định. Đáp án C sai vì đây là ý muốn của thầy Thompson ('I'd like us to have...'), không phải do học sinh tự quyết định."
+  },
+  {
+    "id": "p1_q46",
+    "type": "part1",
+    "sign_type": "school_notice",
+    "sign": {
+      "location_label": "City Cinema",
+      "style": "school_pinned",
+      "header": "",
+      "icon": "🍿",
+      "lines": [
+        {
+          "text": "Tonight only: half-price drink with every cinema ticket!",
+          "size": "medium",
+          "weight": "bold"
+        },
+        {
+          "text": "Only refreshments bought at the cinema are permitted inside.",
+          "size": "medium",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "What does the notice say?",
+    "options": [
+      "A. People can only buy drinks at the cinema if they already have a ticket.",
+      "B. The cinema gives discounts on tickets if customers also buy refreshments.",
+      "C. There is a special offer available on drinks for cinema customers."
+    ],
+    "answer": "C",
+    "explanation": "Đáp án C đúng vì rạp chiếu phim đang có chương trình giảm nửa giá đồ uống cho khách mua vé xem phim ('half-price drink with every cinema ticket'). Đây chính là một ưu đãi đặc biệt ('special offer'). Đáp án A sai vì biển báo không cấm người không có vé mua đồ uống, nó chỉ nói người mua vé thì được giảm giá đồ uống. Đáp án B sai vì rạp phim giảm giá đồ uống, không phải giảm giá vé ('discounts on tickets')."
+  },
+  {
+    "id": "p1_q47",
+    "type": "part1",
+    "sign_type": "street_sign",
+    "sign": {
+      "location_label": "Bus Stop",
+      "style": "yellow_warning",
+      "icon": "🚌",
+      "lines": [
+        {
+          "text": "Use the machines to pay for your journeys before boarding the bus – drivers are unable to accept fares or provide tickets.",
+          "size": "medium",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "What does the sign say?",
+    "options": [
+      "A. Passengers should buy a ticket then wait for their bus.",
+      "B. Passengers must get their tickets directly from the driver.",
+      "C. Passengers have to use the ticket machines on the bus."
+    ],
+    "answer": "A",
+    "explanation": "Đáp án A đúng vì biển báo yêu cầu hành khách phải dùng máy để thanh toán TRƯỚC KHI lên xe buýt ('before boarding the bus'). Nghĩa là bạn phải mua vé trước, sau đó chờ xe đến để bước lên. Đáp án B sai vì biển báo ghi rõ tài xế không thu tiền hay bán vé ('drivers are unable to accept fares or provide tickets'). Đáp án C sai vì máy bán vé không nằm trên xe buýt, bạn phải mua vé trước khi bước lên xe."
+  },
+  {
+    "id": "p1_q48",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "📱",
+      "from": "Megan",
+      "to": "Sally",
+      "body": "I know you said you’d bring your calculator to school for me to borrow, but I won’t need it. My sister had forgotten she had a spare one in her drawer! Thanks anyway,"
+    },
+    "question": "",
+    "options": [
+      "A. Megan is thanking Sally for lending her a calculator for school.",
+      "B. Megan is able to use a calculator that belongs to her sister.",
+      "C. Megan has remembered where she left her spare calculator."
+    ],
+    "answer": "B",
+    "explanation": "Đáp án B đúng vì Megan báo cho Sally biết rằng mình không cần mượn máy tính nữa vì chị gái cô ấy có dư một cái ('My sister had forgotten she had a spare one'). Do đó, cô ấy có thể dùng đồ của chị mình. Đáp án A sai vì Megan cuối cùng không mượn đồ của Sally ('I won't need it'). Đáp án C sai vì chiếc máy tính dự phòng là của chị gái, không phải do Megan nhớ ra mình để quên máy tính ở đâu."
+  },
+  {
+    "id": "p1_q49",
+    "type": "part1",
+    "sign_type": "school_notice",
+    "sign": {
+      "location_label": "School Noticeboard",
+      "style": "blue_info",
+      "header": "",
+      "icon": "♻️",
+      "lines": [
+        {
+          "text": "Don’t expect someone else to pick up your rubbish at school!",
+          "size": "medium",
+          "weight": "bold"
+        },
+        {
+          "text": "Always use separate bins provided for recycling.",
+          "size": "medium",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "What is the purpose of the notice?",
+    "options": [
+      "A. to remind pupils they are responsible for their own rubbish",
+      "B. to update pupils regarding the school’s recycling rules",
+      "C. to encourage pupils to collect other people’s rubbish"
+    ],
+    "answer": "A",
+    "explanation": "Đáp án A đúng vì câu đầu tiên 'Đừng mong người khác nhặt rác hộ bạn' ('Don’t expect someone else to pick up your rubbish') chính là lời nhắc nhở học sinh phải có trách nhiệm với rác thải của chính mình. Đáp án B sai vì thông báo chỉ nhắc sử dụng thùng rác tái chế đã được cung cấp ('bins provided'), không cập nhật luật lệ gì mới. Đáp án C sai hoàn toàn vì biển báo nhấn mạnh tự dọn rác của mình, không bắt đi dọn rác cho người khác."
+  },
+  {
+    "id": "p1_q50",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Fridge Note",
+      "style": "handwritten_note",
+      "icon": "🏀",
+      "from": "Pierre",
+      "to": "Mum",
+      "body": "We had a basketball training session today, and I’ve got a match tomorrow. I know you’re doing some washing – would you mind putting my sports kit in? I’ll need it for tomorrow."
+    },
+    "question": "Why did Pierre write this note to his mother?",
+    "options": [
+      "A. to remind her about an event",
+      "B. to ask her a favour",
+      "C. to thank her for something"
+    ],
+    "answer": "B",
+    "explanation": "Đáp án B đúng vì Pierre viết giấy để nhờ mẹ một việc ('ask a favour'), cụ thể là nhờ mẹ tiện tay giặt luôn bộ đồ thể thao cho mình ('would you mind putting my sports kit in?'). Đáp án A sai vì việc nhắc có trận đấu ngày mai chỉ là lý do dẫn dắt, mục đích chính vẫn là nhờ vả giặt đồ. Đáp án C sai vì trong giấy không có lời cảm ơn nào cho một việc đã rồi."
+  },
+  {
+    "id": "p1_q51",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "🌍",
+      "from": "Jen",
+      "to": "Tom",
+      "body": "Can you still meet tomorrow to decide on our geography project title? I have some ideas, but I’m not sure about them. Mr Green wants us to send him a title this week."
+    },
+    "question": "Jen is asking Tom to",
+    "options": [
+      "A. choose one of her ideas for their project title.",
+      "B. tell Mr Green which project title they have chosen.",
+      "C. confirm that he can see her to discuss their project title."
+    ],
+    "answer": "C",
+    "explanation": "Đáp án C đúng vì Jen mở đầu tin nhắn bằng việc hỏi 'Ngày mai cậu vẫn có thể gặp để quyết định tên dự án chứ?' ('Can you still meet tomorrow...'). Điều này nhằm yêu cầu Tom xác nhận lại lịch hẹn thảo luận. Đáp án A sai vì Jen chỉ nói mình có vài ý tưởng nhưng chưa chắc chắn, cô ấy muốn bàn bạc chứ không bắt Tom phải chọn luôn ý tưởng của mình. Đáp án B sai vì họ vẫn chưa quyết định tên dự án, nên chưa thể báo cáo cho thầy Green."
+  },
+  {
+    "id": "p1_q52",
+    "type": "part1",
+    "sign_type": "school_notice",
+    "sign": {
+      "location_label": "Art Exhibition Entrance",
+      "style": "school_pinned",
+      "header": "Art exhibition",
+      "icon": "🖼️",
+      "lines": [
+        {
+          "text": "Please leave large bags and backpacks at the baggage desk and collect a bag ticket.",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "No photographic equipment may be used inside the art exhibition.",
+          "size": "medium",
+          "weight": "bold"
+        }
+      ]
+    },
+    "question": "What does the sign say?",
+    "options": [
+      "A. A ticket is needed to see the art exhibition.",
+      "B. Cameras must be left at the baggage desk.",
+      "C. Only small bags can be taken into the exhibition."
+    ],
+    "answer": "C",
+    "explanation": "Đáp án C đúng vì biển báo yêu cầu khách phải gửi 'túi to và ba lô' ở quầy giữ đồ ('leave large bags and backpacks'). Điều này ngầm hiểu rằng khách chỉ được phép mang túi nhỏ (small bags) vào trong triển lãm. Đáp án A sai vì vé được nhắc đến là vé giữ đồ ('bag ticket'), không phải vé vào cửa. Đáp án B sai vì máy ảnh chỉ bị cấm sử dụng bên trong ('No photographic equipment may be used'), không có quy định bắt buộc phải gửi ở quầy."
+  },
+  {
+    "id": "p1_q53",
+    "type": "part1",
+    "sign_type": "school_notice",
+    "sign": {
+      "location_label": "Library Noticeboard",
+      "style": "school_pinned",
+      "header": "Book Quiz",
+      "icon": "📚",
+      "lines": [
+        {
+          "text": "Friday 1.30 p.m. – in library.",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "Maximum four students per team – email names to Mr Edson by Wednesday.",
+          "size": "medium",
+          "weight": "bold"
+        },
+        {
+          "text": "Questions will be on all books on the reading list. Prizes for the top three teams!",
+          "size": "medium",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "",
+    "options": [
+      "A. Students must be in teams of four to enter the competition.",
+      "B. Students have to enter this school competition in advance.",
+      "C. Students get a prize if they read all the books on the reading list."
+    ],
+    "answer": "B",
+    "explanation": "Đáp án B đúng vì học sinh muốn thi thì phải đăng ký trước bằng cách gửi email danh sách tên cho thầy Edson hạn chót vào Thứ Tư ('email names... by Wednesday'), trong khi cuộc thi diễn ra vào Thứ Sáu ('Friday 1.30 p.m.'). Việc này chính là đăng ký trước (enter in advance). Đáp án A sai vì mỗi đội 'tối đa' 4 học sinh ('Maximum four'), không bắt buộc phải đủ 4 người. Đáp án C sai vì phải lọt vào top 3 đội giỏi nhất ('top three teams') mới có thưởng, không phải cứ đọc hết sách là được phát quà."
+  },
+  {
+    "id": "p1_q54",
+    "type": "part1",
+    "sign_type": "school_notice",
+    "sign": {
+      "location_label": "School Corridor",
+      "style": "school_pinned",
+      "header": "",
+      "icon": "📖",
+      "lines": [
+        {
+          "text": "Having problems with your schoolwork?",
+          "size": "medium",
+          "weight": "bold"
+        },
+        {
+          "text": "Free homework sessions in the library after school.",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "Teachers available to help with any subject.",
+          "size": "medium",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "The notice is for pupils who want",
+    "options": [
+      "A. to help their classmates after school.",
+      "B. some support with their homework.",
+      "C. more independent study time at school."
+    ],
+    "answer": "B",
+    "explanation": "Đáp án B đúng vì thông báo dành cho những học sinh gặp khó khăn với bài vở ('Having problems with your schoolwork?') và cung cấp các buổi làm bài tập có giáo viên hỗ trợ ('Teachers available to help'). Đây chính là sự hỗ trợ làm bài tập về nhà (support with their homework). Đáp án A sai vì thông báo nhắm đến người cần được giúp, không phải tìm người đi giúp bạn khác. Đáp án C sai vì đây là các buổi học có giáo viên kèm cặp, không phải giờ tự học độc lập ('independent study')."
+  },
+  {
+    "id": "p1_q55",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "🎾",
+      "from": "Ken",
+      "to": "Jack",
+      "body": "Where are you? Tennis practice is starting now! Did you find your racket? The coach wants to know who can play for the 4 p.m. match this Thursday. Shall I tell him you can?"
+    },
+    "question": "Ken is offering to",
+    "options": [
+      "A. help Jack find his tennis racket for Thursday’s match.",
+      "B. inform the coach whether Jack is available on Thursday.",
+      "C. explain to the tennis coach why Jack is late."
+    ],
+    "answer": "B",
+    "explanation": "Đáp án B đúng vì ở cuối tin nhắn, Ken hỏi 'Mình có nên nói với huấn luyện viên là cậu đá được (vào Thứ Năm) không?' ('Shall I tell him you can?'). Điều này có nghĩa là Ken đang đề nghị báo cáo lại tình trạng sẵn sàng của Jack cho huấn luyện viên biết. Đáp án A sai vì Ken chỉ hỏi thăm xem Jack đã tìm thấy vợt chưa, chứ không hề đề nghị đi tìm giúp. Đáp án C sai vì Ken không đề nghị đi giải thích lý do đi trễ thay cho Jack."
+  },
+  {
+    "id": "p1_q56",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "🎬",
+      "from": "Jakob",
+      "to": "Konrad",
+      "body": "Do you remember me telling you yesterday about a film I’d read great reviews of? Well, I wondered if you wanted to come over and we can see if it’s any good."
+    },
+    "question": "What is Jakob doing?",
+    "options": [
+      "A. telling Konrad about a film he saw recently",
+      "B. inviting Konrad to watch a film with him",
+      "C. reminding Konrad that they arranged to see a film"
+    ],
+    "answer": "B",
+    "explanation": "Đáp án B đúng vì Jakob rủ Konrad sang nhà để cùng xem phim ('wanted to come over and we can see if it's any good'). Đây là một lời mời ('inviting'). Đáp án A sai vì Jakob chỉ mới đọc bình luận ('read great reviews') chứ chưa xem phim này. Đáp án C sai vì họ chưa hề hẹn lịch xem phim từ trước."
+  },
+  {
+    "id": "p1_q57",
+    "type": "part1",
+    "sign_type": "school_notice",
+    "sign": {
+      "location_label": "Computer Room",
+      "style": "school_pinned",
+      "header": "",
+      "icon": "💻",
+      "lines": [
+        {
+          "text": "For all issues with college computers, contact the IT assistants – or see Reception staff, who can call them for help.",
+          "size": "medium",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "What does the sign say?",
+    "options": [
+      "A. Phone a member of staff for instructions on how to use the college computers.",
+      "B. IT assistants at Reception can fix the college computers.",
+      "C. Support is provided for any college computer problem."
+    ],
+    "answer": "C",
+    "explanation": "Đáp án C đúng vì biển báo nêu rõ 'Đối với mọi vấn đề liên quan đến máy tính' ('For all issues...'), bạn có thể liên hệ bộ phận hỗ trợ. Điều này đồng nghĩa với việc nhà trường cung cấp sự hỗ trợ cho bất kỳ sự cố máy tính nào. Đáp án A sai vì liên hệ IT là để sửa lỗi ('issues'), không phải để xin hướng dẫn cách sử dụng. Đáp án B sai vì lễ tân ('Reception') chỉ có nhiệm vụ gọi điện gọi IT đến ('call them for help'), chứ bản thân lễ tân không biết sửa máy."
+  },
+  {
+    "id": "p1_q58",
+    "type": "part1",
+    "sign_type": "school_notice",
+    "sign": {
+      "location_label": "School Library",
+      "style": "school_pinned",
+      "header": "",
+      "icon": "✍️",
+      "lines": [
+        {
+          "text": "Do you enjoy writing?",
+          "size": "medium",
+          "weight": "bold"
+        },
+        {
+          "text": "Special event at school library, 6 p.m. 7th June. Come and read one of your stories aloud, and receive helpful tips from well-known author Jane Smith. All welcome!",
+          "size": "medium",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "What can students do at this event?",
+    "options": [
+      "A. improve their story writing skills",
+      "B. listen to a story read by a famous writer",
+      "C. advise each other on story writing"
+    ],
+    "answer": "A",
+    "explanation": "Đáp án A đúng vì sự kiện mang đến cơ hội nhận những lời khuyên hữu ích từ một tác giả nổi tiếng ('receive helpful tips from well-known author'). Những mẹo này sẽ giúp học sinh cải thiện kỹ năng viết lách của mình ('improve their story writing skills'). Đáp án B sai vì học sinh là người tự đọc to câu chuyện của chính mình ('read one of your stories aloud'), tác giả chỉ góp ý chứ không đọc truyện. Đáp án C sai vì tác giả chuyên nghiệp sẽ đưa ra lời khuyên, không phải học sinh tự tư vấn cho nhau."
+  },
+  {
+    "id": "p1_q59",
+    "type": "part1",
+    "sign_type": "school_notice",
+    "sign": {
+      "location_label": "Park Noticeboard",
+      "style": "school_pinned",
+      "header": "Park Sports Competition, Saturday",
+      "icon": "🏆",
+      "lines": [
+        {
+          "text": "Sign up at café. Free sunhat and water for everyone.",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "Further details: parksports.com",
+          "size": "medium",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "What does the notice say?",
+    "options": [
+      "A. People taking part must register online.",
+      "B. Everyone will have the chance to win a prize.",
+      "C. Competitors will not be charged for water on the day."
+    ],
+    "answer": "C",
+    "explanation": "Đáp án C đúng vì biển báo nêu rõ sẽ phát nước miễn phí cho mọi người ('Free... water for everyone'), tương đương với việc người tham gia sẽ không phải trả tiền cho nước uống ('will not be charged for water'). Đáp án A sai vì việc đăng ký được thực hiện tại quán cà phê ('Sign up at café'), website chỉ để xem thêm chi tiết. Đáp án B sai vì mũ chống nắng và nước là đồ miễn phí phát cho tất cả mọi người, không phải là phần thưởng của cuộc thi ('prize')."
+  },
+  {
+    "id": "p1_q60",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "🚌",
+      "from": "Jess",
+      "to": "Fiona",
+      "body": "You said you’d meet me at 6.30 p.m. Has something happened? The bus leaves in 5 minutes – we’ll miss the film if you don’t get here soon."
+    },
+    "question": "Why has Jess sent the message?",
+    "options": [
+      "A. to explain to Fiona the reason for a delay",
+      "B. to check whether Fiona is still coming",
+      "C. to suggest a different time to meet Fiona"
+    ],
+    "answer": "B",
+    "explanation": "Đáp án B đúng vì Jess đang thắc mắc tại sao Fiona chưa tới ('Has something happened?') dù đã đến giờ hẹn, và hối thúc rằng xe buýt sắp chạy. Việc hỏi han này là để kiểm tra xem liệu Fiona có còn định đến hay không. Đáp án A sai vì người đang bị trễ là Fiona, Jess không phải giải thích lý do trễ. Đáp án C sai vì xe buýt sắp rời đi trong 5 phút nữa, Jess không hề gợi ý đổi thời gian hẹn."
+  }
 ]
