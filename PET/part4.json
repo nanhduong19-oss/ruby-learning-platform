@@ -1,0 +1,288 @@
+[
+  {
+    "id": "pet_book1fS_p4_test1",
+    "type": "part4",
+    "title": "Ballet for children and teenagers",
+    "passage_parts": [
+      "It can take a long time to reach a professional level in ballet, so most dancers begin their training very young. It is essential that very young dancers learn the ballet movements properly right from the beginning. [GAP_16] This is because it is usually more difficult to change old habits than to learn new ones.",
+      "The first thing that young children who are interested in learning to dance often do is attend creative movement classes, where they can practise basic skills like jumping and turning, and just have fun. [GAP_17] In addition, some people recommend that they should learn either to sing or play an instrument.",
+      "Young people who decide they want to have a ballet career can attend a dance school. Here, students not only study normal school subjects but also do daily dance training. [GAP_18] And the whole dance-school environment is set up to support the young people’s artistic development; it allows them to focus on their dance more easily, and prepares them for their future. But how can a young dancer and their parents tell which dance school is the most suitable? [GAP_19] The older students taking part in it should clearly have more highly-developed ballet skills than the younger dancers.",
+      "By the time they are 16 or 17, many ballet dancers are entering ballet competitions and taking classes at professional studios. [GAP_20] It is important for young dancers to know how well they are doing, because the dance world is very competitive and the training hard; not everyone makes it to the top."
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "For all these reasons, they enjoy meeting other dancers."
+      },
+      {
+        "letter": "B",
+        "text": "Listening to different styles of music also helps."
+      },
+      {
+        "letter": "C",
+        "text": "Travelling long distances to dance schools can be tiring, too."
+      },
+      {
+        "letter": "D",
+        "text": "Attending one of their public performances is a good way of finding out."
+      },
+      {
+        "letter": "E",
+        "text": "If they develop poor technique, they may have problems later on."
+      },
+      {
+        "letter": "F",
+        "text": "Few people know where to find them."
+      },
+      {
+        "letter": "G",
+        "text": "This allows them to compare themselves with teenagers from other schools."
+      },
+      {
+        "letter": "H",
+        "text": "That means they do not waste time travelling from home to dance classes."
+      }
+    ],
+    "questions": [
+      {
+        "number": 16,
+        "answer": "E",
+        "explanation": "Đáp án **E** vì câu trước nhấn mạnh việc học đúng động tác **right from the beginning**, còn câu sau giải thích vì sao: nếu hình thành **poor technique** thì sau này sẽ khó sửa. Từ khóa nối ý là **learn properly** -> **poor technique / problems later on**."
+      },
+      {
+        "number": 17,
+        "answer": "B",
+        "explanation": "Đáp án **B** vì đoạn này nói về các hoạt động hỗ trợ trẻ nhỏ học ballet tốt hơn. Sau lớp **creative movement classes**, câu tiếp theo thêm một gợi ý khác là nên học hát hoặc chơi nhạc cụ. Vì vậy **Listening to different styles of music** là ý bổ sung rất hợp mạch."
+      },
+      {
+        "number": 18,
+        "answer": "H",
+        "explanation": "Đáp án **H** vì trước chỗ trống nói học sinh học ở **dance school**, sau chỗ trống là lợi ích của môi trường đó. Câu **That means they do not waste time travelling from home to dance classes** giải thích thêm một lợi thế của việc học ngay tại trường chuyên về múa."
+      },
+      {
+        "number": 19,
+        "answer": "D",
+        "explanation": "Đáp án **D** vì câu trước hỏi làm sao để biết trường múa nào là phù hợp nhất, và câu sau nói về việc nhìn vào trình độ của **older students**. Cách kiểm tra hợp lý nhất là đi xem **public performances** của trường để đánh giá chất lượng thực tế."
+      },
+      {
+        "number": 20,
+        "answer": "G",
+        "explanation": "Đáp án **G** vì trước chỗ trống nói các vũ công tuổi 16-17 bắt đầu tham gia **competitions** và học ở **professional studios**. Câu **This allows them to compare themselves with teenagers from other schools** giải thích rõ mục đích của việc thi đấu, rồi câu sau nhấn mạnh việc biết mình đang ở mức nào là rất quan trọng."
+      }
+    ]
+  },
+  {
+    "id": "pet_book1fS_p4_test2",
+    "type": "part4",
+    "title": "A day in the life of an astronaut",
+    "passage_parts": [
+      "Italian astronaut Samantha Cristoforetti talks about daily life on the International Space Station (ISS). For the last few months, my home has been the International Space Station, orbiting 400 km above the surface of the earth, at 25,000 km per hour. We took off in a Russian Soyuz spaceship from Kazakhstan, and the flight to the Space Station took six hours. [GAP_16] I felt incredibly excited.",
+      "There are two Americans, three Russians, and me. [GAP_17] Fortunately, we all get on well. The day starts for everyone at 7 a.m. There’s no gravity up here, so every morning I float through the cabin to attend our daily planning conference, or DPC. [GAP_18] It usually lasts a few minutes. After it’s finished, we speak to space centres around the world, including Houston (USA), Munich (Germany) and Tsukuba (Japan).",
+      "Then we have breakfast: oatmeal, eggs and coffee. In the past, astronauts had to suck food out of tubes. Nowadays, astronauts’ food is served in special individual boxes with covers. [GAP_19] Life has become much easier for astronauts over the years.",
+      "Our dinner is at around 7.30 p.m. My meals were prepared by an Italian chef on Earth before I left, and they’re delicious. However, I do exchange a lot of food with my three colleagues from Russia. [GAP_20] Their lentil and vegetable soup is also really good."
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "I'm the only woman in this group."
+      },
+      {
+        "letter": "B",
+        "text": "That was a very long time to live in space."
+      },
+      {
+        "letter": "C",
+        "text": "People often ask what food tastes like in space."
+      },
+      {
+        "letter": "D",
+        "text": "This stops everything floating away while we eat!"
+      },
+      {
+        "letter": "E",
+        "text": "On the other hand, the ISS is a perfect environment to do scientific experiments."
+      },
+      {
+        "letter": "F",
+        "text": "That's the meeting where we discuss what needs to be done during the day."
+      },
+      {
+        "letter": "G",
+        "text": "They like my desserts, and they have a dark bread that I love."
+      },
+      {
+        "letter": "H",
+        "text": "I'll never forget looking through the window and seeing it for the first time."
+      }
+    ],
+    "questions": [
+      {
+        "number": 16,
+        "answer": "H",
+        "explanation": "Đáp án **H** vì câu trước mô tả chuyến bay lên ISS, còn câu sau là cảm xúc **I felt incredibly excited**. Chi tiết **seeing it for the first time** tạo ra lý do rất tự nhiên cho cảm xúc hào hứng đó."
+      },
+      {
+        "number": 17,
+        "answer": "A",
+        "explanation": "Đáp án **A** vì câu trước liệt kê **two Americans, three Russians, and me**, nên câu phù hợp nhất là nhận xét về thành phần nhóm: **I'm the only woman in this group**. Sau đó câu **Fortunately, we all get on well** tiếp tục nói về mối quan hệ giữa các thành viên."
+      },
+      {
+        "number": 18,
+        "answer": "F",
+        "explanation": "Đáp án **F** vì ngay trước chỗ trống xuất hiện cụm **daily planning conference, or DPC**. Câu **That's the meeting where we discuss what needs to be done during the day** giải thích trực tiếp DPC là gì, rồi câu sau nói tiếp **It usually lasts a few minutes**."
+      },
+      {
+        "number": 19,
+        "answer": "D",
+        "explanation": "Đáp án **D** vì đoạn này nói về đồ ăn trong không gian được đựng trong **special individual boxes with covers**. Trong môi trường **no gravity**, nắp hộp có tác dụng **stops everything floating away**, nên ý này khớp hoàn toàn."
+      },
+      {
+        "number": 20,
+        "answer": "G",
+        "explanation": "Đáp án **G** vì câu trước nói Samantha thường **exchange a lot of food** với đồng nghiệp Nga, còn câu sau đưa ví dụ món súp Nga cô thích. Câu **They like my desserts, and they have a dark bread that I love** bổ sung thêm các món ăn hai bên trao đổi với nhau."
+      }
+    ]
+  },
+  {
+    "id": "pet_book1fS_p4_test3",
+    "type": "part4",
+    "title": "Freezing food to keep it fresh",
+    "passage_parts": [
+      "Inventor and businessman Clarence Birdseye was born in New York, on December 9, 1886. From a young age, he was interested in animals and plants and in 1909, Birdseye enrolled at university to study biology. [GAP_16] Instead he took a job working for the US government as a naturalist in the frozen north of Canada.",
+      "When he was working in Labrador in 1912, Birdseye watched local people fishing through holes cut in an icy lake. [GAP_17] He noticed that they could then be kept for long periods and, when the families wanted some to eat, they could defrost them without losing any of the freshness or flavour. Birdseye realised that cooling food very quickly was the key to success when freezing it. [GAP_18] In warmer climates, people had experimented with freezing food by cooling it slowly. When food is frozen in this way, long sharp crystals of ice, shaped like knives, start to grow inside it. These cut into the food, causing it to break up when defrosted. [GAP_19] Then he began to wonder how this freezing method might work with fresh vegetables and other foods as well as fish and meat.",
+      "When Birdseye returned to the US, he invented a machine which pressed food between two very cold metal plates. By 1930, it was ready to go into production. However, home freezers were very rare at this time. [GAP_20] It was another 25 years before Birdseye’s invention was widely used."
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "This was easy, of course, in very cold environments."
+      },
+      {
+        "letter": "B",
+        "text": "It took Birdseye eight years to work out how to cool food quickly enough to stop them forming."
+      },
+      {
+        "letter": "C",
+        "text": "He always came top of his university class."
+      },
+      {
+        "letter": "D",
+        "text": "As a result, few people wanted to buy frozen food."
+      },
+      {
+        "letter": "E",
+        "text": "They didn't catch many fish because they couldn't keep them fresh."
+      },
+      {
+        "letter": "F",
+        "text": "However, he was unable to afford the teaching fees, and had to leave."
+      },
+      {
+        "letter": "G",
+        "text": "For example, they were taken to nearby towns."
+      },
+      {
+        "letter": "H",
+        "text": "As they pulled out fish, these immediately froze in the extremely cold air."
+      }
+    ],
+    "questions": [
+      {
+        "number": 16,
+        "answer": "F",
+        "explanation": "Đáp án **F** vì sau câu nói Birdseye vào đại học học **biology**, câu tiếp theo mở sang hướng khác với từ **Instead**. Vì vậy cần một ý cho thấy anh ấy không thể tiếp tục học, và **unable to afford the teaching fees** khớp logic nhất."
+      },
+      {
+        "number": 17,
+        "answer": "H",
+        "explanation": "Đáp án **H** vì câu trước nói người dân câu cá qua lỗ trên mặt hồ băng, còn câu sau nói những con cá đó có thể giữ lâu mà vẫn tươi. Chi tiết **immediately froze in the extremely cold air** giải thích chính xác vì sao cá được đông lạnh nhanh như vậy."
+      },
+      {
+        "number": 18,
+        "answer": "A",
+        "explanation": "Đáp án **A** vì ngay trước chỗ trống Birdseye nhận ra chìa khóa là **cooling food very quickly**, và ngay sau đó đoạn văn đối chiếu với **warmer climates**. Câu **This was easy, of course, in very cold environments** nối hai ý này rất mượt."
+      },
+      {
+        "number": 19,
+        "answer": "B",
+        "explanation": "Đáp án **B** vì trước chỗ trống tác giả giải thích vấn đề của việc làm đông chậm: các tinh thể băng dài sẽ phá hỏng thực phẩm. Sau đó cần một câu cho thấy Birdseye mất thời gian tìm cách ngăn **them** - tức các tinh thể này - hình thành, trước khi nghĩ tiếp đến rau và các thực phẩm khác."
+      },
+      {
+        "number": 20,
+        "answer": "D",
+        "explanation": "Đáp án **D** vì câu trước nói **home freezers were very rare**, nên hệ quả hợp lý là **few people wanted to buy frozen food**. Điều này giải thích vì sao phải mất thêm **25 years** phát minh mới được sử dụng rộng rãi."
+      }
+    ]
+  },
+  {
+    "id": "pet_book1fS_p4_test4",
+    "type": "part4",
+    "title": "Is too much messaging bad for us?",
+    "passage_parts": [
+      "I’ve just read some interesting research in a magazine article about the amount of messaging that teenagers do. It seems that we send an average of 100 messages a day – that’s 3,400 every month! The researchers say that this is very likely to have some big effects on parts of our lives. [GAP_16] As we grow up, we start to rely less on them. But the research says that some teenagers message their parents up to 15 times a day. Some people might say that means that we depend on them too much. [GAP_17]",
+      "One thing did worry me a bit about the research though. It seems that for many of us, messaging doesn’t end when the lights go out for the night. [GAP_18] That’s because if, like me, you keep the phone on after going to bed, the light shows when a new message comes in. This disturbs our sleep, and even though we’re not completely awake, we’ll often read the message and even reply. As a result, we might end up being rather bad-tempered in the morning. [GAP_19]",
+      "Of course, despite the fact that some of what I read in the article was rather negative, it’s not all bad news. [GAP_20] One advantage is that if you’re feeling a bit shy, or just tired, and you don’t want to communicate face-to-face, messaging is a great alternative."
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "That surely isn't the best way to start the day!"
+      },
+      {
+        "letter": "B",
+        "text": "And, surprisingly, we often forget that it didn't!"
+      },
+      {
+        "letter": "C",
+        "text": "Despite this difficulty, messaging can be much quicker than a conversation."
+      },
+      {
+        "letter": "D",
+        "text": "However, I think it's just nice to stay in touch."
+      },
+      {
+        "letter": "E",
+        "text": "Another reason is that often we just can't wait to see our friends."
+      },
+      {
+        "letter": "F",
+        "text": "There are plenty of good things about messaging too."
+      },
+      {
+        "letter": "G",
+        "text": "One of these, they say, is our connection with our parents."
+      },
+      {
+        "letter": "H",
+        "text": "Many of us message while we're doing other things, like homework."
+      }
+    ],
+    "questions": [
+      {
+        "number": 16,
+        "answer": "G",
+        "explanation": "Đáp án **G** vì câu sau dùng đại từ **them** trong **rely less on them**, nên chỗ trống phải giới thiệu một nhóm người cụ thể. Câu **our connection with our parents** khớp hoàn toàn vì ngay sau đó đoạn văn tiếp tục nói về việc nhắn tin cho **parents**."
+      },
+      {
+        "number": 17,
+        "answer": "D",
+        "explanation": "Đáp án **D** vì trước đó tác giả nêu ý kiến của người khác rằng nhắn tin với bố mẹ quá nhiều có thể là phụ thuộc. Câu **However, I think it's just nice to stay in touch** tạo ra sự phản biện nhẹ nhàng và rất hợp với mạch lập luận."
+      },
+      {
+        "number": 18,
+        "answer": "B",
+        "explanation": "Đáp án **B** vì câu trước nói việc nhắn tin **doesn't end when the lights go out**, còn câu sau giải thích lý do là điện thoại vẫn sáng khi có tin nhắn mới. Câu **we often forget that it didn't** nối lại chính xác ý 'việc nhắn tin chưa thực sự kết thúc'."
+      },
+      {
+        "number": 19,
+        "answer": "A",
+        "explanation": "Đáp án **A** vì ngay trước chỗ trống tác giả nói việc bị tin nhắn làm phiền lúc ngủ khiến ta **bad-tempered in the morning**. Câu cảm thán **That surely isn't the best way to start the day!** là bình luận rất tự nhiên về hậu quả đó."
+      },
+      {
+        "number": 20,
+        "answer": "F",
+        "explanation": "Đáp án **F** vì câu trước mở sang hướng tích cực với **it's not all bad news**, và câu sau bắt đầu nêu **One advantage**. Do đó cần một câu tổng quát như **There are plenty of good things about messaging too** để dẫn vào các lợi ích cụ thể."
+      }
+    ]
+  }
+]
