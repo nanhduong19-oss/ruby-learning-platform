@@ -1,0 +1,290 @@
+[
+  {
+    "id": "pet_book1fS_p3_test1",
+    "title": "My photography project",
+    "content_html": "<p>My name’s Martin Cabello and I’m a young photographer. Taking photographs was always my favourite activity as a child. And when I was 15, I felt that if I wanted to take my hobby to the next level, I had to do something special. So I decided to start a personal project: I would take one photograph every day for a whole year of my life. I knew that many other young photographers before me had done the same thing, but it seemed like a really great idea, and so I started.</p><p>After a few weeks, I decided to put these photos onto a website for young photographers because I was keen to create a photo diary, and also to have the chance to show other people my photos. I was amazed to discover that there were others who liked the way I saw and photographed things. I was also enjoying photography a wide range of subjects. Then someone suggested that if my photographs all had a common topic or idea to connect them, my project would be even better – and I agreed.</p><p>So I began to concentrate on taking photos of nature scenes, especially of birds and the sky. A lot of them were black and white photographs, which was very different from what many other young photographers were doing – they were all taking colour photos. As a result, I sometimes had doubts about my project, and I almost gave up several times. In the end, however, I trusted my own feelings, and became more confident about my photography style and choices.</p><p>One day I showed my project to my art teacher at school. She told me about a national photography competition for people my age. So I entered some of my photos, just for fun. I’ll never forget the moment when the judges told me that I had won first prize; I was so happy, as my project meant so much to me. It was the first time I realised that maybe my photography really was good, and that I might actually be able to work as a professional photographer. I now have my own photography studio and I’ve never regretted my career choice.</p><br><p><em>Compiled & Digitized by Elaine Nguyễn</em></p>",
+    "questions": [
+      {
+        "number": 11,
+        "text": "Martin started his project because he wanted to",
+        "options": {
+          "A": "influence other photographers.",
+          "B": "try an original idea of his own.",
+          "C": "take a lot more photos than he had before.",
+          "D": "develop his photography further."
+        },
+        "answer": "D",
+        "evidenceKeywords": ["take my hobby", "to the next level"],
+        "explanation": "<strong>11. D:</strong> Trong đoạn 1, Martin nói rằng 'if I wanted to take my hobby to the next level, I had to do something special' (nếu muốn đưa sở thích của mình lên một tầm cao mới, tôi phải làm điều gì đó đặc biệt), đồng nghĩa với việc phát triển kỹ năng nhiếp ảnh xa hơn."
+      },
+      {
+        "number": 12,
+        "text": "What happened after Martin put his photos on the website?",
+        "options": {
+          "A": "He became more interested in other photographers’ pictures.",
+          "B": "He was given some advice to improve his project.",
+          "C": "He decided that his photos weren’t good enough.",
+          "D": "He discovered the website wasn’t the best place for his photos."
+        },
+        "answer": "B",
+        "evidenceKeywords": ["someone suggested", "common topic", "project would be even better"],
+        "explanation": "<strong>12. B:</strong> Đoạn 2 đề cập 'Then someone suggested that if my photographs all had a common topic... my project would be even better' (Sau đó có người gợi ý rằng nếu các bức ảnh của tôi có chung một chủ đề... dự án của tôi sẽ còn tuyệt hơn)."
+      },
+      {
+        "number": 13,
+        "text": "How did Martin feel when he took his first nature photos?",
+        "options": {
+          "A": "He wasn’t sure that he was doing the right thing.",
+          "B": "He was certain that the photos would be better in colour.",
+          "C": "He was anxious about what others would think.",
+          "D": "He was worried that his photos might not be interesting."
+        },
+        "answer": "A",
+        "evidenceKeywords": ["sometimes had doubts", "almost gave up"],
+        "explanation": "<strong>13. A:</strong> Trong đoạn 3, vì phong cách chụp đen trắng khác biệt so với mọi người, Martin 'sometimes had doubts about my project, and I almost gave up' (đôi khi có những hoài nghi về dự án và suýt bỏ cuộc vài lần)."
+      },
+      {
+        "number": 14,
+        "text": "How did winning the competition affect Martin?",
+        "options": {
+          "A": "He realised how enjoyable competitions can be.",
+          "B": "It helped him to make a decision about his future.",
+          "C": "It gave him the opportunity to meet more young photographers.",
+          "D": "He started putting more effort into his photography."
+        },
+        "answer": "B",
+        "evidenceKeywords": ["realised", "work as a professional photographer", "career choice"],
+        "explanation": "<strong>14. B:</strong> Đoạn cuối viết 'It was the first time I realised... that I might actually be able to work as a professional photographer' (Đó là lần đầu tiên tôi nhận ra mình có thể làm việc như một nhiếp ảnh gia chuyên nghiệp), giúp anh đưa ra quyết định nghề nghiệp."
+      },
+      {
+        "number": 15,
+        "text": "What would be a good title for this text?",
+        "options": {
+          "A": "My favourite websites for sharing photographs.",
+          "B": "The best way to become a successful young photographer.",
+          "C": "How a photography project changed my life.",
+          "D": "Why more photographers should take pictures of nature."
+        },
+        "answer": "C",
+        "evidenceKeywords": ["start a personal project", "won first prize", "never regretted my career choice"],
+        "explanation": "<strong>15. C:</strong> Toàn bộ bài đọc kể về hành trình từ lúc Martin bắt đầu một dự án ảnh cá nhân cho đến khi dự án đó giúp anh định hướng trở thành một nhiếp ảnh gia chuyên nghiệp."
+      }
+    ]
+  },
+  {
+    "id": "pet_book1fS_p3_test2",
+    "title": "Rock the Planet",
+    "content_html": "<p>Rock the Planet, a musical show where actors also have to be really good musicians, opened in London last year, after five years in the USA, where it was voted ‘Best Musical’ four times! But doing the show with an all-British cast of actors was challenging. The UK puts more limits on how many performances young actors can do weekly – in the USA, they’re allowed to do more shows. Because of this, twice as many actors were required here. Luckily, the director found plenty of talented UK-based actors, and they’ve just won their fifth ‘Best Musical’ award! Although the theatre in London is bigger than the US venue, it’s been full every night, with everyone wanting to hear the songs that first became popular in America.</p><p>I met 11-year-old Jamie, one of the show’s actors. ‘It’s brilliant that I get paid to play,’ he said, ‘especially a beautiful and expensive Gibson guitar.’ He told me how busy the young actors are. ‘We have normal school lessons each day at the theatre. While the teachers are great, I miss my old school mates. And what do they think of the show? Well, my whole class came! The theatre does special deals on tickets for schools. They absolutely loved it and that made me feel really confident. My parents come when they can, but it’s expensive for them,’ he explained.</p><p>When I said I also play guitar, Jamie found a spare one and invited me to play along with him and the other young actors. We played Days, a song I wasn’t familiar with. Jamie took me through it and I was very pleased with myself when I finally got it right. I was impressed by Jamie’s ability and wished I had similar skills. I was just trying to keep up and was glad the show’s director wasn’t there to hear my mistakes!</p><p>While the young actors were already musicians, with some playing several instruments, none had played in a band before. Fortunately, they’ve found it pretty easy. Jamie admitted that the hard part was appearing natural when they first performed together. They were concentrating so much that they forgot to smile!</p><p>The show’s on in London for another year, and is well worth seeing.</p><br><p><em>Compiled & Digitized by Elaine Nguyễn</em></p>",
+    "questions": [
+      {
+        "number": 11,
+        "text": "What is the difference between the shows in the UK and in the USA?",
+        "options": {
+          "A": "Fewer young actors were needed in America.",
+          "B": "Brand new songs have been included in the UK.",
+          "C": "The UK show has won more prizes.",
+          "D": "Audiences were bigger in America."
+        },
+        "answer": "A",
+        "evidenceKeywords": ["twice as many actors", "were required here"],
+        "explanation": "<strong>11. A:</strong> Đoạn 1 nêu rõ 'twice as many actors were required here' (tại Anh cần số lượng diễn viên gấp đôi) do giới hạn số buổi diễn của diễn viên nhí, đồng nghĩa với việc ở Mỹ cần ít diễn viên nhí hơn."
+      },
+      {
+        "number": 12,
+        "text": "What does Jamie say about working on the show?",
+        "options": {
+          "A": "He’s glad that his family come daily to support him.",
+          "B": "He’s embarrassed when his friends come to watch him.",
+          "C": "He’s delighted that he’s doing something that he loves.",
+          "D": "He’s anxious about the amount of schoolwork he’s missing."
+        },
+        "answer": "C",
+        "evidenceKeywords": ["brilliant", "get paid to play", "beautiful guitar"],
+        "explanation": "<strong>12. C:</strong> Trong đoạn 2, Jamie hào hứng chia sẻ: 'It’s brilliant that I get paid to play... especially a beautiful and expensive Gibson guitar' (Thật tuyệt vời khi tôi được trả tiền để chơi đàn)."
+      },
+      {
+        "number": 13,
+        "text": "How did the writer feel about playing music with the actors?",
+        "options": {
+          "A": "surprised that he sounded as good as Jamie",
+          "B": "satisfied that he had learned a new song",
+          "C": "happy because they played his favourite tune",
+          "D": "excited to be playing in front of the director"
+        },
+        "answer": "B",
+        "evidenceKeywords": ["wasn't familiar with", "very pleased with myself", "finally got it right"],
+        "explanation": "<strong>13. B:</strong> Ở đoạn 3, tác giả nói rằng bài hát 'Days' là bài anh chưa biết, và anh 'very pleased with myself when I finally got it right' (rất hài lòng với bản thân khi cuối cùng cũng chơi đúng)."
+      },
+      {
+        "number": 14,
+        "text": "What did the actors find difficult about performing in the show?",
+        "options": {
+          "A": "having to play their instruments with other people",
+          "B": "learning to play many new instruments very quickly",
+          "C": "remembering the different songs they had to do",
+          "D": "looking relaxed when they were playing on stage"
+        },
+        "answer": "D",
+        "evidenceKeywords": ["hard part", "appearing natural", "forgot to smile"],
+        "explanation": "<strong>14. D:</strong> Đoạn 4 ghi rõ: 'Jamie admitted that the hard part was appearing natural... They were concentrating so much that they forgot to smile!' (Jamie thừa nhận phần khó nhất là tỏ ra tự nhiên... họ quên cả mỉm cười)."
+      },
+      {
+        "number": 15,
+        "text": "What would an advertisement for the show say?",
+        "options": {
+          "A": "Come and enjoy this wonderful show while you can – tickets are selling fast…",
+          "B": "Book to see Rock the Planet for an experience to remember…",
+          "C": "You won’t often see something as good as Rock the Planet…",
+          "D": "After its success in several countries…"
+        },
+        "answer": "B",
+        "evidenceKeywords": ["actors also have to be really good musicians", "well worth seeing"],
+        "explanation": "<strong>15. B:</strong> Xuyên suốt bài viết ca ngợi chất lượng âm nhạc và kỹ năng biểu diễn trực tiếp của các diễn viên nhí, đoạn kết khẳng định show diễn 'is well worth seeing' (rất đáng xem), phù hợp với thông điệp quảng cáo một trải nghiệm đáng nhớ."
+      }
+    ]
+  },
+  {
+    "id": "pet_book1fS_p3_test3",
+    "title": "The teenage snowboarder",
+    "content_html": "<p>15-year-old Vanessa Hanson writes about her sport.</p><p>I was born in Denver, USA, and started snowboarding aged eight when my dad took me to a resort in the mountains, about two hours from Denver. The hill looked unbelievably steep and scary, so my dad had to do a lot of persuading to get me on a board. Because I was so young, I hadn’t even thought of asking him if I could start snowboarding, but he was already into it and wanted me to love it too – he made it look so simple. And in the end, I managed just fine.</p><p>After this experience, it wasn’t long before I developed a love of the sport and had improved my ability too. I started competing aged ten. Some people enter loads of competitions and end up getting bored of snowboarding, but my love of taking part, and winning too, if I’m honest, has got stronger as I’ve gotten older, which always helps me to push myself harder. I enjoy not having a fixed plan, and sometimes this goes well, like when I became the first female ever to get a perfect 100 at a local competition. I wasn’t sure I’d even attempt the jumps that got me this score until I actually set off. That achievement increased my trust in my own abilities.</p><p>During the summer, I focus on training and my studies while there’s no snow. Although I train daily, it’s nice not having to stick to quite a strict diet like I do in the winter. I also get to spend lots of time with my friends then. It’s the best way of dealing with not being able to do what I love so much and what I’m really good at.</p><p>I have to think carefully about my future. Snowboarding is such a huge part of my life now, but I also feel it’s important to have something else I can do, just in case I don’t succeed as a professional snowboarder or if I get injured. I’m wondering whether becoming a doctor is a possibility, if my active life allows time for doing a college degree. It’s impossible to imagine myself growing tired of the sport, but I can’t go on snowboarding my whole life.</p><br><p><em>Compiled & Digitized by Elaine Nguyễn</em></p>",
+    "questions": [
+      {
+        "number": 11,
+        "text": "Just before Vanessa snowboarded down a hill for the first time, she felt",
+        "options": {
+          "A": "worried she was too young.",
+          "B": "nervous about doing it.",
+          "C": "keen to copy her father.",
+          "D": "pleased to be allowed to do it."
+        },
+        "answer": "B",
+        "evidenceKeywords": ["hill looked unbelievably steep", "and scary", "lot of persuading"],
+        "explanation": "<strong>11. B:</strong> Trong đoạn 1, Vanessa miêu tả ngọn đồi trông 'unbelievably steep and scary' (dốc và đáng sợ đến khó tin), khiến bố cô phải thuyết phục rất nhiều, chứng tỏ cô bé cảm thấy lo lắng/sợ hãi."
+      },
+      {
+        "number": 12,
+        "text": "What does Vanessa say about taking part in competitions?",
+        "options": {
+          "A": "She expects too much of herself.",
+          "B": "She sometimes loses interest.",
+          "C": "She always plans for them carefully.",
+          "D": "She enjoys them more and more."
+        },
+        "answer": "D",
+        "evidenceKeywords": ["love of taking part", "has got stronger", "as I've gotten older"],
+        "explanation": "<strong>12. D:</strong> Đoạn 2 ghi rõ: 'my love of taking part... has got stronger as I’ve gotten older' (tình yêu đối với việc tham gia thi đấu... ngày càng lớn mạnh hơn khi tôi lớn lên)."
+      },
+      {
+        "number": 13,
+        "text": "In the summer, Vanessa enjoys",
+        "options": {
+          "A": "the good weather where she lives.",
+          "B": "not having to train regularly.",
+          "C": "being able to eat whatever she likes.",
+          "D": "having plenty of time to do her schoolwork."
+        },
+        "answer": "C",
+        "evidenceKeywords": ["nice not having to stick", "to quite a strict diet"],
+        "explanation": "<strong>13. C:</strong> Trong đoạn 3, Vanessa đề cập vào mùa hè 'it’s nice not having to stick to quite a strict diet like I do in the winter' (thật tuyệt khi không phải tuân thủ chế độ ăn kiêng nghiêm ngặt như mùa đông)."
+      },
+      {
+        "number": 14,
+        "text": "Vanessa says that in the future, snowboarding",
+        "options": {
+          "A": "may not be her main career.",
+          "B": "will be a way for her to make a lot of money.",
+          "C": "might not always be interesting for her.",
+          "D": "will help her stay fit and healthy."
+        },
+        "answer": "A",
+        "evidenceKeywords": ["important to have something else", "becoming a doctor is a possibility"],
+        "explanation": "<strong>14. A:</strong> Đoạn cuối, Vanessa cho rằng điều quan trọng là phải có một nghề khác 'just in case I don't succeed as a professional snowboarder' và cô đang cân nhắc việc trở thành bác sĩ."
+      },
+      {
+        "number": 15,
+        "text": "What would Vanessa say to one of her friends?",
+        "options": {
+          "A": "I love snowboarding, but it’s a shame I have so many accidents.",
+          "B": "I’m pleased that I’m more confident now…",
+          "C": "I’m so happy to be a champion snowboarder…",
+          "D": "I’m sorry I’ve never been able to see you that much…"
+        },
+        "answer": "B",
+        "evidenceKeywords": ["achievement increased my trust", "in my own abilities"],
+        "explanation": "<strong>15. B:</strong> Ở đoạn 2, cô chia sẻ việc đạt được điểm tuyệt đối 100 đã 'increased my trust in my own abilities' (tăng sự tin tưởng vào khả năng của chính mình), đồng nghĩa với việc tự tin hơn."
+      }
+    ]
+  },
+  {
+    "id": "pet_book1fS_p3_test4",
+    "title": "Challenge yourself!",
+    "content_html": "<p>15-year-old Kyle Washington writes about what he does in his free time.</p><p>I joined the National Youth Challenge (NYC) last year because I knew they went camping and sailing and taught skills like public speaking, and these were things I’d never done before. In the NYC you can do different activities to challenge yourself and you’re always learning something. There are different levels, from beginner to advanced, run by adult volunteers called ‘leaders’. When you complete each level you get a certificate.</p><p>When I first joined, my leader suggested that my first challenge should be helping to organise activities at a local children’s club for two hours a week. I wasn’t sure it was a good idea; I’d joined that same club when I was eight and I’d found it really difficult to make friends. I was quite shy then and all the other children already had their own friendship groups, so I’d stopped going after a couple of weeks. I decided to take up the challenge though, but only because I wanted my first NYC certificate.</p><p>Soon, however, I wanted to spend all my free time at the children’s club. It meant a lot more to me than just getting the certificate. And when I finished the challenge, the NYC leader let me keep on volunteering at the club because I’d built up some great relationships with the children. Now I’m there for about four hours a week and I always really look forward to going.</p><p>Because of what I’ve learnt at the children’s club, I’ve decided that when I finish school in three years’ time I want to go to college to become a qualified youth worker – someone who works with children. It wasn’t something I’d ever considered before starting at the club. In fact, I’d never thought about my future job at all. This has been my favourite part of the NYC so far and I’ve improved my own communication skills while at the same time helping others. I’ve got several other NYC certificates now and yes, one of them is for camping!</p><br><p><em>Compiled & Digitized by Elaine Nguyễn</em></p>",
+    "questions": [
+      {
+        "number": 11,
+        "text": "What was the main reason why Kyle joined the NYC?",
+        "options": {
+          "A": "to improve some of his skills",
+          "B": "to reach the advanced level",
+          "C": "to become a volunteer leader",
+          "D": "to try new experiences"
+        },
+        "answer": "D",
+        "evidenceKeywords": ["went camping and sailing", "things I'd never done before"],
+        "explanation": "<strong>11. D:</strong> Trong đoạn 1, Kyle tham gia vì tổ chức này có các hoạt động như cắm trại, chèo thuyền... và đây là 'these were things I’d never done before' (những việc tôi chưa từng làm trước đây)."
+      },
+      {
+        "number": 12,
+        "text": "Why didn’t Kyle want to start helping at the children’s club?",
+        "options": {
+          "A": "His memories of going there weren’t very positive.",
+          "B": "He felt he was too shy to do a good job there.",
+          "C": "He didn’t like the children there.",
+          "D": "None of his friends worked there."
+        },
+        "answer": "A",
+        "evidenceKeywords": ["found it really difficult", "to make friends", "stopped going"],
+        "explanation": "<strong>12. A:</strong> Ở đoạn 2, Kyle nhớ lại hồi 8 tuổi từng tham gia câu lạc bộ đó nhưng 'found it really difficult to make friends... so I’d stopped going' (rất khó kết bạn nên đã nghỉ đi), cho thấy những kỷ niệm không mấy vui vẻ."
+      },
+      {
+        "number": 13,
+        "text": "Kyle still goes to the children’s club because",
+        "options": {
+          "A": "he needs to earn his next certificate.",
+          "B": "he enjoys spending time with the children.",
+          "C": "his leader asked him to carry on.",
+          "D": "his challenge is not yet finished."
+        },
+        "answer": "B",
+        "evidenceKeywords": ["built up some great relationships", "really look forward to going"],
+        "explanation": "<strong>13. B:</strong> Theo đoạn 3, sau khi hoàn thành thử thách, anh vẫn ở lại vì đã 'built up some great relationships with the children' (xây dựng được mối quan hệ tuyệt vời với bọn trẻ) và 'really look forward to going' (thực sự mong chờ được đến đó)."
+      },
+      {
+        "number": 14,
+        "text": "Working at the children’s club has helped Kyle to",
+        "options": {
+          "A": "make a decision about his future career.",
+          "B": "go on his first camping expedition.",
+          "C": "get a place at college.",
+          "D": "achieve his dream of working with children."
+        },
+        "answer": "A",
+        "evidenceKeywords": ["decided that", "want to go to college", "become a qualified youth worker"],
+        "explanation": "<strong>14. A:</strong> Đoạn cuối mô tả nhờ những gì học được ở câu lạc bộ, Kyle 'decided that when I finish school... I want to go to college to become a qualified youth worker' (đã quyết định sẽ học để trở thành một nhân viên công tác thanh thiếu niên)."
+      },
+      {
+        "number": 15,
+        "text": "What would Kyle’s NYC leader say about him now?",
+        "options": {
+          "A": "Kyle’s learnt so much…",
+          "B": "Even though Kyle’s reduced the number of hours…",
+          "C": "Kyle’s a good example of why people shouldn’t be afraid…",
+          "D": "Kyle’s become a different person…"
+        },
+        "answer": "C",
+        "evidenceKeywords": ["shy then", "stopped going", "improved my own communication skills"],
+        "explanation": "<strong>15. C:</strong> Hành trình của Kyle chứng minh rằng dù ban đầu từng nhút nhát và sợ hãi ở câu lạc bộ này, nhưng khi dám đối mặt với thử thách mới, cậu không những vượt qua được mà còn cải thiện kỹ năng giao tiếp và tìm thấy đam mê."
+      }
+    ]
+  }
+]
