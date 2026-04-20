@@ -284,7 +284,295 @@
         "answer": "C",
         "evidenceKeywords": ["shy then", "stopped going", "improved my own communication skills"],
         "explanation": "<strong>15. C:</strong> Hành trình của Kyle chứng minh rằng dù ban đầu từng nhút nhát và sợ hãi ở câu lạc bộ này, nhưng khi dám đối mặt với thử thách mới, cậu không những vượt qua được mà còn cải thiện kỹ năng giao tiếp và tìm thấy đam mê."
+      },
+  {
+    "id": "pet_book1_p3_test1_vicky",
+    "title": "Cyclist Vicky Harmiston",
+    "content_html": "<p>Reporter Mark Lewis writes about Vicky Harmiston, who has had a successful career as a track cyclist – a cyclist who races on special race tracks.</p><p>When Vicky Harmiston was a child, her parents gave her and her brother Jamie the freedom to decide what they did in their spare time. Vicky chose to do lots of different sports. She was a good swimmer, and the coach at the swimming club she went to thought she might be good enough to become a champion. But the club was a long way from her home so it was difficult for her to fit in the training around her schoolwork. When they were teenagers, Jamie, who loved cycling, bought himself a special track-racing bike and started taking part in competitions. Vicky thought it looked very exciting and decided to try it for herself. She says that it was the best decision she ever made. Soon she was cycling every day and doing really well. The track was near her school, which meant it was no problem for her to attend training sessions after school every day.</p><p>Vicky went on to have a successful career in track cycling and won several competitions. Then, when she was 28, she retired from competitive cycling. Vicky told me: ‘For years I’d loved winning competitions but I began to get a bit tired of the whole thing – and when the excitement stops, there’s no point. Luckily, I went on to have a new career.’</p><p>Vicky got a job with a charity called CycleZone. ‘We work with young people who have never enjoyed sport,’ she says. ‘The first thing we do is teach them to ride a bike. We want them to learn to believe in themselves and their own abilities. CycleZone does a great job, and it gets young people together so they’re part of a wider group.’</p><p>The charity uses celebrities to advertise the work they do. Vicky says, ‘I know some people aren’t sure whether the support of a celebrity is always positive for a charity. They say that celebrities are only doing it to push themselves forward, which prevents the public from seeing the real work of the charity. But if famous singers and actors, for example, can help, I think they should.’</p><br><p><em>Compiled & Digitized by Elaine Nguyễn</em></p>",
+    "questions": [
+      {
+        "number": 11,
+        "text": "When Vicky first started cycling",
+        "options": {
+          "A": "she had a very good coach.",
+          "B": "her parents gave her helpful advice.",
+          "C": "she could get to a race track easily.",
+          "D": "her brother gave her a great bike."
+        },
+        "answer": "C",
+        "evidenceKeywords": ["track was near her school", "no problem", "attend training sessions"],
+        "explanation": "<strong>11. C:</strong> Trong đoạn 2 có câu 'The track was near her school, which meant it was no problem for her to attend training sessions after school every day' (Đường đua ở gần trường nên cô không gặp khó khăn gì khi tham gia các buổi tập mỗi ngày sau giờ học), cho thấy cô có thể đi đến đường đua rất dễ dàng."
+      },
+      {
+        "number": 12,
+        "text": "Why does Vicky say she stopped cycle racing?",
+        "options": {
+          "A": "She felt she was too old to do it.",
+          "B": "She was becoming bored with it.",
+          "C": "She had won everything she wanted.",
+          "D": "She was preparing for a new career."
+        },
+        "answer": "B",
+        "evidenceKeywords": ["get a bit tired of the whole thing", "when the excitement stops"],
+        "explanation": "<strong>12. B:</strong> Ở đoạn 3, Vicky giải thích: 'I began to get a bit tired of the whole thing – and when the excitement stops, there’s no point' (Tôi bắt đầu thấy hơi chán mọi thứ – và khi sự hào hứng không còn nữa thì chẳng có ý nghĩa gì), chứng tỏ cô nghỉ vì bắt đầu thấy chán."
+      },
+      {
+        "number": 13,
+        "text": "What does the charity CycleZone do for young people?",
+        "options": {
+          "A": "It teaches them how to do track racing.",
+          "B": "It supports those who have talent.",
+          "C": "It offers them the chance to try a variety of sports.",
+          "D": "It helps them become more confident."
+        },
+        "answer": "D",
+        "evidenceKeywords": ["learn to believe in themselves", "and their own abilities"],
+        "explanation": "<strong>13. D:</strong> Đoạn 4 nêu rõ mục tiêu của tổ chức từ thiện: 'We want them to learn to believe in themselves and their own abilities' (Chúng tôi muốn họ học cách tin tưởng vào bản thân và khả năng của chính mình), đồng nghĩa với việc giúp các bạn trẻ trở nên tự tin hơn."
+      },
+      {
+        "number": 14,
+        "text": "According to Vicky, some people believe that celebrities can",
+        "options": {
+          "A": "take attention away from what a charity does.",
+          "B": "help people understand a charity’s work.",
+          "C": "make the public care less about a charity.",
+          "D": "encourage more people to become involved with a charity."
+        },
+        "answer": "A",
+        "evidenceKeywords": ["push themselves forward", "prevents the public from seeing the real work"],
+        "explanation": "<strong>14. A:</strong> Trong đoạn cuối, Vicky kể lại ý kiến của một số người: 'They say that celebrities are only doing it to push themselves forward, which prevents the public from seeing the real work of the charity' (Họ cho rằng người nổi tiếng làm vậy chỉ để lăng xê bản thân, điều này ngăn cản công chúng nhìn thấy công việc thực sự của tổ chức từ thiện)."
+      },
+      {
+        "number": 15,
+        "text": "What would Vicky say on her blog?",
+        "options": {
+          "A": "As a child, I always knew what I wanted to do when I grew up. But I never expected to become so famous.",
+          "B": "If you join CycleZone, you’ll get to meet celebrities and learn how they’ve become successful.",
+          "C": "Although track cycling is not the only sport I’ve been good at, I’ve never regretted my choice of career.",
+          "D": "In my spare time I love going to schools and helping groups of children learn to ride bikes."
+        },
+        "answer": "C",
+        "evidenceKeywords": ["chose to do lots of different sports", "good swimmer", "successful career in track cycling"],
+        "explanation": "<strong>15. C:</strong> Bài đọc đề cập đến việc Vicky từng chơi nhiều môn thể thao và bơi rất giỏi (đoạn 1), sau đó cô quyết định theo đuổi đua xe đạp, mô tả đó là 'the best decision she ever made' (quyết định tuyệt vời nhất cô từng đưa ra) và có một sự nghiệp thành công."
       }
+    ]
+  },
+  {
+    "id": "pet_book1_p3_test2_luka",
+    "title": "Basketball player",
+    "content_html": "<p>Luka Horvat writes about his early career.</p><p>My dad was a professional basketball player in Germany, as his father had been before him, and I went to watch many of his games when I was a kid. You might think that seeing so many matches would give me a love of the sport, but it actually had the opposite effect. I loved telling my friends how good my dad was, of course, especially when he won a game, but I used to take a book with me to read instead of watching.</p><p>Starting secondary school, I was still two years away from being a teenager but was already two metres tall. Seeing my height, my sports teacher asked if I’d be interested in training with the basketball team. Even though I enjoyed the session, I thought I’d need to develop my skills before I took part in a real match, but the teacher had more confidence in me than I did. It took me a while to agree, but a few weeks later I found myself playing against a team from another school. Mum and Dad coming to watch didn’t really help – it made me more nervous. But it was OK in the end!</p><p>For the next four years, I practised every day and did really well, even joining an adult team before I moved abroad to a special sports academy in the USA when I was fifteen. The coach there trains Olympic basketball players, and it was fantastic to work with him. However, I can’t say I enjoyed my first experience of living far from my parents. At home, I’d never been able to spend much time with my friends due to all the training, so that wasn’t such a change for me. I got used to everything about my new life in the end, though, and my English improved quickly too!</p><p>I turned professional at the age of eighteen, three years after arriving in the USA. I’d been taller than most players in the professional league since I was fifteen, but had been much too light for my height, so had to get that right first. My coach already knew a team that would take me while I was still at college, so I joined them and have never regretted it.</p><br><p><em>Compiled & Digitized by Elaine Nguyễn</em></p>",
+    "questions": [
+      {
+        "number": 11,
+        "text": "What does Luka say about his childhood?",
+        "options": {
+          "A": "He had a great interest in basketball.",
+          "B": "He enjoyed watching his father play basketball.",
+          "C": "He felt proud of his father’s success at basketball.",
+          "D": "He knew he wanted to become a basketball player."
+        },
+        "answer": "C",
+        "evidenceKeywords": ["loved telling my friends", "how good my dad was", "especially when he won"],
+        "explanation": "<strong>11. C:</strong> Trong đoạn 1, Luka nói: 'I loved telling my friends how good my dad was, of course, especially when he won a game' (Tất nhiên tôi rất thích kể cho bạn bè nghe bố tôi giỏi như thế nào, nhất là khi ông ấy thắng), thể hiện sự tự hào về thành công của bố."
+      },
+      {
+        "number": 12,
+        "text": "How did Luka feel before his first match at secondary school?",
+        "options": {
+          "A": "He wasn’t sure that he would do well.",
+          "B": "He was pleased that his parents would be there.",
+          "C": "He wasn’t happy about his teacher’s attitude.",
+          "D": "He was delighted to be part of the team."
+        },
+        "answer": "A",
+        "evidenceKeywords": ["thought I'd need to develop my skills", "before I took part", "teacher had more confidence in me than I did"],
+        "explanation": "<strong>12. A:</strong> Ở đoạn 2, Luka chia sẻ: 'I thought I’d need to develop my skills before I took part in a real match, but the teacher had more confidence in me than I did' (Tôi nghĩ mình cần phát triển kỹ năng trước khi tham gia trận đấu thực sự, nhưng thầy giáo lại tự tin vào tôi hơn cả chính tôi), nghĩa là anh không chắc mình sẽ làm tốt."
+      },
+      {
+        "number": 13,
+        "text": "Luka thinks the most difficult thing about moving to the USA was",
+        "options": {
+          "A": "learning a new language.",
+          "B": "being away from his family.",
+          "C": "getting a good coach.",
+          "D": "missing his friends."
+        },
+        "answer": "B",
+        "evidenceKeywords": ["can't say I enjoyed", "living far from my parents", "friends... wasn't such a change"],
+        "explanation": "<strong>13. B:</strong> Trong đoạn 3, Luka khẳng định: 'However, I can’t say I enjoyed my first experience of living far from my parents' (Tuy nhiên, tôi không thể nói là tôi thích trải nghiệm đầu tiên sống xa bố mẹ). Anh cũng nói thêm việc không ở cạnh bạn bè không phải là thay đổi lớn, tiếng Anh thì tiến bộ nhanh."
+      },
+      {
+        "number": 14,
+        "text": "What did Luka have to do before he became a professional player?",
+        "options": {
+          "A": "complete his studies",
+          "B": "find a suitable team",
+          "C": "reach a certain height",
+          "D": "put on weight"
+        },
+        "answer": "D",
+        "evidenceKeywords": ["much too light", "for my height", "had to get that right first"],
+        "explanation": "<strong>14. D:</strong> Ở đoạn cuối, Luka kể lại: 'but had been much too light for my height, so had to get that right first' (nhưng tôi lại quá nhẹ cân so với chiều cao của mình, vì vậy phải giải quyết vấn đề đó trước tiên). 'Get that right' ở đây đồng nghĩa với việc phải tăng cân (put on weight)."
+      },
+      {
+        "number": 15,
+        "text": "What would be a good way to introduce this article?",
+        "options": {
+          "A": "Luka Horvat has always been as interested in reading as in basketball…",
+          "B": "Luka Horvat tells us how he became the latest member…",
+          "C": "Professional basketball player Luka Horvat explains how luck…",
+          "D": "Even though he only started playing basketball as a teenager…"
+        },
+        "answer": "B",
+        "evidenceKeywords": ["writes about his early career", "turned professional", "joined them"],
+        "explanation": "<strong>15. B:</strong> Bài viết là tự truyện kể về hành trình từ tuổi thơ đến khi bắt đầu sự nghiệp của Luka Horvat, từ lúc tham gia đội bóng trường trung học cho đến khi chuyển sang Mỹ học viện và trở thành vận động viên chuyên nghiệp."
+      }
+    ]
+  },
+  {
+    "id": "pet_book1_p3_test3_ana",
+    "title": "Ana Ronson Singer-songwriter",
+    "content_html": "<p>Singer-songwriter Ana Ronson grew up in Ireland. Although her parents weren’t musicians, there was always music in the house. Her grandfather played the guitar, and taught Ana and her brother to play.</p><p>The first time Ana tried singing in front of an audience was at school – she was so nervous that her teacher had to lead her off the stage. This teacher suggested that joining the school theatre club might make her more confident. After attending the club for a while, she happily sang with 50 other students at an end-of-term concert.</p><p>A year later, her brother, who was in a band, asked her to write a song for them, and so she wrote her first ever song, Falling Stars. Writing it took just three days and she enjoyed it so much that she enrolled on a songwriting course run by a professional songwriter. Despite being the youngest student, she already knew more about music than many of the others. But Ana says the teacher didn’t listen to anything she said, and she wrote Something to Say about how annoyed this made her feel.</p><p>She posted this song online, and it became a huge success. She was delighted when people left comments saying that they loved it and found new meanings in the words each time they heard them. Joss Alton, the owner of a recording company called Isotope Music, flew from his office on the other side of Ireland to ask her to join Isotope. At first she wasn’t sure: she didn’t know anything about the company, and didn’t want someone telling her what to sing. However, Joss persuaded her this wouldn’t happen, and a short time later she performed at a concert in Dublin arranged by Isotope. They sold all the tickets very quickly and it was an amazing evening.</p><p>Ana says she’s less interested in writing songs about when life’s good; when it’s not, there’s more for her to say. One of her favourite songs is Decision, written about why her brother stopped singing for a while, and how unhappy it made him. While she hopes that fans will like her songs, her aim is to write about personal experiences that matter to her.</p><br><p><em>Compiled & Digitized by Elaine Nguyễn</em></p>",
+    "questions": [
+      {
+        "number": 11,
+        "text": "What helped Ana stop being scared of singing to an audience?",
+        "options": {
+          "A": "practising her singing with a band",
+          "B": "asking a teacher to stand on stage with her",
+          "C": "being in a drama group at school",
+          "D": "making sure she was not in the front row"
+        },
+        "answer": "C",
+        "evidenceKeywords": ["joining the school theatre club", "make her more confident"],
+        "explanation": "<strong>11. C:</strong> Trong đoạn 2 có nói 'This teacher suggested that joining the school theatre club might make her more confident' (Giáo viên gợi ý rằng việc tham gia câu lạc bộ kịch của trường có thể giúp cô tự tin hơn). Việc tham gia 'theatre club' tương đương với 'drama group'."
+      },
+      {
+        "number": 12,
+        "text": "How was the songwriting course useful for Ana?",
+        "options": {
+          "A": "She was able to meet some well-known singers.",
+          "B": "The teacher’s attitude gave her an idea for a song.",
+          "C": "She learnt a lot from other writers on the course.",
+          "D": "The teacher gave her advice about the music business."
+        },
+        "answer": "B",
+        "evidenceKeywords": ["teacher didn’t listen", "annoyed this made her feel", "wrote Something to Say"],
+        "explanation": "<strong>12. B:</strong> Ở đoạn 3, Ana nói rằng 'the teacher didn’t listen to anything she said, and she wrote Something to Say about how annoyed this made her feel' (giáo viên không nghe bất cứ điều gì cô nói, và cô đã viết bài Something to Say về việc điều này khiến cô bực mình ra sao). Sự bực mình từ thái độ của giáo viên đã gợi ý tưởng cho bài hát."
+      },
+      {
+        "number": 13,
+        "text": "Ana decided to work with Joss Alton because",
+        "options": {
+          "A": "he promised to let her choose which songs to sing.",
+          "B": "he offered to help her put on a concert.",
+          "C": "she liked some other singers that he worked with.",
+          "D": "he owned a company in her home town."
+        },
+        "answer": "A",
+        "evidenceKeywords": ["didn't want someone telling her what to sing", "Joss persuaded her this wouldn't happen"],
+        "explanation": "<strong>13. A:</strong> Trong đoạn 4, Ana ban đầu không chắc chắn vì 'didn’t want someone telling her what to sing' (không muốn có người bảo cô phải hát gì). 'However, Joss persuaded her this wouldn’t happen' (Tuy nhiên, Joss đã thuyết phục cô rằng điều này sẽ không xảy ra), tức là ông hứa để cô tự chọn bài hát."
+      },
+      {
+        "number": 14,
+        "text": "Ana most enjoys writing songs that",
+        "options": {
+          "A": "she is sure her fans will like.",
+          "B": "deal with difficult times.",
+          "C": "her brother can sing with his band.",
+          "D": "help people remember their own experiences."
+        },
+        "answer": "B",
+        "evidenceKeywords": ["less interested in writing songs about when life’s good", "when it's not, there's more for her to say"],
+        "explanation": "<strong>14. B:</strong> Đoạn cuối Ana chia sẻ: 'she’s less interested in writing songs about when life’s good; when it’s not, there’s more for her to say' (cô ít có hứng thú viết nhạc về những lúc cuộc sống tươi đẹp; khi cuộc sống không suôn sẻ, cô có nhiều điều để nói hơn), tức là cô thích viết về những khoảng thời gian khó khăn."
+      },
+      {
+        "number": 15,
+        "text": "What would Ana write to fans in her blog?",
+        "options": {
+          "A": "Listening to my parents playing music…",
+          "B": "Writing songs just gets easier with practice…",
+          "C": "I loved playing the concert in Dublin…",
+          "D": "I read what people write about me online…"
+        },
+        "answer": "D",
+        "evidenceKeywords": ["delighted when people left comments", "found new meanings in the words"],
+        "explanation": "<strong>15. D:</strong> Trong đoạn 4, bài hát online của cô trở nên cực kỳ thành công và 'She was delighted when people left comments saying that they loved it' (Cô rất vui mừng khi mọi người để lại bình luận nói rằng họ yêu thích bài hát), chứng tỏ cô có đọc những gì người khác viết về mình trên mạng."
+      }
+    ]
+  },
+  {
+    "id": "pet_book1_p3_test4_louise",
+    "title": "My Canadian trip",
+    "content_html": "<p>Last year I went on an amazing trip – travelling by boat on a guided group tour along the west coast of Canada. It was my brother Harry’s idea. He’s a journalist, like me, and he wanted to write articles about the trip. He’s also a great fan of boats, although that’s one interest we definitely don’t share. But I’d dreamt of visiting the area ever since seeing it on TV as a child, especially as I knew it was where our great-grandparents had lived before moving to Europe. So I kept asking Harry if I could go too – until he finally agreed!</p><p>A few weeks before we left home, there were storms in the area we were going to. But luckily the forecast for the time we intended to be there was for calm seas. Although there was plenty to arrange, I was busy at work so didn’t have much time to think about what needed doing. But Harry promised he’d taken care of everything, so I knew everything would be all right.</p><p>After arriving in Canada, we joined the group, packed our limited supplies into small boats and set off. The guide had mentioned that very few people now lived along that coast, and sure enough, the only other living creatures we saw for the first few days were dolphins and birds. We knew there were islands in the distance, but the early-morning fog made it hard to see very far, so I just focused on the beautiful patterns our boat made in the water.</p><p>We often stopped for hours to explore the rock pools on the beaches. They were full of amazing coloured fish, many of which I didn’t recognise. And it was great to be able to stop caring about how quickly or slowly the day was passing. We forgot lunch or dinner, though, which we all made together over camp fires. When we finally fell asleep on the boats each evening, even though the beds were hard, it really felt like stress-free living!</p><p>When the time came to leave, I was sad. How could I return to normal life again? But I knew if I stayed, I’d miss family and friends. I was also looking forward to telling everyone at home about our adventures!</p><br><p><em>Compiled & Digitized by Elaine Nguyễn</em></p>",
+    "questions": [
+      {
+        "number": 11,
+        "text": "Why was Louise keen to go on the trip to Canada?",
+        "options": {
+          "A": "She liked the idea of spending time in a boat.",
+          "B": "She knew her brother wanted her to accompany him.",
+          "C": "She had wanted to travel there for a long time.",
+          "D": "She had heard from some relatives who lived there."
+        },
+        "answer": "C",
+        "evidenceKeywords": ["dreamt of visiting the area", "ever since seeing it on TV as a child"],
+        "explanation": "<strong>11. C:</strong> Trong đoạn 1, Louise tiết lộ: 'I’d dreamt of visiting the area ever since seeing it on TV as a child' (Tôi đã mơ ước được đến thăm khu vực này kể từ khi nhìn thấy nó trên TV lúc còn nhỏ), chứng tỏ cô đã muốn du lịch đến đây từ rất lâu."
+      },
+      {
+        "number": 12,
+        "text": "Just before their departure, Louise",
+        "options": {
+          "A": "began to wonder how they would deal with bad weather.",
+          "B": "was confident that they were fully prepared for the trip.",
+          "C": "wished she could help her brother more.",
+          "D": "felt she was better organised than usual."
+        },
+        "answer": "B",
+        "evidenceKeywords": ["Harry promised he’d taken care of everything", "knew everything would be all right"],
+        "explanation": "<strong>12. B:</strong> Ở đoạn 2, vì bận rộn công việc nên cô không có thời gian chuẩn bị, nhưng 'Harry promised he’d taken care of everything, so I knew everything would be all right' (Harry hứa anh ấy sẽ lo liệu mọi thứ, vì vậy tôi biết mọi việc sẽ ổn thỏa), thể hiện sự tự tin rằng chuyến đi đã được chuẩn bị đầy đủ."
+      },
+      {
+        "number": 13,
+        "text": "On the first morning of the trip, Louise says she admired",
+        "options": {
+          "A": "the way the sea around them looked.",
+          "B": "the wildlife which their boats attracted.",
+          "C": "the homes that people had built in the area.",
+          "D": "the views of islands they were passing."
+        },
+        "answer": "A",
+        "evidenceKeywords": ["fog made it hard to see", "focused on the beautiful patterns", "boat made in the water"],
+        "explanation": "<strong>13. A:</strong> Trong đoạn 3, vì sương mù buổi sớm khiến họ không thể nhìn xa, nên Louise chia sẻ: 'so I just focused on the beautiful patterns our boat made in the water' (tôi chỉ tập trung vào những hoa văn tuyệt đẹp mà con thuyền tạo ra trên mặt nước)."
+      },
+      {
+        "number": 14,
+        "text": "During the trip, Louise enjoyed",
+        "options": {
+          "A": "learning the names of the fish she saw.",
+          "B": "not having to cook regular meals.",
+          "C": "spending the nights in comfort.",
+          "D": "not having to worry about time."
+        },
+        "answer": "D",
+        "evidenceKeywords": ["stop caring about", "how quickly or slowly the day was passing"],
+        "explanation": "<strong>14. D:</strong> Tại đoạn 4, Louise miêu tả: 'And it was great to be able to stop caring about how quickly or slowly the day was passing' (Và thật tuyệt khi có thể không phải quan tâm xem ngày trôi qua nhanh hay chậm như thế nào)."
+      },
+      {
+        "number": 15,
+        "text": "What would Louise write in her diary during the trip?",
+        "options": {
+          "A": "There are wonderful pools along the coast…",
+          "B": "I can’t believe I’m in the same place I saw…",
+          "C": "We’ve brought a lot of stuff with us…",
+          "D": "It’ll be hard to say goodbye…"
+        },
+        "answer": "B",
+        "evidenceKeywords": ["dreamt of visiting", "ever since seeing it on TV as a child"],
+        "explanation": "<strong>15. B:</strong> Vì từ nhỏ Louise đã thấy vùng đất này trên TV và mơ ước được tới đó (đoạn 1), việc viết nhật ký thể hiện sự bất ngờ và hạnh phúc khi được thực sự đặt chân đến nơi mình từng thấy hoàn toàn phù hợp với cảm xúc của chuyến đi."
+      }
+    ]
+  }
     ]
   }
 ]
