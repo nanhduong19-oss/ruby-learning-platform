@@ -1,0 +1,801 @@
+{
+  "part": 4,
+  "section": "useOfEnglish",
+  "title": "Part 4 – Key Word Transformation",
+  "instruction": "Complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between two and five words, including the word given.",
+  "questions": [
+
+    {
+      "id": "p4t1q25",
+      "displayNumber": 25,
+      "keyword": "IT",
+      "grammarType": "Causative / Difficult constructions",
+      "sentence1": "Thomas spoke so quickly I had difficulty understanding him.",
+      "sentence2Start": "Thomas spoke so quickly I",
+      "sentence2End": "him.",
+      "correctAnswer": "FOUND IT DIFFICULT TO UNDERSTAND",
+      "accepted": ["FOUND IT DIFFICULT TO UNDERSTAND"],
+      "alternativeAnswers": [],
+      "formula": "find it + adjective + to-infinitive",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["FOUND IT DIFFICULT"] },
+          { "piece": 2, "accepted": ["TO UNDERSTAND"] }
+        ]
+      },
+      "explanation": "find it + adj + to-inf = thấy khó làm gì. 'Found it difficult to understand' = tôi thấy khó hiểu anh ta."
+    },
+
+    {
+      "id": "p4t1q26",
+      "displayNumber": 26,
+      "keyword": "PUT",
+      "grammarType": "Passive voice",
+      "sentence1": "They've postponed the match and it'll be played next weekend.",
+      "sentence2Start": "The match",
+      "sentence2End": "until next weekend.",
+      "correctAnswer": "HAS BEEN PUT OFF",
+      "accepted": ["HAS BEEN PUT OFF"],
+      "alternativeAnswers": [],
+      "formula": "have/has been + past participle (passive present perfect) | put off = postpone",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["HAS BEEN"] },
+          { "piece": 2, "accepted": ["PUT OFF"] }
+        ]
+      },
+      "explanation": "Passive present perfect: has been + V3. Put off = hoãn lại. The match has been put off."
+    },
+
+    {
+      "id": "p4t1q27",
+      "displayNumber": 27,
+      "keyword": "INTENTION",
+      "grammarType": "Noun phrase structures",
+      "sentence1": "I'm never going to speak to Louis again.",
+      "sentence2Start": "I've got",
+      "sentence2End": "to Louis again.",
+      "correctAnswer": "NO INTENTION OF SPEAKING",
+      "accepted": ["NO INTENTION OF SPEAKING", "NO INTENTION OF EVER SPEAKING"],
+      "alternativeAnswers": [],
+      "formula": "have no intention of + V-ing",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["NO INTENTION OF"] },
+          { "piece": 2, "accepted": ["SPEAKING", "EVER SPEAKING"] }
+        ]
+      },
+      "explanation": "have no intention of + V-ing = không có ý định làm gì. I've got no intention of (ever) speaking to Louis again."
+    },
+
+    {
+      "id": "p4t1q28",
+      "displayNumber": 28,
+      "keyword": "HAVE",
+      "grammarType": "Modal passive (deduction)",
+      "sentence1": "It seems certain that lightning started the forest fire.",
+      "sentence2Start": "The forest fire",
+      "sentence2End": "by lightning.",
+      "correctAnswer": "MUST HAVE BEEN STARTED",
+      "accepted": ["MUST HAVE BEEN STARTED"],
+      "alternativeAnswers": [],
+      "formula": "must have been + past participle (passive deduction about the past)",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["MUST HAVE"] },
+          { "piece": 2, "accepted": ["BEEN STARTED"] }
+        ]
+      },
+      "explanation": "must have been + V3 = suy luận chắc chắn về quá khứ (bị động). Must have been started by lightning."
+    },
+
+    {
+      "id": "p4t1q29",
+      "displayNumber": 29,
+      "keyword": "POINT",
+      "grammarType": "Noun phrase structures",
+      "sentence1": "It wasn't worth going to the market because it was closing.",
+      "sentence2Start": "The market was closing, so",
+      "sentence2End": "going there.",
+      "correctAnswer": "THERE WAS NO POINT IN",
+      "accepted": ["THERE WAS NO POINT IN"],
+      "alternativeAnswers": [],
+      "formula": "there is/was no point in + V-ing = không có ích gì khi làm",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["THERE WAS"] },
+          { "piece": 2, "accepted": ["NO POINT IN"] }
+        ]
+      },
+      "explanation": "there was no point in + V-ing = không đáng / vô ích. There was no point in going there."
+    },
+
+    {
+      "id": "p4t1q30",
+      "displayNumber": 30,
+      "keyword": "HAVE",
+      "grammarType": "Modal verbs (obligation/necessity)",
+      "sentence1": "We phoned the restaurant, but they said booking a table wasn't necessary.",
+      "sentence2Start": "We phoned the restaurant, but they said we",
+      "sentence2End": "a table.",
+      "correctAnswer": "DIDN'T HAVE TO BOOK",
+      "accepted": ["DIDN'T HAVE TO BOOK", "DID NOT HAVE TO BOOK"],
+      "alternativeAnswers": [],
+      "formula": "didn't have to + bare infinitive = không cần phải (không bắt buộc)",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["DIDN'T HAVE TO", "DID NOT HAVE TO"] },
+          { "piece": 2, "accepted": ["BOOK"] }
+        ]
+      },
+      "explanation": "didn't have to + V = không cần phải. Didn't have to book = không cần đặt bàn."
+    },
+
+    {
+      "id": "p4t2q25",
+      "displayNumber": 25,
+      "keyword": "LONG",
+      "grammarType": "Conditionals",
+      "sentence1": "'I'll take you to the station if you're ready,' my brother said.",
+      "sentence2Start": "My brother said he'd take me to the station",
+      "sentence2End": "ready.",
+      "correctAnswer": "AS LONG AS I WAS",
+      "accepted": ["AS LONG AS I WAS", "SO LONG AS I WAS"],
+      "alternativeAnswers": [],
+      "formula": "as/so long as + clause = miễn là, với điều kiện là",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["AS LONG AS", "SO LONG AS"] },
+          { "piece": 2, "accepted": ["I WAS"] }
+        ]
+      },
+      "explanation": "As/so long as = if (provided that). Reported speech: are → was. As long as I was ready."
+    },
+
+    {
+      "id": "p4t2q26",
+      "displayNumber": 26,
+      "keyword": "GET",
+      "grammarType": "Causative have/get",
+      "sentence1": "My bike needs repairing again.",
+      "sentence2Start": "I'll have to",
+      "sentence2End": "again.",
+      "correctAnswer": "GET MY OLD BIKE REPAIRED",
+      "accepted": ["GET MY OLD BIKE REPAIRED", "GET MY BIKE REPAIRED"],
+      "alternativeAnswers": [],
+      "formula": "get + object + past participle (causative)",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["GET MY OLD BIKE", "GET MY BIKE"] },
+          { "piece": 2, "accepted": ["REPAIRED"] }
+        ]
+      },
+      "explanation": "get + object + V3 = nhờ/thuê người làm gì. Get my bike repaired = đem xe đi sửa."
+    },
+
+    {
+      "id": "p4t2q27",
+      "displayNumber": 27,
+      "keyword": "FALL",
+      "grammarType": "Noun phrase structures",
+      "sentence1": "The firm said profits had fallen on account of the recession.",
+      "sentence2Start": "The firm blamed the recession",
+      "sentence2End": ".",
+      "correctAnswer": "FOR THE FALL IN PROFITS",
+      "accepted": ["FOR THE FALL IN PROFITS"],
+      "alternativeAnswers": [],
+      "formula": "blame something for + noun phrase",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["FOR THE FALL IN PROFITS"] },
+          { "piece": 2, "accepted": ["THE FALL IN PROFITS"] }
+        ]
+      },
+      "explanation": "blame X for Y = đổ lỗi X vì Y. The fall in profits = sự sụt giảm lợi nhuận (danh từ hóa). Blamed the recession for the fall in profits."
+    },
+
+    {
+      "id": "p4t2q28",
+      "displayNumber": 28,
+      "keyword": "WISHED",
+      "grammarType": "Wish / If only",
+      "sentence1": "Sigourney regretted spending so much in the shops.",
+      "sentence2Start": "Sigourney",
+      "sentence2End": "less in the shops.",
+      "correctAnswer": "WISHED THAT SHE HAD SPENT",
+      "accepted": ["WISHED THAT SHE HAD SPENT", "WISHED SHE HAD SPENT", "WISHED SHE'D SPENT", "WISHED THAT SHE'D SPENT"],
+      "alternativeAnswers": [],
+      "formula": "wish + (that) + S + past perfect = tiếc về quá khứ",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["WISHED THAT SHE HAD", "WISHED SHE HAD", "WISHED SHE'D", "WISHED THAT SHE'D"] },
+          { "piece": 2, "accepted": ["SPENT"] }
+        ]
+      },
+      "explanation": "wish + past perfect = tiếc về quá khứ. Wished (that) she had/she'd spent less = ước mình đã tiêu ít hơn."
+    },
+
+    {
+      "id": "p4t2q29",
+      "displayNumber": 29,
+      "keyword": "HAVE",
+      "grammarType": "Passive voice",
+      "sentence1": "People believe that poem was written about these beautiful hills.",
+      "sentence2Start": "That poem",
+      "sentence2End": "written about these beautiful hills.",
+      "correctAnswer": "IS BELIEVED TO HAVE BEEN",
+      "accepted": ["IS BELIEVED TO HAVE BEEN"],
+      "alternativeAnswers": [],
+      "formula": "is/are believed/said/thought + to have been + past participle",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["IS BELIEVED"] },
+          { "piece": 2, "accepted": ["TO HAVE BEEN"] }
+        ]
+      },
+      "explanation": "Passive reporting verb: is believed to have been + V3. That poem is believed to have been written."
+    },
+
+    {
+      "id": "p4t2q30",
+      "displayNumber": 30,
+      "keyword": "BEEN",
+      "grammarType": "Conditionals",
+      "sentence1": "Without your help, I wouldn't have finished the job.",
+      "sentence2Start": "I wouldn't have finished the job if",
+      "sentence2End": "your help.",
+      "correctAnswer": "IT HAD NOT BEEN FOR",
+      "accepted": ["IT HAD NOT BEEN FOR", "IT HADN'T BEEN FOR"],
+      "alternativeAnswers": [],
+      "formula": "if it had not been for + noun = if not for (third conditional variant)",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["IT HAD NOT BEEN", "IT HADN'T BEEN"] },
+          { "piece": 2, "accepted": ["FOR"] }
+        ]
+      },
+      "explanation": "If it had not been for = nếu không có. Cấu trúc thay thế cho Without trong third conditional."
+    },
+
+    {
+      "id": "p4t3q25",
+      "displayNumber": 25,
+      "keyword": "WERE",
+      "grammarType": "Inversion / Emphatic structures",
+      "sentence1": "The storm left very few trees standing.",
+      "sentence2Start": "Hardly",
+      "sentence2End": "after the storm.",
+      "correctAnswer": "ANY TREES WERE LEFT",
+      "accepted": ["ANY TREES WERE LEFT", "ANY TREES WERE LEFT STANDING", "ANY TREES WERE STILL STANDING"],
+      "alternativeAnswers": [],
+      "formula": "Hardly any + noun + were + past participle",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["ANY TREES"] },
+          { "piece": 2, "accepted": ["WERE LEFT", "WERE LEFT STANDING", "WERE STILL STANDING"] }
+        ]
+      },
+      "explanation": "Hardly any = very few. Hardly any trees were left (still standing) after the storm."
+    },
+
+    {
+      "id": "p4t3q26",
+      "displayNumber": 26,
+      "keyword": "HOW",
+      "grammarType": "Reported speech",
+      "sentence1": "'What's the height of that building?' I asked the guide.",
+      "sentence2Start": "I asked the guide",
+      "sentence2End": "was.",
+      "correctAnswer": "HOW HIGH THAT BUILDING",
+      "accepted": ["HOW HIGH THAT BUILDING"],
+      "alternativeAnswers": [],
+      "formula": "indirect question: ask + how + adjective + subject + verb",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["HOW HIGH"] },
+          { "piece": 2, "accepted": ["THAT BUILDING"] }
+        ]
+      },
+      "explanation": "'What's the height' → how high. Reported question không đảo ngữ: how high that building was."
+    },
+
+    {
+      "id": "p4t3q27",
+      "displayNumber": 27,
+      "keyword": "MUCH",
+      "grammarType": "Comparatives",
+      "sentence1": "The new printer is very similar to the old model.",
+      "sentence2Start": "There is not",
+      "sentence2End": "the new printer and the old model.",
+      "correctAnswer": "MUCH DIFFERENCE BETWEEN",
+      "accepted": ["MUCH DIFFERENCE BETWEEN"],
+      "alternativeAnswers": [],
+      "formula": "there is not much difference between X and Y",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["MUCH DIFFERENCE"] },
+          { "piece": 2, "accepted": ["BETWEEN"] }
+        ]
+      },
+      "explanation": "not much difference between = rất giống nhau. There is not much difference between the new printer and the old model."
+    },
+
+    {
+      "id": "p4t3q28",
+      "displayNumber": 28,
+      "keyword": "WAS",
+      "grammarType": "Reported speech",
+      "sentence1": "Simon wouldn't apologise for being so rude.",
+      "sentence2Start": "Simon refused to",
+      "sentence2End": "for being so rude.",
+      "correctAnswer": "SAY THAT HE WAS SORRY",
+      "accepted": ["SAY THAT HE WAS SORRY", "SAY HE WAS SORRY"],
+      "alternativeAnswers": [],
+      "formula": "refuse to say (that) + subject + was sorry",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["SAY THAT HE WAS", "SAY HE WAS"] },
+          { "piece": 2, "accepted": ["SORRY"] }
+        ]
+      },
+      "explanation": "apologise = say (that) you are/were sorry. Refused to say (that) he was sorry = từ chối xin lỗi."
+    },
+
+    {
+      "id": "p4t3q29",
+      "displayNumber": 29,
+      "keyword": "FIND",
+      "grammarType": "Relative clauses / What-clauses",
+      "sentence1": "What attracts people so much to this city is its nightlife.",
+      "sentence2Start": "What people",
+      "sentence2End": "this city is its nightlife.",
+      "correctAnswer": "FIND SO ATTRACTIVE ABOUT",
+      "accepted": ["FIND SO ATTRACTIVE ABOUT", "FIND ATTRACTIVE ABOUT"],
+      "alternativeAnswers": [],
+      "formula": "what people find (so) attractive about X = what attracts people to X",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["FIND SO ATTRACTIVE", "FIND ATTRACTIVE"] },
+          { "piece": 2, "accepted": ["ABOUT"] }
+        ]
+      },
+      "explanation": "What attracts people to X → What people find (so) attractive about X. Đảo: find + adj + about."
+    },
+
+    {
+      "id": "p4t3q30",
+      "displayNumber": 30,
+      "keyword": "SUCCEED",
+      "grammarType": "Verb patterns (infinitive/gerund)",
+      "sentence1": "It's unlikely our firm will manage to win the contract.",
+      "sentence2Start": "Our firm is unlikely",
+      "sentence2End": "the contract.",
+      "correctAnswer": "TO SUCCEED IN WINNING",
+      "accepted": ["TO SUCCEED IN WINNING"],
+      "alternativeAnswers": [],
+      "formula": "succeed in + V-ing = thành công trong việc",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["TO SUCCEED IN"] },
+          { "piece": 2, "accepted": ["WINNING"] }
+        ]
+      },
+      "explanation": "succeed in + V-ing (NOT succeed to). Unlikely to succeed in winning the contract."
+    },
+
+    {
+      "id": "p4t4q25",
+      "displayNumber": 25,
+      "keyword": "BEEN",
+      "grammarType": "Time expressions (It's been...)",
+      "sentence1": "We haven't seen each other for two years.",
+      "sentence2Start": "It's",
+      "sentence2End": "we last saw each other.",
+      "correctAnswer": "BEEN TWO YEARS SINCE",
+      "accepted": ["BEEN TWO YEARS SINCE"],
+      "alternativeAnswers": [],
+      "formula": "It's been + time + since + past simple",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["BEEN TWO YEARS"] },
+          { "piece": 2, "accepted": ["SINCE"] }
+        ]
+      },
+      "explanation": "It's been + time + since = kể từ khi... đã... năm. It's been two years since we last saw each other."
+    },
+
+    {
+      "id": "p4t4q26",
+      "displayNumber": 26,
+      "keyword": "ACCUSED",
+      "grammarType": "Reported speech",
+      "sentence1": "'You didn't tell me the truth, Emilio,' said Carmen.",
+      "sentence2Start": "Carmen",
+      "sentence2End": "her the truth.",
+      "correctAnswer": "ACCUSED EMILIO OF NOT TELLING",
+      "accepted": ["ACCUSED EMILIO OF NOT TELLING"],
+      "alternativeAnswers": [],
+      "formula": "accuse + person + of + (not) V-ing",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["ACCUSED EMILIO OF"] },
+          { "piece": 2, "accepted": ["NOT TELLING"] }
+        ]
+      },
+      "explanation": "accuse someone of + V-ing. Not telling = phủ định gerund. Accused Emilio of not telling her the truth."
+    },
+
+    {
+      "id": "p4t4q27",
+      "displayNumber": 27,
+      "keyword": "LATE",
+      "grammarType": "Reported speech",
+      "sentence1": "I really think you ought to arrive on time for the meeting.",
+      "sentence2Start": "I strongly advise",
+      "sentence2End": "for the meeting.",
+      "correctAnswer": "YOU NOT TO BE LATE",
+      "accepted": ["YOU NOT TO BE LATE"],
+      "alternativeAnswers": [],
+      "formula": "advise + object + (not) + to-infinitive",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["YOU NOT TO BE"] },
+          { "piece": 2, "accepted": ["LATE"] }
+        ]
+      },
+      "explanation": "advise + O + not to + V. I strongly advise you not to be late for the meeting."
+    },
+
+    {
+      "id": "p4t4q28",
+      "displayNumber": 28,
+      "keyword": "SPITE",
+      "grammarType": "Concession (despite/in spite of)",
+      "sentence1": "Even though we played badly we won the match.",
+      "sentence2Start": "We won the match",
+      "sentence2End": "badly.",
+      "correctAnswer": "IN SPITE OF PLAYING",
+      "accepted": ["IN SPITE OF PLAYING", "IN SPITE OF OUR PLAYING"],
+      "alternativeAnswers": [],
+      "formula": "in spite of + V-ing / noun phrase",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["IN SPITE OF"] },
+          { "piece": 2, "accepted": ["PLAYING", "OUR PLAYING"] }
+        ]
+      },
+      "explanation": "In spite of + V-ing. Even though + clause → In spite of + V-ing. In spite of (our) playing badly."
+    },
+
+    {
+      "id": "p4t4q29",
+      "displayNumber": 29,
+      "keyword": "FLY",
+      "grammarType": "It takes... to (time expressions)",
+      "sentence1": "The flying time to Singapore is six hours.",
+      "sentence2Start": "It",
+      "sentence2End": "to Singapore.",
+      "correctAnswer": "TAKES SIX HOURS TO FLY",
+      "accepted": ["TAKES SIX HOURS TO FLY"],
+      "alternativeAnswers": [],
+      "formula": "it takes + time + to-infinitive",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["TAKES SIX HOURS"] },
+          { "piece": 2, "accepted": ["TO FLY"] }
+        ]
+      },
+      "explanation": "It takes + time + to + V = mất bao lâu để làm gì. It takes six hours to fly to Singapore."
+    },
+
+    {
+      "id": "p4t4q30",
+      "displayNumber": 30,
+      "keyword": "SUCH",
+      "grammarType": "Such a / so (intensifiers)",
+      "sentence1": "I didn't realise that the beach was so far from the campsite.",
+      "sentence2Start": "I didn't realise that",
+      "sentence2End": "long way from the beach to the campsite.",
+      "correctAnswer": "IT WAS SUCH A",
+      "accepted": ["IT WAS SUCH A"],
+      "alternativeAnswers": [],
+      "formula": "such a + adjective + noun (so + adjective → such a + adj + noun)",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["IT WAS SUCH"] },
+          { "piece": 2, "accepted": ["A"] }
+        ]
+      },
+      "explanation": "so far → such a long way. such a + adj + noun thay thế so + adj. It was such a long way from the beach."
+    },
+
+    {
+      "id": "p4t5q25",
+      "displayNumber": 25,
+      "keyword": "HAVE",
+      "grammarType": "Conditionals",
+      "sentence1": "Amanda woke up late because she'd forgotten to set her alarm.",
+      "sentence2Start": "If Amanda hadn't forgotten to set her alarm she",
+      "sentence2End": "late.",
+      "correctAnswer": "WOULDN'T HAVE WOKEN UP",
+      "accepted": ["WOULDN'T HAVE WOKEN UP", "WOULD NOT HAVE WOKEN UP"],
+      "alternativeAnswers": [],
+      "formula": "third conditional: if + past perfect, would not have + past participle",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["WOULDN'T HAVE", "WOULD NOT HAVE"] },
+          { "piece": 2, "accepted": ["WOKEN UP"] }
+        ]
+      },
+      "explanation": "Third conditional: If + past perfect → would not have + V3. Wouldn't/would not have woken up late."
+    },
+
+    {
+      "id": "p4t5q26",
+      "displayNumber": 26,
+      "keyword": "NEARLY",
+      "grammarType": "Comparatives",
+      "sentence1": "This Internet browser works far better than the others.",
+      "sentence2Start": "The other Internet browsers don't",
+      "sentence2End": "this one.",
+      "correctAnswer": "WORK NEARLY AS WELL AS",
+      "accepted": ["WORK NEARLY AS WELL AS"],
+      "alternativeAnswers": [],
+      "formula": "not nearly as + adverb + as = kém xa so với",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["WORK NEARLY AS WELL"] },
+          { "piece": 2, "accepted": ["AS"] }
+        ]
+      },
+      "explanation": "works far better than → don't work nearly as well as. Not nearly as well as = thua xa."
+    },
+
+    {
+      "id": "p4t5q27",
+      "displayNumber": 27,
+      "keyword": "WHETHER",
+      "grammarType": "Reported speech",
+      "sentence1": "'Can I borrow your phone for a minute, Jack?' asked Emma.",
+      "sentence2Start": "Emma asked Jack",
+      "sentence2End": "phone.",
+      "correctAnswer": "WHETHER SHE COULD BORROW HIS",
+      "accepted": ["WHETHER SHE COULD BORROW HIS"],
+      "alternativeAnswers": [],
+      "formula": "ask + person + whether + subject + could + verb + object",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["WHETHER SHE COULD BORROW"] },
+          { "piece": 2, "accepted": ["HIS"] }
+        ]
+      },
+      "explanation": "Reported question với whether. Can → could. Your → his. Whether she could borrow his phone."
+    },
+
+    {
+      "id": "p4t5q28",
+      "displayNumber": 28,
+      "keyword": "SUCH",
+      "grammarType": "Such a / so (intensifiers)",
+      "sentence1": "Raymond has so much skill as an artist that his drawings look like photographs.",
+      "sentence2Start": "Raymond is",
+      "sentence2End": "artist that his drawings look like photographs.",
+      "correctAnswer": "SUCH A SKILFUL",
+      "accepted": ["SUCH A SKILFUL", "SUCH A SKILLFUL", "SUCH A SKILLED"],
+      "alternativeAnswers": [],
+      "formula": "such a + adjective + noun (so much + noun → such a + adj + noun)",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["SUCH A"] },
+          { "piece": 2, "accepted": ["SKILFUL", "SKILLFUL", "SKILLED"] }
+        ]
+      },
+      "explanation": "so much skill → such a skilful/skillful/skilled. such a + adj + noun. Raymond is such a skilful artist that..."
+    },
+
+    {
+      "id": "p4t5q29",
+      "displayNumber": 29,
+      "keyword": "BED",
+      "grammarType": "Modal verbs (obligation/necessity)",
+      "sentence1": "I wish I hadn't stayed up so late last night.",
+      "sentence2Start": "I should",
+      "sentence2End": "last night.",
+      "correctAnswer": "HAVE GONE TO BED EARLIER",
+      "accepted": ["HAVE GONE TO BED EARLIER"],
+      "alternativeAnswers": [],
+      "formula": "should have + past participle = lẽ ra phải làm (chỉ sự hối tiếc)",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["HAVE GONE TO BED"] },
+          { "piece": 2, "accepted": ["EARLIER"] }
+        ]
+      },
+      "explanation": "should have + V3 = lẽ ra phải... I should have gone to bed earlier last night."
+    },
+
+    {
+      "id": "p4t5q30",
+      "displayNumber": 30,
+      "keyword": "CAUSED",
+      "grammarType": "Passive voice",
+      "sentence1": "Our departure was delayed because another flight arrived late.",
+      "sentence2Start": "The delay to our departure",
+      "sentence2End": "arrival of another flight.",
+      "correctAnswer": "WAS CAUSED BY THE LATE",
+      "accepted": ["WAS CAUSED BY THE LATE"],
+      "alternativeAnswers": [],
+      "formula": "passive: was caused by + noun phrase",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["WAS CAUSED BY"] },
+          { "piece": 2, "accepted": ["THE LATE"] }
+        ]
+      },
+      "explanation": "Passive: was caused by + agent. The late arrival = sự đến muộn. Was caused by the late arrival of another flight."
+    },
+
+    {
+      "id": "p4t6q25",
+      "displayNumber": 25,
+      "keyword": "INVITED",
+      "grammarType": "Reported speech",
+      "sentence1": "'Would you like to come to my party, Karen?', the girl said.",
+      "sentence2Start": "The girl",
+      "sentence2End": "party.",
+      "correctAnswer": "INVITED KAREN TO HER",
+      "accepted": ["INVITED KAREN TO HER"],
+      "alternativeAnswers": [],
+      "formula": "invite + person + to + noun (report an invitation)",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["INVITED KAREN"] },
+          { "piece": 2, "accepted": ["TO HER"] }
+        ]
+      },
+      "explanation": "Would you like to come = invite. My → her (pronoun shift). The girl invited Karen to her party."
+    },
+
+    {
+      "id": "p4t6q26",
+      "displayNumber": 26,
+      "keyword": "PAID",
+      "grammarType": "Phrasal verbs / Fixed expressions",
+      "sentence1": "Two foolish people took no notice of the warning sign.",
+      "sentence2Start": "Two foolish people",
+      "sentence2End": "the warning sign.",
+      "correctAnswer": "PAID NO ATTENTION TO",
+      "accepted": ["PAID NO ATTENTION TO"],
+      "alternativeAnswers": [],
+      "formula": "pay no attention to = take no notice of",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["PAID NO ATTENTION"] },
+          { "piece": 2, "accepted": ["TO"] }
+        ]
+      },
+      "explanation": "take no notice of = pay no attention to. Cả hai là collocation cố định với nghĩa bỏ qua, không để ý."
+    },
+
+    {
+      "id": "p4t6q27",
+      "displayNumber": 27,
+      "keyword": "NOT",
+      "grammarType": "Noun phrase structures",
+      "sentence1": "The rescue workers had too little food to feed everyone.",
+      "sentence2Start": "There",
+      "sentence2End": "the rescue workers to feed everyone.",
+      "correctAnswer": "WAS NOT ENOUGH FOOD FOR",
+      "accepted": ["WAS NOT ENOUGH FOOD FOR", "WAS NOT SUFFICIENT FOOD FOR"],
+      "alternativeAnswers": [],
+      "formula": "there was not enough/sufficient + noun + for + person + to + V",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["WAS NOT ENOUGH FOOD", "WAS NOT SUFFICIENT FOOD"] },
+          { "piece": 2, "accepted": ["FOR"] }
+        ]
+      },
+      "explanation": "too little → not enough/sufficient. There was not enough food for the rescue workers to feed everyone."
+    },
+
+    {
+      "id": "p4t6q28",
+      "displayNumber": 28,
+      "keyword": "ONLY",
+      "grammarType": "Noun phrase structures",
+      "sentence1": "Jack gets no exercise apart from walking to his car.",
+      "sentence2Start": "The",
+      "sentence2End": "walking to his car.",
+      "correctAnswer": "ONLY EXERCISE JACK GETS IS",
+      "accepted": ["ONLY EXERCISE JACK GETS IS"],
+      "alternativeAnswers": [],
+      "formula": "the only + noun + subject + verb + is + V-ing",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["ONLY EXERCISE JACK GETS"] },
+          { "piece": 2, "accepted": ["IS"] }
+        ]
+      },
+      "explanation": "no exercise apart from → the only exercise... is. The only exercise Jack gets is walking to his car."
+    },
+
+    {
+      "id": "p4t6q29",
+      "displayNumber": 29,
+      "keyword": "GAVE",
+      "grammarType": "Phrasal verbs / Fixed expressions",
+      "sentence1": "Sonia wanted to be a nurse so she left her job as a teacher.",
+      "sentence2Start": "Sonia",
+      "sentence2End": "become a nurse.",
+      "correctAnswer": "GAVE UP TEACHING TO",
+      "accepted": ["GAVE UP TEACHING TO"],
+      "alternativeAnswers": [],
+      "formula": "give up + V-ing + to-infinitive (purpose)",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["GAVE UP TEACHING"] },
+          { "piece": 2, "accepted": ["TO"] }
+        ]
+      },
+      "explanation": "left her job as a teacher = gave up teaching. Give up + V-ing. To become = để trở thành. Gave up teaching to become a nurse."
+    },
+
+    {
+      "id": "p4t6q30",
+      "displayNumber": 30,
+      "keyword": "NEARLY",
+      "grammarType": "Comparatives",
+      "sentence1": "There's far less noise in this street than there used to be.",
+      "sentence2Start": "In this street, there isn't",
+      "sentence2End": "there used to be.",
+      "correctAnswer": "NEARLY AS MUCH NOISE AS",
+      "accepted": ["NEARLY AS MUCH NOISE AS"],
+      "alternativeAnswers": [],
+      "formula": "not nearly as much + uncountable noun + as",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["NEARLY AS MUCH NOISE"] },
+          { "piece": 2, "accepted": ["AS"] }
+        ]
+      },
+      "explanation": "far less... than → not nearly as much... as. There isn't nearly as much noise as there used to be."
+    }
+
+  ]
+}
