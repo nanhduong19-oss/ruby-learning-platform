@@ -366,12 +366,6 @@ body {
 .kwt-input.correct { color:var(--correct); border-bottom-color:var(--correct); }
 .kwt-input.wrong   { color:var(--wrong);   border-bottom-color:var(--wrong); }
 .kwt-input:disabled { cursor:default; }
-.kwt-pts {
-  font-size:.75rem; font-weight:900; color:var(--text3); margin-top:6px;
-}
-.kwt-pts.full    { color:var(--correct); }
-.kwt-pts.partial { color:var(--warn); }
-.kwt-pts.zero    { color:var(--wrong); }
 
 /* ── EXPLANATION BOX ── */
 .explain-box {
@@ -623,17 +617,19 @@ body {
   color:var(--text); line-height:1.1;
 }
 
-/* Quantity buttons */
-.qty-btns-row { display:flex; flex-wrap:wrap; gap:8px; }
-.qty-btn {
-  padding:8px 18px; border-radius:8px;
-  border:2px solid var(--border); background:var(--surface);
-  font-weight:800; font-size:.85rem; cursor:pointer;
-  transition:all .15s; color:var(--text2);
-  font-family:'Nunito',sans-serif;
+/* Quantity input */
+.qty-input-wrap { display:flex; align-items:center; gap:10px; }
+.qty-input {
+  width:90px; padding:9px 12px;
+  border:2px solid var(--border); border-radius:8px;
+  font-family:'Nunito',sans-serif; font-weight:800; font-size:1rem;
+  text-align:center; outline:none; color:var(--text);
+  background:var(--surface); transition:border-color .15s;
 }
-.qty-btn:hover  { border-color:var(--green); color:var(--green-d); }
-.qty-btn.active { border-color:var(--green); background:var(--green-bg); color:var(--green-d); }
+.qty-input:focus { border-color:var(--green); }
+.qty-max-label {
+  font-size:.8rem; font-weight:700; color:var(--text3);
+}
 
 /* How it works box */
 .how-it-works {
@@ -900,7 +896,11 @@ body {
           <!-- Quantity selector -->
           <div id="qtyWrap" style="display:none;margin-bottom:12px">
             <label class="field-label" style="margin-bottom:7px">NUMBER OF QUESTIONS</label>
-            <div id="qtyBtns" class="qty-btns-row"></div>
+            <div class="qty-input-wrap">
+              <input type="number" class="qty-input" id="qtyInput" min="1" placeholder="e.g. 10"
+                oninput="onQtyInput(this.value)">
+              <span class="qty-max-label" id="qtyMaxLabel"></span>
+            </div>
           </div>
         </div>
 
@@ -1060,7 +1060,7 @@ const CONFIG = {
       ],
       // Part 4 — Key Word Transformation (6 câu, 0-2đ/câu) — section: useOfEnglish
       4: [
-        'https://raw.githubusercontent.com/nanhduong19-oss/ruby-learning-platform/refs/heads/main/FCE/part4.json',
+        // 'https://raw.githubusercontent.com/YOUR_REPO/uoe/part4/set1.json',
       ],
     },
   }
@@ -1203,18 +1203,29 @@ const S = {
 ═══════════════════════════════════════ */
 let _dataReady = false;
 
+// Fallback student list (used when GitHub fetch fails)
+const DEMO_STUDENTS = [
+  { id: 'DEMO', name: 'Demo Student', class: 'Demo' },
+  { id: 'TEACHER', name: 'Teacher Demo', class: 'Demo' },
+];
+
 async function boot() {
   try {
     const r = await fetch(CONFIG.studentsUrl);
     if (!r.ok) throw new Error('HTTP ' + r.status);
     const j = await r.json();
-    S.students = j.students || [];
+    // Merge fetched students with demo entries (avoid duplicates)
+    const fetched = j.students || [];
+    const fetchedIds = new Set(fetched.map(s => s.id.toUpperCase()));
+    const extras = DEMO_STUDENTS.filter(d => !fetchedIds.has(d.id.toUpperCase()));
+    S.students = [...fetched, ...extras];
     _dataReady = true;
     document.getElementById('inpId').placeholder = 'Enter your Student ID';
   } catch(e) {
-    console.warn('Students list unavailable:', e);
-    _dataReady = true; // allow teacher mode still
-    document.getElementById('inpId').placeholder = 'Enter your Student ID';
+    console.warn('Students list unavailable — using demo list:', e);
+    S.students = [...DEMO_STUDENTS];
+    _dataReady = true;
+    document.getElementById('inpId').placeholder = 'Enter your Student ID (try: DEMO)';
   }
 }
 boot();
@@ -1326,7 +1337,6 @@ S.selectedQty = 0; // 0 = not selected yet
 function buildQtySelector(partNum) {
   const qtyWrap = document.getElementById('qtyWrap');
   const part4Wrap = document.getElementById('part4ModeWrap');
-  const btnsRow = document.getElementById('qtyBtns');
 
   // Show/hide Part 4 mode selector
   if (partNum === 4 && S.section === 'uoe') {
@@ -1337,24 +1347,53 @@ function buildQtySelector(partNum) {
   }
 
   qtyWrap.style.display = '';
-  btnsRow.innerHTML = '';
   S.selectedQty = 0;
 
-  // Standard qty options
-  const qtys = [5, 10, 15, 20, 'All'];
-  qtys.forEach(q => {
-    const btn = document.createElement('button');
-    btn.className = 'qty-btn';
-    btn.textContent = q === 'All' ? 'All' : q + ' questions';
-    btn.onclick = () => {
-      document.querySelectorAll('.qty-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      S.selectedQty = q === 'All' ? 9999 : q;
-      checkStartReady();
-    };
-    btnsRow.appendChild(btn);
-  });
+  // Reset input
+  const inp = document.getElementById('qtyInput');
+  if (inp) { inp.value = ''; inp.max = ''; }
+  document.getElementById('qtyMaxLabel').textContent = '';
   checkStartReady();
+}
+
+function onQtyInput(val) {
+  const n = parseInt(val, 10);
+  if (!isNaN(n) && n > 0) {
+    S.selectedQty = n;
+  } else {
+    S.selectedQty = 0;
+  }
+  checkStartReady();
+}
+
+// Helper: set max on qty input
+function setQtyMax(total) {
+  const inp = document.getElementById('qtyInput');
+  const lbl = document.getElementById('qtyMaxLabel');
+  if (inp) { inp.max = total; inp.placeholder = `1 - ${total}`; }
+  if (lbl) lbl.textContent = `Max: ${total}`;
+}
+
+/* Normalize grammarType → group name.
+   Priority: q.grammarGroup (explicit) → strip trailing variant words → raw grammarType.
+   Examples:
+     "Causative have / make / get"  → "Causative"
+     "Causative make"               → "Causative"
+     "Phrasal Verb – give"          → "Phrasal Verbs"
+     "Phrasal Verbs"                → "Phrasal Verbs"
+     "Wish / If only"               → "Wish / If only"   (kept as-is, no variant)
+*/
+function getGrammarGroup(q) {
+  if (q.grammarGroup) return q.grammarGroup.trim();
+  if (!q.grammarType) return '';
+  let t = q.grammarType.trim();
+  // Normalise "Phrasal Verb ..." → "Phrasal Verbs"
+  if (/^phrasal verb/i.test(t)) return 'Phrasal Verbs';
+  // Normalise "Causative ..." → "Causative"
+  if (/^causative/i.test(t)) return 'Causative';
+  // Strip trailing " – word", " / word", " (word)" variant suffixes
+  t = t.replace(/\s*[-–\/]\s*\w[\w\s]*$/, '').trim();
+  return t || q.grammarType.trim();
 }
 
 async function buildP4GrammarOptions() {
@@ -1374,21 +1413,24 @@ async function buildP4GrammarOptions() {
     const merged = { ...valid[0] };
     merged.questions = valid.flatMap(d => d.questions || []);
 
+    // Stamp each question with its resolved group
+    merged.questions.forEach(q => { q._group = getGrammarGroup(q); });
+
     // Cache merged data for use at startSession
     S._p4Data = merged;
 
-    // Build grammar type list with question counts from merged pool
-    const typeCount = {};
+    // Build group → question count map (deduplicated by group)
+    const groupCount = {};
     merged.questions.forEach(q => {
-      if (q.grammarType) typeCount[q.grammarType] = (typeCount[q.grammarType] || 0) + 1;
+      if (q._group) groupCount[q._group] = (groupCount[q._group] || 0) + 1;
     });
-    const types = Object.keys(typeCount).sort();
+    const groups = Object.keys(groupCount).sort();
 
     grammarSel.innerHTML = `<option value="">All types (${merged.questions.length} questions)</option>`;
-    types.forEach(t => {
+    groups.forEach(g => {
       const opt = document.createElement('option');
-      opt.value = t;
-      opt.textContent = `${t} (${typeCount[t]})`;
+      opt.value = g;
+      opt.textContent = `${g} (${groupCount[g]})`;
       grammarSel.appendChild(opt);
     });
   } catch(e) {
@@ -1406,37 +1448,25 @@ function selectP4Mode(mode) {
 }
 
 function onP4GrammarChange() {
-  S.p4GrammarType = document.getElementById('p4GrammarSel').value;
-  // Update qty buttons based on available questions for this type
+  S.p4GrammarType = document.getElementById('p4GrammarSel').value; // now stores group name
   updateQtyForGrammarType();
   checkStartReady();
 }
 
 function updateQtyForGrammarType() {
   if (!S._p4Data) return;
-  const type = S.p4GrammarType;
-  // Use merged _p4Data (already contains questions from all files)
-  const qs = type
-    ? (S._p4Data.questions || []).filter(q => q.grammarType === type)
+  const group = S.p4GrammarType;
+  const qs = group
+    ? (S._p4Data.questions || []).filter(q => q._group === group)
     : (S._p4Data.questions || []);
   const total = qs.length;
-  const btnsRow = document.getElementById('qtyBtns');
-  btnsRow.innerHTML = '';
+
+  // Reset qty input and update max
+  const inp = document.getElementById('qtyInput');
+  if (inp) { inp.value = ''; inp.max = total; inp.placeholder = `1 - ${total}`; }
+  document.getElementById('qtyMaxLabel').textContent = `Max: ${total}`;
   S.selectedQty = 0;
-  const opts = [5,10,15,20].filter(n => n <= total);
-  opts.push('All');
-  opts.forEach(q => {
-    const btn = document.createElement('button');
-    btn.className = 'qty-btn';
-    btn.textContent = q === 'All' ? `All (${total})` : q + ' questions';
-    btn.onclick = () => {
-      document.querySelectorAll('.qty-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      S.selectedQty = q === 'All' ? total : q;
-      checkStartReady();
-    };
-    btnsRow.appendChild(btn);
-  });
+  checkStartReady();
 }
 
 function checkStartReady() {
@@ -1538,9 +1568,9 @@ async function startSession() {
       // Filter and shuffle questions
       let qs = [...(fullData.questions || [])];
 
-      // Part 4 grammar filter
+      // Part 4 grammar filter — filter by resolved group
       if (S.currentPart === 4 && S.p4Mode === 'grammar' && S.p4GrammarType) {
-        qs = qs.filter(q => q.grammarType === S.p4GrammarType);
+        qs = qs.filter(q => (q._group || getGrammarGroup(q)) === S.p4GrammarType);
       }
 
       // Shuffle
@@ -1764,8 +1794,7 @@ function renderPart4(container, data) {
       <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap">
         <span style="font-size:.75rem;font-weight:900;color:var(--text3)">Q${q.displayNumber}</span>
         <span class="kwt-keyword">${q.keyword}</span>
-        ${q.grammarType ? `<span class="kwt-type-tag">${q.grammarType}</span>` : ''}
-        <span style="font-size:.72rem;color:var(--text3);font-weight:700">2–5 words incl. keyword | max 2 pts</span>
+        <span style="font-size:.72rem;color:var(--text3);font-weight:700">2–5 words incl. keyword</span>
       </div>
       <div class="kwt-sentence1">${q.sentence1}</div>
       <div class="kwt-sentence2">
@@ -1776,7 +1805,6 @@ function renderPart4(container, data) {
           onpaste="return false">
         ${q.sentence2End ? ` <span style="font-weight:700">${q.sentence2End}</span>` : ''}
       </div>
-      <div class="kwt-pts" id="pts_${q.id}">Points: — / 2</div>
       <div class="explain-box" id="exp_${q.id}"></div>`;
     container.appendChild(block);
   });
@@ -2275,12 +2303,6 @@ function applyVisualCheck(q, userVal, isCorrect, partNum, revealed) {
       inp.classList.remove('correct','wrong');
       inp.classList.add(isCorrect ? 'correct' : 'wrong');
       if (revealed) inp.disabled = true;
-    }
-    const sc = S.scores[qid];
-    const ptsEl = document.getElementById(`pts_${qid}`);
-    if (ptsEl && sc) {
-      ptsEl.textContent = `Points: ${sc.pts} / ${sc.max}`;
-      ptsEl.className = 'kwt-pts ' + (sc.pts === 2 ? 'full' : sc.pts === 1 ? 'partial' : 'zero');
     }
   }
 
