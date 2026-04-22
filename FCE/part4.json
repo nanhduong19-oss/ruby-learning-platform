@@ -5,7 +5,7 @@
   "instruction": "Complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between two and five words, including the word given.",
   "questions": [
     {
-      "id": "p4_trainer1__trainer1_t1q25",
+      "id": "p4_trainer1_t1q25",
       "displayNumber": 25,
       "keyword": "IT",
       "grammarType": "Causative / Difficult constructions",
@@ -795,6 +795,805 @@
         ]
       },
       "explanation": "far less... than → not nearly as much... as. There isn't nearly as much noise as there used to be."
+    },
+    {
+  "part": 4,
+  "section": "useOfEnglish",
+  "title": "Part 4 – Key Word Transformation",
+  "instruction": "Complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between two and five words, including the word given.",
+  "questions": [
+    {
+      "id": "p4_trainer2_t1q25",
+      "displayNumber": 25,
+      "keyword": "CAME",
+      "grammarType": "Phrasal verbs",
+      "grammarGroup": "Phrasal Verbs",
+      "sentence1": "Jane thought of a name for her new band.",
+      "sentence2Start": "Jane",
+      "sentence2End": "a name for her new band.",
+      "correctAnswer": "CAME UP WITH",
+      "accepted": ["CAME UP WITH"],
+      "alternativeAnswers": [],
+      "formula": "come up with = think of",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["CAME"] },
+          { "piece": 2, "accepted": ["UP WITH"] }
+        ]
+      },
+      "explanation": "come up with = nghĩ ra. 'Jane came up with a name' = Jane đã nghĩ ra một cái tên."
+    },
+    {
+      "id": "p4_trainer2_t1q26",
+      "displayNumber": 26,
+      "keyword": "ASLEEP",
+      "grammarType": "Collocations",
+      "grammarGroup": "Fixed Expressions & Collocations",
+      "sentence1": "It took me ages to get to sleep.",
+      "sentence2Start": "I didn’t",
+      "sentence2End": "ages.",
+      "correctAnswer": "FALL ASLEEP FOR",
+      "accepted": ["FALL ASLEEP FOR"],
+      "alternativeAnswers": [],
+      "formula": "fall asleep = get to sleep",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["FALL ASLEEP"] },
+          { "piece": 2, "accepted": ["FOR"] }
+        ]
+      },
+      "explanation": "didn't fall asleep for ages = không thể ngủ được trong một thời gian dài (mất rất lâu mới ngủ được)."
+    },
+    {
+      "id": "p4_trainer2_t1q27",
+      "displayNumber": 27,
+      "keyword": "HAVE",
+      "grammarType": "Modal verbs (deduction)",
+      "grammarGroup": "Modals & Semi-modals",
+      "sentence1": "Perhaps Alessio missed his bus.",
+      "sentence2Start": "Alessio",
+      "sentence2End": "caught his bus.",
+      "correctAnswer": "MIGHT NOT HAVE",
+      "accepted": ["MIGHT NOT HAVE", "MAY NOT HAVE"],
+      "alternativeAnswers": [],
+      "formula": "might/may not have + past participle = perhaps + subject + didn't",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["MIGHT NOT", "MAY NOT"] },
+          { "piece": 2, "accepted": ["HAVE"] }
+        ]
+      },
+      "explanation": "might/may not have + V3 = có lẽ đã không (phỏng đoán trong quá khứ)."
+    },
+    {
+      "id": "p4_trainer2_t1q28",
+      "displayNumber": 28,
+      "keyword": "CHARGING",
+      "grammarType": "Verb patterns (need + V-ing)",
+      "grammarGroup": "Verb Patterns",
+      "sentence1": "I have to charge my phone each day.",
+      "sentence2Start": "My phone",
+      "sentence2End": "a day.",
+      "correctAnswer": "NEEDS CHARGING ONCE",
+      "accepted": ["NEEDS CHARGING ONCE"],
+      "alternativeAnswers": [],
+      "formula": "need + V-ing = mang nghĩa bị động (cần được làm gì) | each day = once a day",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["NEEDS CHARGING"] },
+          { "piece": 2, "accepted": ["ONCE"] }
+        ]
+      },
+      "explanation": "need + V-ing tương đương với cấu trúc bị động need to be done. each day = once a day."
+    },
+    {
+      "id": "p4_trainer2_t1q29",
+      "displayNumber": 29,
+      "keyword": "TIME",
+      "grammarType": "Verb patterns (spend time V-ing)",
+      "grammarGroup": "Verb Patterns",
+      "sentence1": "I went to bed late because it took me ages to do my homework.",
+      "sentence2Start": "I spent so",
+      "sentence2End": "my homework that I went to bed late.",
+      "correctAnswer": "MUCH TIME DOING",
+      "accepted": ["MUCH TIME DOING"],
+      "alternativeAnswers": [],
+      "formula": "spend time + V-ing = take time to do",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["MUCH TIME"] },
+          { "piece": 2, "accepted": ["DOING"] }
+        ]
+      },
+      "explanation": "spend time doing something = dành thời gian làm gì (thay thế cho took me ages to do)."
+    },
+    {
+      "id": "p4_trainer2_t1q30",
+      "displayNumber": 30,
+      "keyword": "ON",
+      "grammarType": "Comparisons",
+      "grammarGroup": "Comparisons",
+      "sentence1": "Dan and his brother are both wearing identical shirts.",
+      "sentence2Start": "Dan has the",
+      "sentence2End": "his brother.",
+      "correctAnswer": "SAME SHIRT ON AS",
+      "accepted": ["SAME SHIRT ON AS"],
+      "alternativeAnswers": [],
+      "formula": "have the same + noun + on + as = wear identical",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["SAME SHIRT ON"] },
+          { "piece": 2, "accepted": ["AS"] }
+        ]
+      },
+      "explanation": "have something on = wear. the same ... as = giống như."
+    },
+    {
+      "id": "p4_trainer2_t2q25",
+      "displayNumber": 25,
+      "keyword": "APOLOGISE",
+      "grammarType": "Reported speech / Verb patterns",
+      "grammarGroup": "Reported Speech",
+      "sentence1": "We are sorry to say that all trains have been cancelled due to the bad weather.",
+      "sentence2Start": "We would like",
+      "sentence2End": "the cancellation of all trains due to the bad weather.",
+      "correctAnswer": "TO APOLOGISE FOR",
+      "accepted": ["TO APOLOGISE FOR"],
+      "alternativeAnswers": [],
+      "formula": "would like + to-infinitive | apologise for + noun/V-ing",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["TO APOLOGISE"] },
+          { "piece": 2, "accepted": ["FOR"] }
+        ]
+      },
+      "explanation": "are sorry to say = would like to apologise for (muốn xin lỗi vì điều gì)."
+    },
+    {
+      "id": "p4_trainer2_t2q26",
+      "displayNumber": 26,
+      "keyword": "HAVE",
+      "grammarType": "Modal verbs (deduction)",
+      "grammarGroup": "Modals & Semi-modals",
+      "sentence1": "I’m sure it wasn’t Julie you saw at the cinema because she’s on holiday.",
+      "sentence2Start": "It",
+      "sentence2End": "Julie you saw at the cinema because she’s on holiday.",
+      "correctAnswer": "CAN'T HAVE BEEN",
+      "accepted": ["CAN'T HAVE BEEN", "CANNOT HAVE BEEN"],
+      "alternativeAnswers": [],
+      "formula": "can't have been = chắc chắn không phải (suy luận chắc chắn phủ định trong quá khứ)",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["CAN'T HAVE BEEN", "CANNOT HAVE BEEN"] }
+        ]
+      },
+      "explanation": "can't have + V3: diễn tả một phỏng đoán chắc chắn không xảy ra trong quá khứ."
+    },
+    {
+      "id": "p4_trainer2_t2q27",
+      "displayNumber": 27,
+      "keyword": "CUT",
+      "grammarType": "Phrasal verbs",
+      "grammarGroup": "Phrasal Verbs",
+      "sentence1": "I should reduce the amount of junk food I’m eating.",
+      "sentence2Start": "I need",
+      "sentence2End": "the amount of junk food I’m eating.",
+      "correctAnswer": "TO CUT DOWN ON",
+      "accepted": ["TO CUT DOWN ON", "TO CUT DOWN"],
+      "alternativeAnswers": [],
+      "formula": "need to + bare infinitive | cut down (on) = reduce",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["TO"] },
+          { "piece": 2, "accepted": ["CUT DOWN ON", "CUT DOWN"] }
+        ]
+      },
+      "explanation": "cut down (on) = reduce (cắt giảm)."
+    },
+    {
+      "id": "p4_trainer2_t2q28",
+      "displayNumber": 28,
+      "keyword": "ADMITTED",
+      "grammarType": "Reported speech / Verb patterns",
+      "grammarGroup": "Reported Speech",
+      "sentence1": "‘It was me that ate the last piece of cake,’ Sam said.",
+      "sentence2Start": "Sam",
+      "sentence2End": "the last piece of cake.",
+      "correctAnswer": "ADMITTED EATING",
+      "accepted": ["ADMITTED EATING", "ADMITTED THAT HE HAD EATEN", "ADMITTED HE HAD EATEN", "ADMITTED THAT HE'D EATEN", "ADMITTED HE'D EATEN"],
+      "alternativeAnswers": [],
+      "formula": "admit + V-ing / admit (that) + subject + had + V3",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["ADMITTED"] },
+          { "piece": 2, "accepted": ["EATING", "THAT HE HAD EATEN", "HE HAD EATEN", "THAT HE'D EATEN", "HE'D EATEN"] }
+        ]
+      },
+      "explanation": "admit + V-ing hoặc admit that + S + past perfect = thú nhận đã làm gì."
+    },
+    {
+      "id": "p4_trainer2_t2q29",
+      "displayNumber": 29,
+      "keyword": "NOT",
+      "grammarType": "Conditionals",
+      "grammarGroup": "Conditionals & Wishes",
+      "sentence1": "I only went to Dan’s party because you were going.",
+      "sentence2Start": "I",
+      "sentence2End": "to Dan’s party if you hadn’t been going.",
+      "correctAnswer": "WOULD NOT HAVE GONE",
+      "accepted": ["WOULD NOT HAVE GONE", "WOULDN'T HAVE GONE"],
+      "alternativeAnswers": [],
+      "formula": "third conditional: would not have + past participle",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["WOULD NOT", "WOULDN'T"] },
+          { "piece": 2, "accepted": ["HAVE GONE"] }
+        ]
+      },
+      "explanation": "Câu điều kiện loại 3 (trái với quá khứ): if + past perfect, would(n't) have + V3."
+    },
+    {
+      "id": "p4_trainer2_t2q30",
+      "displayNumber": 30,
+      "keyword": "EVEN",
+      "grammarType": "Concession",
+      "grammarGroup": "Clauses & Linkers",
+      "sentence1": "We decided to go for a walk on the beach despite it being really cold.",
+      "sentence2Start": "We decided to go for a walk on the beach",
+      "sentence2End": "really cold.",
+      "correctAnswer": "EVEN THOUGH IT WAS",
+      "accepted": ["EVEN THOUGH IT WAS"],
+      "alternativeAnswers": [],
+      "formula": "even though + clause = despite + noun/V-ing",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["EVEN THOUGH"] },
+          { "piece": 2, "accepted": ["IT WAS"] }
+        ]
+      },
+      "explanation": "despite + V-ing chuyển thành even though + clause (mệnh đề)."
+    },
+    {
+      "id": "p4_trainer2_t3q25",
+      "displayNumber": 25,
+      "keyword": "TURNED",
+      "grammarType": "Wish / If only",
+      "grammarGroup": "Conditionals & Wishes",
+      "sentence1": "It’s a shame I arrived late at the party.",
+      "sentence2Start": "I wish",
+      "sentence2End": "late to the party.",
+      "correctAnswer": "I HADN'T TURNED UP",
+      "accepted": ["I HADN'T TURNED UP", "I HAD NOT TURNED UP"],
+      "alternativeAnswers": [],
+      "formula": "wish + past perfect | turn up = arrive",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["I HADN'T", "I HAD NOT"] },
+          { "piece": 2, "accepted": ["TURNED UP"] }
+        ]
+      },
+      "explanation": "wish + past perfect = ước trái với quá khứ. turn up = arrive (đến)."
+    },
+    {
+      "id": "p4_trainer2_t3q26",
+      "displayNumber": 26,
+      "keyword": "LONG",
+      "grammarType": "Conditionals",
+      "grammarGroup": "Conditionals & Wishes",
+      "sentence1": "Provided that you help me with my project, you can borrow my book.",
+      "sentence2Start": "I’ll lend",
+      "sentence2End": "as you help me with my project.",
+      "correctAnswer": "YOU MY BOOK AS LONG",
+      "accepted": ["YOU MY BOOK AS LONG", "MY BOOK AS LONG"],
+      "alternativeAnswers": [],
+      "formula": "as long as = provided that (miễn là)",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["YOU MY BOOK", "MY BOOK"] },
+          { "piece": 2, "accepted": ["AS LONG"] }
+        ]
+      },
+      "explanation": "as long as = miễn là. borrow my book -> lend (you) my book."
+    },
+    {
+      "id": "p4_trainer2_t3q27",
+      "displayNumber": 27,
+      "keyword": "TIME",
+      "grammarType": "It's time",
+      "grammarGroup": "Conditionals & Wishes",
+      "sentence1": "You need to do your homework now.",
+      "sentence2Start": "It",
+      "sentence2End": "homework done.",
+      "correctAnswer": "IS TIME YOU GOT YOUR",
+      "accepted": ["IS TIME YOU GOT YOUR", "'S TIME YOU GOT YOUR", "IS TIME TO GET YOUR", "'S TIME TO GET YOUR"],
+      "alternativeAnswers": [],
+      "formula": "it's time + S + past simple / it's time + to + V",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["IS TIME YOU", "'S TIME YOU", "IS TIME TO", "'S TIME TO"] },
+          { "piece": 2, "accepted": ["GOT YOUR", "GET YOUR"] }
+        ]
+      },
+      "explanation": "it's time + S + V(past) hoặc it's time + to V = đã đến lúc làm gì."
+    },
+    {
+      "id": "p4_trainer2_t3q28",
+      "displayNumber": 28,
+      "keyword": "NEEDS",
+      "grammarType": "Passive voice (need + V-ing)",
+      "grammarGroup": "Passive Voice",
+      "sentence1": "I must get a haircut this week.",
+      "sentence2Start": "My",
+      "sentence2End": "this week.",
+      "correctAnswer": "HAIR NEEDS CUTTING",
+      "accepted": ["HAIR NEEDS CUTTING"],
+      "alternativeAnswers": [],
+      "formula": "need + V-ing = mang nghĩa bị động",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["HAIR NEEDS"] },
+          { "piece": 2, "accepted": ["CUTTING"] }
+        ]
+      },
+      "explanation": "need + V-ing = cần được làm gì (cấu trúc bị động). My hair needs cutting = Tóc tôi cần được cắt."
+    },
+    {
+      "id": "p4_trainer2_t3q29",
+      "displayNumber": 29,
+      "keyword": "MIGHT",
+      "grammarType": "Modal verbs (deduction)",
+      "grammarGroup": "Modals & Semi-modals",
+      "sentence1": "It’s possible that I didn’t bring my books with me this morning.",
+      "sentence2Start": "I",
+      "sentence2End": "behind this morning.",
+      "correctAnswer": "MIGHT HAVE LEFT MY BOOKS",
+      "accepted": ["MIGHT HAVE LEFT MY BOOKS"],
+      "alternativeAnswers": [],
+      "formula": "might have + past participle = phỏng đoán trong quá khứ | leave behind = not bring",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["MIGHT HAVE LEFT"] },
+          { "piece": 2, "accepted": ["MY BOOKS"] }
+        ]
+      },
+      "explanation": "might have + V3: suy đoán có thể xảy ra trong quá khứ. leave behind = để quên lại (không mang theo)."
+    },
+    {
+      "id": "p4_trainer2_t3q30",
+      "displayNumber": 30,
+      "keyword": "BEST",
+      "grammarType": "Fixed expressions",
+      "grammarGroup": "Fixed Expressions & Collocations",
+      "sentence1": "During the lesson, I tried as hard as I could.",
+      "sentence2Start": "I",
+      "sentence2End": "during the lesson.",
+      "correctAnswer": "TRIED MY BEST",
+      "accepted": ["TRIED MY BEST", "DID MY BEST"],
+      "alternativeAnswers": [],
+      "formula": "try/do one's best = try as hard as one can",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["TRIED", "DID"] },
+          { "piece": 2, "accepted": ["MY BEST"] }
+        ]
+      },
+      "explanation": "try/do my best = cố gắng hết sức."
+    },
+    {
+      "id": "p4_trainer2_t4q25",
+      "displayNumber": 25,
+      "keyword": "HELPED",
+      "grammarType": "Conditionals",
+      "grammarGroup": "Conditionals & Wishes",
+      "sentence1": "Without all your help, I wouldn’t have been able to skate.",
+      "sentence2Start": "I wouldn’t have been able to skate if",
+      "sentence2End": "so much.",
+      "correctAnswer": "YOU HADN'T HELPED",
+      "accepted": ["YOU HADN'T HELPED", "YOU HAD NOT HELPED"],
+      "alternativeAnswers": [],
+      "formula": "without + N = if + S + hadn't + V3",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["YOU HADN'T", "YOU HAD NOT"] },
+          { "piece": 2, "accepted": ["HELPED"] }
+        ]
+      },
+      "explanation": "Câu điều kiện loại 3. Without + N -> If + mệnh đề chia quá khứ hoàn thành."
+    },
+    {
+      "id": "p4_trainer2_t4q26",
+      "displayNumber": 26,
+      "keyword": "THAT",
+      "grammarType": "Passive voice (impersonal)",
+      "grammarGroup": "Passive Voice",
+      "sentence1": "People say it is hard to say goodbye.",
+      "sentence2Start": "It is",
+      "sentence2End": "is hard.",
+      "correctAnswer": "SAID THAT SAYING GOODBYE",
+      "accepted": ["SAID THAT SAYING GOODBYE"],
+      "alternativeAnswers": [],
+      "formula": "It is said that + clause",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["SAID THAT SAYING"] },
+          { "piece": 2, "accepted": ["GOODBYE"] }
+        ]
+      },
+      "explanation": "Bị động không ngôi: It is said that + mệnh đề (saying goodbye is hard)."
+    },
+    {
+      "id": "p4_trainer2_t4q27",
+      "displayNumber": 27,
+      "keyword": "BE",
+      "grammarType": "Passive voice",
+      "grammarGroup": "Passive Voice",
+      "sentence1": "They are going to deliver my new bike tomorrow.",
+      "sentence2Start": "My new bike",
+      "sentence2End": "tomorrow.",
+      "correctAnswer": "IS GOING TO BE DELIVERED",
+      "accepted": ["IS GOING TO BE DELIVERED", "WILL BE DELIVERED"],
+      "alternativeAnswers": [],
+      "formula": "is going to be / will be + past participle",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["WILL", "IS GOING TO"] },
+          { "piece": 2, "accepted": ["BE DELIVERED"] }
+        ]
+      },
+      "explanation": "Cấu trúc bị động của thì tương lai gần (is going to be V3) hoặc tương lai đơn (will be V3)."
+    },
+    {
+      "id": "p4_trainer2_t4q28",
+      "displayNumber": 28,
+      "keyword": "HAVE",
+      "grammarType": "Modal verbs (deduction)",
+      "grammarGroup": "Modals & Semi-modals",
+      "sentence1": "Jen always misses the bus – I’m sure she has again today, too.",
+      "sentence2Start": "Jen",
+      "sentence2End": "the bus again today – she always does!",
+      "correctAnswer": "MUST HAVE MISSED",
+      "accepted": ["MUST HAVE MISSED"],
+      "alternativeAnswers": [],
+      "formula": "must have + past participle = phỏng đoán chắc chắn trong quá khứ",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["MUST HAVE"] },
+          { "piece": 2, "accepted": ["MISSED"] }
+        ]
+      },
+      "explanation": "must have + V3: suy luận chắc chắn đã xảy ra trong quá khứ (vì 'always misses' nên 'I'm sure')."
+    },
+    {
+      "id": "p4_trainer2_t4q29",
+      "displayNumber": 29,
+      "keyword": "WHO",
+      "grammarType": "Cleft sentences",
+      "grammarGroup": "Clauses & Linkers",
+      "sentence1": "Joseph admitted kicking the football through the window.",
+      "sentence2Start": "‘It was",
+      "sentence2End": "the ball through the window,’ said Joseph.",
+      "correctAnswer": "ME WHO KICKED",
+      "accepted": ["ME WHO KICKED"],
+      "alternativeAnswers": [],
+      "formula": "It was + Object pronoun + who + V(past)",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["ME"] },
+          { "piece": 2, "accepted": ["WHO KICKED"] }
+        ]
+      },
+      "explanation": "Câu chẻ (Cleft sentence) để nhấn mạnh: It was me who kicked..."
+    },
+    {
+      "id": "p4_trainer2_t4q30",
+      "displayNumber": 30,
+      "keyword": "TO",
+      "grammarType": "Reported speech / Modals",
+      "grammarGroup": "Reported Speech",
+      "sentence1": "‘You should come swimming with me after school,’ Tracy said to me.",
+      "sentence2Start": "Tracy said that",
+      "sentence2End": "swimming with her after school.",
+      "correctAnswer": "I OUGHT TO GO",
+      "accepted": ["I OUGHT TO GO", "I SHOULD GO"],
+      "alternativeAnswers": [],
+      "formula": "should = ought to",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["I OUGHT TO", "I SHOULD"] },
+          { "piece": 2, "accepted": ["GO"] }
+        ]
+      },
+      "explanation": "ought to = should (lời khuyên). Come -> go trong tường thuật tùy ngữ cảnh."
+    },
+    {
+      "id": "p4_trainer2_t5q25",
+      "displayNumber": 25,
+      "keyword": "BROUGHT",
+      "grammarType": "Phrasal verbs / Passive voice",
+      "grammarGroup": "Phrasal Verbs",
+      "sentence1": "Tina’s grandparents raised her.",
+      "sentence2Start": "Tina",
+      "sentence2End": "her grandparents.",
+      "correctAnswer": "WAS BROUGHT UP BY",
+      "accepted": ["WAS BROUGHT UP BY"],
+      "alternativeAnswers": [],
+      "formula": "bring up = raise | passive: was brought up by",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["WAS BROUGHT UP"] },
+          { "piece": 2, "accepted": ["BY"] }
+        ]
+      },
+      "explanation": "bring up = raise (nuôi nấng). Dùng bị động: was brought up by."
+    },
+    {
+      "id": "p4_trainer2_t5q26",
+      "displayNumber": 26,
+      "keyword": "CAN'T",
+      "grammarType": "Phrasal verbs",
+      "grammarGroup": "Phrasal Verbs",
+      "sentence1": "I’m surprised she declined my invitation to the party.",
+      "sentence2Start": "I",
+      "sentence2End": "down my invitation to the party.",
+      "correctAnswer": "CAN'T BELIEVE SHE TURNED",
+      "accepted": ["CAN'T BELIEVE SHE TURNED", "CAN'T BELIEVE THAT SHE TURNED"],
+      "alternativeAnswers": [],
+      "formula": "can't believe (that) = I'm surprised | turn down = decline",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["CAN'T BELIEVE", "CAN'T BELIEVE THAT"] },
+          { "piece": 2, "accepted": ["SHE TURNED"] }
+        ]
+      },
+      "explanation": "can't believe = surprised. turn down = decline (từ chối)."
+    },
+    {
+      "id": "p4_trainer2_t5q27",
+      "displayNumber": 27,
+      "keyword": "WORD",
+      "grammarType": "Fixed expressions",
+      "grammarGroup": "Fixed Expressions & Collocations",
+      "sentence1": "When John told me what had happened, I believed him.",
+      "sentence2Start": "When John told me what had happened, I",
+      "sentence2End": "it.",
+      "correctAnswer": "TOOK HIS WORD FOR",
+      "accepted": ["TOOK HIS WORD FOR"],
+      "alternativeAnswers": [],
+      "formula": "take someone's word for it = believe someone",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["TOOK HIS WORD"] },
+          { "piece": 2, "accepted": ["FOR"] }
+        ]
+      },
+      "explanation": "take one's word for it = tin lời ai đó (thành ngữ)."
+    },
+    {
+      "id": "p4_trainer2_t5q28",
+      "displayNumber": 28,
+      "keyword": "FOR",
+      "grammarType": "Fixed expressions",
+      "grammarGroup": "Fixed Expressions & Collocations",
+      "sentence1": "I often cycle by myself at the weekend.",
+      "sentence2Start": "I often go",
+      "sentence2End": "my own at the weekend.",
+      "correctAnswer": "FOR A BIKE RIDE ON",
+      "accepted": ["FOR A BIKE RIDE ON", "FOR A CYCLE RIDE ON", "FOR A CYCLE ON", "FOR A RIDE ON", "CYCLING ON"],
+      "alternativeAnswers": [],
+      "formula": "go for a bike ride = cycle | on my own = by myself",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["FOR A BIKE RIDE", "FOR A CYCLE RIDE", "FOR A CYCLE", "FOR A RIDE", "CYCLING"] },
+          { "piece": 2, "accepted": ["ON"] }
+        ]
+      },
+      "explanation": "on one's own = by oneself. go for a bike ride = cycle."
+    },
+    {
+      "id": "p4_trainer2_t5q29",
+      "displayNumber": 29,
+      "keyword": "HAVE",
+      "grammarType": "Conditionals",
+      "grammarGroup": "Conditionals & Wishes",
+      "sentence1": "She only bought the book because the teacher said it was good.",
+      "sentence2Start": "She wouldn’t",
+      "sentence2End": "the teacher hadn’t said it was good.",
+      "correctAnswer": "HAVE BOUGHT THE BOOK IF",
+      "accepted": ["HAVE BOUGHT THE BOOK IF"],
+      "alternativeAnswers": [],
+      "formula": "third conditional: wouldn't have + past participle + if",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["HAVE BOUGHT THE BOOK"] },
+          { "piece": 2, "accepted": ["IF"] }
+        ]
+      },
+      "explanation": "Câu điều kiện loại 3: She wouldn't have bought the book if... (Cô ấy đã không mua quyển sách nếu...)"
+    },
+    {
+      "id": "p4_trainer2_t5q30",
+      "displayNumber": 30,
+      "keyword": "GET",
+      "grammarType": "Causative voice",
+      "grammarGroup": "Passive Voice",
+      "sentence1": "I want someone to cut my hair.",
+      "sentence2Start": "I’d",
+      "sentence2End": "cut.",
+      "correctAnswer": "LIKE TO GET MY HAIR",
+      "accepted": ["LIKE TO GET MY HAIR", "LOVE TO GET MY HAIR"],
+      "alternativeAnswers": [],
+      "formula": "would like + to-infinitive | get + object + past participle",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["LIKE TO", "LOVE TO"] },
+          { "piece": 2, "accepted": ["GET MY HAIR"] }
+        ]
+      },
+      "explanation": "get something done = nhờ/thuê ai đó làm gì. I'd like to get my hair cut."
+    },
+    {
+      "id": "p4_trainer2_t6q25",
+      "displayNumber": 25,
+      "keyword": "GOING",
+      "grammarType": "Tenses and aspects",
+      "grammarGroup": "Tenses and Aspects",
+      "sentence1": "I meant to call you when I arrived at the hotel but I forgot.",
+      "sentence2Start": "I",
+      "sentence2End": "you a call when I arrived at the hotel but I forgot.",
+      "correctAnswer": "WAS GOING TO GIVE",
+      "accepted": ["WAS GOING TO GIVE"],
+      "alternativeAnswers": [],
+      "formula": "was going to + bare infinitive (past plan) | give someone a call = call",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["WAS GOING TO"] },
+          { "piece": 2, "accepted": ["GIVE"] }
+        ]
+      },
+      "explanation": "was going to: dự định trong quá khứ. give someone a call = call."
+    },
+    {
+      "id": "p4_trainer2_t6q26",
+      "displayNumber": 26,
+      "keyword": "THOUGHT",
+      "grammarType": "Reported speech",
+      "grammarGroup": "Reported Speech",
+      "sentence1": "‘What do you think of the amount footballers get paid?’ Tim asked me.",
+      "sentence2Start": "Tim",
+      "sentence2End": "about the amount footballers get paid.",
+      "correctAnswer": "ASKED ME WHAT I THOUGHT",
+      "accepted": ["ASKED ME WHAT I THOUGHT"],
+      "alternativeAnswers": [],
+      "formula": "ask + object + wh-word + subject + verb(past)",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["ASKED ME"] },
+          { "piece": 2, "accepted": ["WHAT I THOUGHT"] }
+        ]
+      },
+      "explanation": "Câu tường thuật dạng Wh-question: lùi thì hiện tại (think) sang quá khứ (thought)."
+    },
+    {
+      "id": "p4_trainer2_t6q27",
+      "displayNumber": 27,
+      "keyword": "LEAVE",
+      "grammarType": "Modal verbs",
+      "grammarGroup": "Modals & Semi-modals",
+      "sentence1": "It’ll be dark soon, so we mustn’t stay out any longer.",
+      "sentence2Start": "We’d",
+      "sentence2End": "gets dark.",
+      "correctAnswer": "BETTER LEAVE BEFORE IT",
+      "accepted": ["BETTER LEAVE BEFORE IT"],
+      "alternativeAnswers": [],
+      "formula": "had better + bare infinitive",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["BETTER LEAVE"] },
+          { "piece": 2, "accepted": ["BEFORE IT"] }
+        ]
+      },
+      "explanation": "had better ('d better) = nên làm gì đó. We'd better leave before it gets dark."
+    },
+    {
+      "id": "p4_trainer2_t6q28",
+      "displayNumber": 28,
+      "keyword": "TURNED",
+      "grammarType": "Phrasal verbs",
+      "grammarGroup": "Phrasal Verbs",
+      "sentence1": "We hadn’t expected the party to be very good but in the end it was!",
+      "sentence2Start": "The party",
+      "sentence2End": "than we had expected.",
+      "correctAnswer": "TURNED OUT TO BE BETTER",
+      "accepted": ["TURNED OUT TO BE BETTER"],
+      "alternativeAnswers": [],
+      "formula": "turn out + to be + adj = hóa ra là",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["TURNED OUT TO BE"] },
+          { "piece": 2, "accepted": ["BETTER"] }
+        ]
+      },
+      "explanation": "turn out to be = hóa ra là (kết quả cuối cùng khác với dự kiến)."
+    },
+    {
+      "id": "p4_trainer2_t6q29",
+      "displayNumber": 29,
+      "keyword": "LACK",
+      "grammarType": "Noun phrase structures",
+      "grammarGroup": "Clauses & Linkers",
+      "sentence1": "We won’t be going on holiday this year because we haven’t got enough money.",
+      "sentence2Start": "Our",
+      "sentence2End": "that we won’t be going on holiday this year.",
+      "correctAnswer": "LACK OF MONEY MEANS",
+      "accepted": ["LACK OF MONEY MEANS"],
+      "alternativeAnswers": [],
+      "formula": "lack of + noun = not enough",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["LACK OF MONEY"] },
+          { "piece": 2, "accepted": ["MEANS"] }
+        ]
+      },
+      "explanation": "lack of money = sự thiếu tiền. Our lack of money means (Sự thiếu tiền của chúng tôi đồng nghĩa với việc...)."
+    },
+    {
+      "id": "p4_trainer2_t6q30",
+      "displayNumber": 30,
+      "keyword": "IN",
+      "grammarType": "Concession",
+      "grammarGroup": "Clauses & Linkers",
+      "sentence1": "The team won the match even though they hadn’t practised much.",
+      "sentence2Start": "The team won the match",
+      "sentence2End": "practised much.",
+      "correctAnswer": "IN SPITE OF NOT HAVING",
+      "accepted": ["IN SPITE OF NOT HAVING"],
+      "alternativeAnswers": [],
+      "formula": "in spite of + V-ing / not + V-ing",
+      "scoring": {
+        "fullPoints": 2,
+        "partialPieces": [
+          { "piece": 1, "accepted": ["IN SPITE OF"] },
+          { "piece": 2, "accepted": ["NOT HAVING"] }
+        ]
+      },
+      "explanation": "in spite of + not + V-ing (phủ định). even though they hadn't = in spite of not having."
     }
+  ]
+}
   ]
 }
