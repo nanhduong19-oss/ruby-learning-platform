@@ -4,12 +4,12 @@
   "title": "Part 4 – Key Word Transformation",
   "instruction": "Complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between two and five words, including the word given.",
   "questions": [
-
     {
-      "id": "p4t1q25",
+      "id": "p4_trainer1__trainer1_t1q25",
       "displayNumber": 25,
       "keyword": "IT",
       "grammarType": "Causative / Difficult constructions",
+      "grammarGroup": "Verb Patterns",
       "sentence1": "Thomas spoke so quickly I had difficulty understanding him.",
       "sentence2Start": "Thomas spoke so quickly I",
       "sentence2End": "him.",
@@ -26,12 +26,12 @@
       },
       "explanation": "find it + adj + to-inf = thấy khó làm gì. 'Found it difficult to understand' = tôi thấy khó hiểu anh ta."
     },
-
     {
-      "id": "p4t1q26",
+      "id": "p4_trainer1_t1q26",
       "displayNumber": 26,
       "keyword": "PUT",
       "grammarType": "Passive voice",
+      "grammarGroup": "Passive Voice",
       "sentence1": "They've postponed the match and it'll be played next weekend.",
       "sentence2Start": "The match",
       "sentence2End": "until next weekend.",
@@ -48,12 +48,12 @@
       },
       "explanation": "Passive present perfect: has been + V3. Put off = hoãn lại. The match has been put off."
     },
-
     {
-      "id": "p4t1q27",
+      "id": "p4_trainer1_t1q27",
       "displayNumber": 27,
       "keyword": "INTENTION",
       "grammarType": "Noun phrase structures",
+      "grammarGroup": "Fixed Expressions & Collocations",
       "sentence1": "I'm never going to speak to Louis again.",
       "sentence2Start": "I've got",
       "sentence2End": "to Louis again.",
@@ -70,12 +70,12 @@
       },
       "explanation": "have no intention of + V-ing = không có ý định làm gì. I've got no intention of (ever) speaking to Louis again."
     },
-
     {
-      "id": "p4t1q28",
+      "id": "p4_trainer1_t1q28",
       "displayNumber": 28,
       "keyword": "HAVE",
       "grammarType": "Modal passive (deduction)",
+      "grammarGroup": "Modals & Semi-modals",
       "sentence1": "It seems certain that lightning started the forest fire.",
       "sentence2Start": "The forest fire",
       "sentence2End": "by lightning.",
@@ -92,12 +92,12 @@
       },
       "explanation": "must have been + V3 = suy luận chắc chắn về quá khứ (bị động). Must have been started by lightning."
     },
-
     {
-      "id": "p4t1q29",
+      "id": "p4_trainer1_t1q29",
       "displayNumber": 29,
       "keyword": "POINT",
       "grammarType": "Noun phrase structures",
+      "grammarGroup": "Fixed Expressions & Collocations",
       "sentence1": "It wasn't worth going to the market because it was closing.",
       "sentence2Start": "The market was closing, so",
       "sentence2End": "going there.",
@@ -114,12 +114,12 @@
       },
       "explanation": "there was no point in + V-ing = không đáng / vô ích. There was no point in going there."
     },
-
     {
-      "id": "p4t1q30",
+      "id": "p4_trainer1_t1q30",
       "displayNumber": 30,
       "keyword": "HAVE",
       "grammarType": "Modal verbs (obligation/necessity)",
+      "grammarGroup": "Modals & Semi-modals",
       "sentence1": "We phoned the restaurant, but they said booking a table wasn't necessary.",
       "sentence2Start": "We phoned the restaurant, but they said we",
       "sentence2End": "a table.",
@@ -136,12 +136,12 @@
       },
       "explanation": "didn't have to + V = không cần phải. Didn't have to book = không cần đặt bàn."
     },
-
     {
-      "id": "p4t2q25",
+      "id": "p4_trainer1_t2q25",
       "displayNumber": 25,
       "keyword": "LONG",
       "grammarType": "Conditionals",
+      "grammarGroup": "Conditionals & Wishes",
       "sentence1": "'I'll take you to the station if you're ready,' my brother said.",
       "sentence2Start": "My brother said he'd take me to the station",
       "sentence2End": "ready.",
@@ -158,12 +158,12 @@
       },
       "explanation": "As/so long as = if (provided that). Reported speech: are → was. As long as I was ready."
     },
-
     {
-      "id": "p4t2q26",
+      "id": "p4_trainer1_t2q26",
       "displayNumber": 26,
       "keyword": "GET",
       "grammarType": "Causative have/get",
+      "grammarGroup": "Passive Voice",
       "sentence1": "My bike needs repairing again.",
       "sentence2Start": "I'll have to",
       "sentence2End": "again.",
@@ -180,12 +180,12 @@
       },
       "explanation": "get + object + V3 = nhờ/thuê người làm gì. Get my bike repaired = đem xe đi sửa."
     },
-
     {
-      "id": "p4t2q27",
+      "id": "p4_trainer1_t2q27",
       "displayNumber": 27,
       "keyword": "FALL",
       "grammarType": "Noun phrase structures",
+      "grammarGroup": "Fixed Expressions & Collocations",
       "sentence1": "The firm said profits had fallen on account of the recession.",
       "sentence2Start": "The firm blamed the recession",
       "sentence2End": ".",
@@ -202,12 +202,12 @@
       },
       "explanation": "blame X for Y = đổ lỗi X vì Y. The fall in profits = sự sụt giảm lợi nhuận (danh từ hóa). Blamed the recession for the fall in profits."
     },
-
     {
-      "id": "p4t2q28",
+      "id": "p4_trainer1_t2q28",
       "displayNumber": 28,
       "keyword": "WISHED",
       "grammarType": "Wish / If only",
+      "grammarGroup": "Conditionals & Wishes",
       "sentence1": "Sigourney regretted spending so much in the shops.",
       "sentence2Start": "Sigourney",
       "sentence2End": "less in the shops.",
@@ -224,12 +224,12 @@
       },
       "explanation": "wish + past perfect = tiếc về quá khứ. Wished (that) she had/she'd spent less = ước mình đã tiêu ít hơn."
     },
-
     {
-      "id": "p4t2q29",
+      "id": "p4_trainer1_t2q29",
       "displayNumber": 29,
       "keyword": "HAVE",
       "grammarType": "Passive voice",
+      "grammarGroup": "Passive Voice",
       "sentence1": "People believe that poem was written about these beautiful hills.",
       "sentence2Start": "That poem",
       "sentence2End": "written about these beautiful hills.",
@@ -246,12 +246,12 @@
       },
       "explanation": "Passive reporting verb: is believed to have been + V3. That poem is believed to have been written."
     },
-
     {
-      "id": "p4t2q30",
+      "id": "p4_trainer1_t2q30",
       "displayNumber": 30,
       "keyword": "BEEN",
       "grammarType": "Conditionals",
+      "grammarGroup": "Conditionals & Wishes",
       "sentence1": "Without your help, I wouldn't have finished the job.",
       "sentence2Start": "I wouldn't have finished the job if",
       "sentence2End": "your help.",
@@ -268,12 +268,12 @@
       },
       "explanation": "If it had not been for = nếu không có. Cấu trúc thay thế cho Without trong third conditional."
     },
-
     {
-      "id": "p4t3q25",
+      "id": "p4_trainer1_t3q25",
       "displayNumber": 25,
       "keyword": "WERE",
       "grammarType": "Inversion / Emphatic structures",
+      "grammarGroup": "Quantifiers & Determiners",
       "sentence1": "The storm left very few trees standing.",
       "sentence2Start": "Hardly",
       "sentence2End": "after the storm.",
@@ -290,12 +290,12 @@
       },
       "explanation": "Hardly any = very few. Hardly any trees were left (still standing) after the storm."
     },
-
     {
-      "id": "p4t3q26",
+      "id": "p4_trainer1_t3q26",
       "displayNumber": 26,
       "keyword": "HOW",
       "grammarType": "Reported speech",
+      "grammarGroup": "Reported Speech",
       "sentence1": "'What's the height of that building?' I asked the guide.",
       "sentence2Start": "I asked the guide",
       "sentence2End": "was.",
@@ -312,12 +312,12 @@
       },
       "explanation": "'What's the height' → how high. Reported question không đảo ngữ: how high that building was."
     },
-
     {
-      "id": "p4t3q27",
+      "id": "p4_trainer1_t3q27",
       "displayNumber": 27,
       "keyword": "MUCH",
       "grammarType": "Comparatives",
+      "grammarGroup": "Comparisons",
       "sentence1": "The new printer is very similar to the old model.",
       "sentence2Start": "There is not",
       "sentence2End": "the new printer and the old model.",
@@ -334,12 +334,12 @@
       },
       "explanation": "not much difference between = rất giống nhau. There is not much difference between the new printer and the old model."
     },
-
     {
-      "id": "p4t3q28",
+      "id": "p4_trainer1_t3q28",
       "displayNumber": 28,
       "keyword": "WAS",
       "grammarType": "Reported speech",
+      "grammarGroup": "Reported Speech",
       "sentence1": "Simon wouldn't apologise for being so rude.",
       "sentence2Start": "Simon refused to",
       "sentence2End": "for being so rude.",
@@ -356,12 +356,12 @@
       },
       "explanation": "apologise = say (that) you are/were sorry. Refused to say (that) he was sorry = từ chối xin lỗi."
     },
-
     {
-      "id": "p4t3q29",
+      "id": "p4_trainer1_t3q29",
       "displayNumber": 29,
       "keyword": "FIND",
       "grammarType": "Relative clauses / What-clauses",
+      "grammarGroup": "Clauses & Linkers",
       "sentence1": "What attracts people so much to this city is its nightlife.",
       "sentence2Start": "What people",
       "sentence2End": "this city is its nightlife.",
@@ -378,12 +378,12 @@
       },
       "explanation": "What attracts people to X → What people find (so) attractive about X. Đảo: find + adj + about."
     },
-
     {
-      "id": "p4t3q30",
+      "id": "p4_trainer1_t3q30",
       "displayNumber": 30,
       "keyword": "SUCCEED",
       "grammarType": "Verb patterns (infinitive/gerund)",
+      "grammarGroup": "Verb Patterns",
       "sentence1": "It's unlikely our firm will manage to win the contract.",
       "sentence2Start": "Our firm is unlikely",
       "sentence2End": "the contract.",
@@ -400,12 +400,12 @@
       },
       "explanation": "succeed in + V-ing (NOT succeed to). Unlikely to succeed in winning the contract."
     },
-
     {
-      "id": "p4t4q25",
+      "id": "p4_trainer1_t4q25",
       "displayNumber": 25,
       "keyword": "BEEN",
       "grammarType": "Time expressions (It's been...)",
+      "grammarGroup": "Tenses and Aspects",
       "sentence1": "We haven't seen each other for two years.",
       "sentence2Start": "It's",
       "sentence2End": "we last saw each other.",
@@ -422,12 +422,12 @@
       },
       "explanation": "It's been + time + since = kể từ khi... đã... năm. It's been two years since we last saw each other."
     },
-
     {
-      "id": "p4t4q26",
+      "id": "p4_trainer1_t4q26",
       "displayNumber": 26,
       "keyword": "ACCUSED",
       "grammarType": "Reported speech",
+      "grammarGroup": "Reported Speech",
       "sentence1": "'You didn't tell me the truth, Emilio,' said Carmen.",
       "sentence2Start": "Carmen",
       "sentence2End": "her the truth.",
@@ -444,12 +444,12 @@
       },
       "explanation": "accuse someone of + V-ing. Not telling = phủ định gerund. Accused Emilio of not telling her the truth."
     },
-
     {
-      "id": "p4t4q27",
+      "id": "p4_trainer1_t4q27",
       "displayNumber": 27,
       "keyword": "LATE",
       "grammarType": "Reported speech",
+      "grammarGroup": "Reported Speech",
       "sentence1": "I really think you ought to arrive on time for the meeting.",
       "sentence2Start": "I strongly advise",
       "sentence2End": "for the meeting.",
@@ -466,12 +466,12 @@
       },
       "explanation": "advise + O + not to + V. I strongly advise you not to be late for the meeting."
     },
-
     {
-      "id": "p4t4q28",
+      "id": "p4_trainer1_t4q28",
       "displayNumber": 28,
       "keyword": "SPITE",
       "grammarType": "Concession (despite/in spite of)",
+      "grammarGroup": "Clauses & Linkers",
       "sentence1": "Even though we played badly we won the match.",
       "sentence2Start": "We won the match",
       "sentence2End": "badly.",
@@ -488,12 +488,12 @@
       },
       "explanation": "In spite of + V-ing. Even though + clause → In spite of + V-ing. In spite of (our) playing badly."
     },
-
     {
-      "id": "p4t4q29",
+      "id": "p4_trainer1_t4q29",
       "displayNumber": 29,
       "keyword": "FLY",
       "grammarType": "It takes... to (time expressions)",
+      "grammarGroup": "Fixed Expressions & Collocations",
       "sentence1": "The flying time to Singapore is six hours.",
       "sentence2Start": "It",
       "sentence2End": "to Singapore.",
@@ -510,12 +510,12 @@
       },
       "explanation": "It takes + time + to + V = mất bao lâu để làm gì. It takes six hours to fly to Singapore."
     },
-
     {
-      "id": "p4t4q30",
+      "id": "p4_trainer1_t4q30",
       "displayNumber": 30,
       "keyword": "SUCH",
       "grammarType": "Such a / so (intensifiers)",
+      "grammarGroup": "Comparisons",
       "sentence1": "I didn't realise that the beach was so far from the campsite.",
       "sentence2Start": "I didn't realise that",
       "sentence2End": "long way from the beach to the campsite.",
@@ -532,12 +532,12 @@
       },
       "explanation": "so far → such a long way. such a + adj + noun thay thế so + adj. It was such a long way from the beach."
     },
-
     {
-      "id": "p4t5q25",
+      "id": "p4_trainer1_t5q25",
       "displayNumber": 25,
       "keyword": "HAVE",
       "grammarType": "Conditionals",
+      "grammarGroup": "Conditionals & Wishes",
       "sentence1": "Amanda woke up late because she'd forgotten to set her alarm.",
       "sentence2Start": "If Amanda hadn't forgotten to set her alarm she",
       "sentence2End": "late.",
@@ -554,12 +554,12 @@
       },
       "explanation": "Third conditional: If + past perfect → would not have + V3. Wouldn't/would not have woken up late."
     },
-
     {
-      "id": "p4t5q26",
+      "id": "p4_trainer1_t5q26",
       "displayNumber": 26,
       "keyword": "NEARLY",
       "grammarType": "Comparatives",
+      "grammarGroup": "Comparisons",
       "sentence1": "This Internet browser works far better than the others.",
       "sentence2Start": "The other Internet browsers don't",
       "sentence2End": "this one.",
@@ -576,12 +576,12 @@
       },
       "explanation": "works far better than → don't work nearly as well as. Not nearly as well as = thua xa."
     },
-
     {
-      "id": "p4t5q27",
+      "id": "p4_trainer1_t5q27",
       "displayNumber": 27,
       "keyword": "WHETHER",
       "grammarType": "Reported speech",
+      "grammarGroup": "Reported Speech",
       "sentence1": "'Can I borrow your phone for a minute, Jack?' asked Emma.",
       "sentence2Start": "Emma asked Jack",
       "sentence2End": "phone.",
@@ -598,12 +598,12 @@
       },
       "explanation": "Reported question với whether. Can → could. Your → his. Whether she could borrow his phone."
     },
-
     {
-      "id": "p4t5q28",
+      "id": "p4_trainer1_t5q28",
       "displayNumber": 28,
       "keyword": "SUCH",
       "grammarType": "Such a / so (intensifiers)",
+      "grammarGroup": "Comparisons",
       "sentence1": "Raymond has so much skill as an artist that his drawings look like photographs.",
       "sentence2Start": "Raymond is",
       "sentence2End": "artist that his drawings look like photographs.",
@@ -620,12 +620,12 @@
       },
       "explanation": "so much skill → such a skilful/skillful/skilled. such a + adj + noun. Raymond is such a skilful artist that..."
     },
-
     {
-      "id": "p4t5q29",
+      "id": "p4_trainer1_t5q29",
       "displayNumber": 29,
       "keyword": "BED",
       "grammarType": "Modal verbs (obligation/necessity)",
+      "grammarGroup": "Modals & Semi-modals",
       "sentence1": "I wish I hadn't stayed up so late last night.",
       "sentence2Start": "I should",
       "sentence2End": "last night.",
@@ -642,12 +642,12 @@
       },
       "explanation": "should have + V3 = lẽ ra phải... I should have gone to bed earlier last night."
     },
-
     {
-      "id": "p4t5q30",
+      "id": "p4_trainer1_t5q30",
       "displayNumber": 30,
       "keyword": "CAUSED",
       "grammarType": "Passive voice",
+      "grammarGroup": "Passive Voice",
       "sentence1": "Our departure was delayed because another flight arrived late.",
       "sentence2Start": "The delay to our departure",
       "sentence2End": "arrival of another flight.",
@@ -664,12 +664,12 @@
       },
       "explanation": "Passive: was caused by + agent. The late arrival = sự đến muộn. Was caused by the late arrival of another flight."
     },
-
     {
-      "id": "p4t6q25",
+      "id": "p4_trainer1_t6q25",
       "displayNumber": 25,
       "keyword": "INVITED",
       "grammarType": "Reported speech",
+      "grammarGroup": "Reported Speech",
       "sentence1": "'Would you like to come to my party, Karen?', the girl said.",
       "sentence2Start": "The girl",
       "sentence2End": "party.",
@@ -686,12 +686,12 @@
       },
       "explanation": "Would you like to come = invite. My → her (pronoun shift). The girl invited Karen to her party."
     },
-
     {
-      "id": "p4t6q26",
+      "id": "p4_trainer1_t6q26",
       "displayNumber": 26,
       "keyword": "PAID",
       "grammarType": "Phrasal verbs / Fixed expressions",
+      "grammarGroup": "Fixed Expressions & Collocations",
       "sentence1": "Two foolish people took no notice of the warning sign.",
       "sentence2Start": "Two foolish people",
       "sentence2End": "the warning sign.",
@@ -708,12 +708,12 @@
       },
       "explanation": "take no notice of = pay no attention to. Cả hai là collocation cố định với nghĩa bỏ qua, không để ý."
     },
-
     {
-      "id": "p4t6q27",
+      "id": "p4_trainer1_t6q27",
       "displayNumber": 27,
       "keyword": "NOT",
       "grammarType": "Noun phrase structures",
+      "grammarGroup": "Comparisons",
       "sentence1": "The rescue workers had too little food to feed everyone.",
       "sentence2Start": "There",
       "sentence2End": "the rescue workers to feed everyone.",
@@ -730,12 +730,12 @@
       },
       "explanation": "too little → not enough/sufficient. There was not enough food for the rescue workers to feed everyone."
     },
-
     {
-      "id": "p4t6q28",
+      "id": "p4_trainer1_t6q28",
       "displayNumber": 28,
       "keyword": "ONLY",
       "grammarType": "Noun phrase structures",
+      "grammarGroup": "Fixed Expressions & Collocations",
       "sentence1": "Jack gets no exercise apart from walking to his car.",
       "sentence2Start": "The",
       "sentence2End": "walking to his car.",
@@ -752,12 +752,12 @@
       },
       "explanation": "no exercise apart from → the only exercise... is. The only exercise Jack gets is walking to his car."
     },
-
     {
-      "id": "p4t6q29",
+      "id": "p4_trainer1_t6q29",
       "displayNumber": 29,
       "keyword": "GAVE",
       "grammarType": "Phrasal verbs / Fixed expressions",
+      "grammarGroup": "Phrasal Verbs",
       "sentence1": "Sonia wanted to be a nurse so she left her job as a teacher.",
       "sentence2Start": "Sonia",
       "sentence2End": "become a nurse.",
@@ -774,12 +774,12 @@
       },
       "explanation": "left her job as a teacher = gave up teaching. Give up + V-ing. To become = để trở thành. Gave up teaching to become a nurse."
     },
-
     {
-      "id": "p4t6q30",
+      "id": "p4_trainer1_t6q30",
       "displayNumber": 30,
       "keyword": "NEARLY",
       "grammarType": "Comparatives",
+      "grammarGroup": "Comparisons",
       "sentence1": "There's far less noise in this street than there used to be.",
       "sentence2Start": "In this street, there isn't",
       "sentence2End": "there used to be.",
@@ -796,6 +796,5 @@
       },
       "explanation": "far less... than → not nearly as much... as. There isn't nearly as much noise as there used to be."
     }
-
   ]
 }
