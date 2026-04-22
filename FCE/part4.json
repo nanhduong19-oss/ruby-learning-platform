@@ -797,12 +797,6 @@
       "explanation": "far less... than → not nearly as much... as. There isn't nearly as much noise as there used to be."
     },
     {
-  "part": 4,
-  "section": "useOfEnglish",
-  "title": "Part 4 – Key Word Transformation",
-  "instruction": "Complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between two and five words, including the word given.",
-  "questions": [
-    {
       "id": "p4_trainer2_t1q25",
       "displayNumber": 25,
       "keyword": "CAME",
@@ -1593,7 +1587,5 @@
       },
       "explanation": "in spite of + not + V-ing (phủ định). even though they hadn't = in spite of not having."
     }
-  ]
-}
   ]
 }
