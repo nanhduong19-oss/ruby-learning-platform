@@ -1,0 +1,440 @@
+{
+  "passages": [
+    {
+      "id": "trainers1_test1_wordform",
+      "title": "Remembering people's names",
+      "text": "Most of us have suffered the (0) EMBARRASSMENT of forgetting someone's name.\nOften we fail to pay attention when (17) ___ are made, but later on in the conversation we don't want to appear (18) ___ by asking them what they're called.\n\nFortunately, there are some simple ways you can (19) ___ this problem. One is to improve your powers of (20) ___.\n\nPractise studying faces in public places, making a mental note of physical (21) ___ such as high foreheads or narrow eyebrows. You'll be surprised what a wide (22) ___ of shapes and sizes people's features have.\n\nThen, when you first meet someone, remember them as 'Laura with the small nose', for example. With surnames, make (23) ___ associations.\n\nFinally, ending with the person's name, as in 'See you later, Max.' is a good way of (24) ___ that you don't forget it.",
+      "example": { "number": 0, "rootWord": "EMBARRASS", "answer": "EMBARRASSMENT", "explanation": "Ví dụ: sau 'the' cần danh từ. EMBARRASS (v) -> EMBARRASSMENT (n) = sự ngượng ngùng/bối rối." },
+      "questions": [
+        { "number": 17, "rootWord": "INTRODUCE", "answer": "INTRODUCTIONS", "explanation": "Sau 'when' cần danh từ chỉ sự kiện; thêm -tion và -s để thành danh từ số nhiều vì có thể có nhiều lần giới thiệu. INTRODUCE (v) -> INTRODUCTION (n) -> INTRODUCTIONS (n, plural)." },
+        { "number": 18, "rootWord": "POLITE", "answer": "IMPOLITE", "explanation": "Sau 'appear' cần tính từ; ngữ nghĩa là 'không lịch sự' khi hỏi lại tên, nên dùng phủ định. POLITE (adj) -> IMPOLITE (adj) với tiền tố im-." },
+        { "number": 19, "rootWord": "COME", "answer": "OVERCOME", "explanation": "Cần động từ sau 'can' để diễn tả 'vượt qua' vấn đề; collocation tự nhiên là overcome a problem. COME (v) -> OVERCOME (v) (thêm over-)." },
+        { "number": 20, "rootWord": "OBSERVE", "answer": "OBSERVATION", "explanation": "Sau 'powers of' cần danh từ; OBSERVE (v) -> OBSERVATION (n). Đây là 'khả năng quan sát'." },
+        { "number": 21, "rootWord": "CHARACTER", "answer": "CHARACTERISTICS", "explanation": "Sau 'physical' cần danh từ; có ví dụ 'such as...' nên dùng số nhiều. CHARACTER (n) -> CHARACTERISTIC (n) -> CHARACTERISTICS (n, plural)." },
+        { "number": 22, "rootWord": "VARY", "answer": "VARIETY", "explanation": "Cấu trúc 'a wide variety of' là collocation cố định. VARY (v) -> VARIETY (n) (đổi y -> i + -ety)." },
+        { "number": 23, "rootWord": "VISION", "answer": "VISUAL", "explanation": "Sau 'make' cần tính từ bổ nghĩa cho 'associations' (liên tưởng bằng hình ảnh). VISION (n) -> VISUAL (adj)." },
+        { "number": 24, "rootWord": "SURE", "answer": "ENSURING", "explanation": "Sau giới từ 'of' cần V-ing. ENSURE (v) = đảm bảo, phù hợp nghĩa 'một cách để đảm bảo bạn không quên'. SURE -> ENSURE (thêm en-) -> ENSURING (V-ing)." }
+      ]
+    },
+    {
+      "id": "trainers1_test2_wordform",
+      "title": "Too many emails",
+      "text": "Some years ago, there were (0) PREDICTIONS that email would soon be replaced as the most common means of online communication by social (17) ___ sites.\n\nSince then, however, the number of emails sent has increased (18) ___, to the point that the volume received on a daily basis has become (19) ___ for many people.\n\nFor some users, the situation has become so (20) ___ that they regularly delete all the emails they receive without even bothering to read them, which is rather (21) ___, to say the least.\n\nA less extreme measure is to install software that sorts incoming mail into different categories. By doing this, promotions from (22) ___ organisations go into a separate folder, (23) ___ us to see which emails are more important than others.\n\nNot all of us, though, may be so keen to let software make such (24) ___ for us.",
+      "example": { "number": 0, "rootWord": "PREDICT", "answer": "PREDICTIONS", "explanation": "Ví dụ: sau 'there were' cần danh từ số nhiều. PREDICT (v) -> PREDICTION (n) -> PREDICTIONS (n, plural) = những dự đoán." },
+      "questions": [
+        { "number": 17, "rootWord": "WORK", "answer": ["NETWORK", "NETWORKING"], "accepted": ["NETWORK", "NETWORKING"], "commonWrong": ["NETWORKS", "NETWORKED", "NETWORKER"], "explanation": "Cụm đúng: social NETWORK sites / social NETWORKING sites (đều đúng). Sai thường gặp: NETWORKS/NETWORKED/NETWORKER vì sai loại từ hoặc không hợp cấu trúc 'social ___ sites'." }, 
+        { "number": 18, "rootWord": "STEADY", "answer": "STEADILY", "explanation": "Cần trạng từ bổ nghĩa cho 'has increased'. STEADY (adj) -> STEADILY (adv) (đổi y -> i + -ly)." },
+        { "number": 19, "rootWord": "STRESS", "answer": "STRESSFUL", "explanation": "Sau 'has become' cần tính từ; nghĩa là 'gây căng thẳng'. STRESS (n/v) -> STRESSFUL (adj)." },
+        { "number": 20, "rootWord": "BEAR", "answer": "UNBEARABLE", "explanation": "Cấu trúc 'so + adj + that...' cần tính từ; nghĩa là 'không thể chịu nổi' nên dùng phủ định. BEAR (v) -> BEARABLE (adj) -> UNBEARABLE (adj)." },
+        { "number": 21, "rootWord": "RISK", "answer": "RISKY", "explanation": "Sau 'rather' cần tính từ; nghĩa là 'rủi ro'. RISK (n/v) -> RISKY (adj) với hậu tố -y." },
+        { "number": 22, "rootWord": "COMMERCE", "answer": "COMMERCIAL", "explanation": "Cần tính từ bổ nghĩa cho 'organisations'. COMMERCE (n) -> COMMERCIAL (adj) (thường bỏ -e + -ial)." },
+        { "number": 23, "rootWord": "ABLE", "answer": "ENABLING", "explanation": "Sau dấu phẩy diễn tả kết quả, dùng V-ing; nghĩa là 'giúp/cho phép'. ABLE -> ENABLE (v) (thêm en-) -> ENABLING (V-ing)." },
+        { "number": 24, "rootWord": "DECIDE", "answer": "DECISIONS", "explanation": "Sau 'such' cần danh từ; thường là số nhiều vì 'such decisions'. DECIDE (v) -> DECISION (n) -> DECISIONS (n, plural)." }
+      ]
+    },
+    {
+      "id": "trainers1_test3_wordform",
+      "title": "Advertising in schools",
+      "text": "In certain countries, there has been rapid (0) GROWTH in the spending power of teenagers. Realising this, firms are aiming even more of their (17) ___ at young people, and (18) ___ they are doing this by advertising directly in schools.\n\nThese companies see children as the (19) ___ of the future, and hope that when they become adults they will maintain their (20) ___ to brands they first started buying in their youth.\n\nAs a result, many (21) ___ are keen to supply equipment to schools.\n\nOther firms install machines selling snacks and drinks, and these are often highly (22) ___ for both the companies and the schools.\n\nThere is, however, considerable (23) ___ about whether this is a good idea. Some argue that these machines encourage (24) ___ eating habits.",
+      "example": { "number": 0, "rootWord": "GROW", "answer": "GROWTH", "explanation": "Ví dụ: sau 'rapid' cần danh từ. GROW (v) -> GROWTH (n) = sự tăng trưởng." },
+      "questions": [
+        { "number": 17, "rootWord": "PRODUCE", "answer": "PRODUCTS", "explanation": "Sau 'their' cần danh từ; 'aim their products at young people' là collocation. PRODUCE (v) -> PRODUCT (n) -> PRODUCTS (n, plural)." },
+        { "number": 18, "rootWord": "INCREASE", "answer": "INCREASINGLY", "explanation": "Cần trạng từ bổ nghĩa cho cả mệnh đề (mức độ ngày càng). INCREASE (v/n) -> INCREASING (adj/participle) -> INCREASINGLY (adv)." },
+        { "number": 19, "rootWord": "CONSUME", "answer": "CONSUMERS", "explanation": "Sau 'the' cần danh từ chỉ người; nghĩa là 'người tiêu dùng'. CONSUME (v) -> CONSUMER (n) -> CONSUMERS (n, plural)." },
+        { "number": 20, "rootWord": "LOYAL", "answer": "LOYALTY", "explanation": "Sau 'their' cần danh từ; collocation 'loyalty to brands'. LOYAL (adj) -> LOYALTY (n)." },
+        { "number": 21, "rootWord": "MANUFACTURE", "answer": "MANUFACTURERS", "explanation": "Cần danh từ chỉ người/công ty sản xuất; theo ngữ cảnh là nhiều hãng. MANUFACTURE (v) -> MANUFACTURER (n) -> MANUFACTURERS (n, plural)." },
+        { "number": 22, "rootWord": "PROFIT", "answer": "PROFITABLE", "explanation": "Sau 'highly' cần tính từ; collocation 'highly profitable'. PROFIT (n/v) -> PROFITABLE (adj)." },
+        { "number": 23, "rootWord": "AGREE", "answer": "DISAGREEMENT", "explanation": "Sau 'considerable' cần danh từ; nghĩa là 'bất đồng' về việc đó có tốt không. AGREE -> DISAGREE (v) -> DISAGREEMENT (n)." },
+        { "number": 24, "rootWord": "HEALTH", "answer": "UNHEALTHY", "explanation": "Cần tính từ bổ nghĩa 'eating habits'; nghĩa là 'không lành mạnh' vì máy bán snack/đồ uống ngọt. HEALTH (n) -> HEALTHY (adj) -> UNHEALTHY (adj)." }
+      ]
+    },
+    {
+      "id": "trainers1_test4_wordform",
+      "title": "Preparing for an interview",
+      "text": "Before you go to an interview, think about your (0) APPEARANCE.\nWhen you make your (17) ___ of clothes, avoid anything too casual but don't go to the other extreme of wearing items that are so formal you feel (18) ___ in them.\n\nMake sure you know the exact (19) ___ of the building where the interview will take place. There's nothing worse than (20) ___ trying to find the right place as the time for it to begin rapidly approaches.\n\nOnce you reach the firm's offices, remember that the interview starts there. You never know who you might meet in lifts, corridors or waiting rooms, so try to make a good (21) ___ on everyone.\n\nWhen you go into the interview room, show you have (22) ___ in yourself, and strike an appropriate balance between formality and (23) ___.\n\nBear in mind that people tend to make a (24) ___ about someone they have met within a few minutes.",
+      "example": { "number": 0, "rootWord": "APPEAR", "answer": "APPEARANCE", "explanation": "Ví dụ: sau 'your' cần danh từ. APPEAR (v) -> APPEARANCE (n) = ngoại hình/vẻ bề ngoài." },
+      "questions": [
+        { "number": 17, "rootWord": "CHOOSE", "answer": "CHOICE", "explanation": "Cụm cố định 'make your choice'. Sau 'make your' cần danh từ. CHOOSE (v) -> CHOICE (n)." },
+        { "number": 18, "rootWord": "COMFORT", "answer": "UNCOMFORTABLE", "explanation": "Sau 'feel' cần tính từ; nghĩa là 'không thoải mái' nên dùng phủ định. COMFORT (n/v) -> COMFORTABLE (adj) -> UNCOMFORTABLE (adj)." },
+        { "number": 19, "rootWord": "LOCATE", "answer": "LOCATION", "explanation": "Sau 'exact' cần danh từ; LOCATE (v) -> LOCATION (n)." },
+        { "number": 20, "rootWord": "DESPAIR", "answer": "DESPERATELY", "explanation": "Cần trạng từ bổ nghĩa cho 'trying'. DESPAIR (n/v) -> DESPERATE (adj) -> DESPERATELY (adv)." },
+        { "number": 21, "rootWord": "IMPRESS", "answer": "IMPRESSION", "explanation": "Collocation: 'make a good impression'. IMPRESS (v) -> IMPRESSION (n)." },
+        { "number": 22, "rootWord": "CONFIDENT", "answer": "CONFIDENCE", "explanation": "Sau 'have' cần danh từ. CONFIDENT (adj) -> CONFIDENCE (n)." },
+        { "number": 23, "rootWord": "FRIEND", "answer": "FRIENDLINESS", "explanation": "Song song với 'formality' là danh từ; FRIEND (n) -> FRIENDLY (adj) -> FRIENDLINESS (n, -liness)." },
+        { "number": 24, "rootWord": "JUDGE", "answer": ["JUDGEMENT", "JUDGMENT"], "accepted": ["JUDGEMENT", "JUDGMENT"], "commonWrong": ["JUDGE", "JUDGING", "JUDGES"], "explanation": "Sau 'make a' cần danh từ: make a JUDGEMENT/JUDGMENT (cả 2 chính tả đều chuẩn). Sai thường gặp: JUDGE/JUDGING/JUDGES vì không phải danh từ phù hợp trong cụm cố định." }
+      ]
+    },
+    {
+      "id": "trainers1_test5_wordform",
+      "title": "Jobs in the future",
+      "text": "In twenty years' time, which jobs will people still be doing, and which is it (0) REASONABLE to assume will have gone forever?\nToday's young people should give that question careful (17) ___ before choosing a career.\n\nClearly there will continue to be a need for staff in (18) ___ professions such as medicine that involve caring for others, and also for people able to persuade, like (19) ___ and lawyers.\n\nThere will of course be no (20) ___ of jobs in science and technology, particularly for individuals able to (21) ___ in newer fields such as biotechnology and microbiology.\n\nOn the other hand, the already rapid (22) ___ of jobs to robots will speed up even further, as they replace workers not only in manufacturing but also in the (23) ___ industry.\n\nAnd as robots learn how to stack shelves, take over at check-outs or send us our online shopping, it won't be long before most supermarket jobs have (24) ___, too.",
+      "example": { "number": 0, "rootWord": "REASON", "answer": "REASONABLE", "explanation": "Ví dụ: sau 'is it' cần tính từ. REASON (n) -> REASONABLE (adj) = hợp lý." },
+      "questions": [
+        { "number": 17, "rootWord": "CONSIDER", "answer": "CONSIDERATION", "explanation": "Cụm 'give careful consideration'. Sau 'give ... careful' cần danh từ. CONSIDER (v) -> CONSIDERATION (n)." },
+        { "number": 18, "rootWord": "EXIST", "answer": "EXISTING", "explanation": "Cần tính từ bổ nghĩa 'professions'. EXIST (v) -> EXISTING (adj) = hiện có." },
+        { "number": 19, "rootWord": "POLITICS", "answer": "POLITICIANS", "explanation": "Cần danh từ chỉ người, số nhiều (nhóm nghề). POLITICS (n) -> POLITICIAN (n) -> POLITICIANS (n, plural)." },
+        { "number": 20, "rootWord": "SHORT", "answer": "SHORTAGE", "explanation": "Collocation: 'no shortage of'. SHORT (adj) -> SHORTAGE (n) = sự thiếu hụt." },
+        { "number": 21, "rootWord": "SPECIAL", "answer": ["SPECIALISE", "SPECIALIZE"], "accepted": ["SPECIALISE", "SPECIALIZE"], "commonWrong": ["SPECIALIST", "SPECIALIZATION", "SPECIALITY"], "explanation": "Sau 'able to' cần động từ nguyên mẫu: (to) SPECIALISE/SPECIALIZE (chấp nhận UK/US spelling). Sai thường gặp: SPECIALIST/SPECIALIZATION/SPECIALITY vì chuyển sang danh từ hoặc sai dạng." },
+        { "number": 22, "rootWord": "LOSE", "answer": "LOSS", "explanation": "Sau 'rapid' cần danh từ. LOSE (v) -> LOSS (n)." },
+        { "number": 23, "rootWord": "CONSTRUCT", "answer": "CONSTRUCTION", "explanation": "Cụm 'the construction industry' cần danh từ. CONSTRUCT (v) -> CONSTRUCTION (n)." },
+        { "number": 24, "rootWord": "APPEAR", "answer": "DISAPPEARED", "explanation": "Sau 'have' cần past participle (hiện tại hoàn thành). APPEAR (v) -> DISAPPEAR (v) -> DISAPPEARED (V3)." }
+      ]
+    },
+    {
+      "id": "trainers1_test6_wordform",
+      "title": "Letting the sea in",
+      "text": "The small (0) COASTAL town of Medmerry has found an unusual way to reduce the risk of flooding: let the sea in.\n\nThe scheme involved the (17) ___ of part of the existing sea wall and the building of seven kilometres of new, higher (18) ___ further inland, closer to local communities.\n\nThis has led to the (19) ___ of a large area of wetland, capable of absorbing the energy of the waves and therefore bringing about a (20) ___ reduction in flooding.\n\nAccording to environmental scientists, this (21) ___ project will also turn the whole area into a (22) ___ nature reserve.\n\nIt is already attracting large numbers of birds and other wildlife and eventually it should provide a safe home for some of the country's most (23) ___ species.\n\nThis is bound to attract more visitors to the area, although it remains (24) ___ whether numbers will have to be limited.",
+      "example": { "number": 0, "rootWord": "COAST", "answer": "COASTAL", "explanation": "Ví dụ: cần tính từ bổ nghĩa 'town'. COAST (n) -> COASTAL (adj) = ven biển." },
+      "questions": [
+        { "number": 17, "rootWord": "DESTROY", "answer": "DESTRUCTION", "explanation": "Sau 'the' cần danh từ. DESTROY (v) -> DESTRUCTION (n)." },
+        { "number": 18, "rootWord": "DEFEND", "answer": ["DEFENCES", "DEFENSES"], "accepted": ["DEFENCES", "DEFENSES"], "commonWrong": ["DEFENCE", "DEFENSE", "DEFENDING"], "explanation": "Cấu trúc: the building of ... higher DEFENCES/DEFENSES (số nhiều vì có 'seven kilometres of new, higher ...'). Sai thường gặp: DEFENCE/DEFENSE (số ít) hoặc DEFENDING (V-ing sai loại từ)." },
+        { "number": 19, "rootWord": "CREATE", "answer": "CREATION", "explanation": "Sau 'led to the' cần danh từ. CREATE (v) -> CREATION (n)." },
+        { "number": 20, "rootWord": "SUBSTANCE", "answer": "SUBSTANTIAL", "explanation": "Cần tính từ bổ nghĩa 'reduction'. SUBSTANCE (n) -> SUBSTANTIAL (adj) = đáng kể." },
+        { "number": 21, "rootWord": "AMBITION", "answer": "AMBITIOUS", "explanation": "Cần tính từ bổ nghĩa 'project'. AMBITION (n) -> AMBITIOUS (adj)." },
+        { "number": 22, "rootWord": "MASS", "answer": "MASSIVE", "explanation": "Cần tính từ bổ nghĩa 'nature reserve'; nghĩa là 'rất lớn'. MASS (n) -> MASSIVE (adj)." },
+        { "number": 23, "rootWord": "DANGER", "answer": "ENDANGERED", "explanation": "Cần tính từ mô tả 'species'; collocation 'endangered species'. DANGER (n) -> ENDANGER (v) -> ENDANGERED (adj)." },
+        { "number": 24, "rootWord": "CLEAR", "answer": "UNCLEAR", "explanation": "Sau 'remains' cần tính từ; nghĩa là 'chưa rõ' nên dùng phủ định. CLEAR (adj) -> UNCLEAR (adj) với tiền tố un-." }
+      ]
+    },
+    {
+      "id": "fce_trainer_2_test_1",
+      "title": "My 16th birthday",
+      "text": "I turned 16 last week. And I have to say that (0) INITIALLY I didn't enjoy my birthday much. I usually get some birthday (17) ___ from my friends on social media. But nobody wished me a happy birthday, which was a bit (18) ___. After school, I noticed that the friends I usually walk home with had all (19) ___, so I walked back alone. But then when I got back to my house, there were lots of (20) ___ and balloons on the outside. 'OK,' I thought, 'this looks more (21) ___ inside, and there, waiting in the sitting room, were all of my school friends! Seeing them there was so (22) ___...! Together with my parents, they'd arranged this surprise party. And they'd done it all without my (23) ___! In fact, it was probably the most special and (24) ___ party ever!",
+      "example": { "number": 0, "rootWord": "INITIAL", "answer": "INITIALLY", "explanation": "Cần trạng từ bổ nghĩa cho cả câu." },
+      "questions": [
+        { "number": 17, "rootWord": "GREET", "answer": "GREETINGS", "explanation": "Cần danh từ số nhiều (những lời chúc). GREET (v) -> GREETINGS (n)." },
+        { "number": 18, "rootWord": "DEPRESS", "answer": "DEPRESSING", "explanation": "Cần tính từ chỉ tính chất của sự việc (việc không ai chúc mừng). DEPRESS -> DEPRESSING." },
+        { "number": 19, "rootWord": "APPEAR", "answer": "DISAPPEARED", "explanation": "Ngữ cảnh là bạn bè đã biến mất/đi hết. APPEAR -> DISAPPEARED (thêm tiền tố phủ định và chia V3 sau 'had')." },
+        { "number": 20, "rootWord": "DECORATE", "answer": "DECORATIONS", "explanation": "Cần danh từ số nhiều (nhiều đồ trang trí) đi sau 'lots of'. DECORATE -> DECORATIONS." },
+        { "number": 21, "rootWord": "PROMISE", "answer": "PROMISING", "explanation": "Cần tính từ sau 'looks'. PROMISE -> PROMISING (có vẻ hứa hẹn, khả quan)." },
+        { "number": 22, "rootWord": "EXPECT", "answer": "UNEXPECTED", "explanation": "Cần tính từ miêu tả sự bất ngờ. EXPECT -> UNEXPECTED (bất ngờ, không lường trước)." },
+        { "number": 23, "rootWord": "KNOW", "answer": "KNOWLEDGE", "explanation": "Cần danh từ sau tính từ sở hữu 'my'. KNOW -> KNOWLEDGE (sự hiểu biết / without my knowledge = mà tôi không hề hay biết)." },
+        { "number": 24, "rootWord": "MEMORY", "answer": "MEMORABLE", "explanation": "Cần tính từ đứng trước danh từ 'party'. MEMORY -> MEMORABLE (đáng nhớ)." }
+      ]
+    },
+    {
+      "id": "fce_trainer_2_test_2",
+      "title": "Tetris: the most popular video game ever",
+      "text": "There is an almost (0) UNLIMITED number of video games on the market today and you could be forgiven for being under the (17) ___ that the best ones are those packed with special effects, requiring great technique. Nothing could be further from the (18) ___. The favourite game of all time is also one of the oldest and most basic: Tetris. The player has to fit a (19) ___ of shapes together on the screen. When a whole row is made without gaps between the blocks, the line vanishes. Should a line remain (20) ___, however, new blocks will build up on top of it. Once the screen's full, the game's over. Part of the (21) ___ is that anyone can play Tetris. Scientists also believe that the game's (22) ___ is due to the fact that it makes our brains work with greater (23) ___. The more we play, the easier it becomes, so we carry on, (24) ___ trying to beat our last high score.",
+      "example": { "number": 0, "rootWord": "LIMITED", "answer": "UNLIMITED", "explanation": "Cần tính từ mang nghĩa 'không giới hạn'." },
+      "questions": [
+        { "number": 17, "rootWord": "IMPRESS", "answer": ["IMPRESSION", "IMPRESSIONS"], "wrongAnswer": "IMPRESSIVE", "explanation": "Collocation: 'be under the impression that...' (có cảm tưởng rằng). Lỗi sai phổ biến: học sinh hay điền tính từ 'IMPRESSIVE'." },
+        { "number": 18, "rootWord": "TRUE", "answer": "TRUTH", "explanation": "Cần danh từ sau mạo từ 'the'. Cụm 'further from the truth' (càng không phải là sự thật)." },
+        { "number": 19, "rootWord": "VARY", "answer": "VARIETY", "explanation": "Cần danh từ: 'a variety of' (đa dạng). VARY -> VARIETY." },
+        { "number": 20, "rootWord": "COMPLETE", "answer": "INCOMPLETE", "explanation": "Cần tính từ trái nghĩa (nếu dòng đó vẫn chưa hoàn thiện). COMPLETE -> INCOMPLETE." },
+        { "number": 21, "rootWord": "APPEALING", "answer": "APPEAL", "explanation": "Cần danh từ sau 'the'. APPEALING (adj) -> APPEAL (n: sự hấp dẫn)." },
+        { "number": 22, "rootWord": "POPULAR", "answer": "POPULARITY", "explanation": "Cần danh từ sự phổ biến sau sở hữu cách 'game\\'s'. POPULAR -> POPULARITY." },
+        { "number": 23, "rootWord": "EFFICIENT", "answer": "EFFICIENCY", "explanation": "Cần danh từ sau tính từ 'greater'. EFFICIENT -> EFFICIENCY (sự hiệu quả)." },
+        { "number": 24, "rootWord": "CONTINUE", "answer": "CONTINUALLY", "explanation": "Cần trạng từ bổ nghĩa cho động từ 'trying'. CONTINUE -> CONTINUALLY (liên tục)." }
+      ]
+    },
+    {
+      "id": "fce_trainer_2_test_3",
+      "title": "Smartphones at school",
+      "text": "Some of the schools in my home town are really strict and students are not (0) ALLOWED to use their smartphones at school. Mine is different - there's a much more (17) ___ policy. In break times, it's (18) ___ to use our smartphones. But in lessons, it's the individual teacher's (19) ___ whether we can use them or not. For some pieces of work, like a timed writing task, they're completely (20) ___. Of course it's our (21) ___ to follow the rules, which we do. In some lessons, the teachers actively encourage us to use our phones when they think it'll be (22) ___ to us. There are lots of really good ways to use smartphones in class, and I'm in favour of these. One example is games, where we choose multiple-choice answers on our phones. I'm really (23) ___ so love doing those. Although it can be a bit (24) ___ when everyone just uses their phone instead of talking.",
+      "example": { "number": 0, "rootWord": "ALLOW", "answer": "ALLOWED", "explanation": "Bị động: be allowed to do sth." },
+      "questions": [
+        { "number": 17, "rootWord": "RELAX", "answer": "RELAXED", "explanation": "Cần tính từ đứng trước danh từ 'policy'. RELAX -> RELAXED (thoải mái)." },
+        { "number": 18, "rootWord": "ACCEPT", "answer": "ACCEPTABLE", "explanation": "Cần tính từ sau 'it\\'s'. ACCEPT -> ACCEPTABLE (có thể chấp nhận được)." },
+        { "number": 19, "rootWord": "DECIDE", "answer": "DECISION", "explanation": "Cần danh từ sau sở hữu cách 'teacher\\'s'. DECIDE -> DECISION (quyết định)." },
+        { "number": 20, "rootWord": "FORBID", "answer": "FORBIDDEN", "explanation": "Cần tính từ (bị động) mang nghĩa cấm đoán. FORBID -> FORBIDDEN." },
+        { "number": 21, "rootWord": "RESPONSIBLE", "answer": "RESPONSIBILITY", "explanation": "Cần danh từ sau 'our'. RESPONSIBLE -> RESPONSIBILITY (trách nhiệm)." },
+        { "number": 22, "rootWord": "BENEFIT", "answer": "BENEFICIAL", "explanation": "Cần tính từ sau 'be'. BENEFIT -> BENEFICIAL (có lợi)." },
+        { "number": 23, "rootWord": "COMPETE", "answer": "COMPETITIVE", "explanation": "Cần tính từ miêu tả tính cách (người có tính cạnh tranh). COMPETE -> COMPETITIVE." },
+        { "number": 24, "rootWord": "SOCIAL", "answer": "ANTI-SOCIAL", "explanation": "Cần tính từ mang nghĩa tiêu cực (chỉ cắm mặt vào điện thoại thay vì nói chuyện). SOCIAL -> ANTI-SOCIAL (phản xã hội/ngại giao tiếp)." }
+      ]
+    },
+    {
+      "id": "fce_trainer_2_test_4",
+      "title": "The future of food",
+      "text": "With the world population rising and (0) AVAILABILITY of food sources decreasing, what will we be eating in the future? Food science (17) ___ say that by 2050, we will be consuming less meat and more fish. And with food prices rising, another likely result is that more of us will reach the (18) ___ that becoming vegetarian is a good idea. Then there is the (19) ___ that we will eat more seaweed and insects, and perhaps even 'superfood' bars, which would be (20) ___ to the kinds of things astronauts eat in space. Today's technology could (21) ___ manufacturers to produce what may become known as 'functional' foods. These are foods that are (22) ___ designed for different sectors of (23) ___. This means that there will be foods adapted not only for babies, which we already see in supermarkets, but for teens, women, men and elderly people, too. Because the food will be (24) ___ engineered, we will also be healthier!",
+      "example": { "number": 0, "rootWord": "AVAILABLE", "answer": "AVAILABILITY", "explanation": "Cần danh từ (sự có sẵn)." },
+      "questions": [
+        { "number": 17, "rootWord": "SPECIAL", "answer": "SPECIALISTS", "explanation": "Cần danh từ chỉ người số nhiều (các chuyên gia) làm chủ ngữ cho động từ 'say'. SPECIAL -> SPECIALISTS." },
+        { "number": 18, "rootWord": "CONCLUDE", "answer": "CONCLUSION", "explanation": "Collocation: 'reach the conclusion' (đi đến kết luận). CONCLUDE -> CONCLUSION." },
+        { "number": 19, "rootWord": "POSSIBLE", "answer": "POSSIBILITY", "explanation": "Cần danh từ sau mạo từ 'the'. POSSIBLE -> POSSIBILITY (khả năng)." },
+        { "number": 20, "rootWord": "SAME", "answer": "SIMILAR", "explanation": "Cần tính từ đi với giới từ 'to'. SAME thì đi với 'as', SIMILAR đi với 'to'. SAME -> SIMILAR." },
+        { "number": 21, "rootWord": "ABLE", "answer": "ENABLE", "explanation": "Cần động từ nguyên mẫu sau 'could'. ABLE -> ENABLE (cho phép)." },
+        { "number": 22, "rootWord": "INDIVIDUAL", "answer": "INDIVIDUALLY", "explanation": "Cần trạng từ bổ nghĩa cho động từ bị động 'designed'. INDIVIDUAL -> INDIVIDUALLY (được thiết kế riêng biệt)." },
+        { "number": 23, "rootWord": "SOCIAL", "answer": "SOCIETY", "explanation": "Cần danh từ sau giới từ 'of'. SOCIAL -> SOCIETY (xã hội)." },
+        { "number": 24, "rootWord": "SCIENCE", "answer": ["SCIENTIFICALLY", "SCIENTIFIC"], "wrongAnswer": "SCIENTIST", "explanation": "Cần trạng từ bổ nghĩa cho 'engineered'. Lỗi sai phổ biến: điền danh từ SCIENTIST hoặc tính từ SCIENTIFIC mà quên đổi sang trạng từ." }
+      ]
+    },
+    {
+      "id": "fce_trainer_2_test_5",
+      "title": "Hope in a Ballet Shoe",
+      "text": "Hope in a Ballet Shoe is the (0) POWERFUL autobiography of ballet dancer Michaela DePrince. Michaela had a strict (17) ___ in Sierra Leone. There are several (18) ___ of her early days there which are particularly well-written. A turning point in her life was her (19) ___ by an American couple at the age of four, and her move with them to the USA. At first, she found that all the cultural (20) ___ were hard to get used to. But she grew to love her new home, and the book shows how love and (21) ___ can overcome these difficulties - and help people to achieve their goals. Michaela was absolutely (22) ___ to become a ballet dancer and practised for hours on end. Her family were there for her all the time, supporting her and eventually (23) ___ her to succeed. Michaela is now a world-famous ballerina with the Dutch National Ballet. I would certainly recommend Hope in a Ballet Shoe to anyone from the age of eleven upwards. It truly is a (24) ___ story.",
+      "example": { "number": 0, "rootWord": "POWER", "answer": "POWERFUL", "explanation": "Cần tính từ." },
+      "questions": [
+        { "number": 17, "rootWord": "BRING", "answer": "UPBRINGING", "explanation": "Cần danh từ sau tính từ 'strict'. BRING -> UPBRINGING (sự nuôi dưỡng)." },
+        { "number": 18, "rootWord": "DESCRIBE", "answer": "DESCRIPTIONS", "explanation": "Cần danh từ số nhiều sau 'several'. DESCRIBE -> DESCRIPTIONS (những lời miêu tả)." },
+        { "number": 19, "rootWord": "ADOPT", "answer": "ADOPTION", "explanation": "Cần danh từ (sự nhận nuôi). ADOPT -> ADOPTION." },
+        { "number": 20, "rootWord": "DIFFERENT", "answer": "DIFFERENCES", "explanation": "Cần danh từ số nhiều (những sự khác biệt). DIFFERENT -> DIFFERENCES." },
+        { "number": 21, "rootWord": "PATIENT", "answer": ["PATIENCE", "PATIENTNESS"], "wrongAnswer": "PATIENT", "explanation": "Cần danh từ song song với 'love'. Học sinh thường quên đổi thành danh từ mà giữ nguyên 'PATIENT' (tính từ/bệnh nhân)." },
+        { "number": 22, "rootWord": "DETERMINE", "answer": "DETERMINED", "explanation": "Cần tính từ (mang tính quyết tâm). DETERMINE -> DETERMINED." },
+        { "number": 23, "rootWord": "ABLE", "answer": ["ENABLED", "ENABLING"], "explanation": "Cần động từ chia V-ing song song với 'supporting' (enabling) hoặc V-ed (enabled). Cả hai đều chấp nhận." },
+        { "number": 24, "rootWord": "MOVE", "answer": "MOVING", "explanation": "Cần tính từ mang nghĩa cảm động. MOVE -> MOVING." }
+      ]
+    },
+    {
+      "id": "fce_trainer_2_test_6",
+      "title": "Peanut butter is good for you!",
+      "text": "With 'peanuts' and 'butter' in its name, peanut butter doesn't (0) EXACTLY sound good for us. Common sense tells us that neither food is a particularly healthy (17) ___, given their high fat content. The product's (18) ___, however, has led to research, and it's good news to learn that many food science (19) ___ say it isn't as bad for us as we might have thought. Peanut butter is (20) ___ versatile it can be eaten with everything from raw vegetable sticks to toast - but the fat it contains is also monounsaturated (the 'right' kind of fat), which is believed to be good for the heart. Peanut butter also contains a (21) ___ amount of protein, which contains important nutrients for growing kids. (22) ___ it contains iron, B vitamins and fibre, all of which are necessary for the (23) ___ of a healthy body. So, next time you're told to put the top back on the jar, you'll be able to offer an (24) ___ as to why just one more spoonful is good for you!",
+      "example": { "number": 0, "rootWord": "EXACT", "answer": "EXACTLY", "explanation": "Cần trạng từ bổ nghĩa cho động từ sound." },
+      "questions": [
+        { "number": 17, "rootWord": "CHOOSE", "answer": "CHOICE", "explanation": "Cần danh từ sau tính từ 'healthy'. CHOOSE -> CHOICE (sự lựa chọn)." },
+        { "number": 18, "rootWord": "POPULAR", "answer": ["POPULARITY", "POPULARIZATION"], "wrongAnswer": "POPULOUS", "explanation": "Cần danh từ sau sở hữu cách 'product\\'s'. Lỗi sai phổ biến: nhầm với tính từ 'POPULOUS' (đông dân)." },
+        { "number": 19, "rootWord": "SPECIAL", "answer": "SPECIALISTS", "explanation": "Cần danh từ chỉ người số nhiều làm chủ ngữ. SPECIAL -> SPECIALISTS (chuyên gia)." },
+        { "number": 20, "rootWord": "DOUBT", "answer": "UNDOUBTEDLY", "explanation": "Cần trạng từ mang nghĩa chắc chắn/không còn nghi ngờ gì. DOUBT -> UNDOUBTEDLY." },
+        { "number": 21, "rootWord": "SUBSTANCE", "answer": "SUBSTANTIAL", "explanation": "Cần tính từ bổ nghĩa cho 'amount'. SUBSTANCE -> SUBSTANTIAL (đáng kể)." },
+        { "number": 22, "rootWord": "ADD", "answer": "ADDITIONALLY", "explanation": "Cần trạng từ đứng đầu câu làm từ nối. ADD -> ADDITIONALLY (ngoài ra/hơn nữa)." },
+        { "number": 23, "rootWord": "MAINTAIN", "answer": "MAINTENANCE", "explanation": "Cần danh từ (sự duy trì). MAINTAIN -> MAINTENANCE." },
+        { "number": 24, "rootWord": "EXPLAIN", "answer": "EXPLANATION", "explanation": "Cần danh từ sau mạo từ 'an'. EXPLAIN -> EXPLANATION (lời giải thích)." }
+      ]
+    },
+    {
+      "id": "fce_trainer_3_test_1",
+      "title": "Study skills",
+      "text": "If you want to improve your academic (0) PERFORMANCE, you'll probably need to improve your study skills. Although a (17) ___ of people may be able to manage without them, most of us find them (18) ___. Becoming more (19) ___ isn't always straightforward and many of us find that we lack (20) ___ precisely when we need it the most. There are so many things to distract us, and when we feel we aren't making progress rapidly enough, it's easy to become (21) ___. Study skills can help with this, because (22) ___, they're simply ideas to help us study more efficiently. There are plenty of websites with great advice for students, but because everyone's different, it's worth trying a few different approaches, until you find something that works for you. If you're (23) ___ to work hard and learn a few techniques to make you better at focusing, then you'll be more likely to be able to (24) ___ what you're truly capable of.",
+      "example": { "number": 0, "rootWord": "PERFORM", "answer": "PERFORMANCE", "explanation": "Cần danh từ sau tính từ 'academic' (kết quả học tập)." },
+      "questions": [
+        { "number": 17, "rootWord": "HAND", "answer": "HANDFUL", "explanation": "Cần danh từ. Cụm 'a handful of people' nghĩa là một số lượng rất ít người. HAND -> HANDFUL." },
+        { "number": 18, "rootWord": "BENEFIT", "answer": "BENEFICIAL", "explanation": "Cần tính từ sau cấu trúc 'find + sth/sb + adj' (thấy chúng rất có ích). BENEFIT -> BENEFICIAL." },
+        { "number": 19, "rootWord": "PRODUCE", "answer": "PRODUCTIVE", "explanation": "Cần tính từ sau 'become more'. PRODUCE -> PRODUCTIVE (trở nên năng suất/hiệu quả hơn)." },
+        { "number": 20, "rootWord": "CONCENTRATE", "answer": "CONCENTRATION", "explanation": "Cần danh từ sau động từ 'lack' (thiếu). CONCENTRATE -> CONCENTRATION (sự tập trung)." },
+        { "number": 21, "rootWord": "PATIENT", "answer": "IMPATIENT", "explanation": "Cần tính từ mang nghĩa tiêu cực sau 'become'. PATIENT -> IMPATIENT (mất kiên nhẫn)." },
+        { "number": 22, "rootWord": "BASE", "answer": "BASICALLY", "explanation": "Cần trạng từ đứng đầu mệnh đề để bổ nghĩa cho cả câu. BASE -> BASIC -> BASICALLY (về cơ bản)." },
+        { "number": 23, "rootWord": "WILL", "answer": "WILLING", "explanation": "Cần tính từ. Cấu trúc 'be willing to do sth' (sẵn lòng làm gì). WILL -> WILLING." },
+        { "number": 24, "rootWord": "PROOF", "answer": "PROVE", "explanation": "Cần động từ nguyên mẫu sau 'to'. PROOF (danh từ) -> PROVE (động từ: chứng minh)." }
+      ]
+    },
+    {
+      "id": "fce_trainer_3_test_2",
+      "title": "Social media deinfluencers",
+      "text": "First, there were social media 'influencers', (0) ENTHUSIASTICALLY encouraging people to buy things online. Then more and more influencers started to become 'deinfluencers' instead, pointing out to all their (17) ___ that many of these products aren't things they (18) ___ need. After all, most people don't have an (19) ___ supply of money to spend. One deinfluencer said that although her income depended on people buying the products she promoted and on her (20) ___ - measured in the number of views and 'likes' her online videos received - she didn't want to (21) ___ anyone. Some things are worth having, but others really aren't worth the expense, she said. No one should feel under (22) ___ to buy things that they can't actually afford, simply because they're (23) ___. Another deinfluencer said that although she (24) ___ loved the things she advertised online, she wanted to remind her audience that it isn't normal to have all these things; they're luxuries rather than the kinds of things people buy every day.",
+      "example": { "number": 0, "rootWord": "ENTHUSIASM", "answer": "ENTHUSIASTICALLY", "explanation": "Cần trạng từ bổ nghĩa cho động từ 'encouraging'." },
+      "questions": [
+        { "number": 17, "rootWord": "FOLLOW", "answer": "FOLLOWERS", "explanation": "Cần danh từ chỉ người số nhiều (vì có 'their'). FOLLOW -> FOLLOWERS (những người theo dõi)." },
+        { "number": 18, "rootWord": "NECESSARY", "answer": "NECESSARILY", "explanation": "Cần trạng từ để bổ nghĩa cho động từ 'need'. NECESSARY -> NECESSARILY (nhất thiết)." },
+        { "number": 19, "rootWord": "LIMIT", "answer": "UNLIMITED", "explanation": "Cần tính từ mang nghĩa phủ định (nguồn tiền không giới hạn). LIMIT -> UNLIMITED." },
+        { "number": 20, "rootWord": "POPULAR", "answer": "POPULARITY", "explanation": "Cần danh từ sau tính từ sở hữu 'her'. POPULAR -> POPULARITY (sự nổi tiếng)." },
+        { "number": 21, "rootWord": "LEAD", "answer": "MISLEAD", "explanation": "Cần động từ mang nghĩa lừa gạt/gây hiểu lầm. LEAD -> MISLEAD." },
+        { "number": 22, "rootWord": "PRESS", "answer": "PRESSURE", "explanation": "Cần danh từ. Cụm cố định 'under pressure' (chịu áp lực). PRESS -> PRESSURE." },
+        { "number": 23, "rootWord": "FASHION", "answer": "FASHIONABLE", "explanation": "Cần tính từ sau 'they\\'re'. FASHION -> FASHIONABLE (hợp thời trang/đang mốt)." },
+        { "number": 24, "rootWord": "PERSON", "answer": "PERSONALLY", "explanation": "Cần trạng từ mang nghĩa 'bản thân cô ấy'. PERSON -> PERSONALLY." }
+      ]
+    },
+    {
+      "id": "fce_trainer_3_test_3",
+      "title": "A record-breaking swim",
+      "text": "When swimming teacher Jasmine Harrison was 23 years old, she became the first woman ever to swim along the coast of Britain from the southwest to the northeast, a (0) DISTANCE of nearly 1,500 km. That's approximately 58,000 (17) ___ of a 25-metre pool. Jasmine's (18) ___ achievements as a sportswoman already included a world record for being the youngest woman to row solo across the Atlantic. She swam between four and 12 hours a day, eating and sleeping in a support boat. In (19) ___ to her normal diet, she ate a lot of chocolate bars! She (20) ___ swam very close to whales, dolphins and seals. And that wasn't her only (21) ___ with ocean creatures: she was once followed by a shark! Despite passing some spectacular (22) ___ along the way, there were also many challenges. For example, the water was (23) ___ and constantly getting saltwater in her mouth was (24) ___ too. Nevertheless, after completing her swim, she said it had been an incredible experience.",
+      "example": { "number": 0, "rootWord": "DISTANT", "answer": "DISTANCE", "explanation": "Cần danh từ (khoảng cách)." },
+      "questions": [
+        { "number": 17, "rootWord": "LONG", "answer": "LENGTHS", "explanation": "Cần danh từ số nhiều (chiều dài của hồ bơi). LONG -> LENGTHS." },
+        { "number": 18, "rootWord": "IMPRESS", "answer": "IMPRESSIVE", "explanation": "Cần tính từ bổ nghĩa cho danh từ 'achievements'. IMPRESS -> IMPRESSIVE (ấn tượng)." },
+        { "number": 19, "rootWord": "ADD", "answer": "ADDITION", "explanation": "Cụm từ cố định 'In addition to' (Thêm vào đó / Ngoài ra). ADD -> ADDITION." },
+        { "number": 20, "rootWord": "OCCASION", "answer": "OCCASIONALLY", "explanation": "Cần trạng từ bổ nghĩa cho động từ 'swam'. OCCASION -> OCCASIONALLY (thỉnh thoảng)." },
+        { "number": 21, "rootWord": "ACT", "answer": "INTERACTION", "explanation": "Cần danh từ đi với giới từ 'with' (sự tương tác). ACT -> INTERACTION." },
+        { "number": 22, "rootWord": "SEE", "answer": "SIGHTS", "explanation": "Cần danh từ số nhiều (những cảnh tượng). SEE -> SIGHTS." },
+        { "number": 23, "rootWord": "FREEZE", "answer": "FREEZING", "explanation": "Cần tính từ (rất lạnh/đóng băng). FREEZE -> FREEZING." },
+        { "number": 24, "rootWord": "PAIN", "answer": "PAINFUL", "explanation": "Cần tính từ chỉ sự đau đớn. PAIN -> PAINFUL." }
+      ]
+    },
+    {
+      "id": "fce_trainer_3_test_4",
+      "title": "Look, Mum, this is interesting!",
+      "text": "Chimpanzees sometimes show each other objects (0) SIMPLY because they think they're interesting, researchers have found. They filmed a female chimpanzee, whom they'd called Fiona, looking at a leaf and stroking it. That (17) ___ was completely normal, but then Fiona did something (18) ___: she held the leaf out to her mother, Sutherland. When Sutherland only (19) ___ her eyes, Fiona pushed the leaf further towards her - perhaps because Fiona hadn't seen her mother's (20) ___. To explore possible alternative (21) ___ for what they'd seen, the researchers examined 84 other video clips of chimpanzees stroking leaves near at least one other individual. Their (22) ___ is that Fiona was neither offering food nor hoping to start another activity. Instead, she probably just wanted to show her mother the leaf. The discovery is (23) ___ because it's evidence that chimpanzees may have the capacity to understand that other individuals gather information in the same way as they (24) ___ do. Previously, it was thought this only applied to humans.",
+      "example": { "number": 0, "rootWord": "SIMPLE", "answer": "SIMPLY", "explanation": "Cần trạng từ." },
+      "questions": [
+        { "number": 17, "rootWord": "BEHAVE", "answer": "BEHAVIOUR", "explanation": "Cần danh từ làm chủ ngữ. BEHAVE -> BEHAVIOUR (hành vi/cách cư xử)." },
+        { "number": 18, "rootWord": "EXPECT", "answer": "UNEXPECTED", "explanation": "Cần tính từ bổ nghĩa cho đại từ 'something', mang nghĩa bất ngờ. EXPECT -> UNEXPECTED." },
+        { "number": 19, "rootWord": "LOW", "answer": "LOWERED", "explanation": "Cần động từ chia thì quá khứ đơn theo ngữ cảnh câu. LOW -> LOWERED (hạ thấp mắt xuống)." },
+        { "number": 20, "rootWord": "RESPOND", "answer": "RESPONSE", "explanation": "Cần danh từ sau sở hữu cách 'mother\\'s'. RESPOND -> RESPONSE (sự phản hồi)." },
+        { "number": 21, "rootWord": "EXPLAIN", "answer": "EXPLANATIONS", "explanation": "Cần danh từ số nhiều (những lời giải thích khác) vì có 'alternative'. EXPLAIN -> EXPLANATIONS." },
+        { "number": 22, "rootWord": "CONCLUDE", "answer": "CONCLUSION", "explanation": "Cần danh từ làm chủ ngữ (kết luận). CONCLUDE -> CONCLUSION." },
+        { "number": 23, "rootWord": "REMARK", "answer": "REMARKABLE", "explanation": "Cần tính từ (đáng chú ý/xuất chúng). REMARK -> REMARKABLE." },
+        { "number": 24, "rootWord": "SELF", "answer": "THEMSELVES", "explanation": "Đại từ phản thân nhấn mạnh chủ ngữ 'they'. SELF -> THEMSELVES." }
+      ]
+    },
+    {
+      "id": "fce_trainer_3_test_5",
+      "title": "Photographing the moon",
+      "text": "When the moon is full, many people take out their mobile phones and attempt to take a (0) WONDERFUL photograph. (17) ___, obtaining a good picture of the moon may prove extremely challenging, (18) ___ on the quality of your camera. There are two reasons for this: it is very far away and (19) ___, unless you have a telephoto lens (which makes the moon appear closer than it is), it will always appear as a tiny bright dot in the frame. Secondly, night photography is very difficult unless you have a (20) ___ camera. If you use a smartphone, I would suggest (21) ___ an app and shooting the moon through that instead of using the camera on your phone. (22) ___, capturing the moon as it goes past a beautiful bridge or a large tree, for example, will give (23) ___ a better idea of the actual size of the moon. It can also create a truly (24) ___ image.",
+      "example": { "number": 0, "rootWord": "WONDER", "answer": "WONDERFUL", "explanation": "Cần tính từ." },
+      "questions": [
+        { "number": 17, "rootWord": "FORTUNATE", "answer": "UNFORTUNATELY", "explanation": "Cần trạng từ đứng đầu câu mang nghĩa tiêu cực (Thật không may). FORTUNATE -> UNFORTUNATELY." },
+        { "number": 18, "rootWord": "DEPEND", "answer": "DEPENDING", "explanation": "Cấu trúc phân từ hiện tại (depending on = tuỳ thuộc vào). DEPEND -> DEPENDING." },
+        { "number": 19, "rootWord": "CONSEQUENCE", "answer": "CONSEQUENTLY", "explanation": "Cần trạng từ chỉ hệ quả (hậu quả là/do đó). CONSEQUENCE -> CONSEQUENTLY." },
+        { "number": 20, "rootWord": "PROFESSION", "answer": "PROFESSIONAL", "explanation": "Cần tính từ đứng trước danh từ 'camera' (máy ảnh chuyên nghiệp). PROFESSION -> PROFESSIONAL." },
+        { "number": 21, "rootWord": "LOAD", "answer": "DOWNLOADING", "explanation": "Cần V-ing sau động từ 'suggest'. LOAD -> DOWNLOADING (tải xuống)." },
+        { "number": 22, "rootWord": "OVER", "answer": "MOREOVER", "explanation": "Trạng từ liên kết đứng đầu câu mang nghĩa 'Hơn thế nữa'. OVER -> MOREOVER." },
+        { "number": 23, "rootWord": "VIEW", "answer": "VIEWERS", "explanation": "Cần danh từ chỉ người số nhiều (mang lại cho người xem). VIEW -> VIEWERS." },
+        { "number": 24, "rootWord": "MEMORY", "answer": "MEMORABLE", "explanation": "Cần tính từ (đáng nhớ). MEMORY -> MEMORABLE." }
+      ]
+    },
+    {
+      "id": "fce_trainer_3_test_6",
+      "title": "Vanilla",
+      "text": "Vanilla is a spice which gives food a pleasant taste and is (0) ESPECIALLY popular as an ice-cream flavour. (17) ___ artificial vanilla, which comes from wood used in the (18) ___ of paper and is quite cheap, natural vanilla is very expensive. That's because the vanilla plant is extremely difficult to grow. Many chefs consider Mexican vanilla to be (19) ___ to all other types. Indian Ocean islands make Bourbon vanilla, the best-known kind that most people are (20) ___ with. A rare vanilla from Tahiti has an absolutely (21) ___ taste, according to experts, because it's so fruity. Natural vanilla is so wonderful because it contains over 200 individual substances, and their unique (22) ___ gives it its particular smell and taste. In artificial vanilla, however, the flavour comes from just one: vanillin. In some countries, 90% of all 'vanilla' that (23) ___ get to taste is made in laboratories. Nevertheless, its popularity is (24) ___ of the fact that even artificial vanilla is pretty good!",
+      "example": { "number": 0, "rootWord": "SPECIAL", "answer": "ESPECIALLY", "explanation": "Cần trạng từ." },
+      "questions": [
+        { "number": 17, "rootWord": "LIKE", "answer": "UNLIKE", "explanation": "Cần giới từ mang nghĩa trái ngược (Không giống như). LIKE -> UNLIKE." },
+        { "number": 18, "rootWord": "PRODUCE", "answer": "PRODUCTION", "explanation": "Cần danh từ (sự sản xuất). PRODUCE -> PRODUCTION." },
+        { "number": 19, "rootWord": "PREFER", "answer": "PREFERABLE", "explanation": "Cần tính từ (đáng thích hơn/được ưa chuộng hơn). Cụm 'preferable to'. PREFER -> PREFERABLE." },
+        { "number": 20, "rootWord": "FAMILY", "answer": "FAMILIAR", "explanation": "Cụm tính từ 'be familiar with' (quen thuộc với). FAMILY -> FAMILIAR." },
+        { "number": 21, "rootWord": "STAND", "answer": "OUTSTANDING", "explanation": "Cần tính từ mang nghĩa xuất sắc/nổi bật. STAND -> OUTSTANDING." },
+        { "number": 22, "rootWord": "COMBINE", "answer": "COMBINATION", "explanation": "Cần danh từ sau 'their unique'. COMBINE -> COMBINATION (sự kết hợp)." },
+        { "number": 23, "rootWord": "CONSUME", "answer": "CONSUMERS", "explanation": "Cần danh từ chỉ người số nhiều (người tiêu dùng) làm chủ ngữ cho động từ 'get'. CONSUME -> CONSUMERS." },
+        { "number": 24, "rootWord": "EVIDENT", "answer": "EVIDENCE", "explanation": "Cần danh từ làm vị ngữ sau 'is'. EVIDENT -> EVIDENCE (bằng chứng)." }
+      ]
+    },
+  {
+    "id": "Book 1 test 1",
+    "title": "Tea",
+    "text": "Tea is an (0) EXTREMELY popular drink with many people. It is estimated that the consumption of tea in England alone exceeds 165 million cups daily. Despite this, the drink was virtually (17) ___ in England until about 400 years ago. The first (18) ___ to tea in England comes in a diary written in 1660. However, its (19) ___ really took off after the (20) ___ of King Charles II to Catherine of Braganza. It was her great love of tea that made it (21) ___. It was believed that tea was good for people as it seemed to be capable of reviving the spirits and curing certain minor (22) ___. It has even been suggested by some historians that it played a significant part in the Industrial Revolution. Tea, they say, increased the number of hours that (23) ___ could work in factories as the caffeine in tea made them more (24) ___ and consequently able to work longer hours.",
+    "example": {
+      "number": 0,
+      "rootWord": "EXTREME",
+      "answer": "EXTREMELY",
+      "explanation": "Cần trạng từ bổ nghĩa cho tính từ 'popular'. EXTREME -> EXTREMELY."
+    },
+    "questions": [
+      { "number": 17, "rootWord": "KNOW", "answer": "UNKNOWN", "explanation": "Cần tính từ sau 'was virtually'. Cụm đúng là 'was virtually unknown' = hầu như chưa được biết đến. KNOW -> UNKNOWN." },
+      { "number": 18, "rootWord": "REFER", "answer": "REFERENCE", "explanation": "Sau 'The first' cần danh từ số ít. Cụm đúng là 'the first reference to'. REFER -> REFERENCE." },
+      { "number": 19, "rootWord": "POPULAR", "answer": "POPULARITY", "explanation": "Sau tính từ sở hữu 'its' cần danh từ. 'its popularity really took off' = mức độ phổ biến của nó thực sự bùng nổ. POPULAR -> POPULARITY." },
+      { "number": 20, "rootWord": "MARRY", "answer": "MARRIAGE", "explanation": "Sau mạo từ 'the' và trước 'of' cần danh từ. Cụm đúng là 'the marriage of King Charles II...'. MARRY -> MARRIAGE." },
+      { "number": 21, "rootWord": "FASHION", "answer": "FASHIONABLE", "explanation": "Sau cấu trúc 'made it' cần tính từ. 'made it fashionable' = khiến nó trở thành mốt/thịnh hành. FASHION -> FASHIONABLE." },
+      { "number": 22, "rootWord": "ILL", "answer": "ILLNESSES", "explanation": "Sau 'certain minor' cần danh từ số nhiều. Nghĩa là 'những bệnh nhẹ'. ILL -> ILLNESSES." },
+      { "number": 23, "rootWord": "LABOUR", "answer": "LABOURERS", "explanation": "Cần danh từ chỉ người số nhiều làm chủ ngữ cho 'could work'. LABOUR -> LABOURERS." },
+      { "number": 24, "rootWord": "ENERGY", "answer": "ENERGETIC", "explanation": "Sau 'made them more' cần tính từ. 'more energetic' = năng động/tràn đầy năng lượng hơn. ENERGY -> ENERGETIC." }
+    ]
+  },
+  {
+    "id": "Book 1 test 2",
+    "title": "Running speed",
+    "text": "Elite (0) COMPETITORS like the Jamaican Usain Bolt have regularly been clocked running at nearly 45 kilometres per hour. Such speed would have seemed (17) ___ not so long ago. Scientists now suggest that humans can move (18) ___ faster than even that, perhaps as fast as 65 kilometres per hour. For years, it was assumed that simple muscle power determined human speed, but recent research suggests otherwise. The most important (19) ___ factor appears to be how quickly the muscles can contract and thus (20) ___ the time a runner's foot is in contact with the ground. Is our athletic ability inherited? Researcher Alun Williams has (21) ___ twenty-three inherited factors that influence sporting performance, such as the (22) ___ use of oxygen, and strength. As world population rises, predicts Williams, the (23) ___ of there being someone with the right genes for these twenty-three (24) ___ will increase noticeably and thus faster runners are likely to emerge in future.",
+    "example": {
+      "number": 0,
+      "rootWord": "COMPETE",
+      "answer": "COMPETITORS",
+      "explanation": "Cần danh từ chỉ người số nhiều sau 'Elite'. COMPETE -> COMPETITORS."
+    },
+    "questions": [
+      { "number": 17, "rootWord": "BELIEVE", "answer": "UNBELIEVABLE", "explanation": "Sau 'seemed' cần tính từ. Nghĩa phù hợp là 'khó tin'. BELIEVE -> UNBELIEVABLE." },
+      { "number": 18, "rootWord": "CONSIDER", "answer": "CONSIDERABLY", "explanation": "Cần trạng từ bổ nghĩa cho 'faster'. 'considerably faster' = nhanh hơn đáng kể. CONSIDER -> CONSIDERABLY." },
+      { "number": 19, "rootWord": "LIMIT", "answer": "LIMITING", "explanation": "Cần tính từ đứng trước 'factor'. Collocation đúng là 'limiting factor'. LIMIT -> LIMITING." },
+      { "number": 20, "rootWord": "MINIMUM", "answer": "MINIMISE", "explanation": "Sau 'thus' cần động từ nguyên mẫu song song với 'contract'. MINIMUM -> MINIMISE. Dạng MINIMIZE cũng được chấp nhận." },
+      { "number": 21, "rootWord": "IDENTITY", "answer": "IDENTIFIED", "explanation": "Sau 'has' cần quá khứ phân từ để tạo hiện tại hoàn thành. 'has identified' = đã xác định. IDENTITY -> IDENTIFIED." },
+      { "number": 22, "rootWord": "EFFICIENCY", "answer": "EFFICIENT", "explanation": "Cần tính từ bổ nghĩa cho 'use'. Cụm đúng là 'the efficient use of oxygen'. EFFICIENCY -> EFFICIENT." },
+      { "number": 23, "rootWord": "POSSIBLE", "answer": "POSSIBILITY", "explanation": "Sau 'the' cần danh từ. 'the possibility of...' = khả năng về việc... POSSIBLE -> POSSIBILITY." },
+      { "number": 24, "rootWord": "CHARACTER", "answer": "CHARACTERISTICS", "explanation": "Sau 'these twenty-three' cần danh từ số nhiều. CHARACTER -> CHARACTERISTICS." }
+    ]
+  },
+  {
+    "id": "Book 1 test 3",
+    "title": "Cycling",
+    "text": "I have been a keen (0) CYCLIST for about nine years. When I began cycling, I found the flat roads easy but the hills almost (17) ___. Surprisingly, now it's the opposite. A long flat ride can be both dull and (18) ___ as you never experience that fantastic feeling of freedom when speeding downhill. Years ago, going uphill left me (19) ___. Now I have learned to take hills slowly and steadily. When I set off, I'm full of energy and the first hundred metres are (20) ___, the next couple of kilometres a bit tiring, but on the whole the experience is very (21) ___. Cycling is (22) ___ any other forms of exercise I have tried; it is never a chore but always a (23) ___. The physical benefits are obvious but the mental benefits are (24) ___ important; when you are travelling calmly at a sensible speed, you breathe fresh air, have time to think and can relax.",
+    "example": {
+      "number": 0,
+      "rootWord": "CYCLE",
+      "answer": "CYCLIST",
+      "explanation": "Cần danh từ chỉ người sau 'a keen'. CYCLE -> CYCLIST."
+    },
+    "questions": [
+      { "number": 17, "rootWord": "POSSIBLE", "answer": "IMPOSSIBLE", "explanation": "Sau 'found' cần tính từ. Nghĩa phù hợp là 'gần như không thể'. POSSIBLE -> IMPOSSIBLE." },
+      { "number": 18, "rootWord": "EXHAUST", "answer": "EXHAUSTING", "explanation": "Sau 'both dull and' cần tính từ song song với 'dull'. EXHAUST -> EXHAUSTING." },
+      { "number": 19, "rootWord": "BREATH", "answer": "BREATHLESS", "explanation": "Sau 'left me' cần tính từ chỉ trạng thái. 'breathless' = hụt hơi. BREATH -> BREATHLESS." },
+      { "number": 20, "rootWord": "MARVEL",  "answer": "MARVELLOUS", "explanation": "Sau 'are' cần tính từ. MARVEL -> MARVELLOUS." },
+      { "number": 21, "rootWord": "ENJOY", "answer": "ENJOYABLE", "explanation": "Sau 'is very' cần tính từ. ENJOY -> ENJOYABLE." },
+      { "number": 22, "rootWord": "LIKE", "answer": "UNLIKE", "explanation": "Cần từ mang nghĩa đối lập trong cấu trúc so sánh. 'unlike any other...' = không giống bất kỳ ... nào khác. LIKE -> UNLIKE." },
+      { "number": 23, "rootWord": "PLEASE", "answer": "PLEASURE", "explanation": "Sau mạo từ 'a' cần danh từ. Cụm đúng là 'a pleasure'. PLEASE -> PLEASURE." },
+      { "number": 24, "rootWord": "EQUAL", "answer": "EQUALLY", "explanation": "Cần trạng từ bổ nghĩa cho 'important'. 'equally important' = quan trọng ngang nhau. EQUAL -> EQUALLY."}
+    ]
+  },
+  {
+    "id": "Book 1 test 4",
+    "title": "Job interviews",
+    "text": "Most people feel rather (0) NERVOUS when they go for an interview for a new job. This is not surprising as getting a job one wants is important. People being interviewed expect the interviewers to be (17) ___, matching an applicant against a job (18) ___. However, what often happens in reality is that the interviewers make (19) ___ that are little more than reactions to the (20) ___ of the applicant. Even skilled interviewers may, without realising it, (21) ___ favour people who make them feel at (22) ___. With this in mind, if you go for an interview you should try to make a good impression from the start by presenting the interviewers with the very best version of yourself, emphasising the (23) ___ of skills you have. You must appear very positive and as (24) ___ as possible. It is for you to convince the interviewers that you are definitely the most suitable person for the job.",
+    "example": {
+      "number": 0,
+      "rootWord": "NERVE",
+      "answer": "NERVOUS",
+      "explanation": "Sau 'feel' cần tính từ chỉ cảm xúc. NERVE -> NERVOUS."
+    },
+    "questions": [
+      { "number": 17, "rootWord": "OBJECT", "answer": "OBJECTIVE", "explanation": "Sau 'be' cần tính từ. 'objective' = khách quan. OBJECT -> OBJECTIVE." },
+      { "number": 18, "rootWord": "DESCRIBE", "answer": "DESCRIPTION", "explanation": "Sau 'a job' cần danh từ. Cụm đúng là 'a job description'. DESCRIBE -> DESCRIPTION." },
+      { "number": 19, "rootWord": "DECIDE", "answer": "DECISIONS", "explanation": "Sau 'make' cần danh từ số nhiều. Cụm quen thuộc là 'make decisions'. DECIDE -> DECISIONS." },
+      { "number": 20, "rootWord": "PERSON", "answer": "PERSONALITY", "explanation": "Sau 'the' cần danh từ. 'the personality of the applicant' = tính cách của ứng viên. PERSON -> PERSONALITY." },
+      { "number": 21, "rootWord": "CONSCIOUS", "answer": "UNCONSCIOUSLY", "explanation": "Cần trạng từ bổ nghĩa cho động từ 'favour'. CONSCIOUS -> UNCONSCIOUSLY." },
+      { "number": 22, "rootWord": "EASY", "answer": "EASE", "explanation": "Trong cụm cố định 'feel at ease' cần danh từ. EASY -> EASE." },
+      { "number": 23, "rootWord": "VARY", "answer": "VARIETY", "explanation": "Sau 'the' cần danh từ. Cụm đúng là 'the variety of skills'. VARY -> VARIETY." },
+      {"number": 24, "rootWord": "ENTHUSIASM", "answer": "ENTHUSIASTIC", "explanation": "Sau 'as ... as possible' cần tính từ. ENTHUSIASM -> ENTHUSIASTIC." }
+    ]
+  },
+  {
+    "id": "Book 2 test 1",
+    "title": "The oldest house in Britain",
+    "text": "It was warm, round, had a (0) FANTASTIC view of a lake and appears to have been occupied for several hundred years. Welcome to the oldest house in the UK, which was found with other fascinating relics (17) ___ at a site in North Yorkshire. These remains are transforming our (18) ___ of how Britain's earliest inhabitants lived.\n\nThe structure was 3.5 metres in (19) ___ and was supported by a circle of wooden posts. Dark, decayed matter at the centre of the ruin suggests the possibility of a roof entirely made of grasses. (20) ___ of the remains by scientists revealed that the building stood in 8,500 BC. It was (21) ___ thought that people living in Britain at this time were nomadic with no fixed homes. But the (22) ___ of the oldest known house provides clear (23) ___ that some of these people built large permanent structures. Researchers of the site, however, are (24) ___ about how long the house will remain the 'oldest' in the UK, because new finds are being made all the time.",
+    "example": { "number": 0, "rootWord": "FANTASY", "answer": "FANTASTIC", "explanation": "Cần tính từ đứng trước danh từ 'view'. FANTASY -> FANTASTIC." },
+    "questions": [
+      { "number": 17, "rootWord": "NEAR", "answer": "NEARBY", "explanation": "Cần trạng từ/chỉ vị trí bổ nghĩa cho 'found ... at a site'. NEAR -> NEARBY, nghĩa là 'gần đó'." },
+      { "number": 18, "rootWord": "KNOW", "answer": "KNOWLEDGE", "explanation": "Sau tính từ sở hữu 'our' cần danh từ. KNOW -> KNOWLEDGE, nghĩa là 'kiến thức/sự hiểu biết'." },
+      { "number": 19, "rootWord": "WIDE", "answer": "WIDTH", "explanation": "Sau '3.5 metres in ...' cần danh từ chỉ kích thước. WIDE -> WIDTH, nghĩa là 'chiều rộng'. " },
+      { "number": 20, "rootWord": "INVESTIGATE", "answer": "INVESTIGATION / INVESTIGATIONS", "explanation": "Cần danh từ làm chủ ngữ của động từ 'revealed'. INVESTIGATE -> INVESTIGATION. Dạng số nhiều INVESTIGATIONS cũng có thể chấp nhận, nên ghi cả hai đáp án." },
+      { "number": 21, "rootWord": "ORIGIN", "answer": "ORIGINALLY", "explanation": "Cần trạng từ bổ nghĩa cho 'thought'. ORIGIN -> ORIGINALLY, nghĩa là 'ban đầu'." },
+      { "number": 22, "rootWord": "DISCOVER", "answer": "DISCOVERY", "explanation": "Sau 'the' cần danh từ. DISCOVER -> DISCOVERY, nghĩa là 'phát hiện'." },
+      { "number": 23, "rootWord": "EVIDENT", "answer": "EVIDENCE", "explanation": "Cụm cố định 'provide clear evidence that ...'. EVIDENT -> EVIDENCE." },
+      { "number": 24, "rootWord": "SURE", "answer": "UNSURE", "explanation": "Sau động từ nối 'are' cần tính từ; ngữ nghĩa là 'không chắc chắn'. SURE -> UNSURE." }
+    ]
+  },
+  {
+    "id": "Book 2 test 2",
+    "title": "Enjoying travel",
+    "text": "I always enjoy travelling, (0) PARTICULARLY when it means visiting other countries. One of the clearest memories from my childhood is of going to Disneyworld. Some people disapprove of the place but I loved it as a child and found it just as (17) ___ when I returned years later as an adult.\n\nI am (18) ___ that my work involves a lot of travel. The two places I visit most often are Barcelona and New York. I like both, but there is a tremendous (19) ___ between them. Barcelona is relaxed and overflowing with culture. New York, though, is bustling and full of (20) ___. When I'm there I'm constantly looking upwards, overwhelmed by the (21) ___ of the buildings. It is quite (22) ___ anywhere else I've ever been.\n\nI went to Tokyo last year and found it absolutely fascinating. However, my top (23) ___ for a city break has to be Toronto; it is visually (24) ___ and I've had some of the best meals I've ever eaten there.",
+    "example": { "number": 0, "rootWord": "PARTICULAR", "answer": "PARTICULARLY", "explanation": "Cần trạng từ bổ nghĩa cho mệnh đề phía sau. PARTICULAR -> PARTICULARLY." },
+    "questions": [
+      { "number": 17, "rootWord": "ENJOY", "answer": "ENJOYABLE", "explanation": "Sau 'as' cần tính từ. ENJOY -> ENJOYABLE, nghĩa là 'thú vị/dễ chịu'." },
+      { "number": 18, "rootWord": "FORTUNE", "answer": "FORTUNATE", "explanation": "Sau 'am' cần tính từ. FORTUNE -> FORTUNATE, nghĩa là 'may mắn'." },
+      { "number": 19, "rootWord": "DIFFERENT", "answer": "DIFFERENCE", "explanation": "Sau mạo từ 'a' và tính từ 'tremendous' cần danh từ. DIFFERENT -> DIFFERENCE." },
+      { "number": 20, "rootWord": "EXCITE", "answer": "EXCITEMENT", "explanation": "Sau 'full of' cần danh từ. EXCITE -> EXCITEMENT, nghĩa là 'sự hào hứng/sôi động'." },
+      { "number": 21, "rootWord": "HIGH", "answer": "HEIGHT", "explanation": "Sau 'the' cần danh từ. HIGH -> HEIGHT, nghĩa là 'chiều cao'." },
+      { "number": 22, "rootWord": "LIKE", "answer": "UNLIKE", "explanation": "Cần giới từ/tính từ mang nghĩa đối lập trong cụm 'quite unlike anywhere else'. LIKE -> UNLIKE." },
+      { "number": 23, "rootWord": "CHOOSE", "answer": "CHOICE", "explanation": "Sau tính từ sở hữu 'my top' cần danh từ. CHOOSE -> CHOICE." },
+      { "number": 24, "rootWord": "SPECTACLE", "answer": "SPECTACULAR", "explanation": "Sau động từ nối 'is' cần tính từ. SPECTACLE -> SPECTACULAR, nghĩa là 'ngoạn mục'." }
+    ]
+  },
+  {
+    "id": "Book 2 test 3",
+    "title": "The price of meals",
+    "text": "When a meal is (0) EXPENSIVE, do people say they enjoy it simply because it costs a lot of money? There is some (17) ___ from an experiment in a New York restaurant which suggests that this might be so.\n\nThe restaurant served diners a meal but charged some (18) ___ as much as others, even though the meals were identical and taken in the same (19) ___ with the same level of service. After the meal everyone was asked what they thought of the meal. One might think that the people who had paid least would be the most impressed with the meal. (20) ___ though, it was those who had paid most who gave it the highest (21) ___.\n\nAccording to a well-known (22) ___ the reason for this finding is that a high price for a meal is very (23) ___ in convincing people that a meal is good. One wonders if this might (24) ___ restaurant owners to keep their prices high.",
+    "example": { "number": 0, "rootWord": "EXPENSE", "answer": "EXPENSIVE", "explanation": "Sau 'is' cần tính từ. EXPENSE -> EXPENSIVE." },
+    "questions": [
+      { "number": 17, "rootWord": "EVIDENT", "answer": "EVIDENCE", "explanation": "Cụm cố định 'there is some evidence from ...'. EVIDENT -> EVIDENCE." },
+      { "number": 18, "rootWord": "TWO", "answer": "TWICE", "explanation": "Cụm 'twice as much as' là cấu trúc cố định. TWO -> TWICE." },
+      { "number": 19, "rootWord": "SURROUND", "answer": "SURROUNDINGS", "explanation": "Cần danh từ chỉ môi trường/khung cảnh xung quanh. SURROUND -> SURROUNDINGS." },
+      { "number": 20, "rootWord": "SURPRISE", "answer": "SURPRISINGLY", "explanation": "Đứng đầu câu, ngăn cách bằng dấu phẩy nên cần trạng từ bình luận. SURPRISE -> SURPRISINGLY." },
+      { "number": 21, "rootWord": "RATE", "answer": "RATING / RATINGS", "explanation": "Sau 'the highest' cần danh từ. RATE -> RATING. Dạng RATINGS cũng có thể được chấp nhận trong một số cách diễn đạt, nên ghi cả hai đáp án." },
+      { "number": 22, "rootWord": "PSYCHOLOGY", "answer": "PSYCHOLOGIST", "explanation": "Sau mạo từ 'a' cần danh từ chỉ người. PSYCHOLOGY -> PSYCHOLOGIST." },
+      { "number": 23, "rootWord": "SIGNIFY", "answer": "SIGNIFICANT", "explanation": "Sau 'is very' cần tính từ. SIGNIFY -> SIGNIFICANT, nghĩa là 'quan trọng/đáng kể'." },
+      { "number": 24, "rootWord": "COURAGE", "answer": "ENCOURAGE", "explanation": "Sau động từ khuyết thiếu 'might' cần động từ nguyên mẫu. COURAGE -> ENCOURAGE, nghĩa là 'khuyến khích'." }
+    ]
+  },
+  {
+    "id": "Book 2 test 4",
+    "title": "A man happy in his work",
+    "text": "Flying has always had a (0) FASCINATION for me. During my childhood I was often taken to air shows, where I could see planes close up and even go inside them. However, it was not until I was twenty that I made the (17) ___ to apply for an eighteen-month training course to become a pilot. There was no funding available for students on this course so (18) ___ I had to wait six months for a suitable job (19) ___, but then the (20) ___ I had shown was rewarded when I got a job with a large airline.\n\nI've been a pilot for three years now, and I remain just as (21) ___ about flying. I love the modern jet aircraft with all their sophisticated equipment as well as the (22) ___ of challenges that occur on a (23) ___ basis. And, of course, it's wonderful to visit places all over the world, not to mention the (24) ___ views I get when I'm flying.",
+    "example": { "number": 0, "rootWord": "FASCINATE", "answer": "FASCINATION", "explanation": "Sau mạo từ 'a' cần danh từ. FASCINATE -> FASCINATION." },
+    "questions": [
+      { "number": 17, "rootWord": "DECIDE", "answer": "DECISION", "explanation": "Cụm cố định 'make the decision to do something'. DECIDE -> DECISION." },
+      { "number": 18, "rootWord": "FORTUNATE", "answer": "UNFORTUNATELY", "explanation": "Cần trạng từ bổ nghĩa cho cả mệnh đề và mang nghĩa tiêu cực. FORTUNATE -> UNFORTUNATELY." },
+      { "number": 19, "rootWord": "VACANT", "answer": "VACANCY", "explanation": "Sau 'job' cần danh từ đi cùng về nghĩa: 'job vacancy' là vị trí tuyển dụng. VACANT -> VACANCY." },
+      { "number": 20, "rootWord": "COMMIT", "answer": "COMMITMENT", "explanation": "Sau mạo từ 'the' cần danh từ. COMMIT -> COMMITMENT, nghĩa là 'sự tận tâm/cam kết'." },
+      { "number": 21, "rootWord": "ENTHUSIASM", "answer": "ENTHUSIASTIC", "explanation": "Sau 'remain' cần tính từ. ENTHUSIASM -> ENTHUSIASTIC." },
+      { "number": 22, "rootWord": "VARY", "answer": "VARIETY", "explanation": "Cụm cố định 'a variety of + danh từ số nhiều'. VARY -> VARIETY." },
+      { "number": 23, "rootWord": "DAY", "answer": "DAILY", "explanation": "Cụm cố định 'on a daily basis'. DAY -> DAILY." },
+      { "number": 24, "rootWord": "SPECTACLE", "answer": "SPECTACULAR", "explanation": "Sau mạo từ 'the' và trước danh từ 'views' cần tính từ. SPECTACLE -> SPECTACULAR." }
+    ]
+  }
+  ]
+}
