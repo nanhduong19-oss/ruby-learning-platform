@@ -1495,8 +1495,10 @@ async function buildP4GrammarOptions() {
   grammarSel.innerHTML = '<option value="">Loading...</option>';
   try {
     // Fetch ALL files in parallel, merge all questions
+    // Add cache-busting to always get latest data from GitHub
+    const bust = '?t=' + Date.now();
     const results = await Promise.all(
-      urls.map(url => fetch(url).then(r => r.ok ? r.json() : null).catch(() => null))
+      urls.map(url => fetch(url + bust, { cache: 'no-store' }).then(r => r.ok ? r.json() : null).catch(() => null))
     );
     const valid = results.filter(Boolean);
     if (!valid.length) throw new Error('No data');
@@ -1638,11 +1640,13 @@ async function startSession() {
       // Load and merge all sets for this part
       let fullData;
       if (S.currentPart === 4 && S._p4Data) {
+        // Use already-fetched & stamped data (fresh from buildP4GrammarOptions)
         fullData = S._p4Data;
       } else {
-        // Fetch all URLs and merge questions
+        // Fetch all URLs and merge questions (cache-busting for up-to-date data)
+        const bust = '?t=' + Date.now();
         const datasets = await Promise.all(
-          urls.map(url => fetch(url).then(r => r.ok ? r.json() : null).catch(() => null))
+          urls.map(url => fetch(url + bust, { cache: 'no-store' }).then(r => r.ok ? r.json() : null).catch(() => null))
         );
         const valid = datasets.filter(Boolean);
         if (!valid.length) throw new Error('No data loaded');
