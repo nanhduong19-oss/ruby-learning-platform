@@ -1917,17 +1917,46 @@ function buildAllSets(key, raw, numSets, wrongIds) {
 function flattenPassage(key, set) {
   return set.questions.map(q => {
     // Normalize answer and accepted from JSON
-    // JSON may have: answer=string, answer=array, accepted=array, or none
+    // Supports: answer=string, answer=array, accepted=array, alternativeAnswers=array, slash-separated
     const answerRaw  = q.answer;
     const primaryAns = Array.isArray(answerRaw) ? answerRaw[0] : answerRaw;
-    let acceptedList;
-    if (Array.isArray(q.accepted) && q.accepted.length > 0) {
-      acceptedList = q.accepted;
-    } else if (Array.isArray(answerRaw) && answerRaw.length > 0) {
-      acceptedList = answerRaw;
-    } else {
-      acceptedList = [primaryAns];
+
+    // Build complete accepted list - ALWAYS include primary answer
+    const allAccepted = new Set();
+
+    // 1. Primary answer (always)
+    if (primaryAns) allAccepted.add(String(primaryAns).trim().toLowerCase());
+
+    // 2. If answer is array, add all
+    if (Array.isArray(answerRaw)) {
+      answerRaw.forEach(a => allAccepted.add(String(a).trim().toLowerCase()));
     }
+
+    // 3. If answer contains slash, split and add each part
+    if (typeof primaryAns === 'string' && primaryAns.includes('/')) {
+      primaryAns.split('/').forEach(a => allAccepted.add(a.trim().toLowerCase()));
+    }
+
+    // 4. accepted array
+    if (Array.isArray(q.accepted)) {
+      q.accepted.forEach(a => allAccepted.add(String(a).trim().toLowerCase()));
+    }
+
+    // 5. alternativeAnswers array
+    if (Array.isArray(q.alternativeAnswers)) {
+      q.alternativeAnswers.forEach(a => allAccepted.add(String(a).trim().toLowerCase()));
+    }
+
+    // 6. correctAnswer field (slash-separated)
+    if (q.correctAnswer && typeof q.correctAnswer === 'string') {
+      q.correctAnswer.split('/').forEach(a => allAccepted.add(a.trim().toLowerCase()));
+    }
+
+    // Convert back to array with original casing for display
+    const acceptedList = [...allAccepted].map(a => a);
+    // Keep primary answer casing for display
+    if (acceptedList.length === 0) acceptedList.push(primaryAns);
+
     return {
       id:          `${set.id}_q${q.number}`,
       type:        (key === 'ket_part4' || key === 'pet_part5') ? 'mcq_cloze' : 'open_cloze',
@@ -3016,15 +3045,25 @@ function doRound1() {
     if (S.r1[q.id] === true) { correct++; return; }
     const typed = norm(S.answers[q.id] || '');
 
-    let acceptedRaw = [];
-    if (Array.isArray(q.accepted) && q.accepted.length > 0) {
-      acceptedRaw = q.accepted;
-    } else if (Array.isArray(q.answer)) {
-      acceptedRaw = q.answer;
-    } else {
-      acceptedRaw = [q.answer];
+    // Build accepted list - ALWAYS include primary answer
+    const acceptedSet = new Set();
+    // Primary answer
+    if (q.answer) {
+      String(q.answer).split('/').forEach(a => acceptedSet.add(norm(a)));
     }
-    const accepted = acceptedRaw.map(a => norm(String(a)));
+    // accepted array
+    if (Array.isArray(q.accepted) && q.accepted.length > 0) {
+      q.accepted.forEach(a => acceptedSet.add(norm(String(a))));
+    }
+    // alternativeAnswers
+    if (Array.isArray(q.alternativeAnswers)) {
+      q.alternativeAnswers.forEach(a => acceptedSet.add(norm(String(a))));
+    }
+    // answer as array
+    if (Array.isArray(q.answer)) {
+      q.answer.forEach(a => acceptedSet.add(norm(String(a))));
+    }
+    const accepted = [...acceptedSet];
     let ok = typed !== '' && accepted.includes(typed);
 
     // Part3: evidence is feedback only, not scored
@@ -4302,8 +4341,13 @@ function ftSubmit() {
     const wrongQids = [];
     ps.questions.forEach(q => {
       const typed = norm(ps.answers[q.id] || '');
-      let acceptedRaw = Array.isArray(q.accepted) && q.accepted.length ? q.accepted : [q.answer];
-      const accepted = acceptedRaw.map(a => norm(String(a)));
+      // Build accepted list - ALWAYS include primary answer
+      const acceptedSet = new Set();
+      if (q.answer) String(q.answer).split('/').forEach(a => acceptedSet.add(norm(a)));
+      if (Array.isArray(q.accepted) && q.accepted.length) q.accepted.forEach(a => acceptedSet.add(norm(String(a))));
+      if (Array.isArray(q.alternativeAnswers)) q.alternativeAnswers.forEach(a => acceptedSet.add(norm(String(a))));
+      if (Array.isArray(q.answer)) q.answer.forEach(a => acceptedSet.add(norm(String(a))));
+      const accepted = [...acceptedSet];
       let ok = typed !== '' && accepted.includes(typed);
       // Part3: evidence is feedback only, not scored
       if (ok) { correct++; ps.r1[q.id] = true; }
