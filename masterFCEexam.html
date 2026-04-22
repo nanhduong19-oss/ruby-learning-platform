@@ -345,8 +345,8 @@ body {
   border:1.5px solid var(--border); padding:16px; margin-bottom:12px;
   border-left:4px solid var(--ruby);
 }
-.kwt-sentence1 { font-size:.9rem; color:var(--text2); margin-bottom:8px; font-style:italic; }
-.kwt-sentence2 { font-size:.95rem; font-weight:700; line-height:2.4; }
+.kwt-sentence1 { font-size:1rem; font-weight:800; color:var(--text); margin-bottom:8px; font-style:normal; }
+.kwt-sentence2 { font-size:.95rem; font-weight:500; line-height:2.4; color:var(--text2); }
 .kwt-keyword {
   display:inline-block; background:var(--ruby); color:#fff;
   border-radius:6px; padding:2px 9px; font-size:.82rem; font-weight:900;
@@ -360,10 +360,11 @@ body {
 .kwt-input {
   border:none; border-bottom:2px solid var(--ruby);
   outline:none; font-family:'Nunito',sans-serif; font-weight:800;
-  font-size:.9rem; text-align:center; text-transform:uppercase;
-  width:240px; background:transparent; padding:2px 4px; color:var(--text);
+  font-size:.95rem; text-align:center; text-transform:uppercase;
+  width:250px; background:transparent; padding:2px 4px; color:var(--text);
 }
 .kwt-input.correct { color:var(--correct); border-bottom-color:var(--correct); }
+.kwt-input.partial { color:var(--warn);    border-bottom-color:var(--warn); }
 .kwt-input.wrong   { color:var(--wrong);   border-bottom-color:var(--wrong); }
 .kwt-input:disabled { cursor:default; }
 
@@ -376,6 +377,7 @@ body {
 .explain-box.show { display:block; }
 .explain-box.correct { background:var(--correct-bg); border:1px solid #bbf7d0; }
 .explain-box.wrong   { background:var(--wrong-bg);   border:1px solid #fecaca; }
+.explain-box.partial { background:var(--gold-bg);   border:1px solid #fde68a; }
 .explain-box strong  { font-weight:900; }
 
 /* ── CHECK / REVEAL BUTTONS ── */
@@ -459,29 +461,91 @@ body {
 .copy-done-msg { font-size:.82rem; font-weight:800; color:var(--correct); margin-top:8px; display:none; }
 
 /* ════════════════════════════════════
-   RESULT SCREEN
+   RESULT SCREEN — REDESIGNED
 ════════════════════════════════════ */
-.result-card {
+.res-hero-card {
   text-align:center;
-  padding:32px 24px;
+  padding:32px 24px 24px;
+  border-top:5px solid var(--green);
 }
-.result-emoji { font-size:64px; margin-bottom:12px; display:block; animation:bounceIn .5s ease; }
-@keyframes bounceIn { 0%{transform:scale(.3)} 70%{transform:scale(1.1)} 100%{transform:scale(1)} }
-.result-title { font-family:'Baloo 2',cursive; font-size:1.8rem; font-weight:800; margin-bottom:6px; }
-.result-tagline { font-size:.9rem; color:var(--text2); font-weight:600; margin-bottom:20px; }
-.stats-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-bottom:20px; }
-.stat-box { background:var(--surface2); border-radius:var(--radius-sm); padding:14px 8px; }
-.stat-val { font-family:'Baloo 2',cursive; font-size:2rem; font-weight:800; display:block; }
-.stat-lbl { font-size:.72rem; font-weight:700; color:var(--text3); text-transform:uppercase; letter-spacing:.4px; }
+.res-emoji-row { font-size:3rem; margin-bottom:10px; line-height:1; }
+.res-title {
+  font-family:'Baloo 2',cursive; font-size:2rem; font-weight:800;
+  margin-bottom:4px; line-height:1.1;
+}
+.res-subtitle {
+  font-size:.9rem; color:var(--text2); font-weight:600; margin-bottom:20px;
+}
+.res-stats-grid {
+  display:grid; grid-template-columns:repeat(3,1fr); gap:10px;
+}
+.res-stat-box {
+  border-radius:12px; padding:16px 8px;
+  display:flex; flex-direction:column; align-items:center; gap:4px;
+}
+.res-stat-val {
+  font-family:'Baloo 2',cursive; font-size:2.2rem; font-weight:800;
+  line-height:1; color:#2563eb;
+}
+.res-stat-lbl {
+  font-size:.65rem; font-weight:900; color:#64748b;
+  letter-spacing:.6px; text-transform:uppercase;
+}
 
-.result-breakdown { text-align:left; }
-.result-section-title { font-size:.82rem; font-weight:900; color:var(--text3); text-transform:uppercase; letter-spacing:.5px; margin-bottom:10px; }
-.wrong-item {
+/* Info table */
+.res-info-card { padding:0; overflow:hidden; }
+.res-info-row {
+  display:flex; justify-content:space-between; align-items:center;
+  padding:12px 18px; border-bottom:1px solid var(--border);
+}
+.res-info-row:last-child { border-bottom:none; }
+.res-info-key {
+  font-size:.82rem; font-weight:600; color:var(--text3);
+}
+.res-info-val {
+  font-size:.88rem; font-weight:800; color:var(--text); text-align:right;
+}
+
+/* FCE Summary section */
+.res-summary-card {
+  background:var(--surface); border-radius:var(--radius);
+  border:1.5px solid var(--border); box-shadow:var(--shadow);
+  padding:18px 20px; margin-bottom:14px;
+}
+.res-summary-title {
+  font-size:.72rem; font-weight:900; color:#2563eb;
+  text-transform:uppercase; letter-spacing:.6px; margin-bottom:14px;
+}
+.res-passage-row { margin-bottom:14px; }
+.res-passage-row:last-child { margin-bottom:0; }
+.res-passage-name {
+  font-size:.85rem; font-weight:700; color:var(--text2); margin-bottom:6px;
+  display:flex; align-items:center; justify-content:space-between;
+}
+.res-passage-score {
+  font-size:.8rem; font-weight:800; color:var(--text3);
+}
+.res-wrong-pills { display:flex; flex-wrap:wrap; gap:6px; }
+.res-wrong-pill {
+  background:#fff; border:1.5px solid var(--wrong);
+  border-radius:50px; padding:4px 12px;
+  font-size:.75rem; font-weight:800; color:var(--text);
+  white-space:nowrap;
+}
+.res-wrong-pill .pill-arrow {
+  color:var(--wrong); font-weight:900; margin:0 4px;
+}
+.res-wrong-pill .pill-correct { color:var(--ruby); }
+
+/* Fallback wrong items (Parts without passage grouping) */
+.res-wrong-item {
   background:var(--wrong-bg); border-radius:8px; padding:12px 14px;
   margin-bottom:8px; border-left:4px solid var(--wrong);
   font-size:.86rem; font-weight:700;
 }
-.wrong-item .correct-ans { color:var(--correct); font-weight:900; margin-top:4px; font-size:.82rem; }
+.res-wrong-item .correct-ans { color:var(--correct); font-weight:900; margin-top:4px; font-size:.82rem; }
+
+
 
 .btn-retake {
   width:100%; padding:13px; border:none; border-radius:var(--radius-sm);
@@ -982,24 +1046,37 @@ body {
 ══════════════════════════════════════ -->
 <div id="screenResult" class="screen">
   <div class="app">
-    <div class="card result-card">
-      <span class="result-emoji" id="resultEmoji">🎉</span>
-      <div class="result-title" id="resultTitle">Well Done!</div>
-      <div class="result-tagline" id="resultTagline">Practice complete</div>
-      <div class="stats-grid">
-        <div class="stat-box"><span class="stat-val" id="statPct" style="color:var(--green)">--%</span><span class="stat-lbl">Score</span></div>
-        <div class="stat-box"><span class="stat-val" id="statOk"  style="color:var(--correct)">--</span><span class="stat-lbl">Correct</span></div>
-        <div class="stat-box"><span class="stat-val" id="statBad" style="color:var(--wrong)">--</span><span class="stat-lbl">Wrong</span></div>
-      </div>
-      <div style="text-align:left;font-size:.82rem;color:var(--text3);font-weight:600;margin-bottom:6px">
-        <i class="fa-solid fa-user"></i> <span id="resultStu"></span> &nbsp;|&nbsp;
-        <i class="fa-solid fa-layer-group"></i> <span id="resultMode"></span>
+
+    <!-- Hero card -->
+    <div class="card res-hero-card" id="resHeroCard">
+      <div class="res-emoji-row" id="resEmojiRow">🎉</div>
+      <div class="res-title" id="resultTitle">Well Done!</div>
+      <div class="res-subtitle" id="resultTagline">Practice complete</div>
+
+      <!-- Stats -->
+      <div class="res-stats-grid">
+        <div class="res-stat-box" style="background:var(--green-bg);border:1.5px solid var(--green-lt)">
+          <span class="res-stat-val" id="statPct" style="color:var(--green-d)">--%</span>
+          <span class="res-stat-lbl" style="color:var(--green-d)">SCORE</span>
+        </div>
+        <div class="res-stat-box" style="background:#f0fdf4;border:1.5px solid #bbf7d0">
+          <span class="res-stat-val" id="statOk" style="color:#16a34a">--</span>
+          <span class="res-stat-lbl" style="color:#16a34a">CORRECT</span>
+        </div>
+        <div class="res-stat-box" style="background:var(--ruby-bg);border:1.5px solid var(--ruby-lt)">
+          <span class="res-stat-val" id="statBad" style="color:var(--ruby)">--</span>
+          <span class="res-stat-lbl" style="color:var(--ruby)">WRONG</span>
+        </div>
       </div>
     </div>
 
-    <!-- Wrong answers breakdown -->
+    <!-- Info table -->
+    <div class="card res-info-card" id="resInfoCard"></div>
+
+    <!-- FCE Summary / Wrong breakdown -->
     <div id="wrongBreakdown"></div>
 
+    <!-- Buttons -->
     <button class="btn-retake" id="btnRetake" onclick="retake()">
       <i class="fa-solid fa-rotate-right"></i> Retake This Set
     </button>
@@ -1214,18 +1291,24 @@ async function boot() {
     const r = await fetch(CONFIG.studentsUrl);
     if (!r.ok) throw new Error('HTTP ' + r.status);
     const j = await r.json();
-    // Merge fetched students with demo entries (avoid duplicates)
-    const fetched = j.students || [];
+    // Support both formats: plain array [...] or object {students:[...]}
+    const fetched = Array.isArray(j) ? j : (j.students || []);
     const fetchedIds = new Set(fetched.map(s => s.id.toUpperCase()));
     const extras = DEMO_STUDENTS.filter(d => !fetchedIds.has(d.id.toUpperCase()));
     S.students = [...fetched, ...extras];
     _dataReady = true;
     document.getElementById('inpId').placeholder = 'Enter your Student ID';
+    // Retry lookup in case user typed ID before fetch finished
+    const currentVal = document.getElementById('inpId').value.trim().toUpperCase();
+    if (currentVal.length >= 2) lookupStudent(currentVal);
   } catch(e) {
     console.warn('Students list unavailable — using demo list:', e);
     S.students = [...DEMO_STUDENTS];
     _dataReady = true;
-    document.getElementById('inpId').placeholder = 'Enter your Student ID (try: DEMO)';
+    document.getElementById('inpId').placeholder = 'Enter your Student ID';
+    // Retry lookup with fallback list
+    const currentVal = document.getElementById('inpId').value.trim().toUpperCase();
+    if (currentVal.length >= 2) lookupStudent(currentVal);
   }
 }
 boot();
@@ -1259,6 +1342,13 @@ function onIdInput() {
 }
 
 function lookupStudent(id) {
+  if (!_dataReady) {
+    // Data still loading — show neutral message, retry handled by boot()
+    document.getElementById('lookupInfo').textContent = '⏳ Loading student list...';
+    document.getElementById('lookupInfo').style.display = 'block';
+    document.getElementById('lookupErr').style.display = 'none';
+    return;
+  }
   const found = S.students.find(s => s.id.toUpperCase() === id);
   if (found) {
     document.getElementById('inpName').value  = found.name;
@@ -1266,9 +1356,11 @@ function lookupStudent(id) {
     S.student = { id: found.id, name: found.name, cls: found.class };
     document.getElementById('lookupInfo').textContent = `✓ Welcome, ${found.name}!`;
     document.getElementById('lookupInfo').style.display = 'block';
+    document.getElementById('lookupErr').style.display = 'none';
     checkStartReady();
   } else {
     document.getElementById('lookupErr').style.display = 'block';
+    document.getElementById('lookupInfo').style.display = 'none';
   }
 }
 
@@ -2111,11 +2203,13 @@ function checkAnswers() {
       correct += pts.pts;
       if (!S.answers[q.id]) S.answers[q.id] = {};
       S.answers[q.id].r1correct = isCorrect;
+      S.answers[q.id].r1partial = pts.partial || false;
       S.answers[q.id].r1done = true;
     }
 
-    // Visual feedback: green/red, no reveal yet
-    applyVisualCheck(q, userVal, isCorrect, partNum, false);
+    // Visual feedback: pass partial flag for Part 4
+    const scoreRes = S.scores[q.id] || {};
+    applyVisualCheck(q, userVal, isCorrect, partNum, false, scoreRes.partial || false);
   });
 
   if (S.round === 1) {
@@ -2230,7 +2324,7 @@ function scoreQuestion(q, userVal, partNum) {
   return { pts: isCorrect ? maxPts : 0, max: maxPts, isCorrect };
 }
 
-function applyVisualCheck(q, userVal, isCorrect, partNum, revealed) {
+function applyVisualCheck(q, userVal, isCorrect, partNum, revealed, isPartial = false) {
   const qid = q.id;
 
   // ── Part 1 (MCQ Cloze) & Part 5 (MCQ): option rows ──
@@ -2300,8 +2394,9 @@ function applyVisualCheck(q, userVal, isCorrect, partNum, revealed) {
   } else if (partNum === 4) {
     const inp = document.getElementById(`inp_${qid}`);
     if (inp) {
-      inp.classList.remove('correct','wrong');
-      inp.classList.add(isCorrect ? 'correct' : 'wrong');
+      inp.classList.remove('correct','wrong','partial');
+      const cls = isCorrect ? 'correct' : (isPartial ? 'partial' : 'wrong');
+      inp.classList.add(cls);
       if (revealed) inp.disabled = true;
     }
   }
@@ -2310,15 +2405,26 @@ function applyVisualCheck(q, userVal, isCorrect, partNum, revealed) {
   if (revealed) {
     const expEl = document.getElementById(`exp_${qid}`);
     if (expEl) {
-      expEl.className = 'explain-box show ' + (isCorrect ? 'correct' : 'wrong');
+      // For partial: use warn-tinted explain box
+      const expClass = isCorrect ? 'correct' : (isPartial ? 'partial' : 'wrong');
+      expEl.className = 'explain-box show ' + expClass;
       const corrDisp = displayCorrectAnswer(q);
+
+      // Partial credit badge (Part 4 only)
+      let partialBadge = '';
+      if (isPartial && !isCorrect && partNum === 4) {
+        const sc = S.scores[qid] || {};
+        partialBadge = `<div style="font-size:.78rem;font-weight:800;color:var(--warn);margin-bottom:5px">
+          <i class="fa-solid fa-star-half-stroke"></i> Partial credit: ${sc.pts}/${sc.max} pt — you got part of the answer correct.
+        </div>`;
+      }
       // For Part 6, also show the full sentence text
       let extraHtml = '';
       if (partNum === 6 && q.correctAnswer) {
         const sentText = (S.currentData?.removedSentences || {})[q.correctAnswer] || '';
         if (sentText) extraHtml = `<br><span style="font-style:italic;color:var(--text2)">"${sentText}"</span>`;
       }
-      expEl.innerHTML = `<strong>Correct answer: ${corrDisp}</strong>${extraHtml}${q.explanation ? '<br>' + q.explanation : ''}`;
+      expEl.innerHTML = partialBadge + `<strong>Correct answer: ${corrDisp}</strong>${extraHtml}${q.explanation ? '<br>' + q.explanation : ''}`;
     }
   }
 }
@@ -2405,7 +2511,7 @@ function unlockQuestion(q) {
     });
   } else {
     const inp = document.getElementById(`inp_${q.id}`);
-    if (inp) { inp.disabled = false; inp.classList.remove('correct','wrong'); inp.value = ''; }
+    if (inp) { inp.disabled = false; inp.classList.remove('correct','wrong','partial'); inp.value = ''; }
   }
 }
 
@@ -2427,7 +2533,8 @@ function revealAnswers() {
     const ans = S.answers[q.id];
     const bestVal = ans?.r2value || ans?.value || '';
     const isCorrect = checkSingleAnswer(q, bestVal, partNum);
-    applyVisualCheck(q, bestVal, isCorrect, partNum, true);
+    const sc = S.scores[q.id] || {};
+    applyVisualCheck(q, bestVal, isCorrect, partNum, true, sc.partial || false);
     if (!isCorrect) wrongQs.push(q);
   });
 
@@ -2571,6 +2678,7 @@ function showPracticeResult() {
   const data = S.currentData;
   const qs = data?.questions || [];
   const partNum = S.currentPart;
+  const elapsed = S.timerSec || 0;
 
   let totalPts = 0, maxPts = 0;
   const wrongItems = [];
@@ -2587,44 +2695,154 @@ function showPracticeResult() {
 
   const pct = maxPts > 0 ? Math.round(totalPts / maxPts * 100) : 0;
   const secLabel = (partNum === 2 || partNum === 3 || partNum === 4) ? 'uoe' : 'reading';
+  const sectionName = secLabel === 'uoe' ? 'Use of English' : 'Reading';
 
-  // Cambridge scale score
-  const scaleScore = rawToScale(totalPts, secLabel);
-  const gradeInfo = scaleToGrade(scaleScore);
+  // Grade palette
+  const gradeColor = pct >= 90 ? '#2563eb' : pct >= 70 ? '#16a34a' : pct >= 50 ? '#d97706' : '#dc2626';
+  const gradeEmoji = pct >= 90 ? '🏆 ⭐ ✨' : pct >= 70 ? '🎉' : pct >= 50 ? '👏' : '📚';
+  const gradeTitle = pct >= 90 ? 'Outstanding!' : pct >= 70 ? 'Well Done!' : pct >= 50 ? 'Good Try!' : 'Keep Practising!';
+  const gradeSub   = pct >= 90 ? 'Excellent! You nailed it! 🏆' : pct >= 70 ? 'Great work! A few more to perfect.' : pct >= 50 ? 'You\'re getting there. Review the mistakes.' : 'Review your answers and try again.';
 
+  // Hero card
+  document.getElementById('resHeroCard').style.borderTopColor = gradeColor;
+  document.getElementById('resEmojiRow').textContent = gradeEmoji;
+  document.getElementById('resultTitle').textContent = gradeTitle;
+  document.getElementById('resultTitle').style.color = gradeColor;
+  document.getElementById('resultTagline').textContent = gradeSub;
   document.getElementById('statPct').textContent  = pct + '%';
-  document.getElementById('statPct').style.color  = gradeInfo.color;
-  document.getElementById('statOk').textContent   = qs.filter(q => S.scores[q.id]?.pts > 0).length;
+  document.getElementById('statPct').style.color  = gradeColor;
+  document.getElementById('statOk').textContent   = qs.filter(q => (S.scores[q.id]?.pts||0) > 0).length;
   document.getElementById('statBad').textContent  = wrongItems.length;
-  document.getElementById('resultEmoji').textContent = gradeInfo.label === 'A' ? '🌟' : gradeInfo.label === 'B' ? '🎉' : gradeInfo.label === 'C' ? '👏' : '📚';
-  document.getElementById('resultTitle').textContent = gradeInfo.grade;
-  document.getElementById('resultTitle').style.color = gradeInfo.color;
-  document.getElementById('resultTagline').textContent = `Part ${partNum} · ${totalPts}/${maxPts} pts · Cambridge Scale: ${scaleScore}`;
-  document.getElementById('resultStu').textContent = `${S.student.name} (${S.student.cls})`;
-  document.getElementById('resultMode').textContent = `Part ${partNum} — ${secLabel === 'uoe' ? 'Use of English' : 'Reading'}`;
 
-  // Wrong breakdown
+  // Info table
+  const now = new Date();
+  const startTime = S.startTime || now;
+  const fmt = d => {
+    const dd = String(d.getDate()).padStart(2,'0');
+    const mm = String(d.getMonth()+1).padStart(2,'0');
+    const yy = String(d.getFullYear()).slice(2);
+    const hh = String(d.getHours()).padStart(2,'0');
+    const min = String(d.getMinutes()).padStart(2,'0');
+    return `${dd}-${mm}-${yy} ${hh}:${min}`;
+  };
+  const fmtDur = s => {
+    const m = Math.floor(s/60), sec = s%60;
+    return `${String(m).padStart(2,'0')}:${String(sec).padStart(2,'0')}`;
+  };
+  const infoRows = [
+    ['Student', S.student.name || '-'],
+    ['ID',      S.student.id  || '-'],
+    ['Class',   S.student.cls || '-'],
+    ['Mode',    `FCE ${sectionName} Part ${partNum}`],
+    ['Start',   fmt(startTime)],
+    ['End',     fmt(now)],
+    ['Duration',fmtDur(elapsed)],
+  ];
+  const infoCard = document.getElementById('resInfoCard');
+  infoCard.innerHTML = infoRows.map(([k,v]) => `
+    <div class="res-info-row">
+      <span class="res-info-key">${k}</span>
+      <span class="res-info-val">${v}</span>
+    </div>`).join('');
+
+  // FCE Summary / wrong breakdown
   const breakdown = document.getElementById('wrongBreakdown');
   breakdown.innerHTML = '';
-  if (wrongItems.length) {
-    const title = document.createElement('div');
-    title.className = 'result-section-title';
-    title.innerHTML = '<i class="fa-solid fa-xmark" style="color:var(--wrong)"></i> Incorrect Answers';
-    breakdown.appendChild(title);
-    wrongItems.forEach(({ q, userVal }) => {
-      const div = document.createElement('div');
-      div.className = 'wrong-item';
-      const corrDisp = displayCorrectAnswer(q);
-      div.innerHTML = `
-        <div>Q${q.displayNumber}: <strong>${q.stem || q.sentence1 || ''}</strong></div>
-        <div style="color:var(--wrong);margin-top:3px">Your answer: ${userVal || '—'}</div>
-        <div class="correct-ans"><i class="fa-solid fa-check"></i> ${corrDisp}</div>`;
-      breakdown.appendChild(div);
-    });
+
+  if (wrongItems.length > 0) {
+    if (partNum === 3) {
+      // Part 3: group by passage with word-form pills
+      buildSummaryByPassage(breakdown, qs, wrongItems, partNum, data);
+    } else {
+      // All other parts: simple wrong items list
+      buildGenericWrong(breakdown, wrongItems);
+    }
   }
 
   document.getElementById('btnRetake').style.display = '';
   showScreen('screenResult');
+}
+
+/* Build FCE Summary grouped by passage (Part 3 style) */
+function buildSummaryByPassage(container, qs, wrongItems, partNum, data) {
+  const wrongIds = new Set(wrongItems.map(w => w.q.id));
+
+  // Group questions by passageTitle — each JSON set has one passageTitle
+  // For Part 3 multiple sets were merged, so group by q.passageTitle if present
+  const passageMap = {};
+  qs.forEach(q => {
+    const ptitle = q.passageTitle || data.passageTitle || 'Questions';
+    if (!passageMap[ptitle]) passageMap[ptitle] = [];
+    passageMap[ptitle].push(q);
+  });
+
+  const card = document.createElement('div');
+  card.className = 'res-summary-card';
+  card.innerHTML = '<div class="res-summary-title">FCE Summary</div>';
+
+  Object.entries(passageMap).forEach(([title, pqs]) => {
+    const correct = pqs.filter(q => !wrongIds.has(q.id)).length;
+    const total = pqs.length;
+    const row = document.createElement('div');
+    row.className = 'res-passage-row';
+
+    const wrongs = pqs.filter(q => wrongIds.has(q.id));
+    const pillsHtml = wrongs.map(q => {
+      const corr = buildAcceptedList(q)[0] || q.correctAnswer || '';
+      return `<div class="res-wrong-pill">
+        <span>${q.wordGiven || ''}</span>
+        <span class="pill-arrow">→</span>
+        <span class="pill-correct">${corr}</span>
+      </div>`;
+    }).join('');
+
+    row.innerHTML = `
+      <div class="res-passage-name">
+        <span>${title}</span>
+        <span class="res-passage-score">${correct}/${total} correct</span>
+      </div>
+      ${pillsHtml ? `<div class="res-wrong-pills">${pillsHtml}</div>` : ''}`;
+    card.appendChild(row);
+  });
+
+  container.appendChild(card);
+}
+
+/* Generic wrong items for other parts */
+function buildGenericWrong(container, wrongItems) {
+  const card = document.createElement('div');
+  card.className = 'res-summary-card';
+  card.innerHTML = '<div class="res-summary-title">Incorrect Answers</div>';
+
+  wrongItems.forEach(({ q, userVal }) => {
+    const sc = S.scores[q.id] || {};
+    const isPartial = sc.partial || false;
+    const div = document.createElement('div');
+    // Partial items get a yellow left border instead of red
+    div.className = 'res-wrong-item';
+    if (isPartial) div.style.borderLeftColor = 'var(--warn)';
+    const corrDisp = displayCorrectAnswer(q);
+
+    // For Part 4: show sentence1 as the question stem
+    const stemText = q.sentence1 || q.stem || q.wordGiven || '';
+
+    const partialBadge = isPartial
+      ? `<div style="color:var(--warn);font-size:.75rem;font-weight:900;margin-bottom:4px">
+           <i class="fa-solid fa-star-half-stroke"></i> Partial credit: ${sc.pts}/${sc.max} pt
+         </div>`
+      : '';
+
+    div.innerHTML = `
+      ${partialBadge}
+      <div>Q${q.displayNumber}: <strong>${stemText}</strong></div>
+      <div style="color:${isPartial ? 'var(--warn)' : 'var(--wrong)'};margin-top:3px">
+        Your answer: ${userVal || '—'}
+      </div>
+      <div class="correct-ans"><i class="fa-solid fa-check"></i> ${corrDisp}</div>`;
+    card.appendChild(div);
+  });
+
+  container.appendChild(card);
 }
 
 function retake() {
