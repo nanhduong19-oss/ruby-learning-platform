@@ -1363,17 +1363,38 @@ async function buildP4GrammarOptions() {
   const grammarSel = document.getElementById('p4GrammarSel');
   grammarSel.innerHTML = '<option value="">Loading...</option>';
   try {
-    const r = await fetch(urls[0]);
-    const data = await r.json();
-    const types = [...new Set((data.questions || []).map(q => q.grammarType).filter(Boolean))].sort();
-    grammarSel.innerHTML = '<option value="">All types</option>';
+    // Fetch ALL files in parallel, merge all questions
+    const results = await Promise.all(
+      urls.map(url => fetch(url).then(r => r.ok ? r.json() : null).catch(() => null))
+    );
+    const valid = results.filter(Boolean);
+    if (!valid.length) throw new Error('No data');
+
+    // Merge: base = first file, questions = all files combined
+    const merged = { ...valid[0] };
+    merged.questions = valid.flatMap(d => d.questions || []);
+
+    // Cache merged data for use at startSession
+    S._p4Data = merged;
+
+    // Build grammar type list with question counts from merged pool
+    const typeCount = {};
+    merged.questions.forEach(q => {
+      if (q.grammarType) typeCount[q.grammarType] = (typeCount[q.grammarType] || 0) + 1;
+    });
+    const types = Object.keys(typeCount).sort();
+
+    grammarSel.innerHTML = `<option value="">All types (${merged.questions.length} questions)</option>`;
     types.forEach(t => {
       const opt = document.createElement('option');
-      opt.value = t; opt.textContent = t;
+      opt.value = t;
+      opt.textContent = `${t} (${typeCount[t]})`;
       grammarSel.appendChild(opt);
     });
-    S._p4Data = data; // cache
-  } catch(e) { grammarSel.innerHTML = '<option value="">Could not load</option>'; }
+  } catch(e) {
+    grammarSel.innerHTML = '<option value="">Could not load</option>';
+    console.error('P4 grammar load error:', e);
+  }
 }
 
 function selectP4Mode(mode) {
@@ -1394,6 +1415,7 @@ function onP4GrammarChange() {
 function updateQtyForGrammarType() {
   if (!S._p4Data) return;
   const type = S.p4GrammarType;
+  // Use merged _p4Data (already contains questions from all files)
   const qs = type
     ? (S._p4Data.questions || []).filter(q => q.grammarType === type)
     : (S._p4Data.questions || []);
@@ -2154,22 +2176,26 @@ function scoreQuestion(q, userVal, partNum) {
   const isCorrect = checkSingleAnswer(q, userVal, partNum);
 
   if (partNum === 4) {
-    // KWT partial scoring: 2pts for full match, 1pt for partial
+    // KWT scoring: 2pts full match | 1pt if exactly one of the 2 pieces correct
     if (isCorrect) return { pts:2, max:2, isCorrect:true };
-    // Check partial credit pieces
+
     const norm = v => String(v).trim().toUpperCase().replace(/\s+/g,' ');
     const normVal = norm(userVal);
-    const partial = (q.scoring?.partialPieces || []);
-    for (const piece of partial) {
-      const pieceAccepted = piece.accepted || [];
-      // Build full accepted list for this piece (supports slash-separated)
-      const pieceList = pieceAccepted.flatMap(a =>
+    const pieces = (q.scoring?.partialPieces || []);
+
+    // pieces[0] = first half, pieces[1] = second half
+    // 1 point if student gets EITHER piece correct (contains the piece)
+    let piecesMatched = 0;
+    for (const piece of pieces) {
+      const pieceList = (piece.accepted || []).flatMap(a =>
         typeof a === 'string' && a.includes('/') ? a.split('/').map(s=>s.trim()) : [String(a).trim()]
       );
       if (pieceList.some(a => normVal.includes(norm(a)))) {
-        return { pts:1, max:2, isCorrect:false, partial:true };
+        piecesMatched++;
       }
     }
+    // Cambridge: 1pt for 1 piece correct, 0 for none
+    if (piecesMatched >= 1) return { pts:1, max:2, isCorrect:false, partial:true };
     return { pts:0, max:2, isCorrect:false };
   }
 
