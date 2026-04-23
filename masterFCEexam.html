@@ -11,6 +11,7 @@
    CSS VARIABLES
 ═══════════════════════════════════════ */
 :root {
+  --fs-base:1rem; /* base content font-size, used by font scaler */
   --green:#4caf50; --green-d:#388e3c; --green-bg:#f1f8e9; --green-lt:#c8e6c9;
   --ruby:#be123c;  --ruby-d:#881337;  --ruby-bg:#fff1f2;  --ruby-lt:#fecdd3;
   --gold:#f59e0b;  --gold-bg:#fffbeb;
@@ -247,7 +248,7 @@ body {
 .prose-card {
   background:var(--surface2); border-radius:var(--radius-sm);
   border:1.5px solid var(--border); padding:18px;
-  font-size:.88rem; line-height:2.0; color:var(--text);
+  font-size:var(--fs-base); line-height:2.0; color:var(--text);
   max-height:500px; overflow-y:auto;
 }
 .prose-card h4 { font-size:.92rem; font-weight:900; margin-bottom:10px; text-align:center; }
@@ -361,12 +362,82 @@ body {
   border:none; border-bottom:2px solid var(--ruby);
   outline:none; font-family:'Nunito',sans-serif; font-weight:800;
   font-size:.95rem; text-align:center; text-transform:uppercase;
-  width:250px; background:transparent; padding:2px 4px; color:var(--text);
+  width:350px; background:transparent; padding:2px 4px; color:var(--text);
 }
 .kwt-input.correct { color:var(--correct); border-bottom-color:var(--correct); }
 .kwt-input.partial { color:var(--warn);    border-bottom-color:var(--warn); }
 .kwt-input.wrong   { color:var(--wrong);   border-bottom-color:var(--wrong); }
 .kwt-input:disabled { cursor:default; }
+
+
+/* ════════════════════════════════════
+   FONT SIZE SCALER
+   body.font-xl → ×1.15 (Large)  |  body.font-xl → ×1.30 (Extra Large)
+   Applies only to quiz content elements
+════════════════════════════════════ */
+
+/* ── font-size adjuster widget ── */
+.font-adjuster {
+  position:fixed; bottom:22px; left:16px; z-index:990;
+  display:none; /* shown only on quiz screen */
+  background:var(--surface); border:1.5px solid var(--border);
+  border-radius:50px; box-shadow:var(--shadow);
+  padding:4px 6px; gap:2px;
+  align-items:center;
+  backdrop-filter:blur(8px);
+}
+.font-adjuster.visible { display:flex; }
+.font-btn {
+  border:none; background:transparent; cursor:pointer;
+  border-radius:50px; padding:5px 9px;
+  font-family:'Nunito',sans-serif; font-weight:900;
+  color:var(--text3); transition:all .15s; line-height:1;
+}
+.font-btn:hover { background:var(--surface2); color:var(--text); }
+.font-btn.active { background:var(--green-bg); color:var(--green-d); border:1.5px solid var(--green-lt); }
+.font-btn.fs-s { font-size:.78rem; }
+.font-btn.fs-l { font-size:.9rem;  }
+.font-btn.fs-xl{ font-size:1.05rem;}
+
+/* ── Medium scale (×1.15) ── */
+body.font-lg .prose-card,
+body.font-lg .opt-text,
+body.font-lg .q-stem,
+body.font-lg .uoe-sentence,
+body.font-lg .wf-block,
+body.font-lg .match-passage-text,
+body.font-lg .match-q-text,
+body.font-lg .sent-text { font-size: calc(var(--fs-base) * 1.15); }
+
+body.font-lg .kwt-sentence1 { font-size: calc(1rem   * 1.15); }
+body.font-lg .kwt-sentence2 { font-size: calc(.95rem * 1.15); }
+
+body.font-lg .fill-input,
+body.font-lg .wf-input,
+body.font-lg .cloze-input,
+body.font-lg .kwt-input  { font-size: calc(.92rem * 1.15); }
+
+body.font-lg .explain-box { font-size: calc(.84rem * 1.15); }
+
+/* ── Large scale (×1.30) ── */
+body.font-xl .prose-card,
+body.font-xl .opt-text,
+body.font-xl .q-stem,
+body.font-xl .uoe-sentence,
+body.font-xl .wf-block,
+body.font-xl .match-passage-text,
+body.font-xl .match-q-text,
+body.font-xl .sent-text { font-size: calc(var(--fs-base) * 1.30); }
+
+body.font-xl .kwt-sentence1 { font-size: calc(1rem   * 1.30); }
+body.font-xl .kwt-sentence2 { font-size: calc(.95rem * 1.30); }
+
+body.font-xl .fill-input,
+body.font-xl .wf-input,
+body.font-xl .cloze-input,
+body.font-xl .kwt-input  { font-size: calc(.92rem * 1.30); }
+
+body.font-xl .explain-box { font-size: calc(.84rem * 1.30); }
 
 /* ── EXPLANATION BOX ── */
 .explain-box {
@@ -824,6 +895,14 @@ body {
 })();
 </script>
 
+<!-- Font Size Adjuster (shown only during quiz) -->
+<div class="font-adjuster" id="fontAdjuster">
+  <span style="font-size:.65rem;font-weight:900;color:var(--text3);padding:0 4px;letter-spacing:.3px">A</span>
+  <button class="font-btn fs-s active" id="fontBtnS" onclick="setFontSize('s')" title="Default (1rem)">A</button>
+  <button class="font-btn fs-l"        id="fontBtnL" onclick="setFontSize('l')" title="Large (×1.15)">A</button>
+  <button class="font-btn fs-xl"       id="fontBtnXL" onclick="setFontSize('xl')" title="Extra Large (×1.30)">A</button>
+</div>
+
 <!-- Teacher Banner -->
 <div class="teacher-banner" id="teacherBanner">
   <i class="fa-solid fa-key"></i> Teacher Mode Active - Results will NOT be saved
@@ -1100,7 +1179,7 @@ body {
 ═══════════════════════════════════════ */
 const CONFIG = {
   studentsUrl:    'https://raw.githubusercontent.com/nanhduong19-oss/ruby-learning-platform/refs/heads/main/rubystudents.json',
-  appsScriptUrl:  'https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec',
+  appsScriptUrl:  'https://script.google.com/macros/s/AKfycbxVGTTAh_z2B03k6qIsr8joOAoYmH-yBbw3ej37nsmtYiXaBMKtVFPkF9wkXeTuoJDM/exec',
   teacherPassword:'ruby2025',
 
   // ── DATA URLS ──
@@ -1320,6 +1399,9 @@ function showScreen(id) {
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   document.getElementById(id).classList.add('active');
   window.scrollTo({ top:0, behavior:'smooth' });
+  // Show font adjuster only on quiz screen
+  const adj = document.getElementById('fontAdjuster');
+  if (adj) adj.classList.toggle('visible', id === 'screenQuiz');
 }
 
 /* ═══════════════════════════════════════
@@ -1661,6 +1743,19 @@ async function startSession() {
         }
       }
 
+      // Part 3: JSON uses passages[] not questions[] — flatten & normalize before shuffle
+      if (S.currentPart === 3 && fullData.passages && !fullData.questions?.length) {
+        const allNorm = [];
+        (fullData.passages || []).forEach(p => {
+          (p.questions || []).forEach(q => {
+            const norm = normalizeP3Question(q, p.id);
+            norm.passageTitle = p.title || '';
+            allNorm.push(norm);
+          });
+        });
+        fullData.questions = allNorm;
+      }
+
       // Filter and shuffle questions
       let qs = [...(fullData.questions || [])];
 
@@ -1850,28 +1945,130 @@ function renderPart2(container, data) {
    - Root word shown as tag, type answer
    - 8 questions, 1 mark each
 ═══════════════════════════════════ */
-function renderPart3(container, data) {
-  const card = document.createElement('div');
-  card.className = 'card';
-  let passHtml = data.passage || '';
-  (data.questions || []).forEach(q => {
-    const inp = `<span style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;margin:0 2px">
-      <span class="gap-num">${q.displayNumber}</span>
-      <input type="text" class="wf-input" id="inp_${q.id}"
-        autocomplete="off" autocorrect="off" autocapitalize="characters" spellcheck="false"
-        oninput="this.value=this.value.toUpperCase();onFillInput('${q.id}',this.value)"
-        onpaste="return false">
-      <span class="wf-root">${q.wordGiven}</span>
-    </span>`;
-    passHtml = passHtml.replace(`___${q.displayNumber}___`, inp);
-  });
-  card.innerHTML = `<div class="prose-card" style="max-height:none;line-height:3.4">${passHtml}</div>`;
-  container.appendChild(card);
+/* Normalize a Part 3 question to the internal shape the app expects.
+   JSON uses: { number, rootWord, answer, accepted, explanation }
+   App uses:  { id, displayNumber, wordGiven, correctAnswer, accepted, explanation }
+*/
+function normalizeP3Question(q, passageId) {
+  const num = q.number || q.displayNumber || 0;
+  const root = q.rootWord || q.wordGiven || '';
+  const id = q.id || (passageId + '_q' + num);
 
-  (data.questions || []).forEach(q => {
-    const d = document.createElement('div');
-    d.innerHTML = `<div class="explain-box" id="exp_${q.id}"></div>`;
-    container.appendChild(d);
+  // Accepted list: prefer q.accepted array, else q.answer (string or array)
+  let acceptedArr = [];
+  if (Array.isArray(q.accepted)) {
+    acceptedArr = q.accepted;
+  } else if (Array.isArray(q.answer)) {
+    acceptedArr = q.answer;
+  } else if (typeof q.answer === 'string') {
+    acceptedArr = [q.answer];
+  }
+
+  return {
+    id,
+    displayNumber: num,
+    wordGiven:     root,
+    correctAnswer: acceptedArr[0] || '',
+    accepted:      acceptedArr,
+    explanation:   q.explanation || '',
+    passageTitle:  q._passageTitle || '',
+  };
+}
+
+function renderPart3(container, data) {
+  // Support both old format (data.passage + data.questions)
+  // and new format (data.passages[])
+  const passages = data.passages || (
+    data.passage
+      ? [{ id: 'p3_set', title: data.passageTitle || '', text: data.passage, questions: data.questions || [] }]
+      : []
+  );
+
+  if (!passages.length) {
+    container.innerHTML += '<div class="card"><p style="color:var(--wrong)">No data loaded for Part 3.</p></div>';
+    return;
+  }
+
+  // Build a full normalized map: id → normalized question (for all passages)
+  const normMap = {};  // id → normalizedQ
+  passages.forEach(p => {
+    (p.questions || []).forEach(q => {
+      const norm = normalizeP3Question(q, p.id);
+      norm.passageTitle = p.title || '';
+      normMap[norm.id] = norm;
+    });
+  });
+
+  // data.questions has already been shuffled + sliced by startSession.
+  // If they are raw JSON questions (not yet normalized), normalize them now.
+  // If already normalized (have .wordGiven), leave as-is.
+  const activeQs = (data.questions || []).map(q => {
+    if (q.wordGiven !== undefined) return q; // already normalized
+    // Find matching normalized version by id or by number
+    const key = Object.keys(normMap).find(k =>
+      k === q.id || normMap[k].displayNumber === (q.number || q.displayNumber)
+    );
+    return key ? normMap[key] : normalizeP3Question(q, 'p3');
+  });
+
+  // Overwrite data.questions with normalized set (respects qty slice)
+  data.questions = activeQs;
+
+  // Build set of active question IDs for filtering passages
+  const activeIds = new Set(activeQs.map(q => q.id));
+
+  // Render only passages that contain at least one active question
+  passages.forEach(p => {
+    // Get normalized questions for this passage that are in the active set
+    const pQs = (p.questions || [])
+      .map(q => normalizeP3Question(q, p.id))
+      .filter(q => activeIds.has(q.id));
+
+    if (pQs.length === 0) return; // skip passages with no active questions
+
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.style.marginBottom = '14px';
+
+    let passHtml = (p.text || '').replace(/\n/g, '<br>');
+
+    // Replace gaps for active questions; grey-out inactive gaps
+    const allPQs = (p.questions || []).map(q => normalizeP3Question(q, p.id));
+    allPQs.forEach(q => {
+      let replacement;
+      if (activeIds.has(q.id)) {
+        // Active: render input
+        replacement = `<span style="display:inline-flex;align-items:center;gap:4px;vertical-align:middle;margin:0 2px">
+          <span class="gap-num">${q.displayNumber}</span>
+          <input type="text" class="wf-input" id="inp_${q.id}"
+            autocomplete="off" autocorrect="off" autocapitalize="characters" spellcheck="false"
+            oninput="this.value=this.value.toUpperCase();onFillInput('${q.id}',this.value)"
+            onpaste="return false">
+          <span class="wf-root">${q.wordGiven}</span>
+        </span>`;
+      } else {
+        // Inactive (not selected in this session): show answer directly
+        replacement = `<span style="display:inline-flex;align-items:center;gap:3px;vertical-align:middle;
+          background:var(--surface2);border-radius:5px;padding:1px 7px;font-weight:800;
+          color:var(--text3);font-size:.85rem">${q.correctAnswer}</span>`;
+      }
+      passHtml = passHtml
+        .replace(new RegExp(`\\(${q.displayNumber}\\)\\s*___`, 'g'), replacement)
+        .replace(new RegExp(`___(${q.displayNumber})___`, 'g'), replacement);
+    });
+
+    card.innerHTML = `
+      <div style="font-size:.78rem;font-weight:900;color:var(--text3);margin-bottom:8px;
+        text-transform:uppercase;letter-spacing:.4px">${p.title || ''}</div>
+      <div class="prose-card" style="max-height:none;line-height:3.4">${passHtml}</div>`;
+    container.appendChild(card);
+
+    // Explanation boxes for active questions only
+    pQs.forEach(q => {
+      const d = document.createElement('div');
+      d.innerHTML = `<div class="explain-box" id="exp_${q.id}"></div>`;
+      container.appendChild(d);
+    });
   });
 }
 
@@ -3092,43 +3289,200 @@ function submitFullTest() {
 /* ═══════════════════════════════════════
    SAVE TO SHEET
 ═══════════════════════════════════════ */
+/* ═══════════════════════════════════════
+   GOOGLE SHEETS INTEGRATION
+   Apps Script structure matches FCE_AppScript_v2
+═══════════════════════════════════════ */
+function fmtDuration(sec) {
+  const m = Math.floor(sec / 60), s = sec % 60;
+  return String(m).padStart(2,'0') + ':' + String(s).padStart(2,'0');
+}
+
 async function saveToSheet() {
   if (S.teacherMode) return;
   if (!CONFIG.appsScriptUrl || CONFIG.appsScriptUrl.includes('YOUR_SCRIPT')) return;
 
-  const qs = S.mode === 'fulltest'
-    ? S.fullTestParts.flatMap(p => (p.data?.questions || []).map(q => ({ q, part:p.part, section:p.section })))
-    : (S.currentData?.questions || []).map(q => ({ q, part:S.currentPart, section:S.section }));
-
-  const answers = S.mode === 'fulltest' ? S.ftAnswers : S.answers;
-  const scores = S.mode === 'fulltest' ? S.ftScores : S.scores;
-
-  let totalPts = 0, maxPts = 0, correct = 0;
-  qs.forEach(({ q }) => {
-    const sc = scores[q.id];
-    if (sc) { totalPts += sc.pts; maxPts += sc.max; if (sc.isCorrect) correct++; }
-  });
-
   const endTime = new Date();
-  const dur = Math.round((endTime - S.startTime) / 1000);
+  const dur = Math.round((endTime - (S.startTime || endTime)) / 1000);
 
   try {
-    await fetch(CONFIG.appsScriptUrl, {
-      method:'POST', mode:'no-cors',
-      headers:{'Content-Type':'application/json'},
-      body: JSON.stringify({
-        action: 'saveSession',
-        studentId: S.student.id,
-        studentName: S.student.name,
-        class: S.student.cls,
-        mode: S.mode === 'fulltest' ? 'Full Test' : `Part ${S.currentPart} (${S.section})`,
-        date: new Date().toLocaleDateString('en-GB'),
-        duration: `${Math.floor(dur/60)}:${String(dur%60).padStart(2,'0')}`,
-        score: `${totalPts}/${maxPts}`,
-        percentage: maxPts > 0 ? Math.round(totalPts/maxPts*100) + '%' : '0%',
-      })
-    });
+    if (S.mode === 'practice') {
+      await savePracticeSession(dur);
+    } else {
+      await saveFullTestSession(dur);
+    }
   } catch(e) { console.warn('Sheet save failed:', e); }
+}
+
+async function savePracticeSession(dur) {
+  const qs     = S.currentData?.questions || [];
+  const scores = S.scores;
+  const partNum = S.currentPart;
+  const secLabel = (partNum === 2 || partNum === 3 || partNum === 4) ? 'uoe' : 'reading';
+
+  let totalPts = 0, maxPts = 0, correctCount = 0;
+  const wrongQids  = [];
+  const wrongQs    = []; // full question objects for wrong answers
+
+  qs.forEach(q => {
+    const sc = scores[q.id] || { pts:0, max:1, isCorrect:false };
+    totalPts += sc.pts;
+    maxPts   += sc.max;
+    if (sc.isCorrect) correctCount++;
+    else { wrongQids.push(q.id); wrongQs.push(q); }
+  });
+
+  const pct = maxPts > 0 ? Math.round(totalPts / maxPts * 100) : 0;
+  const tabName = `FCE_Part${partNum}`;
+
+  // ── Part 3 extra: wrongWords = "ROOTWORD→ANSWER" per wrong question ──
+  let wrongWords = [];
+  if (partNum === 3) {
+    // Group by passage title for readability
+    const byPassage = {};
+    wrongQs.forEach(q => {
+      const pt = q.passageTitle || 'Q' + q.displayNumber;
+      if (!byPassage[pt]) byPassage[pt] = [];
+      const root = q.wordGiven || q.rootWord || '';
+      const ans  = (Array.isArray(q.accepted) ? q.accepted[0] : q.correctAnswer) || '';
+      byPassage[pt].push(`${root}→${ans}`);
+    });
+    // Format: "PassageTitle: W1→A1, W2→A2"
+    wrongWords = Object.entries(byPassage).map(([title, pairs]) =>
+      `${title}: ${pairs.join(', ')}`
+    );
+  }
+
+  // ── Part 4 extra: grammarGroups + wrongItems ──
+  let grammarGroups = [];
+  let wrongItems    = [];
+  if (partNum === 4) {
+    // Unique grammarGroups from ALL questions in session
+    const groupSet = new Set();
+    qs.forEach(q => { if (q.grammarGroup || q._group) groupSet.add(q.grammarGroup || q._group); });
+    grammarGroups = [...groupSet].sort();
+
+    // Wrong items: "KEYWORD (grammarType)"
+    wrongQs.forEach(q => {
+      const kw   = q.keyword   || '';
+      const gtype = q.grammarType || q.grammarGroup || '';
+      wrongItems.push(gtype ? `${kw} (${gtype})` : kw);
+    });
+  }
+
+  const payload = {
+    action:        'saveSession',
+    tab:           tabName,
+    studentId:     S.student.id,
+    studentName:   S.student.name,
+    class:         S.student.cls,
+    level:         'fce',
+    part:          partNum,
+    section:       secLabel,
+    duration:      fmtDuration(dur),
+    totalQ:        qs.length,
+    correct:       correctCount,
+    wrong:         qs.length - correctCount,
+    totalPts:      totalPts,
+    maxPts:        maxPts,
+    percentage:    pct,
+    wrongIds:      wrongQids,
+    partKey:       `fce_part${partNum}`,
+    // Part 3 specific
+    wrongWords:    wrongWords,
+    // Part 4 specific
+    grammarGroups: grammarGroups,
+    wrongItems:    wrongItems,
+  };
+
+  await postToSheet(payload);
+}
+
+async function saveFullTestSession(dur) {
+  const allParts = S.fullTestParts;
+  const scores   = S.ftScores;
+
+  let totalPts = 0, maxPts = 0;
+  const partsData = allParts.map(p => {
+    const qs = p.data?.questions || [];
+    let pts = 0, mx = 0;
+    const wrongQids = [];
+    qs.forEach(q => {
+      const sc = scores[q.id] || { pts:0, max:1, isCorrect:false };
+      pts += sc.pts; mx += sc.max;
+      if (!sc.isCorrect) wrongQids.push(q.id);
+    });
+    totalPts += pts; maxPts += mx;
+    return { part: p.part, section: p.section, correct: pts, max: mx, wrongQids };
+  });
+
+  const pct = maxPts > 0 ? Math.round(totalPts / maxPts * 100) : 0;
+  const scaleScore = rawToScale(totalPts, 'reading'); // FCE full
+  const gradeInfo  = scaleToGrade(scaleScore);
+
+  const payload = {
+    action:       'saveFullTest',
+    studentId:    S.student.id,
+    name:         S.student.name,
+    class:        S.student.cls,
+    level:        'fce',
+    duration:     fmtDuration(dur),
+    totalCorrect: totalPts,
+    totalWrong:   maxPts - totalPts,
+    percentage:   pct,
+    grade:        gradeInfo.grade,
+    score:        scaleScore,
+    violations:   0,
+    parts:        partsData.map(p => ({
+      correct:   p.correct,
+      source:    `Part ${p.part}`,
+      wrongQids: p.wrongQids,
+    })),
+  };
+
+  await postToSheet(payload);
+}
+
+async function postToSheet(payload) {
+  // Use form-encoded payload to bypass CORS preflight (no-cors mode)
+  const body = new URLSearchParams({ payload: JSON.stringify(payload) });
+  await fetch(CONFIG.appsScriptUrl, {
+    method:  'POST',
+    mode:    'no-cors',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body:    body.toString(),
+  });
+}
+
+/* ═══════════════════════════════════════
+   FONT SIZE
+═══════════════════════════════════════ */
+const FONT_SIZES = {
+  s:  { bodyClass: '',         label: 'S'  },
+  l:  { bodyClass: 'font-lg',  label: 'L'  },
+  xl: { bodyClass: 'font-xl',  label: 'XL' },
+};
+
+function setFontSize(size) {
+  // Remove all font classes
+  document.body.classList.remove('font-lg', 'font-xl');
+  // Apply new class
+  const cfg = FONT_SIZES[size];
+  if (cfg && cfg.bodyClass) document.body.classList.add(cfg.bodyClass);
+  // Update button active state
+  ['s','l','xl'].forEach(k => {
+    const btn = document.getElementById('fontBtn' + k.toUpperCase());
+    if (btn) btn.classList.toggle('active', k === size);
+  });
+  // Persist
+  try { localStorage.setItem('ruby_font_size', size); } catch(e) {}
+}
+
+function initFontSize() {
+  let saved = 's';
+  try { saved = localStorage.getItem('ruby_font_size') || 's'; } catch(e) {}
+  if (!FONT_SIZES[saved]) saved = 's';
+  setFontSize(saved);
 }
 
 /* ═══════════════════════════════════════
@@ -3141,6 +3495,8 @@ S.p4Mode = 'random';
 S.p4GrammarType = '';
 S.selectedQty = 0;
 S._p4Data = null;
+// Restore saved font size preference
+initFontSize();
 </script>
 
 <!-- ════════════════════════════════════════════════════════════════
