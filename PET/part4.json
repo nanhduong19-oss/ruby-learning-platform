@@ -1,194 +1,786 @@
 [
   {
-    "id": "pet_book1fS_p4_test1",
-    "title": "Ballet for children and teenagers",
+    "id": "pet_trainer1_p4_test1",
+    "title": "Digging into the past",
     "gapRange": { "start": 16, "end": 20 },
-    "content_html": "<p>It can take a long time to reach a professional level in ballet, so most dancers begin their training very young. It is essential that very young dancers learn the ballet movements properly right from the beginning. <span class=\"drop-zone\" data-id=\"16\">[16]</span> This is because it is usually more difficult to change old habits than to learn new ones.</p><p>The first thing that young children who are interested in learning to dance often do is attend creative movement classes, where they can practise basic skills like jumping and turning, and just have fun. <span class=\"drop-zone\" data-id=\"17\">[17]</span> In addition, some people recommend that they should learn either to sing or play an instrument.</p><p>Young people who decide they want to have a ballet career can attend a dance school. Here, students not only study normal school subjects but also do daily dance training. <span class=\"drop-zone\" data-id=\"18\">[18]</span> And the whole dance-school environment is set up to support the young people's artistic development; it allows them to focus on their dance more easily, and prepares them for their future. But how can a young dancer and their parents tell which dance school is the most suitable? <span class=\"drop-zone\" data-id=\"19\">[19]</span> The older students taking part in it should clearly have more highly-developed ballet skills than the younger dancers.</p><p>By the time they are 16 or 17, many ballet dancers are entering ballet competitions and taking classes at professional studios. <span class=\"drop-zone\" data-id=\"20\">[20]</span> It is important for young dancers to know how well they are doing, because the dance world is very competitive and the training hard; not everyone makes it to the top.</p>",
+    "content_html": "<p>Last year, Kate Marshall was given a very exciting opportunity – to help her father, who’s a history lecturer, at a historical site! He was leading a team to dig up and explore the area.</p><p>When they arrived, though, the site wasn’t quite what Kate had expected.</p><p><span class=\"drop-zone\" data-id=\"16\">[16]</span> So the first job was to remove it all and prepare the land for digging. Says Kate, ‘Dad hadn’t warned me I’d have to work so hard as soon as we got there!’</p><p>But when the site was completely cleared, the team found pieces of ancient pots on the ground. However, those weren’t as exciting as everyone had thought. Kate’s dad told them that the important pots were still under the ground. And because no-one had touched them for centuries, the team would learn far more about their history – but first they would have to dig deeper. Says Kate, <span class=\"drop-zone\" data-id=\"17\">[17]</span> ‘But we all knew Dad was right!’</p><p>The site was divided into small squares, with a leader for each square, who told everyone how to dig. ‘That wasn’t as easy as it sounded, either,’ Kate reports. ‘Instead of just digging great big holes, we all had to dig really carefully, and remove small amounts of soil each time. <span class=\"drop-zone\" data-id=\"18\">[18]</span> So it made sense.’</p><p>‘My friends at home were really interested in what I was doing,’ Kate explains. ‘They kept texting me to ask what I’d found. <span class=\"drop-zone\" data-id=\"19\">[19]</span> But actually, we were looking for ordinary, everyday objects that could tell us about the people who’d lived in the area centuries ago.’</p><p>In the end, though, Kate wasn’t disappointed by what she found. ‘One day, when I was digging away, I found a stone with a strange shape. <span class=\"drop-zone\" data-id=\"20\">[20]</span> Someone had obviously made it hundreds of years ago, which meant it was really important. So Dad cleaned it up, and said it would go to the nearby museum. So I was pleased that at last, I’d found something interesting!’</p>",
     "options": [
-      { "id": "A", "text": "For all these reasons, they enjoy meeting other dancers." },
-      { "id": "B", "text": "Listening to different styles of music also helps." },
-      { "id": "C", "text": "Travelling long distances to dance schools can be tiring, too." },
-      { "id": "D", "text": "Attending one of their public performances is a good way of finding out." },
-      { "id": "E", "text": "If they develop poor technique, they may have problems later on." },
-      { "id": "F", "text": "Few people know where to find them." },
-      { "id": "G", "text": "This allows them to compare themselves with teenagers from other schools." },
-      { "id": "H", "text": "That means they do not waste time travelling from home to dance classes." }
+      { "id": "A", "text": "It turned out to be a small figure of a horse." }, 
+      { "id": "B", "text": "No-one made that mistake, luckily." },
+      { "id": "C", "text": "That way, everyone made sure they didn’t miss anything." },
+      { "id": "D", "text": "In fact, the whole area was actually still covered in grass." },
+      { "id": "E", "text": "It was a bit sad to see it disappear." },
+      { "id": "F", "text": "Some people were a bit disappointed by that news." },
+      { "id": "G", "text": "They probably imagined it was things like gold jewellery." },
+      { "id": "H", "text": "It was a new experience for me, too." }
     ],
-    "answers": { "16": "E", "17": "B", "18": "H", "19": "D", "20": "G" },
+    "answers": { "16": "D", "17": "F", "18": "C", "19": "G", "20": "A" },
     "explanations": [
-      { "gap": 16, "correct": "E", "tag": "Cause and effect", "html": "<strong>16. E:</strong> <strong>[Cause and effect]</strong><br>Đáp án <strong>E</strong> vì câu trước nhấn mạnh việc học đúng động tác <strong>right from the beginning</strong>, còn câu sau giải thích vì sao: nếu hình thành <strong>poor technique</strong> thì sau này sẽ khó sửa. Từ khóa nối ý là <strong>learn properly</strong> → <strong>poor technique / problems later on</strong>." },
-      { "gap": 17, "correct": "B", "tag": "Addition", "html": "<strong>17. B:</strong> <strong>[Addition]</strong><br>Đáp án <strong>B</strong> vì đoạn này nói về các hoạt động hỗ trợ trẻ nhỏ học ballet tốt hơn. Sau lớp <strong>creative movement classes</strong>, câu tiếp theo thêm một gợi ý khác là nên học hát hoặc chơi nhạc cụ. Vì vậy <strong>Listening to different styles of music</strong> là ý bổ sung rất hợp mạch." },
-      { "gap": 18, "correct": "H", "tag": "Result / Explanation", "html": "<strong>18. H:</strong> <strong>[Result / Explanation]</strong><br>Đáp án <strong>H</strong> vì trước chỗ trống nói học sinh học ở <strong>dance school</strong>, sau chỗ trống là lợi ích của môi trường đó. Câu <strong>That means they do not waste time travelling from home to dance classes</strong> giải thích thêm một lợi thế của việc học ngay tại trường chuyên về múa." },
-      { "gap": 19, "correct": "D", "tag": "Method", "html": "<strong>19. D:</strong> <strong>[Method]</strong><br>Đáp án <strong>D</strong> vì câu trước hỏi làm sao để biết trường múa nào là phù hợp nhất, và câu sau nói về việc nhìn vào trình độ của <strong>older students</strong>. Cách kiểm tra hợp lý nhất là đi xem <strong>public performances</strong> của trường để đánh giá chất lượng thực tế." },
-      { "gap": 20, "correct": "G", "tag": "Purpose / Result", "html": "<strong>20. G:</strong> <strong>[Purpose / Result]</strong><br>Đáp án <strong>G</strong> vì trước chỗ trống nói các vũ công tuổi 16-17 bắt đầu tham gia <strong>competitions</strong> và học ở <strong>professional studios</strong>. Câu <strong>This allows them to compare themselves with teenagers from other schools</strong> giải thích rõ mục đích của việc thi đấu, rồi câu sau nhấn mạnh việc biết mình đang ở mức nào là rất quan trọng." }
+      {
+        "gap": 16,
+        "correct": "D",
+        "tag": "Reference / Context",
+        "html": "<strong>16. D:</strong> <strong>[Reference / Context]</strong><br>Đáp án <strong>D</strong> đúng vì câu sau có cụm \"remove it all\", nên \"it\" phải chỉ về thứ vừa được nhắc đến trước đó. Câu D nói cả khu vực vẫn còn covered in grass, nên hoàn toàn hợp logic: việc đầu tiên là phải dọn sạch lớp cỏ đó rồi mới chuẩn bị mặt đất để đào. Ngoài ra, câu trước nói nơi khảo cổ không giống Kate tưởng tượng, và việc thấy cả khu vực còn đầy cỏ chính là chi tiết giải thích điều đó."
+      },
+      {
+        "gap": 17,
+        "correct": "F",
+        "tag": "Reaction / Contrast",
+        "html": "<strong>17. F:</strong> <strong>[Reaction / Contrast]</strong><br>Đáp án <strong>F</strong> đúng vì ngay trước chỗ trống, bố Kate nói rằng những thứ quan trọng vẫn còn ở dưới đất và nhóm sẽ phải đào sâu hơn nữa. Tin này khiến một số người hơi thất vọng, nên câu F nối rất tự nhiên. Câu sau bắt đầu bằng \"But we all knew Dad was right!\", tạo thế tương phản rõ ràng: tuy hơi thất vọng, mọi người vẫn biết bố Kate nói đúng."
+      },
+      {
+        "gap": 18,
+        "correct": "C",
+        "tag": "Purpose / Result",
+        "html": "<strong>18. C:</strong> <strong>[Purpose / Result]</strong><br>Đáp án <strong>C</strong> đúng vì đoạn trước mô tả cách đào rất cẩn thận: không đào hố lớn mà chỉ lấy từng ít đất một. Câu \"That way, everyone made sure they didn’t miss anything\" giải thích mục đích của cách làm đó: nhờ đào chậm và kỹ, họ không bỏ sót hiện vật nào. Vì vậy câu sau \"So it made sense\" hoàn toàn hợp mạch."
+      },
+      {
+        "gap": 19,
+        "correct": "G",
+        "tag": "Expectation contrast",
+        "html": "<strong>19. G:</strong> <strong>[Expectation contrast]</strong><br>Đáp án <strong>G</strong> đúng vì trước chỗ trống là việc bạn bè Kate nhắn tin hỏi cô đã tìm được gì, còn sau chỗ trống có \"But actually\", báo hiệu một sự đối lập giữa điều người ta tưởng tượng và thực tế. Câu G cho thấy bạn bè cô có lẽ nghĩ nhóm khảo cổ đang tìm những món quý như gold jewellery. Nhưng thực ra họ tìm ordinary, everyday objects để hiểu cuộc sống con người trong quá khứ."
+      },
+      {
+        "gap": 20,
+        "correct": "A",
+        "tag": "Identification / Explanation",
+        "html": "<strong>20. A:</strong> <strong>[Identification / Explanation]</strong><br>Đáp án <strong>A</strong> đúng vì trước chỗ trống Kate nói cô tìm thấy một hòn đá có hình dạng lạ. Câu A giải thích ngay hòn đá đó thực ra là gì: \"a small figure of a horse\". Sau đó câu \"Someone had obviously made it hundreds of years ago\" tiếp tục làm rõ rằng đây là một vật do con người tạo ra từ rất lâu trước, nên có giá trị lịch sử."
+      }
     ]
   },
   {
-    "id": "pet_book1fS_p4_test2",
-    "title": "A day in the life of an astronaut",
+    "id": "pet_trainer1_p4_test2",
+    "title": "The story of the carrot and the ring",
     "gapRange": { "start": 16, "end": 20 },
-    "content_html": "<p>Italian astronaut Samantha Cristoforetti talks about daily life on the International Space Station (ISS). For the last few months, my home has been the International Space Station, orbiting 400 km above the surface of the earth, at 25,000 km per hour. We took off in a Russian Soyuz spaceship from Kazakhstan, and the flight to the Space Station took six hours. <span class=\"drop-zone\" data-id=\"16\">[16]</span> I felt incredibly excited.</p><p>There are two Americans, three Russians, and me. <span class=\"drop-zone\" data-id=\"17\">[17]</span> Fortunately, we all get on well. The day starts for everyone at 7 a.m. There's no gravity up here, so every morning I float through the cabin to attend our daily planning conference, or DPC. <span class=\"drop-zone\" data-id=\"18\">[18]</span> It usually lasts a few minutes. After it's finished, we speak to space centres around the world, including Houston (USA), Munich (Germany) and Tsukuba (Japan).</p><p>Then we have breakfast: oatmeal, eggs and coffee. In the past, astronauts had to suck food out of tubes. Nowadays, astronauts' food is served in special individual boxes with covers. <span class=\"drop-zone\" data-id=\"19\">[19]</span> Life has become much easier for astronauts over the years.</p><p>Our dinner is at around 7.30 p.m. My meals were prepared by an Italian chef on Earth before I left, and they're delicious. However, I do exchange a lot of food with my three colleagues from Russia. <span class=\"drop-zone\" data-id=\"20\">[20]</span> Their lentil and vegetable soup is also really good.</p>",
+    "content_html": "<p>Have you ever lost something that was precious to you, and thought you’d never see it again? That’s what happened to Mary Grams from Canada.</p><p>Mary had worn her engagement ring for more than half a century when she suddenly lost it. She was working in her garden on the family farm one day, pulling out a plant. <span class=\"drop-zone\" data-id=\"16\">[16]</span> When she discovered it was missing, she searched everywhere for it for days, before finally giving up.</p><p>Mary realised she probably wasn’t going to find the ring again. So she decided not to tell anyone about what had happened, apart from her son. Instead, she thought she would replace it with a much cheaper ring from a jeweller’s. <span class=\"drop-zone\" data-id=\"17\">[17]</span> In fact, it was so similar that no-one else in her family even knew her original ring was missing.</p><p>But the story has a happy ending. Mary eventually got her engagement ring back – 13 years after it was lost! One day Mary’s daughter-in-law Colleen was working in the same garden where Mary had been all those years ago.</p><p><span class=\"drop-zone\" data-id=\"18\">[18]</span> But this time it looked a bit different – because there was a carrot growing right through the middle of it!</p><p>As soon as Colleen saw the ring, she knew immediately who the owner was. The farm had been in the family for over 100 years. <span class=\"drop-zone\" data-id=\"19\">[19]</span> So when Colleen discovered the story of the lost ring, it became clear there was only one person it could possibly have belonged to, and the ring was returned to Mary.</p><p>Mary decided to remove her ring from the carrot and wear it again. <span class=\"drop-zone\" data-id=\"20\">[20]</span> Then the ring was washed, and Mary put it back on her finger – and it still fitted perfectly!</p>",
     "options": [
-      { "id": "A", "text": "I'm the only woman in this group." },
-      { "id": "B", "text": "That was a very long time to live in space." },
-      { "id": "C", "text": "People often ask what food tastes like in space." },
-      { "id": "D", "text": "This stops everything floating away while we eat!" },
-      { "id": "E", "text": "On the other hand, the ISS is a perfect environment to do scientific experiments." },
-      { "id": "F", "text": "That's the meeting where we discuss what needs to be done during the day." },
-      { "id": "G", "text": "They like my desserts, and they have a dark bread that I love." },
-      { "id": "H", "text": "I'll never forget looking through the window and seeing it for the first time." }
+      { "id": "A", "text": "She was digging up vegetables there when she discovered the ring." },
+      { "id": "B", "text": "That gave her a very good idea about what to do with the carrot." },
+      { "id": "C", "text": "And that was probably when the ring came off her finger." },
+      { "id": "D", "text": "So she carefully cut the carrot in half." },
+      { "id": "E", "text": "She had never seen anything like it before." },
+      { "id": "F", "text": "And only two women had lived there in all that time." },
+      { "id": "G", "text": "It was tiring work, as some of them were very big." },
+      { "id": "H", "text": "Luckily, she managed to find another one that looked just like it." }
     ],
-    "answers": { "16": "H", "17": "A", "18": "F", "19": "D", "20": "G" },
+    "answers": { "16": "C", "17": "H", "18": "A", "19": "F", "20": "D" },
     "explanations": [
-      { "gap": 16, "correct": "H", "tag": "Sequence / Feeling", "html": "<strong>16. H:</strong> <strong>[Sequence / Feeling]</strong><br>Đáp án <strong>H</strong> vì câu trước mô tả chuyến bay lên ISS, còn câu sau là cảm xúc <strong>I felt incredibly excited</strong>. Chi tiết <strong>seeing it for the first time</strong> tạo ra lý do rất tự nhiên cho cảm xúc hào hứng đó." },
-      { "gap": 17, "correct": "A", "tag": "Introduction to situation", "html": "<strong>17. A:</strong> <strong>[Introduction to situation]</strong><br>Đáp án <strong>A</strong> vì câu trước liệt kê <strong>two Americans, three Russians, and me</strong>, nên câu phù hợp nhất là nhận xét về thành phần nhóm: <strong>I'm the only woman in this group</strong>. Sau đó câu <strong>Fortunately, we all get on well</strong> tiếp tục nói về mối quan hệ giữa các thành viên." },
-      { "gap": 18, "correct": "F", "tag": "Definition / Reference", "html": "<strong>18. F:</strong> <strong>[Definition / Reference]</strong><br>Đáp án <strong>F</strong> vì ngay trước chỗ trống xuất hiện cụm <strong>daily planning conference, or DPC</strong>. Câu <strong>That's the meeting where we discuss what needs to be done during the day</strong> giải thích trực tiếp DPC là gì, rồi câu sau nói tiếp <strong>It usually lasts a few minutes</strong>." },
-      { "gap": 19, "correct": "D", "tag": "Explanation", "html": "<strong>19. D:</strong> <strong>[Explanation]</strong><br>Đáp án <strong>D</strong> vì đoạn này nói về đồ ăn trong không gian được đựng trong <strong>special individual boxes with covers</strong>. Trong môi trường <strong>no gravity</strong>, nắp hộp có tác dụng <strong>stops everything floating away</strong>, nên ý này khớp hoàn toàn." },
-      { "gap": 20, "correct": "G", "tag": "Example / Detail", "html": "<strong>20. G:</strong> <strong>[Example / Detail]</strong><br>Đáp án <strong>G</strong> vì câu trước nói Samantha thường <strong>exchange a lot of food</strong> với đồng nghiệp Nga, còn câu sau đưa ví dụ món súp Nga cô thích. Câu <strong>They like my desserts, and they have a dark bread that I love</strong> bổ sung thêm các món ăn hai bên trao đổi với nhau." }
+      {
+        "gap": 16,
+        "correct": "C",
+        "tag": "Time reference / Sequence",
+        "html": "<strong>16. C:</strong> <strong>[Time reference / Sequence]</strong><br>Đáp án <strong>C</strong> đúng vì câu trước nói Mary đang pulling out a plant, còn câu sau nói When she discovered it was missing. Câu And that was probably when the ring came off her finger nối hai ý này rất chặt: chiếc nhẫn có lẽ rơi ra đúng lúc bà đang nhổ cây. Từ that quay lại chỉ khoảnh khắc vừa được nhắc tới ở câu trước."
+      },
+      {
+        "gap": 17,
+        "correct": "H",
+        "tag": "Reference / Result",
+        "html": "<strong>17. H:</strong> <strong>[Reference / Result]</strong><br>Đáp án <strong>H</strong> đúng vì trước chỗ trống Mary định replace chiếc nhẫn đã mất bằng một chiếc rẻ hơn từ tiệm kim hoàn. Câu Luckily, she managed to find another one that looked just like it cho biết bà đã tìm được một chiếc khác giống chiếc nhẫn gốc. Câu sau In fact, it was so similar... tiếp tục khẳng định chiếc nhẫn thay thế giống đến mức mọi người trong gia đình không nhận ra."
+      },
+      {
+        "gap": 18,
+        "correct": "A",
+        "tag": "Event sequence",
+        "html": "<strong>18. A:</strong> <strong>[Event sequence]</strong><br>Đáp án <strong>A</strong> đúng vì câu trước giới thiệu Colleen đang làm việc trong cùng khu vườn đó, còn câu sau mở đầu bằng But this time it looked a bit different. Trước khi nói chiếc nhẫn trông khác đi, đoạn văn cần nêu rõ Colleen đã tìm thấy nó như thế nào. Câu She was digging up vegetables there when she discovered the ring phù hợp hoàn toàn."
+      },
+      {
+        "gap": 19,
+        "correct": "F",
+        "tag": "Explanation / Deduction",
+        "html": "<strong>19. F:</strong> <strong>[Explanation / Deduction]</strong><br>Đáp án <strong>F</strong> đúng vì câu trước nói trang trại đã thuộc về gia đình hơn 100 năm. Câu And only two women had lived there in all that time bổ sung một dữ kiện quan trọng giúp suy luận. Vì chỉ có hai phụ nữ từng sống ở đó, nên khi Colleen biết câu chuyện về chiếc nhẫn bị mất, cô dễ dàng kết luận người chủ chỉ có thể là Mary."
+      },
+      {
+        "gap": 20,
+        "correct": "D",
+        "tag": "Action sequence",
+        "html": "<strong>20. D:</strong> <strong>[Action sequence]</strong><br>Đáp án <strong>D</strong> đúng vì câu trước nói Mary muốn remove her ring from the carrot, nên bước tiếp theo hợp lý nhất là cắt củ cà rốt ra để lấy chiếc nhẫn. Câu So she carefully cut the carrot in half mô tả đúng hành động đó. Sau đó câu Then the ring was washed nói tiếp bước kế tiếp trong chuỗi hành động."
+      }
+    ]
+  }, 
+  {
+    "id": "pet_trainer1_p4_test3",
+    "title": "Computer game exhibition",
+    "gapRange": { "start": 16, "end": 20 },
+    "content_html": "<p>Have you ever tried playing the kind of video games that your parents played? The Museum of Science in Manchester, in the UK, has held an exhibition for the last few years, which invites visitors to do exactly that. It offers them the chance to play games from the last 40 years, in various sessions throughout the day.</p><p>These video games sessions have now become one of the main attractions of the museum. They are full of people every day, playing a wide range of games.</p><p><span class=\"drop-zone\" data-id=\"16\">[16]</span> For parents, for example, these are usually the games they used to play in their childhood.</p><p>There’s also an educational purpose to the games. For instance, some old types of computer, dating back 40 years, are also available in the sessions. They were originally used in classrooms to teach pupils to write their own computer programs.</p><p><span class=\"drop-zone\" data-id=\"17\">[17]</span> Now, the museum is holding workshops that encourage children to learn similar skills – and they’re still very popular.</p><p>The sessions are also seen as social events, as people discover how much fun it is to play video games with other family members. And there’s also an area at Power Up! where a number of visitors can sit down together. <span class=\"drop-zone\" data-id=\"18\">[18]</span> And nowadays, this is often how fans of video games are more likely to experience playing.</p><p>The exhibition also shows how much progress technology has made over the last 40 years. Parents can often remember playing very simple games. But the games that are played today are more complex. <span class=\"drop-zone\" data-id=\"19\">[19]</span> And the players also have to use much more complicated techniques.</p><p>However, one serious side of the exhibition is that organisers also want to show that video gaming is an important industry, employing many skilled people.</p><p><span class=\"drop-zone\" data-id=\"20\">[20]</span> That way, people who enjoy gaming will also understand all the hard work, talent and imagination that goes into creating these amazing games.</p>",
+    "options": [
+      { "id": "A", "text": "Visitors each pay for 90-minute sessions." },
+      { "id": "B", "text": "And at the time, it helped lots of young people to do that." },
+      { "id": "C", "text": "So they hope the exhibition will share this message." },
+      { "id": "D", "text": "But not everyone thinks it’s a lot of fun." },
+      { "id": "E", "text": "However, visitors often choose the ones they’re familiar with." },
+      { "id": "F", "text": "They have better storylines and animation, too." },
+      { "id": "G", "text": "They also create the music to go with the game." },
+      { "id": "H", "text": "Then they can all enjoy playing the same game." }
+    ],
+    "answers": { "16": "E", "17": "B", "18": "H", "19": "F", "20": "C" },
+    "explanations": [
+      {
+        "gap": 16,
+        "correct": "E",
+        "tag": "Contrast / Reference",
+        "html": "<strong>16. E:</strong> <strong>[Contrast / Reference]</strong><br>Đáp án <strong>E</strong> đúng vì câu trước nói visitors có thể chơi a wide range of games, còn câu sau nói For parents, for example, these are usually the games they used to play in their childhood. Câu However, visitors often choose the ones they’re familiar with tạo liên kết rất chặt: dù có nhiều trò chơi, khách tham quan thường chọn những trò quen thuộc với mình. Từ these ở câu sau quay lại chỉ the ones they’re familiar with."
+      },
+      {
+        "gap": 17,
+        "correct": "B",
+        "tag": "Reference / Past to present link",
+        "html": "<strong>17. B:</strong> <strong>[Reference / Past to present link]</strong><br>Đáp án <strong>B</strong> đúng vì ngay trước chỗ trống, đoạn văn nói những máy tính cũ từng được dùng trong lớp học để teach pupils to write their own computer programs. Cụm do that trong đáp án B quay lại đúng hành động write their own computer programs. Sau đó câu Now, the museum is holding workshops... chuyển mạch từ quá khứ sang hiện tại rất tự nhiên."
+      },
+      {
+        "gap": 18,
+        "correct": "H",
+        "tag": "Result / Social activity",
+        "html": "<strong>18. H:</strong> <strong>[Result / Social activity]</strong><br>Đáp án <strong>H</strong> đúng vì câu trước nói có một khu vực nơi several visitors can sit down together. Kết quả hợp lý tiếp theo là Then they can all enjoy playing the same game. Câu sau And nowadays, this is often how fans of video games are more likely to experience playing tiếp tục phát triển ý chơi game theo nhóm, mang tính xã hội."
+      },
+      {
+        "gap": 19,
+        "correct": "F",
+        "tag": "Explanation / Comparison",
+        "html": "<strong>19. F:</strong> <strong>[Explanation / Comparison]</strong><br>Đáp án <strong>F</strong> đúng vì đoạn này đang so sánh old games và modern games. Câu trước nói game ngày nay are more complex, nên câu They have better storylines and animation, too là phần giải thích rất phù hợp về việc chúng phức tạp hơn ở điểm nào. Sau đó câu And the players also have to use much more complicated techniques bổ sung thêm hệ quả đối với người chơi."
+      },
+      {
+        "gap": 20,
+        "correct": "C",
+        "tag": "Purpose / Result",
+        "html": "<strong>20. C:</strong> <strong>[Purpose / Result]</strong><br>Đáp án <strong>C</strong> đúng vì câu trước nói organisers muốn cho thấy video gaming là một ngành công nghiệp quan trọng, sử dụng nhiều lao động có kỹ năng. Câu So they hope the exhibition will share this message nối trực tiếp với ý đó. Sau đó That way giải thích mục đích: bằng cách truyền tải thông điệp này, người yêu game sẽ hiểu hơn công sức, tài năng và trí tưởng tượng cần có để tạo ra game."
+      }
     ]
   },
   {
-    "id": "pet_book1fS_p4_test3",
-    "title": "Freezing food to keep it fresh",
+    "id": "pet_trainer1_p4_test4",
+    "title": "The giant piano",
     "gapRange": { "start": 16, "end": 20 },
-    "content_html": "<p>Inventor and businessman Clarence Birdseye was born in New York, on December 9, 1886. From a young age, he was interested in animals and plants and in 1909, Birdseye enrolled at university to study biology. <span class=\"drop-zone\" data-id=\"16\">[16]</span> Instead he took a job working for the US government as a naturalist in the frozen north of Canada.</p><p>When he was working in Labrador in 1912, Birdseye watched local people fishing through holes cut in an icy lake. <span class=\"drop-zone\" data-id=\"17\">[17]</span> He noticed that they could then be kept for long periods and, when the families wanted some to eat, they could defrost them without losing any of the freshness or flavour. Birdseye realised that cooling food very quickly was the key to success when freezing it. <span class=\"drop-zone\" data-id=\"18\">[18]</span> In warmer climates, people had experimented with freezing food by cooling it slowly. When food is frozen in this way, long sharp crystals of ice, shaped like knives, start to grow inside it. These cut into the food, causing it to break up when defrosted. <span class=\"drop-zone\" data-id=\"19\">[19]</span> Then he began to wonder how this freezing method might work with fresh vegetables and other foods as well as fish and meat.</p><p>When Birdseye returned to the US, he invented a machine which pressed food between two very cold metal plates. By 1930, it was ready to go into production. However, home freezers were very rare at this time. <span class=\"drop-zone\" data-id=\"20\">[20]</span> It was another 25 years before Birdseye's invention was widely used.</p>",
+    "content_html": "<p>A young man in New Zealand recently became famous for making one of the largest pianos ever.</p><p>Adrian Mann, who now works as a professional piano builder, started building the piano when he was just 16 years old, and made many of the parts for it himself. The piano is 5.7 metres long and is very heavy. And the keyboard actually has keys that are a metre in length. <span class=\"drop-zone\" data-id=\"16\">[16]</span> But despite this difference in size, the instrument can still be played perfectly, thanks to Adrian’s hard work.</p><p><span class=\"drop-zone\" data-id=\"17\">[17]</span> In fact, the whole thing started when Adrian became interested in the materials used for the wires inside the piano. These create the notes when they’re hit.</p><p>And he found that if the wires were really long, he could get an amazing sound. From there, he went on to build the whole piano.</p><p>The instrument was kept inside a church in his town for some time, before Adrian decided it was time to transfer the huge piano from the church to his workshop. <span class=\"drop-zone\" data-id=\"18\">[18]</span> So in the end, the fire service had to come and help take the instrument to its new home.</p><p>Since the move, a lot of piano players have visited Adrian to try out the piano. But Adrian says that when they arrive, some people aren’t very positive about the piano.</p><p><span class=\"drop-zone\" data-id=\"19\">[19]</span> But actually, it always performs brilliantly. They soon discover that the piano can play a wide range of music, just like any normal piano.</p><p>There’s been so much interest in Adrian’s piano that he could probably start making and selling others just like it. <span class=\"drop-zone\" data-id=\"20\">[20]</span> So, at the moment, he has no plans to make any more.</p>",
     "options": [
-      { "id": "A", "text": "This was easy, of course, in very cold environments." },
-      { "id": "B", "text": "It took Birdseye eight years to work out how to cool food quickly enough to stop them forming." },
-      { "id": "C", "text": "He always came top of his university class." },
-      { "id": "D", "text": "As a result, few people wanted to buy frozen food." },
-      { "id": "E", "text": "They didn't catch many fish because they couldn't keep them fresh." },
-      { "id": "F", "text": "However, he was unable to afford the teaching fees, and had to leave." },
-      { "id": "G", "text": "For example, they were taken to nearby towns." },
-      { "id": "H", "text": "As they pulled out fish, these immediately froze in the extremely cold air." }
+      { "id": "A", "text": "However, he put a lot of work into his original model." },
+      { "id": "B", "text": "It’s so big, you could imagine actually lying down inside it!" },
+      { "id": "C", "text": "So what gave Adrian the idea to create such a huge piano?" },
+      { "id": "D", "text": "They expect that the instrument won’t sound very good." },
+      { "id": "E", "text": "But things weren’t always that simple." },
+      { "id": "F", "text": "That’s much larger than on a normal-sized piano." },
+      { "id": "G", "text": "Most of them were surprised by the wonderful result." },
+      { "id": "H", "text": "But he soon found he couldn’t move it out on his own." }
     ],
-    "answers": { "16": "F", "17": "H", "18": "A", "19": "B", "20": "D" },
+    "answers": { "16": "F", "17": "C", "18": "H", "19": "D", "20": "A" },
     "explanations": [
-      { "gap": 16, "correct": "F", "tag": "Contrast", "html": "<strong>16. F:</strong> <strong>[Contrast]</strong><br>Đáp án <strong>F</strong> vì sau câu nói Birdseye vào đại học học <strong>biology</strong>, câu tiếp theo mở sang hướng khác với từ <strong>Instead</strong>. Vì vậy cần một ý cho thấy anh ấy không thể tiếp tục học, và <strong>unable to afford the teaching fees</strong> khớp logic nhất." },
-      { "gap": 17, "correct": "H", "tag": "Sequence", "html": "<strong>17. H:</strong> <strong>[Sequence]</strong><br>Đáp án <strong>H</strong> vì câu trước nói người dân câu cá qua lỗ trên mặt hồ băng, còn câu sau nói những con cá đó có thể giữ lâu mà vẫn tươi. Chi tiết <strong>immediately froze in the extremely cold air</strong> giải thích chính xác vì sao cá được đông lạnh nhanh như vậy." },
-      { "gap": 18, "correct": "A", "tag": "Explanation", "html": "<strong>18. A:</strong> <strong>[Explanation]</strong><br>Đáp án <strong>A</strong> vì ngay trước chỗ trống Birdseye nhận ra chìa khóa là <strong>cooling food very quickly</strong>, và ngay sau đó đoạn văn đối chiếu với <strong>warmer climates</strong>. Câu <strong>This was easy, of course, in very cold environments</strong> nối hai ý này rất mượt." },
-      { "gap": 19, "correct": "B", "tag": "Result", "html": "<strong>19. B:</strong> <strong>[Result]</strong><br>Đáp án <strong>B</strong> vì trước chỗ trống tác giả giải thích vấn đề của việc làm đông chậm: các tinh thể băng dài sẽ phá hỏng thực phẩm. Sau đó cần một câu cho thấy Birdseye mất thời gian tìm cách ngăn <strong>them</strong> - tức các tinh thể này - hình thành, trước khi nghĩ tiếp đến rau và các thực phẩm khác." },
-      { "gap": 20, "correct": "D", "tag": "Cause and effect", "html": "<strong>20. D:</strong> <strong>[Cause and effect]</strong><br>Đáp án <strong>D</strong> vì câu trước nói <strong>home freezers were very rare</strong>, nên hệ quả hợp lý là <strong>few people wanted to buy frozen food</strong>. Điều này giải thích vì sao phải mất thêm <strong>25 years</strong> phát minh mới được sử dụng rộng rãi." }
+      {
+        "gap": 16,
+        "correct": "F",
+        "tag": "Comparison / Reference",
+        "html": "<strong>16. F:</strong> <strong>[Comparison / Reference]</strong><br>Đáp án <strong>F</strong> đúng vì câu trước nói các phím đàn dài tới một mét. Câu That’s much larger than on a normal-sized piano bổ sung phép so sánh trực tiếp với đàn piano bình thường. Sau đó câu But despite this difference in size cho thấy this difference in size chính là sự khác biệt vừa được nêu ở câu F."
+      },
+      {
+        "gap": 17,
+        "correct": "C",
+        "tag": "Question and explanation",
+        "html": "<strong>17. C:</strong> <strong>[Question and explanation]</strong><br>Đáp án <strong>C</strong> đúng vì câu sau mở đầu bằng In fact và giải thích nguồn gốc của toàn bộ ý tưởng. Vì vậy trước đó hợp lý nhất là một câu hỏi dẫn vào: So what gave Adrian the idea to create such a huge piano? Câu sau trả lời trực tiếp cho câu hỏi này."
+      },
+      {
+        "gap": 18,
+        "correct": "H",
+        "tag": "Cause and effect",
+        "html": "<strong>18. H:</strong> <strong>[Cause and effect]</strong><br>Đáp án <strong>H</strong> đúng vì đoạn này nói Adrian muốn chuyển cây đàn khổng lồ từ nhà thờ về xưởng. Câu But he soon found he couldn’t move it out on his own giải thích vì sao ngay sau đó fire service phải đến giúp. Mối liên kết logic là: không tự chuyển được → phải gọi người hỗ trợ."
+      },
+      {
+        "gap": 19,
+        "correct": "D",
+        "tag": "Expectation vs reality",
+        "html": "<strong>19. D:</strong> <strong>[Expectation vs reality]</strong><br>Đáp án <strong>D</strong> đúng vì câu trước nói some people aren’t very positive about the piano. Câu They expect that the instrument won’t sound very good làm rõ sự nghi ngờ của họ. Sau đó But actually, it always performs brilliantly tạo sự đối lập rõ ràng giữa điều họ nghĩ ban đầu và thực tế."
+      },
+      {
+        "gap": 20,
+        "correct": "A",
+        "tag": "Contrast / Reason",
+        "html": "<strong>20. A:</strong> <strong>[Contrast / Reason]</strong><br>Đáp án <strong>A</strong> đúng vì câu trước nói Adrian có thể làm và bán thêm nhiều cây đàn tương tự do có rất nhiều người quan tâm. Tuy nhiên câu sau lại nói hiện tại anh chưa có kế hoạch làm thêm. Câu However, he put a lot of work into his original model giải thích hợp lý cho quyết định đó: mẫu đầu tiên đã tốn quá nhiều công sức."
+      }
+    ]
+  },
+   {
+    "id": "pet_trainer1_p4_test5",
+    "title": "A new way of making electricity",
+    "gapRange": { "start": 16, "end": 20 },
+    "content_html": "<p>Ever since the 19th century, when people were developing different ways of creating electricity, companies have looked for improved ways of producing power, using cleaner and more efficient methods.</p><p>Now a UK company called Pavegen has been working on technology that could be widely used in the future to produce electricity. <span class=\"drop-zone\" data-id=\"16\">[16]</span> The company has developed a special type of floor, made of square tiles. Underneath each square, there’s a system that can produce a certain amount of electricity very cheaply – from the energy created every time someone steps on it!</p><p>The creator of the floor, Laurence Kemball-Cook, came up with the idea when he was a student, and did some work experience with an energy company. The company asked him to investigate ways of providing street lighting in city centres, using energy from the sun to produce electricity.</p><p><span class=\"drop-zone\" data-id=\"17\">[17]</span> One reason was that many city centres don’t get enough sunlight, because of all the tall buildings. Then he thought of a better plan.</p><p><span class=\"drop-zone\" data-id=\"18\">[18]</span> The right technology could be used to convert this energy into electricity – right under people’s feet!</p><p>The design of the floor is actually extremely effective. <span class=\"drop-zone\" data-id=\"19\">[19]</span> And the reason is that a lot of energy is produced simply because of the large numbers of people walking across the floor. In fact, the special squares are already in place in several locations with high numbers of pedestrians. These include big department stores and also an airport.</p><p>The flooring can have other uses too, such as recording how many people visit a shopping centre at particular times. <span class=\"drop-zone\" data-id=\"20\">[20]</span> For example, shop owners in the centre would be interested in knowing at which times of days they have the highest customer numbers. So the next time you visit a big shopping centre, have a careful look at the floor that you’re walking across!</p>",
+    "options": [
+      { "id": "A", "text": "But that isn’t the end of the story." },
+      { "id": "B", "text": "This kind of information is very useful for certain people." },
+      { "id": "C", "text": "Why not use the energy created by pedestrians instead?" },
+      { "id": "D", "text": "However, one big problem could be cost." },
+      { "id": "E", "text": "And it’s actually based on a simple idea." },
+      { "id": "F", "text": "This is especially true when it’s been used in very busy areas." },
+      { "id": "G", "text": "But it soon became clear that this might not work." },
+      { "id": "H", "text": "This new system should work even better." }
+    ],
+    "answers": { "16": "E", "17": "G", "18": "C", "19": "F", "20": "B" },
+    "explanations": [
+      {
+        "gap": 16,
+        "correct": "E",
+        "tag": "Introduction / Explanation",
+        "html": "<strong>16. E:</strong> <strong>[Introduction / Explanation]</strong><br>Đáp án <strong>E</strong> đúng vì câu trước giới thiệu công nghệ mới của Pavegen, còn câu sau bắt đầu giải thích cấu tạo cụ thể của loại sàn. Câu And it’s actually based on a simple idea nối rất tự nhiên: trước hết giới thiệu công nghệ, sau đó nói rằng ý tưởng của nó thực ra khá đơn giản, rồi mới giải thích cơ chế tạo điện từ bước chân."
+      },
+      {
+        "gap": 17,
+        "correct": "G",
+        "tag": "Problem / Cause",
+        "html": "<strong>17. G:</strong> <strong>[Problem / Cause]</strong><br>Đáp án <strong>G</strong> đúng vì ngay trước chỗ trống, Laurence đang xem xét cách dùng năng lượng mặt trời để cung cấp điện cho đèn đường. Câu sau giải thích một lý do khiến cách đó không hiệu quả là nhiều trung tâm thành phố không có đủ ánh sáng mặt trời do các tòa nhà cao. Vì vậy, But it soon became clear that this might not work là câu nối hợp logic nhất."
+      },
+      {
+        "gap": 18,
+        "correct": "C",
+        "tag": "Idea development / Reference",
+        "html": "<strong>18. C:</strong> <strong>[Idea development / Reference]</strong><br>Đáp án <strong>C</strong> đúng vì câu trước nói Laurence nghĩ ra một kế hoạch tốt hơn, còn câu sau nói The right technology could be used to convert this energy into electricity. Cụm this energy phải quay lại một nguồn năng lượng vừa được nêu ra, và chỉ có energy created by pedestrians là phù hợp. Vì vậy câu C khớp hoàn toàn."
+      },
+      {
+        "gap": 19,
+        "correct": "F",
+        "tag": "Result / Detail",
+        "html": "<strong>19. F:</strong> <strong>[Result / Detail]</strong><br>Đáp án <strong>F</strong> đúng vì câu trước nhận xét rằng thiết kế của sàn cực kỳ hiệu quả. Câu sau giải thích lý do: nhiều năng lượng được tạo ra nhờ số lượng lớn người đi bộ bước qua nó. Câu This is especially true when it’s been used in very busy areas làm rõ rằng hiệu quả này đặc biệt cao ở những nơi rất đông người."
+      },
+      {
+        "gap": 20,
+        "correct": "B",
+        "tag": "Use / Example",
+        "html": "<strong>20. B:</strong> <strong>[Use / Example]</strong><br>Đáp án <strong>B</strong> đúng vì câu trước nói loại sàn này còn có thể ghi lại số người đến trung tâm thương mại vào các thời điểm nhất định. Câu sau đưa ví dụ về shop owners muốn biết khi nào có đông khách nhất. Vì vậy, This kind of information is very useful for certain people là câu chuyển ý hợp lý nhất từ chức năng của sàn sang lợi ích thực tế của dữ liệu đó."
+      }
     ]
   },
   {
-    "id": "pet_book1fS_p4_test4",
-    "title": "Is too much messaging bad for us?",
+    "id": "pet_trainer1_p4_test6",
+    "title": "What’s the point in studying music?",
     "gapRange": { "start": 16, "end": 20 },
-    "content_html": "<p>I've just read some interesting research in a magazine article about the amount of messaging that teenagers do. It seems that we send an average of 100 messages a day – that's 3,400 every month! The researchers say that this is very likely to have some big effects on parts of our lives. <span class=\"drop-zone\" data-id=\"16\">[16]</span> As we grow up, we start to rely less on them. But the research says that some teenagers message their parents up to 15 times a day. Some people might say that means that we depend on them too much. <span class=\"drop-zone\" data-id=\"17\">[17]</span></p><p>One thing did worry me a bit about the research though. It seems that for many of us, messaging doesn't end when the lights go out for the night. <span class=\"drop-zone\" data-id=\"18\">[18]</span> That's because if, like me, you keep the phone on after going to bed, the light shows when a new message comes in. This disturbs our sleep, and even though we're not completely awake, we'll often read the message and even reply. As a result, we might end up being rather bad-tempered in the morning. <span class=\"drop-zone\" data-id=\"19\">[19]</span></p><p>Of course, despite the fact that some of what I read in the article was rather negative, it's not all bad news. <span class=\"drop-zone\" data-id=\"20\">[20]</span> One advantage is that if you're feeling a bit shy, or just tired, and you don't want to communicate face-to-face, messaging is a great alternative.</p>",
+    "content_html": "<p>Many children have music classes when they attend school. And it’s thought that music can really help children with learning other subjects.</p><p>For example, one research project looked at what happened when a class of children were divided into groups and given a simple task to do, with one group listening to music while completing it, and the other completing the task in silence. <span class=\"drop-zone\" data-id=\"16\">[16]</span> The first group performed better than the second. So this seems to suggest that music can improve performance in certain areas.</p><p>So how exactly can you benefit from studying music? According to some studies, musical training can develop the part of your brain that’s involved with language, so you can understand your own language better. <span class=\"drop-zone\" data-id=\"17\">[17]</span> And that’s a very useful skill to have. What’s more, young people who’ve studied music also seem to score more highly in other areas such as maths. <span class=\"drop-zone\" data-id=\"18\">[18]</span> For example, reading music includes learning about quarter and half notes, which are basically fractions, like in maths. And when you’re learning about rhythm, you’re counting the notes in a piece of music. So they do appear to be connected.</p><p>Music also lets you explore new ideas, think in a creative way, and gain in confidence. If you’re learning the guitar, for example, it can be really exciting when you’re able to start inventing your own pieces of music. And when you do that, you’re practising your listening skills because you have to listen carefully to the music you’re making. <span class=\"drop-zone\" data-id=\"19\">[19]</span> It’s certainly essential when you join an orchestra, for example.</p><p>One of the biggest benefits, of course, is that listening to music helps you to be less stressed. <span class=\"drop-zone\" data-id=\"20\">[20]</span> That should always be in a relaxed atmosphere, though, to be effective. And who knows? Maybe your musical knowledge will open up a great career path for you in the future!</p>",
     "options": [
-      { "id": "A", "text": "That surely isn't the best way to start the day!" },
-      { "id": "B", "text": "And, surprisingly, we often forget that it didn't!" },
-      { "id": "C", "text": "Despite this difficulty, messaging can be much quicker than a conversation." },
-      { "id": "D", "text": "However, I think it's just nice to stay in touch." },
-      { "id": "E", "text": "Another reason is that often we just can't wait to see our friends." },
-      { "id": "F", "text": "There are plenty of good things about messaging too." },
-      { "id": "G", "text": "One of these, they say, is our connection with our parents." },
-      { "id": "H", "text": "Many of us message while we're doing other things, like homework." }
+      { "id": "A", "text": "Students have also shared their own ideas about music." },
+      { "id": "B", "text": "And creating music can make you feel the same way." },
+      { "id": "C", "text": "So it could be that these school subjects are linked in some way." },
+      { "id": "D", "text": "These explain why music affects us in certain ways." },
+      { "id": "E", "text": "And there was a difference between the two." },
+      { "id": "F", "text": "It could also help with learning a second one." },
+      { "id": "G", "text": "But it isn’t really what’s happening." },
+      { "id": "H", "text": "This is particularly important when performing with other people." }
     ],
-    "answers": { "16": "G", "17": "D", "18": "B", "19": "A", "20": "F" },
+    "answers": { "16": "E", "17": "F", "18": "C", "19": "H", "20": "B" },
     "explanations": [
-      { "gap": 16, "correct": "G", "tag": "Reference", "html": "<strong>16. G:</strong> <strong>[Reference]</strong><br>Đáp án <strong>G</strong> vì câu sau dùng đại từ <strong>them</strong> trong <strong>rely less on them</strong>, nên chỗ trống phải giới thiệu một nhóm người cụ thể. Câu <strong>our connection with our parents</strong> khớp hoàn toàn vì ngay sau đó đoạn văn tiếp tục nói về việc nhắn tin cho <strong>parents</strong>." },
-      { "gap": 17, "correct": "D", "tag": "Contrast", "html": "<strong>17. D:</strong> <strong>[Contrast]</strong><br>Đáp án <strong>D</strong> vì trước đó tác giả nêu ý kiến của người khác rằng nhắn tin với bố mẹ quá nhiều có thể là phụ thuộc. Câu <strong>However, I think it's just nice to stay in touch</strong> tạo ra sự phản biện nhẹ nhàng và rất hợp với mạch lập luận." },
-      { "gap": 18, "correct": "B", "tag": "Cause and effect", "html": "<strong>18. B:</strong> <strong>[Cause and effect]</strong><br>Đáp án <strong>B</strong> vì câu trước nói việc nhắn tin <strong>doesn't end when the lights go out</strong>, còn câu sau giải thích lý do là điện thoại vẫn sáng khi có tin nhắn mới. Câu <strong>we often forget that it didn't</strong> nối lại chính xác ý 'việc nhắn tin chưa thực sự kết thúc'." },
-      { "gap": 19, "correct": "A", "tag": "Result", "html": "<strong>19. A:</strong> <strong>[Result]</strong><br>Đáp án <strong>A</strong> vì ngay trước chỗ trống tác giả nói việc bị tin nhắn làm phiền lúc ngủ khiến ta <strong>bad-tempered in the morning</strong>. Câu cảm thán <strong>That surely isn't the best way to start the day!</strong> là bình luận rất tự nhiên về hậu quả đó." },
-      { "gap": 20, "correct": "F", "tag": "General statement", "html": "<strong>20. F:</strong> <strong>[General statement]</strong><br>Đáp án <strong>F</strong> vì câu trước mở sang hướng tích cực với <strong>it's not all bad news</strong>, và câu sau bắt đầu nêu <strong>One advantage</strong>. Do đó cần một câu tổng quát như <strong>There are plenty of good things about messaging too</strong> để dẫn vào các lợi ích cụ thể." }
+      {
+        "gap": 16,
+        "correct": "E",
+        "tag": "Comparison / Result",
+        "html": "<strong>16. E:</strong> <strong>[Comparison / Result]</strong><br>Đáp án <strong>E</strong> đúng vì trước chỗ trống bài đọc nhắc đến hai nhóm học sinh: một nhóm nghe nhạc khi làm bài, nhóm còn lại làm trong im lặng. Câu And there was a difference between the two là câu nối hợp lý nhất, vì the two quay lại chỉ hai nhóm này. Câu sau The first group performed better than the second tiếp tục giải thích rõ sự khác biệt đó là gì."
+      },
+      {
+        "gap": 17,
+        "correct": "F",
+        "tag": "Reference / Skill development",
+        "html": "<strong>17. F:</strong> <strong>[Reference / Skill development]</strong><br>Đáp án <strong>F</strong> đúng vì câu trước nói học nhạc giúp bạn hiểu ngôn ngữ của chính mình tốt hơn. Câu It could also help with learning a second one tiếp tục phát triển đúng chủ đề ngôn ngữ. Từ one ở đây thay cho language, còn câu sau And that’s a very useful skill to have quay lại đúng ý học thêm một ngôn ngữ thứ hai."
+      },
+      {
+        "gap": 18,
+        "correct": "C",
+        "tag": "Linking ideas / Explanation",
+        "html": "<strong>18. C:</strong> <strong>[Linking ideas / Explanation]</strong><br>Đáp án <strong>C</strong> đúng vì trước chỗ trống bài nói học sinh học nhạc thường đạt kết quả tốt hơn ở maths. Câu So it could be that these school subjects are linked in some way là câu kết luận chuyển tiếp rất phù hợp. Sau đó các câu ví dụ giải thích mối liên hệ giữa music và maths qua fractions, counting notes và rhythm."
+      },
+      {
+        "gap": 19,
+        "correct": "H",
+        "tag": "Reference / Group performance",
+        "html": "<strong>19. H:</strong> <strong>[Reference / Group performance]</strong><br>Đáp án <strong>H</strong> đúng vì câu trước nói về listening skills khi tạo nhạc. Câu This is particularly important when performing with other people dùng This để quay lại listening skills. Câu sau It’s certainly essential when you join an orchestra, for example là ví dụ cụ thể cho việc biểu diễn cùng người khác, nên H khớp hoàn toàn."
+      },
+      {
+        "gap": 20,
+        "correct": "B",
+        "tag": "Emotional effect / Reference",
+        "html": "<strong>20. B:</strong> <strong>[Emotional effect / Reference]</strong><br>Đáp án <strong>B</strong> đúng vì câu trước nói listening to music helps you to be less stressed. Câu And creating music can make you feel the same way tiếp tục phát triển ý lợi ích cảm xúc của âm nhạc. Cụm the same way quay lại trạng thái less stressed, relaxed. Câu sau That should always be in a relaxed atmosphere, though, to be effective nối tiếp tự nhiên với hoạt động âm nhạc vừa được nhắc đến."
+      }
     ]
   },
   {
-    "id": "pet_book1_p4_test1",
-    "title": "At home together",
+    "id": "pet_trainer2_p4_test1",
+    "title": "Bees play games too!",
     "gapRange": { "start": 16, "end": 20 },
-    "content_html": "<p>Taimi Taskinen is an 83-year-old woman who lives in a care home called Rudolf House in Helsinki, Finland. A care home is a place where old people can live and be looked after if they don’t live with their families. At Rudolf House, there are lots of stairs, so there are some rooms which elderly people can’t access easily. As a result, the city council decided to rent these spare rooms to young people. They called this new housing programme ‘The House that Fits’.</p><p>When Taimi heard about the council’s plan, she wondered how it was going to work. <span class=\"drop-zone\" data-id=\"16\">[16]</span> She couldn’t imagine what she’d have in common with young people who weren’t family members. Then, one morning a few days later, a young man appeared outside her room. <span class=\"drop-zone\" data-id=\"17\">[17]</span></p><p>‘Hi! I’m your new neighbour,’ the young man said. ‘My name’s Jonatan Shaya. Mind if I come in?’ ‘Please do,’ she replied, immediately curious. ‘I’ll make coffee,’ he announced, going into her tiny kitchen. ‘Why don’t you tell me about yourself?’ he asked, as he brought their drinks to the table.</p><p><span class=\"drop-zone\" data-id=\"18\">[18]</span> She also told him about her family and how much she loved making art.</p><p>In turn, 20-year-old Jonatan told Taimi he’d been living in Helsinki with his mother and younger brother until they moved away. He was in the middle of a course in the city, training to become a chef. <span class=\"drop-zone\" data-id=\"19\">[19]</span> That’s when he heard about ‘The House that Fits’ on social media. The council’s post resulted in over 300 young people applying to live at Rudolf House. They had face-to-face interviews and wrote short essays about why they wanted to live there. <span class=\"drop-zone\" data-id=\"20\">[20]</span> And that’s how the unlikely friendship between Taimi and Jonatan began.</p>",
+    "content_html": "<p>We know that some animals love playing games. Dogs, for example, spend hours running after sticks. But recently, scientists have carried out experiments using bees and small wooden balls. <span class=\"drop-zone\" data-id=\"16\">[16]</span> And the idea that the insects do so is making experts ask questions about insect intelligence.</p><p>In one experiment, bees were put in a box with separate spaces, rather like rooms. The bees could move around the box into the different ‘rooms’. One contained pollen, bees’ favourite food. The bees had to get from their starting point at one side of the box to the area with the food. They could choose one of two routes through spaces containing small wooden balls. One area had balls which were stuck to the floor. <span class=\"drop-zone\" data-id=\"17\">[17]</span> The scientists discovered that as the experiment was repeated, the bees chose the route through this second room much more frequently, stopping to ‘play’ with the balls as they passed. Some bees were seen moving the balls over 100 times. This again made scientists believe that the insects were doing it just for fun. <span class=\"drop-zone\" data-id=\"18\">[18]</span> Therefore, there had to be a particular reason for the bees’ decision.</p><p>In another experiment, two rooms were used, one painted blue and the other yellow. The scientists put the small wooden balls in just one of these rooms. In this experiment, the balls were not stuck to the floor. The bees were then allowed in to explore the areas. <span class=\"drop-zone\" data-id=\"19\">[19]</span> When the bees were then put back in again, scientists could clearly see a difference in which room they entered. For example, if the balls had been in the yellow room, more bees chose that room, even though the balls were no longer there.</p><p>Scientists also found that results varied depending on individual bees, with younger ones pushing the balls more often than older ones. <span class=\"drop-zone\" data-id=\"20\">[20]</span> Adult males spent longer on the activity than females, for example.</p>",
     "options": [
-      { "id": "A", "text": "Surprising herself, she talked about growing up in a lakeside town in eastern Finland." },
-      { "id": "B", "text": "Therefore, he needed to find somewhere to live." },
-      { "id": "C", "text": "As a result, she wasn’t sure whether the young people had arrived." },
-      { "id": "D", "text": "She’d left the door open, as she always did in the morning." },
-      { "id": "E", "text": "In the end, three of them, including Jonatan, were chosen." },
-      { "id": "F", "text": "Because of this, Jonatan has to be a good neighbour and spend 30 hours a month with Taimi." },
-      { "id": "G", "text": "It would be the first time that anything like this had happened at Rudolf House." },
-      { "id": "H", "text": "Instead, they just talked, as if they’d known each other forever." }
+      { "id": "A", "text": "Despite this, the scientists knew their ideas were correct." },
+      { "id": "B", "text": "In the other, however, they could be moved." },
+      { "id": "C", "text": "That wasn’t the only difference seen." },
+      { "id": "D", "text": "The method therefore produced an unusual result." },
+      { "id": "E", "text": "They say the results show bees also have the ability to enjoy an activity." },
+      { "id": "F", "text": "After a while, the bees and the balls were removed." },
+      { "id": "G", "text": "Such changes were challenging for smaller bees." },
+      { "id": "H", "text": "After all, both ways led to a reward." }
     ],
-    "answers": { "16": "G", "17": "D", "18": "A", "19": "B", "20": "E" },
+    "answers": { "16": "E", "17": "B", "18": "H", "19": "F", "20": "C" },
     "explanations": [
-      { "gap": 16, "correct": "G", "tag": "Background / Reference", "html": "<strong>16. G:</strong> <strong>[Background / Reference]</strong><br>Đáp án <strong>G</strong> vì câu trước nói Taimi tự hỏi kế hoạch này sẽ hoạt động ra sao. Câu <strong>It would be the first time...</strong> giải thích lý do bà thấy lạ lẫm: đây là lần đầu điều như vậy xảy ra ở Rudolf House." },
-      { "gap": 17, "correct": "D", "tag": "Cause and effect", "html": "<strong>17. D:</strong> <strong>[Cause and effect]</strong><br>Đáp án <strong>D</strong> vì câu sau nói một chàng trai xuất hiện ngoài cửa phòng bà. Câu <strong>She’d left the door open...</strong> giải thích hợp lý vì sao cậu ấy có thể đứng ngay bên ngoài và bắt đầu nói chuyện." },
-      { "gap": 18, "correct": "A", "tag": "Example / Detail", "html": "<strong>18. A:</strong> <strong>[Example / Detail]</strong><br>Đáp án <strong>A</strong> vì ngay sau đó là <strong>She also told him...</strong>, nên chỗ trống phải là một chi tiết đầu tiên về điều Taimi kể với Jonatan. Câu A nối mạch tự nhiên nhất." },
-      { "gap": 19, "correct": "B", "tag": "Result", "html": "<strong>19. B:</strong> <strong>[Result]</strong><br>Đáp án <strong>B</strong> vì trước đó nói Jonatan đang học một khóa học ở thành phố, còn sau đó là lúc cậu biết đến chương trình nhà ở. Vì học ở Helsinki nhưng gia đình đã chuyển đi, <strong>therefore, he needed to find somewhere to live</strong>." },
-      { "gap": 20, "correct": "E", "tag": "Outcome", "html": "<strong>20. E:</strong> <strong>[Outcome]</strong><br>Đáp án <strong>E</strong> vì trước đó đoạn văn mô tả quá trình ứng tuyển của hơn 300 bạn trẻ. Câu E nêu kết quả cuối cùng của quá trình này, rồi câu sau mới nói tình bạn giữa Taimi và Jonatan bắt đầu." }
+      {
+        "gap": 16,
+        "correct": "E",
+        "tag": "Reference / Meaning",
+        "html": "<strong>16. E:</strong> <strong>[Reference / Meaning]</strong><br>Đáp án <strong>E</strong> đúng vì câu sau có cụm do so, nên nó phải quay lại một ý vừa được nêu ở câu trước. Câu They say the results show bees also have the ability to enjoy an activity cung cấp chính xác nội dung đó: ong cũng có khả năng tận hưởng một hoạt động. Vì vậy do so = enjoy an activity."
+      },
+      {
+        "gap": 17,
+        "correct": "B",
+        "tag": "Contrast / Reference",
+        "html": "<strong>17. B:</strong> <strong>[Contrast / Reference]</strong><br>Đáp án <strong>B</strong> đúng vì câu trước nói One area had balls which were stuck to the floor, nên chỗ trống phải mô tả khu vực còn lại để tạo tương phản. Câu In the other, however, they could be moved khớp hoàn toàn. Từ this second room ở câu sau cũng xác nhận bài đang nói tới căn phòng thứ hai với các quả bóng có thể di chuyển."
+      },
+      {
+        "gap": 18,
+        "correct": "H",
+        "tag": "Reasoning / Logic",
+        "html": "<strong>18. H:</strong> <strong>[Reasoning / Logic]</strong><br>Đáp án <strong>H</strong> đúng vì đoạn trước nói ong thường dừng lại chơi với bóng ở một tuyến đường. Tuy nhiên lựa chọn đó không thể do thức ăn, vì cả hai con đường đều dẫn tới phần thưởng. Câu After all, both ways led to a reward giải thích chính xác vì sao câu sau kết luận there had to be a particular reason for the bees’ decision."
+      },
+      {
+        "gap": 19,
+        "correct": "F",
+        "tag": "Sequence",
+        "html": "<strong>19. F:</strong> <strong>[Sequence]</strong><br>Đáp án <strong>F</strong> đúng vì câu trước nói ong được cho vào để khám phá các khu vực, còn câu sau nói When the bees were then put back in again. Nếu ong được cho vào lại, điều đó có nghĩa là trước đó chúng đã bị lấy ra. Câu After a while, the bees and the balls were removed nối mạch thời gian rất tự nhiên."
+      },
+      {
+        "gap": 20,
+        "correct": "C",
+        "tag": "Addition / Comparison",
+        "html": "<strong>20. C:</strong> <strong>[Addition / Comparison]</strong><br>Đáp án <strong>C</strong> đúng vì câu trước đã nêu một sự khác biệt: ong trẻ đẩy bóng thường xuyên hơn ong già. Câu That wasn’t the only difference seen báo hiệu còn một khác biệt khác nữa, và câu sau đưa ví dụ cụ thể: ong đực trưởng thành dành nhiều thời gian cho hoạt động này hơn ong cái."
+      }
     ]
   },
   {
-    "id": "pet_book1_p4_test2",
-    "title": "A day in the life of an astronaut",
+    "id": "pet_trainer2_p4_test2",
+    "title": "An incredible journey",
     "gapRange": { "start": 16, "end": 20 },
-    "content_html": "<p>Italian astronaut Samantha Cristoforetti talks about daily life on the International Space Station (ISS).</p><p>For the last few months, my home has been the International Space Station, orbiting 400 km above the surface of the earth, at 25,000 km per hour. We took off in a Russian Soyuz spaceship from Kazakhstan, and the flight to the Space Station took six hours. <span class=\"drop-zone\" data-id=\"16\">[16]</span> I felt incredibly excited.</p><p>There are two Americans, three Russians, and me. <span class=\"drop-zone\" data-id=\"17\">[17]</span> Fortunately, we all get on well. The day starts for everyone at 7 a.m. There’s no gravity up here, so every morning I float through the cabin to attend our daily planning conference, or DPC. <span class=\"drop-zone\" data-id=\"18\">[18]</span> It usually lasts a few minutes. After it’s finished, we speak to space centres around the world, including Houston (USA), Munich (Germany) and Tsukuba (Japan).</p><p>Then we have breakfast: oatmeal, eggs and coffee. In the past, astronauts had to suck food out of tubes. Nowadays, astronauts’ food is served in special individual boxes with covers. <span class=\"drop-zone\" data-id=\"19\">[19]</span> Life has become much easier for astronauts over the years.</p><p>Our dinner is at around 7.30 p.m. My meals were prepared by an Italian chef on Earth before I left, and they’re delicious. However, I do exchange a lot of food with my three colleagues from Russia. <span class=\"drop-zone\" data-id=\"20\">[20]</span> Their lentil and vegetable soup is also really good.</p>",
+    "content_html": "<p>A small boat built by high school students from the American state of New Hampshire has made an incredible journey. The boat, around 1.5 metres in length, is called Rye Riptides. The adventure started when a teacher at Rye Junior High School ordered a kit for a project to make a boat. The kit was supplied by a company called Educational Passages, which aims to use boat-building projects to develop children’s interest in science and technology. <span class=\"drop-zone\" data-id=\"16\">[16]</span> For example, because the kit includes technology which sends information about the boat’s position back to a computer, they learned about how waves move around the oceans.</p><p>The students spent two years making the boat, and also chose items to send with it on its journey. <span class=\"drop-zone\" data-id=\"17\">[17]</span> The hope was that anyone finding the boat later would be interested in seeing things like these from another country. After students had some help from Educational Passages, the boat was ready to start its journey. The students were very excited. Some believed it would reach European shores. <span class=\"drop-zone\" data-id=\"18\">[18]</span> At first, they were able to follow Rye Riptides as it moved across the Atlantic Ocean and marked the route on a map.</p><p>Then, in September 2021, Rye Riptides stopped sending a signal. The students knew that there were huge waves in the Atlantic Ocean. <span class=\"drop-zone\" data-id=\"19\">[19]</span> But this wasn’t what happened. Only a few months later, another signal was received. Rye Riptides had landed on Smøla Island off the coast of Norway. Educational Passages helped again, using social media to contact a local school.</p><p>A boy called Karel Nuncic saw her message. Karel went to Smøla Island and found the boat. <span class=\"drop-zone\" data-id=\"20\">[20]</span> Luckily, though, the objects the students had put inside were safe, and Karel took the boat back to show his classmates. The two groups of students have since connected online, making friends and learning about new cultures.</p>",
     "options": [
-      { "id": "A", "text": "I’m the only woman in this group." },
-      { "id": "B", "text": "That was a very long time to live in space." },
-      { "id": "C", "text": "People often ask what food tastes like in space." },
-      { "id": "D", "text": "This stops everything floating away while we eat!" },
-      { "id": "E", "text": "On the other hand, the ISS is a perfect environment to do scientific experiments." },
-      { "id": "F", "text": "That’s the meeting where we discuss what needs to be done during the day." },
-      { "id": "G", "text": "They like my desserts, and they have a dark bread that I love." },
-      { "id": "H", "text": "I’ll never forget looking through the window and seeing it for the first time." }
+      { "id": "A", "text": "It was covered in small sea creatures and badly damaged." },
+      { "id": "B", "text": "The result was exactly what the students wanted." },
+      { "id": "C", "text": "These included photos and coins that were placed inside." },
+      { "id": "D", "text": "Others, however, were not so sure." },
+      { "id": "E", "text": "It hasn’t been easy to decide what they should do." },
+      { "id": "F", "text": "At the same time, it helps increase their understanding of the oceans." },
+      { "id": "G", "text": "Despite this, the boat had travelled a huge distance." },
+      { "id": "H", "text": "They thought that these had destroyed the boat." }
     ],
-    "answers": { "16": "H", "17": "A", "18": "F", "19": "D", "20": "G" },
+    "answers": { "16": "F", "17": "C", "18": "D", "19": "H", "20": "A" },
     "explanations": [
-      { "gap": 16, "correct": "H", "tag": "Reference", "html": "<strong>16. H:</strong> <strong>[Reference]</strong><br>Đáp án <strong>H</strong> vì câu trước nói về chuyến bay đến ISS, còn câu sau là <strong>I felt incredibly excited</strong>. Câu H nêu chính khoảnh khắc Samantha nhìn qua cửa sổ và thấy Trạm Vũ trụ lần đầu." },
-      { "gap": 17, "correct": "A", "tag": "Addition", "html": "<strong>17. A:</strong> <strong>[Addition]</strong><br>Đáp án <strong>A</strong> vì câu trước đang liệt kê thành viên phi hành đoàn. Câu <strong>I’m the only woman in this group</strong> là thông tin bổ sung trực tiếp, rồi sau đó mới nói mọi người hòa hợp với nhau." },
-      { "gap": 18, "correct": "F", "tag": "Definition / Reference", "html": "<strong>18. F:</strong> <strong>[Definition / Reference]</strong><br>Đáp án <strong>F</strong> vì ngay trước đó xuất hiện cụm <strong>daily planning conference, or DPC</strong>. Câu F giải thích DPC là cuộc họp để bàn xem trong ngày cần làm gì." },
-      { "gap": 19, "correct": "D", "tag": "Cause and effect", "html": "<strong>19. D:</strong> <strong>[Cause and effect]</strong><br>Đáp án <strong>D</strong> vì câu trước nói đồ ăn được đựng trong hộp có nắp. Câu D giải thích chức năng của nắp trong môi trường không trọng lực: ngăn mọi thứ bay lung tung khi ăn." },
-      { "gap": 20, "correct": "G", "tag": "Example / Detail", "html": "<strong>20. G:</strong> <strong>[Example / Detail]</strong><br>Đáp án <strong>G</strong> vì câu trước nói Samantha thường đổi đồ ăn với các đồng nghiệp người Nga. Câu G nêu ví dụ cụ thể hai bên thích món gì của nhau." }
+      {
+        "gap": 16,
+        "correct": "F",
+        "tag": "Addition / Example link",
+        "html": "<strong>16. F:</strong> <strong>[Addition / Example link]</strong><br>Đáp án <strong>F</strong> đúng vì câu trước nói dự án đóng thuyền giúp phát triển sự hứng thú của trẻ với khoa học và công nghệ, còn câu sau mở đầu bằng For example để đưa ví dụ cụ thể. Câu At the same time, it helps increase their understanding of the oceans bổ sung thêm một lợi ích nữa, rồi câu sau giải thích cụ thể việc học sinh hiểu hơn về đại dương nhờ công nghệ theo dõi vị trí con thuyền."
+      },
+      {
+        "gap": 17,
+        "correct": "C",
+        "tag": "Reference",
+        "html": "<strong>17. C:</strong> <strong>[Reference]</strong><br>Đáp án <strong>C</strong> đúng vì câu trước nhắc đến items to send with the boat, còn câu sau có cụm things like these. Từ these phải quay lại chỉ những món đồ vừa được nêu, và câu These included photos and coins that were placed inside cung cấp đúng thông tin đó."
+      },
+      {
+        "gap": 18,
+        "correct": "D",
+        "tag": "Contrast",
+        "html": "<strong>18. D:</strong> <strong>[Contrast]</strong><br>Đáp án <strong>D</strong> đúng vì ngay trước chỗ trống là Some believed it would reach European shores. Câu Others, however, were not so sure tạo thế đối lập trực tiếp giữa some và others. Đây là mạch ý rất tự nhiên: một số học sinh tin con thuyền sẽ tới châu Âu, nhưng những người khác thì không chắc."
+      },
+      {
+        "gap": 19,
+        "correct": "H",
+        "tag": "Reference / Cause and effect",
+        "html": "<strong>19. H:</strong> <strong>[Reference / Cause and effect]</strong><br>Đáp án <strong>H</strong> đúng vì câu trước nói there were huge waves in the Atlantic Ocean. Trong đáp án H, these quay lại chỉ huge waves, còn they chỉ the students. Câu sau But this wasn’t what happened phủ nhận suy đoán đó, tức là những con sóng lớn không thực sự phá hủy con thuyền."
+      },
+      {
+        "gap": 20,
+        "correct": "A",
+        "tag": "Description / Contrast",
+        "html": "<strong>20. A:</strong> <strong>[Description / Contrast]</strong><br>Đáp án <strong>A</strong> đúng vì câu trước nói Karel tìm thấy con thuyền, còn câu sau mở đầu bằng Luckily, though, cho thấy trước đó phải có một chi tiết tiêu cực để tạo tương phản. Câu It was covered in small sea creatures and badly damaged phù hợp hoàn toàn: dù con thuyền bị hư hại nặng, may mắn là những đồ vật bên trong vẫn an toàn."
+      }
     ]
   },
   {
-    "id": "pet_book1_p4_test3",
-    "title": "Freezing food to keep it fresh",
+    "id": "pet_trainer2_p4_test3",
+    "title": "Andrew Edston: Young Chef",
     "gapRange": { "start": 16, "end": 20 },
-    "content_html": "<p>Inventor and businessman Clarence Birdseye was born in New York, on December 9, 1886. From a young age, he was interested in animals and plants and in 1909, Birdseye enrolled at university to study biology. <span class=\"drop-zone\" data-id=\"16\">[16]</span> Instead he took a job working for the US government as a naturalist in the frozen north of Canada.</p><p>When he was working in Labrador in 1912, Birdseye watched local people fishing through holes cut in an icy lake. <span class=\"drop-zone\" data-id=\"17\">[17]</span> He noticed that they could then be kept for long periods and, when the families wanted some to eat, they could defrost them without losing any of the freshness or flavour. Birdseye realised that cooling food very quickly was the key to success when freezing it. <span class=\"drop-zone\" data-id=\"18\">[18]</span></p><p>In warmer climates, people had experimented with freezing food by cooling it slowly. When food is frozen in this way, long sharp crystals of ice, shaped like knives, start to grow inside it. These cut into the food, causing it to break up when defrosted. <span class=\"drop-zone\" data-id=\"19\">[19]</span> Then he began to wonder how this freezing method might work with fresh vegetables and other foods as well as fish and meat.</p><p>When Birdseye returned to the US, he invented a machine which pressed food between two very cold metal plates. By 1930, it was ready to go into production. However, home freezers were very rare at this time. <span class=\"drop-zone\" data-id=\"20\">[20]</span> It was another 25 years before Birdseye’s invention was widely used.</p>",
+    "content_html": "<p>Andrew Edston is a 20-year-old chef with a great future.</p><p>He recently won a competition called The Future Chef, for professional chefs in the part of the UK where he works. He’s already taken part in various cooking contests but says this latest was the toughest. Even before it started, he knew he’d be competing against talented chefs. <span class=\"drop-zone\" data-id=\"16\">[16]</span> As he explains, he always enters competitions convinced he’s going to win!</p><p>Although competitions can be enjoyable, cooking contests are not always just for fun. Restaurant owners often enter their young chefs into competitions as part of their training. This is what happened to Andrew. In the kitchen at Garden Tastes, the restaurant where he works, he is usually in charge of one course. <span class=\"drop-zone\" data-id=\"17\">[17]</span> Doing so has allowed him to gain important experience.</p><p>The people judging the food are usually top food industry experts, which is extremely useful. Andrew gets to present his food to important people and hear their comments on every dish. <span class=\"drop-zone\" data-id=\"18\">[18]</span> In fact, in the restaurant, it’s more likely that customers wanting to speak to the chef will be complaining about a problem! And even when customers take the time to say they like something, it’s not the same as hearing this from a food expert.</p><p>Andrew’s already planning to enter a national cooking competition called Top Chef. If he gets to the final, he’ll cook live on TV. It’s a huge challenge, so he’s getting advice from the other chefs at work. <span class=\"drop-zone\" data-id=\"19\">[19]</span> For one thing, it’ll be great advertising for the restaurant! They also think he deserves success, knowing how much he puts into getting everything right. For example, one of the dishes Andrew’s planning contains cheese. Rather than using something he’d cooked with before, he visited many farms and tasted hundreds of different cheeses. <span class=\"drop-zone\" data-id=\"20\">[20]</span> It’s attention to details like this which he hopes will impress judges!</p>",
     "options": [
-      { "id": "A", "text": "This was easy, of course, in very cold environments." },
-      { "id": "B", "text": "It took Birdseye eight years to work out how to cool food quickly enough to stop them forming." },
-      { "id": "C", "text": "He always came top of his university class." },
-      { "id": "D", "text": "As a result, few people wanted to buy frozen food." },
-      { "id": "E", "text": "They didn’t catch many fish because they couldn’t keep them fresh." },
-      { "id": "F", "text": "However, he was unable to afford the teaching fees, and had to leave." },
-      { "id": "G", "text": "For example, they were taken to nearby towns." },
-      { "id": "H", "text": "As they pulled out fish, these immediately froze in the extremely cold air." }
+      { "id": "A", "text": "They all want to see him do well." },
+      { "id": "B", "text": "The ingredients are given to the chefs." },
+      { "id": "C", "text": "In contests, though, he plans a whole menu." },
+      { "id": "D", "text": "If the dish is popular, however, he cooks it again." },
+      { "id": "E", "text": "Having the opportunity to get opinions like this is rare." },
+      { "id": "F", "text": "He kept going until he’d found one with the perfect flavour." },
+      { "id": "G", "text": "That didn’t stop him aiming high though." },
+      { "id": "H", "text": "He is expecting to be quite nervous." }
     ],
-    "answers": { "16": "F", "17": "H", "18": "A", "19": "B", "20": "D" },
+    "answers": { "16": "G", "17": "C", "18": "E", "19": "A", "20": "F" },
     "explanations": [
-      { "gap": 16, "correct": "F", "tag": "Contrast", "html": "<strong>16. F:</strong> <strong>[Contrast]</strong><br>Đáp án <strong>F</strong> vì câu sau mở bằng <strong>Instead</strong>, cho thấy Birdseye không tiếp tục học đại học mà phải đi làm. Câu F nêu lý do: ông không đủ tiền đóng học phí." },
-      { "gap": 17, "correct": "H", "tag": "Sequence", "html": "<strong>17. H:</strong> <strong>[Sequence]</strong><br>Đáp án <strong>H</strong> vì câu trước nói người dân địa phương câu cá qua các lỗ trên mặt hồ băng. Câu H mô tả điều xảy ra ngay sau đó: cá vừa được kéo lên thì lập tức đông cứng trong không khí lạnh buốt." },
-      { "gap": 18, "correct": "A", "tag": "Explanation", "html": "<strong>18. A:</strong> <strong>[Explanation]</strong><br>Đáp án <strong>A</strong> vì câu trước kết luận rằng làm lạnh thật nhanh là chìa khóa để đông lạnh thành công. Câu A giải thích vì sao điều này dễ thực hiện ở môi trường cực lạnh như Labrador." },
-      { "gap": 19, "correct": "B", "tag": "Cause and effect", "html": "<strong>19. B:</strong> <strong>[Cause and effect]</strong><br>Đáp án <strong>B</strong> vì trước đó đoạn văn giải thích việc đông lạnh chậm tạo ra các tinh thể đá dài, sắc. Câu B nối tiếp bằng việc Birdseye mất tám năm để tìm ra cách làm lạnh đủ nhanh để ngăn các tinh thể này hình thành." },
-      { "gap": 20, "correct": "D", "tag": "Result", "html": "<strong>20. D:</strong> <strong>[Result]</strong><br>Đáp án <strong>D</strong> vì câu trước nói thời đó tủ đông gia đình còn rất hiếm. Kết quả là rất ít người muốn mua đồ ăn đông lạnh." }
+      {
+        "gap": 16,
+        "correct": "G",
+        "tag": "Contrast / Attitude",
+        "html": "<strong>16. G:</strong> <strong>[Contrast / Attitude]</strong><br>Đáp án <strong>G</strong> đúng vì câu trước nói Andrew biết mình sẽ phải cạnh tranh với những đầu bếp rất tài năng. Câu That didn’t stop him aiming high though cho thấy dù biết đối thủ mạnh, anh vẫn đặt mục tiêu rất cao. Câu sau tiếp tục khẳng định điều này: anh luôn bước vào cuộc thi với niềm tin mình sẽ thắng."
+      },
+      {
+        "gap": 17,
+        "correct": "C",
+        "tag": "Contrast / Reference",
+        "html": "<strong>17. C:</strong> <strong>[Contrast / Reference]</strong><br>Đáp án <strong>C</strong> đúng vì câu trước nói ở nhà hàng Andrew thường chỉ phụ trách one course. Câu In contests, though, he plans a whole menu tạo sự đối lập rõ ràng giữa công việc thường ngày và thi đấu. Cụm Doing so ở câu sau quay lại đúng hành động planning a whole menu."
+      },
+      {
+        "gap": 18,
+        "correct": "E",
+        "tag": "Summary / Explanation",
+        "html": "<strong>18. E:</strong> <strong>[Summary / Explanation]</strong><br>Đáp án <strong>E</strong> đúng vì trước chỗ trống bài nói Andrew được nghe nhận xét từ các chuyên gia ẩm thực hàng đầu. Câu Having the opportunity to get opinions like this is rare tổng kết rất hợp lý ý đó. Sau đó đoạn văn giải thích vì sao cơ hội này hiếm: trong nhà hàng, khách thường chỉ gọi đầu bếp ra khi có vấn đề."
+      },
+      {
+        "gap": 19,
+        "correct": "A",
+        "tag": "Reference / Support",
+        "html": "<strong>19. A:</strong> <strong>[Reference / Support]</strong><br>Đáp án <strong>A</strong> đúng vì câu trước nói Andrew đang nhận lời khuyên từ các đầu bếp khác ở chỗ làm. Câu They all want to see him do well giải thích thái độ của những người đó. Câu sau tiếp tục nêu lý do họ ủng hộ anh: quảng bá tốt cho nhà hàng và họ tin anh xứng đáng thành công."
+      },
+      {
+        "gap": 20,
+        "correct": "F",
+        "tag": "Result / Detail",
+        "html": "<strong>20. F:</strong> <strong>[Result / Detail]</strong><br>Đáp án <strong>F</strong> đúng vì câu trước nói Andrew đã đi nhiều trang trại và thử hàng trăm loại phô mai khác nhau. Câu He kept going until he’d found one with the perfect flavour cho thấy kết quả của quá trình tỉ mỉ đó. Câu sau It’s attention to details like this... liên kết trực tiếp với sự cẩn thận trong việc chọn đúng loại phô mai."
+      }
+    ]
+  },
+   {
+    "id": "pet_trainer2_p4_test4",
+    "title": "Playing board games",
+    "gapRange": { "start": 16, "end": 20 },
+    "content_html": "<p>If you think about games people enjoy playing, you’d probably say video games, or sports like volleyball. But many people love playing board games. There are different reasons for this. For a start, board games can usually be enjoyed by anyone who happens to be home at the time. <span class=\"drop-zone\" data-id=\"16\">[16]</span> That’s because although people might have a favourite one, there is usually something for various generations to enjoy in almost any board game!</p><p>You might think that video games being so hugely popular would make board games less so; they might seem boring compared to the options available on computer. <span class=\"drop-zone\" data-id=\"17\">[17]</span> Although this may seem rather surprising, the number of people playing video games has helped make game-playing in general a greater part of our lives. This has encouraged people to explore different games for their entertainment.</p><p>There are many reasons to play board games, including certain health benefits. For example, playing board games reduces the time people spend looking at screens. <span class=\"drop-zone\" data-id=\"18\">[18]</span> It can also cause particular issues such as reducing how well people can concentrate. And by not looking at laptops or phones, families spend more quality time together, some even organising regular ‘games nights’.</p><p>Studies show playing games can also have the result of making events like parties or work training activities easier for shy people. They can find it simpler to get to know each other when they are involved in a game. <span class=\"drop-zone\" data-id=\"19\">[19]</span> As everyone is concentrating on the same thing, rather than trying to make conversation, it is less stressful.</p><p>Games can help with confidence in other ways too. There are many decisions to be made during a game. <span class=\"drop-zone\" data-id=\"20\">[20]</span> The longer we play, the more likely we are to develop a good plan for winning. With every successful turn, we see our plan is working and our confidence grows.</p><p>So what are you waiting for? Go and play a board game!</p>",
+    "options": [
+      { "id": "A", "text": "We know doing so affects the ability to sleep." },
+      { "id": "B", "text": "Some people, therefore, are naturally better than others." },
+      { "id": "C", "text": "Actually, the opposite is true." },
+      { "id": "D", "text": "Also, they are often suitable for different ages to play together." },
+      { "id": "E", "text": "Board games are easy to take to different places too." },
+      { "id": "F", "text": "The better someone is at making them, the more successful they will be." },
+      { "id": "G", "text": "Because board games have rules, such issues are avoided." },
+      { "id": "H", "text": "It prevents people from running out of things to say in these situations." }
+    ],
+    "answers": { "16": "D", "17": "C", "18": "A", "19": "H", "20": "F" },
+    "explanations": [
+      {
+        "gap": 16,
+        "correct": "D",
+        "tag": "Addition / Explanation",
+        "html": "<strong>16. D:</strong> <strong>[Addition / Explanation]</strong><br>Đáp án <strong>D</strong> đúng vì câu trước nói board games có thể được bất kỳ ai ở nhà cùng chơi, còn câu sau giải thích thêm về various generations. Câu Also, they are often suitable for different ages to play together bổ sung rất hợp mạch: board games thường phù hợp để nhiều lứa tuổi cùng chơi."
+      },
+      {
+        "gap": 17,
+        "correct": "C",
+        "tag": "Contrast",
+        "html": "<strong>17. C:</strong> <strong>[Contrast]</strong><br>Đáp án <strong>C</strong> đúng vì câu trước nêu suy nghĩ rằng video games quá phổ biến sẽ làm board games kém hấp dẫn hơn. Nhưng câu sau lại bắt đầu giải thích điều ngược lại: video games đã khiến việc chơi game nói chung phổ biến hơn. Vì vậy Actually, the opposite is true là câu nối chính xác nhất."
+      },
+      {
+        "gap": 18,
+        "correct": "A",
+        "tag": "Cause and effect",
+        "html": "<strong>18. A:</strong> <strong>[Cause and effect]</strong><br>Đáp án <strong>A</strong> đúng vì câu trước nói chơi board games giúp giảm thời gian nhìn vào màn hình. Câu We know doing so affects the ability to sleep nêu một tác hại của việc nhìn màn hình, rồi câu sau bổ sung thêm một tác hại khác là giảm khả năng tập trung. Doing so ở đây quay lại chỉ spending time looking at screens."
+      },
+      {
+        "gap": 19,
+        "correct": "H",
+        "tag": "Explanation",
+        "html": "<strong>19. H:</strong> <strong>[Explanation]</strong><br>Đáp án <strong>H</strong> đúng vì đoạn này nói board games giúp người nhút nhát cảm thấy dễ chịu hơn trong các hoạt động xã hội. Câu It prevents people from running out of things to say in these situations giải thích rất hợp lý vì trò chơi cho mọi người một chủ đề chung để tập trung vào. Câu sau tiếp tục nói chính vì thế nên mọi việc bớt căng thẳng hơn."
+      },
+      {
+        "gap": 20,
+        "correct": "F",
+        "tag": "Cause and effect / Comparison",
+        "html": "<strong>20. F:</strong> <strong>[Cause and effect / Comparison]</strong><br>Đáp án <strong>F</strong> đúng vì câu trước nói có nhiều quyết định phải đưa ra trong khi chơi. Câu The better someone is at making them, the more successful they will be phát triển đúng ý này: ai đưa ra quyết định tốt hơn thì thành công hơn. Sau đó đoạn văn nói thêm rằng chơi càng lâu, ta càng biết phát triển kế hoạch tốt để chiến thắng."
+      }
     ]
   },
   {
-    "id": "pet_book1_p4_test4",
-    "title": "Is too much messaging bad for us?",
+    "id": "pet_trainer2_p4_test5",
+    "title": "Zara Rutherford: young pilot",
     "gapRange": { "start": 16, "end": 20 },
-    "content_html": "<p>I’ve just read some interesting research in a magazine article about the amount of messaging that teenagers do. It seems that we send an average of 100 messages a day – that’s 3,400 every month! The researchers say that this is very likely to have some big effects on parts of our lives. <span class=\"drop-zone\" data-id=\"16\">[16]</span> As we grow up, we start to rely less on them. But the research says that some teenagers message their parents up to 15 times a day. Some people might say that means that we depend on them too much. <span class=\"drop-zone\" data-id=\"17\">[17]</span></p><p>One thing did worry me a bit about the research though. It seems that for many of us, messaging doesn’t end when the lights go out for the night. <span class=\"drop-zone\" data-id=\"18\">[18]</span> That’s because if, like me, you keep the phone on after going to bed, the light shows when a new message comes in. This disturbs our sleep, and even though we’re not completely awake, we’ll often read the message and even reply. As a result, we might end up being rather bad-tempered in the morning. <span class=\"drop-zone\" data-id=\"19\">[19]</span></p><p>Of course, despite the fact that some of what I read in the article was rather negative, it’s not all bad news. <span class=\"drop-zone\" data-id=\"20\">[20]</span> One advantage is that if you’re feeling a bit shy, or just tired, and you don’t want to communicate face-to-face, messaging is a great alternative.</p>",
+    "content_html": "<p>Zara Rutherford is currently the youngest female pilot to fly around the world alone. In 2022, when she was 19, Zara completed her 52,000-kilometre flight in a microlight, a type of plane that is small but very fast. <span class=\"drop-zone\" data-id=\"16\">[16]</span> It was one that took her through five continents and 31 countries. Before her amazing achievement, the record was held by Shaesta Waiz. Shaesta, an Afghan-born American, completed her flight at the age of 30.</p><p>Zara’s parents are both pilots and took her up in planes from an early age. It wasn’t long before she began learning to fly and eventually started wondering about doing a round-the-world trip. She knew it wouldn’t be easy. <span class=\"drop-zone\" data-id=\"17\">[17]</span> It also costs a lot and can be dangerous. When Zara was finishing school, however, she decided the time was right to attempt the journey.</p><p>After completing her preparations, she started from Belgium, flying west over countries including the UK and Russia. She then flew to southeast Asia, India and the Middle East, before returning to Belgium. One of the biggest issues was that on a round-the-world flight, conditions change depending on location. <span class=\"drop-zone\" data-id=\"18\">[18]</span> The mild climate in Belgium hadn’t provided opportunities to practise in different weather. The freezing temperatures of Alaska and Russia and the sandstorms in the Middle East were huge challenges. <span class=\"drop-zone\" data-id=\"19\">[19]</span> In addition, she sometimes had to get her plane repaired, or collect documents to give her permission to cross certain countries.</p><p>Nevertheless, she completed her journey and felt extremely proud of herself. She is keen for other young women see her achievement, as there are not enough girls and women looking to go into subjects like engineering and technology. There are also very few female pilots. <span class=\"drop-zone\" data-id=\"20\">[20]</span> After all, when people see what she has done, they might be inspired to follow her!</p>",
     "options": [
-      { "id": "A", "text": "That surely isn’t the best way to start the day!" },
-      { "id": "B", "text": "And, surprisingly, we often forget that it didn’t!" },
-      { "id": "C", "text": "Despite this difficulty, messaging can be much quicker than a conversation." },
-      { "id": "D", "text": "However, I think it’s just nice to stay in touch." },
-      { "id": "E", "text": "Another reason is that often we just can’t wait to see our friends." },
-      { "id": "F", "text": "There are plenty of good things about messaging too." },
-      { "id": "G", "text": "One of these, they say, is our connection with our parents." },
-      { "id": "H", "text": "Many of us message while we’re doing other things, like homework." }
+      { "id": "A", "text": "Her achievement could help change this in future." },
+      { "id": "B", "text": "This made it perfect for the huge journey she went on." },
+      { "id": "C", "text": "It can therefore change quickly between hot and cold." },
+      { "id": "D", "text": "However, she had done most of her training in Belgium." },
+      { "id": "E", "text": "They helped her prepare well for the trip." },
+      { "id": "F", "text": "These conditions meant she often had to land and wait for longer than planned." },
+      { "id": "G", "text": "In addition, there are other reasons for this too." },
+      { "id": "H", "text": "For one thing, organising everything is very complicated." }
     ],
-    "answers": { "16": "G", "17": "D", "18": "B", "19": "A", "20": "F" },
+    "answers": { "16": "B", "17": "H", "18": "C", "19": "F", "20": "A" },
     "explanations": [
-      { "gap": 16, "correct": "G", "tag": "Reference", "html": "<strong>16. G:</strong> <strong>[Reference]</strong><br>Đáp án <strong>G</strong> vì câu trước nói việc nhắn tin có thể ảnh hưởng lớn đến nhiều phần trong cuộc sống. Câu sau dùng đại từ <strong>them</strong> để nói tới <strong>parents</strong>, nên câu G là cầu nối hợp lý nhất." },
-      { "gap": 17, "correct": "D", "tag": "Contrast", "html": "<strong>17. D:</strong> <strong>[Contrast]</strong><br>Đáp án <strong>D</strong> vì trước đó có ý kiến cho rằng nhắn tin quá nhiều với bố mẹ cho thấy sự phụ thuộc. Câu D đưa ra quan điểm đối lập nhẹ nhàng của tác giả: đôi khi chỉ đơn giản là muốn giữ liên lạc." },
-      { "gap": 18, "correct": "B", "tag": "Cause and effect", "html": "<strong>18. B:</strong> <strong>[Cause and effect]</strong><br>Đáp án <strong>B</strong> vì câu sau giải thích chuyện điện thoại sáng lên khi có tin nhắn mới làm gián đoạn giấc ngủ. Câu B nối hợp lý với ý rằng nhiều người quên mất việc nhắn tin ban đêm không hề dừng lại." },
-      { "gap": 19, "correct": "A", "tag": "Result", "html": "<strong>19. A:</strong> <strong>[Result]</strong><br>Đáp án <strong>A</strong> vì câu trước nói kết quả là buổi sáng chúng ta có thể trở nên cáu kỉnh. Câu A là lời bình luận hợp lý về kết quả đó: chắc chắn đây không phải cách tốt để bắt đầu một ngày mới." },
-      { "gap": 20, "correct": "F", "tag": "General statement", "html": "<strong>20. F:</strong> <strong>[General statement]</strong><br>Đáp án <strong>F</strong> vì câu trước chuyển hướng sang mặt tích cực của messaging. Câu F là câu khái quát, và câu sau mới đưa ra một lợi ích cụ thể làm ví dụ." }
+      {
+        "gap": 16,
+        "correct": "B",
+        "tag": "Reference / Explanation",
+        "html": "<strong>16. B:</strong> <strong>[Reference / Explanation]</strong><br>Đáp án <strong>B</strong> đúng vì câu trước mô tả chiếc microlight là small but very fast. Câu This made it perfect for the huge journey she went on dùng This để quay lại chính đặc điểm đó, còn it là chiếc máy bay. Câu sau tiếp tục nói về chiếc máy bay ấy đã đưa Zara qua năm châu lục và 31 quốc gia."
+      },
+      {
+        "gap": 17,
+        "correct": "H",
+        "tag": "Reason / Development",
+        "html": "<strong>17. H:</strong> <strong>[Reason / Development]</strong><br>Đáp án <strong>H</strong> đúng vì câu trước nói She knew it wouldn’t be easy, còn câu sau thêm một khó khăn khác là It also costs a lot and can be dangerous. Vì vậy chỗ trống cần một lý do cụ thể đầu tiên giải thích vì sao chuyến đi không dễ. Câu For one thing, organising everything is very complicated khớp hoàn toàn."
+      },
+      {
+        "gap": 18,
+        "correct": "C",
+        "tag": "Cause and effect",
+        "html": "<strong>18. C:</strong> <strong>[Cause and effect]</strong><br>Đáp án <strong>C</strong> đúng vì câu trước nói conditions change depending on location. Câu It can therefore change quickly between hot and cold phát triển trực tiếp ý đó, rồi câu sau đưa ví dụ cụ thể về khí hậu ôn hòa ở Bỉ, cái lạnh ở Alaska và Nga, và bão cát ở Trung Đông."
+      },
+      {
+        "gap": 19,
+        "correct": "F",
+        "tag": "Reference / Result",
+        "html": "<strong>19. F:</strong> <strong>[Reference / Result]</strong><br>Đáp án <strong>F</strong> đúng vì ngay trước chỗ trống là các điều kiện thời tiết khắc nghiệt như freezing temperatures và sandstorms. Câu These conditions meant she often had to land and wait for longer than planned dùng These conditions để quay lại những khó khăn đó và nêu hậu quả hợp lý. Câu sau còn bổ sung thêm những khó khăn khác về sửa máy bay và giấy tờ."
+      },
+      {
+        "gap": 20,
+        "correct": "A",
+        "tag": "Reference / Conclusion",
+        "html": "<strong>20. A:</strong> <strong>[Reference / Conclusion]</strong><br>Đáp án <strong>A</strong> đúng vì câu trước nói có quá ít girls and women trong các lĩnh vực như engineering, technology và nghề phi công. Câu Her achievement could help change this in future dùng this để chỉ tình trạng thiếu nữ giới đó. Câu sau giải thích lý do: khi mọi người thấy điều Zara đã làm được, họ có thể được truyền cảm hứng để noi theo cô."
+      }
+    ]
+  },
+   {
+    "id": "pet_trainer2_p4_test6",
+    "title": "An incredible holiday",
+    "gapRange": { "start": 16, "end": 20 },
+    "content_html": "<p>For our last holiday, mum and I went to South Africa on safari – a tour where you go in a vehicle to see different animals. We started the experience by staying the night in a wooden house, where we met our safari guide, Mandisa. The house was by a lake and I was worried there might be fighting among the animals coming to drink. <span class=\"drop-zone\" data-id=\"16\">[16]</span> Mandisa explained that getting water was usually the most important thing for the animals when they were there. She also explained that although they looked relaxed, each one was always looking out for danger.</p><p>The next morning, we set off in a big car. There were six seats in the back, and the sides were open, so there were no windows. It made us feel closer to the animals. <span class=\"drop-zone\" data-id=\"17\">[17]</span> Mandisa was great at suggesting what would make good ones! She also taught us all about all the animals in the area.</p><p>Early in our drive, Mandisa pointed to a springbok. Springboks look like deer. She explained they are very common and are South Africa’s national animal. <span class=\"drop-zone\" data-id=\"18\">[18]</span> Later, however, we saw some elephants under trees. After a while, the largest one started staring at us. Mandisa explained that there are certain types of behaviour to watch out for. <span class=\"drop-zone\" data-id=\"19\">[19]</span> She told us that because the elephant wasn’t displaying any of the signs of this, we weren’t in danger. Having Mandisa there explaining everything was really helpful.</p><p>We didn’t just learn about different animals. There were special plants growing in the area too. Mandisa got us to try the leaves of one, to explain how they tasted of salt. <span class=\"drop-zone\" data-id=\"20\">[20]</span> Mandisa told us that many animals get some of the salt they require from eating plants. All too soon, we had to leave. It was an experience I’ll never forget!</p>",
+    "options": [
+      { "id": "A", "text": "Knowing which one helped us get the best view." },
+      { "id": "B", "text": "Therefore, we realised we had to be patient." },
+      { "id": "C", "text": "However, there wasn’t and everything seemed very peaceful." },
+      { "id": "D", "text": "This is something animals need to stay healthy." },
+      { "id": "E", "text": "Despite this, we didn’t see any more that day!" },
+      { "id": "F", "text": "These can show when an animal is feeling stressed." },
+      { "id": "G", "text": "As a result, animals quickly learn to avoid it." },
+      { "id": "H", "text": "It was also good because it made it easier to take incredible pictures." }
+    ],
+    "answers": { "16": "C", "17": "H", "18": "E", "19": "F", "20": "D" },
+    "explanations": [
+      {
+        "gap": 16,
+        "correct": "C",
+        "tag": "Contrast / Context",
+        "html": "<strong>16. C:</strong> <strong>[Contrast / Context]</strong><br>Đáp án <strong>C</strong> đúng vì câu trước nói người kể lo sẽ có fighting among the animals, còn câu sau lại giải thích về việc các con vật chủ yếu chỉ cần nước và vẫn cảnh giác nguy hiểm. Câu However, there wasn’t and everything seemed very peaceful tạo sự đối lập rất tự nhiên giữa nỗi lo ban đầu và thực tế yên bình."
+      },
+      {
+        "gap": 17,
+        "correct": "H",
+        "tag": "Reference",
+        "html": "<strong>17. H:</strong> <strong>[Reference]</strong><br>Đáp án <strong>H</strong> đúng vì câu sau có cụm good ones, và ones ở đây phải quay lại chỉ pictures. Câu It was also good because it made it easier to take incredible pictures cung cấp đúng từ tham chiếu đó. Ngoài ra, nó cũng nối hợp lý với ý chiếc xe mở hai bên giúp mọi người gần động vật hơn."
+      },
+      {
+        "gap": 18,
+        "correct": "E",
+        "tag": "Contrast",
+        "html": "<strong>18. E:</strong> <strong>[Contrast]</strong><br>Đáp án <strong>E</strong> đúng vì câu trước nói springboks are very common, nên người đọc có thể nghĩ sẽ còn thấy nhiều con nữa. Câu Despite this, we didn’t see any more that day! tạo một sự tương phản hợp lý với ý đó. Sau đó đoạn văn chuyển sang việc sau này họ thấy voi."
+      },
+      {
+        "gap": 19,
+        "correct": "F",
+        "tag": "Reference / Explanation",
+        "html": "<strong>19. F:</strong> <strong>[Reference / Explanation]</strong><br>Đáp án <strong>F</strong> đúng vì câu trước nhắc đến certain types of behaviour to watch out for. Câu These can show when an animal is feeling stressed dùng These để quay lại chính những types of behaviour đó. Câu sau tiếp tục rất khớp khi nói con voi wasn’t displaying any of the signs of this, trong đó this = feeling stressed."
+      },
+      {
+        "gap": 20,
+        "correct": "D",
+        "tag": "Reference / Explanation",
+        "html": "<strong>20. D:</strong> <strong>[Reference / Explanation]</strong><br>Đáp án <strong>D</strong> đúng vì câu trước nói lá của một loại cây có vị muối, còn câu sau giải thích nhiều con vật lấy lượng muối cần thiết từ thực vật. Câu This is something animals need to stay healthy nối hai ý này rất tự nhiên, trong đó This quay lại chỉ salt."
+      }
+    ]
+  },
+  {
+    "id": "pet_book2_p4_test1",
+    "title": "Jamie Marshall – teenage magician!",
+    "gapRange": { "start": 16, "end": 20 },
+    "content_html": "<p>Doing magic tricks is not something that only older people enjoy. I’ve just been in a competition for teenage magicians – and lots of people my age took part. But the best thing was – I won! I did a trick involving taking a ring from someone in the audience. <span class=\"drop-zone\" data-id=\"16\">[16]</span> Both the audience and the judges were really impressed by that unusual way of ending the trick.</p><p>My interest in magic started with a child’s magic set that I got for my birthday a few years ago. I began practising a lot, doing tricks whenever I had a spare moment. <span class=\"drop-zone\" data-id=\"17\">[17]</span> But that never happened, and I went on to develop lots of new tricks.</p><p>My grandad loves magic, too. He was always doing things like producing coins from behind my ear – his way of giving me pocket money! <span class=\"drop-zone\" data-id=\"18\">[18]</span> So he never showed me any of his secrets and I just had to find out for myself!</p><p>I also loved performing tricks for friends at school. And as I got better, I started performing at events like family weddings and parties. At first, I thought I’d be really nervous, but in fact, I’ve always been completely relaxed when I’m performing. <span class=\"drop-zone\" data-id=\"19\">[19]</span></p><p>What made the biggest difference to my routine, however, was taking up drama classes when I was 15. That really helped a lot. It would be great if I could work in the world of magic when I get older – and even become a famous magician! I’m not really sure what my future will hold, though. I might go into acting instead. <span class=\"drop-zone\" data-id=\"20\">[20]</span> That would be cool! But whatever I end up doing, I know I’m going to really enjoy it!</p>",
+    "options": [
+      { "id": "A", "text": "And I don’t think I’d be so confident now without their help." },
+      { "id": "B", "text": "My parents probably thought I’d get bored with it after a while." },
+      { "id": "C", "text": "Actually, I’d love to be able to do both." },
+      { "id": "D", "text": "I still needed to do some more work on that, though." },
+      { "id": "E", "text": "It’s surprising really, as I used to be quite shy!" },
+      { "id": "F", "text": "The next time they saw it, it was inside a melon that I’d cut open." },
+      { "id": "G", "text": "It made me start thinking about all sorts of possibilities." },
+      { "id": "H", "text": "But of course, people who do magic tricks never tell you how they’re done." }
+    ],
+    "answers": { "16": "F", "17": "B", "18": "H", "19": "E", "20": "C" },
+    "explanations": [
+      {
+        "gap": 16,
+        "correct": "F",
+        "tag": "Reference / Result",
+        "html": "<strong>16. F:</strong> <strong>[Reference / Result]</strong><br>Đáp án <strong>F</strong> đúng vì câu trước nói Jamie lấy chiếc nhẫn từ một người trong khán giả, còn câu sau nói khán giả và giám khảo rất ấn tượng với cách kết thúc unusual đó. Câu The next time they saw it, it was inside a melon that I’d cut open mô tả chính xác màn kết thúc bất ngờ của trò ảo thuật. Từ it ở đây quay lại chỉ the ring."
+      },
+      {
+        "gap": 17,
+        "correct": "B",
+        "tag": "Cause and contrast",
+        "html": "<strong>17. B:</strong> <strong>[Cause and contrast]</strong><br>Đáp án <strong>B</strong> đúng vì câu sau nói But that never happened, nên that phải quay lại một điều vừa được nêu ở chỗ trống. Câu My parents probably thought I’d get bored with it after a while khớp hoàn toàn: bố mẹ nghĩ Jamie sẽ chán, nhưng điều đó đã không xảy ra."
+      },
+      {
+        "gap": 18,
+        "correct": "H",
+        "tag": "Explanation",
+        "html": "<strong>18. H:</strong> <strong>[Explanation]</strong><br>Đáp án <strong>H</strong> đúng vì câu sau mở đầu bằng So he never showed me any of his secrets. Trước đó cần có một lý do giải thích vì sao ông Jamie không tiết lộ bí mật. Câu But of course, people who do magic tricks never tell you how they’re done nêu đúng nguyên tắc này."
+      },
+      {
+        "gap": 19,
+        "correct": "E",
+        "tag": "Comment / Contrast",
+        "html": "<strong>19. E:</strong> <strong>[Comment / Contrast]</strong><br>Đáp án <strong>E</strong> đúng vì câu trước nói Jamie luôn completely relaxed khi biểu diễn. Câu It’s surprising really, as I used to be quite shy! giải thích vì sao điều đó đáng ngạc nhiên: trước đây Jamie từng khá nhút nhát. Đây là một sự đối lập rất hợp lý."
+      },
+      {
+        "gap": 20,
+        "correct": "C",
+        "tag": "Linking ideas",
+        "html": "<strong>20. C:</strong> <strong>[Linking ideas]</strong><br>Đáp án <strong>C</strong> đúng vì câu trước nói Jamie có thể đi theo acting instead, còn trước đó lại nói về việc làm trong thế giới magic. Câu Actually, I’d love to be able to do both nối hai ý này lại với nhau. Câu sau That would be cool! cũng khớp hoàn toàn với ý làm được cả hai."
+      }
+    ]
+  },
+   {
+    "id": "pet_book2_p4_test2",
+    "title": "The lost camera",
+    "gapRange": { "start": 16, "end": 20 },
+    "content_html": "<p>Have you ever gone to the coast for a lovely family day out – only to discover when you return home that you’ve lost something valuable and it’s probably still on the beach?</p><p>That’s exactly what happened to a young British boy called William during a beach trip. He put his camera on top of a rock so that he could make a video of himself and his sister playing. <span class=\"drop-zone\" data-id=\"16\">[16]</span> So William and his family went home, with the camera still on the rock. Later, the sea flowed onto the beach and carried it away – about 800 kilometres away, in fact, to an island off the coast of Germany.</p><p>The camera was found on the island by the couple who live there. It’s a protected area for birds, and no one else is allowed on the island without permission. <span class=\"drop-zone\" data-id=\"17\">[17]</span> However, things that the sea has brought in are regularly found there, like fishing equipment and even shoes. But it was still a surprise to find a camera!</p><p>Luckily, the camera was waterproof, so the seawater hadn’t damaged it. When the couple uploaded its contents onto their computer, they were amazed to see a video of William’s beach trip. The last few seconds, however, showed only the water around the camera. <span class=\"drop-zone\" data-id=\"18\">[18]</span></p><p>The couple put one of the videos onto social media to see if anyone recognised it. <span class=\"drop-zone\" data-id=\"19\">[19]</span> Then, amazingly, a special computer programme used for finding boats at sea recognised the exact place in the north of England where William had recorded the video!</p><p>A friend of William’s read about the video in a newspaper and told the family. <span class=\"drop-zone\" data-id=\"20\">[20]</span> William and his father were invited to the island where the camera was discovered to see for themselves where it had finally ended up!</p>",
+    "options": [
+      { "id": "A", "text": "But that was exactly what they’d planned." },
+      { "id": "B", "text": "So there’s rarely anything left on the beach by visitors." },
+      { "id": "C", "text": "They hoped this would help them to find the person who’d filmed it." },
+      { "id": "D", "text": "But that isn’t all he expects to find." },
+      { "id": "E", "text": "It had begun its extraordinary journey across the sea." },
+      { "id": "F", "text": "They were a great success." },
+      { "id": "G", "text": "Unfortunately, he then forgot all about it, and left it there." },
+      { "id": "H", "text": "They immediately contacted the couple." }
+    ],
+    "answers": { "16": "G", "17": "B", "18": "E", "19": "C", "20": "H" },
+    "explanations": [
+      {
+        "gap": 16,
+        "correct": "G",
+        "tag": "Cause and result",
+        "html": "<strong>16. G:</strong> <strong>[Cause and result]</strong><br>Đáp án <strong>G</strong> đúng vì câu trước nói William đặt máy ảnh trên tảng đá để quay video, còn câu sau nói cả gia đình đi về mà máy ảnh vẫn còn ở đó. Câu Unfortunately, he then forgot all about it, and left it there giải thích chính xác vì sao điều đó xảy ra. Từ it ở đây quay lại chỉ the camera."
+      },
+      {
+        "gap": 17,
+        "correct": "B",
+        "tag": "Logical conclusion / Contrast",
+        "html": "<strong>17. B:</strong> <strong>[Logical conclusion / Contrast]</strong><br>Đáp án <strong>B</strong> đúng vì câu trước nói hòn đảo là khu bảo tồn chim và không ai được phép lên đảo nếu không có sự cho phép. Từ đó suy ra hiếm khi có đồ vật do khách để lại trên bãi biển. Câu sau mở đầu bằng However để tạo đối lập: dù vậy, những thứ biển đánh dạt vào vẫn thường xuyên được tìm thấy."
+      },
+      {
+        "gap": 18,
+        "correct": "E",
+        "tag": "Narrative development",
+        "html": "<strong>18. E:</strong> <strong>[Narrative development]</strong><br>Đáp án <strong>E</strong> đúng vì câu trước mô tả những giây cuối của video chỉ còn nước xung quanh máy ảnh. Câu It had begun its extraordinary journey across the sea giải thích rằng chính lúc đó chiếc máy ảnh đã bắt đầu hành trình qua biển. Điều này nối rất hợp với thông tin trước đó rằng nó đã bị nước biển cuốn đi đến một hòn đảo gần Đức."
+      },
+      {
+        "gap": 19,
+        "correct": "C",
+        "tag": "Purpose",
+        "html": "<strong>19. C:</strong> <strong>[Purpose]</strong><br>Đáp án <strong>C</strong> đúng vì câu trước nói cặp đôi đăng một video lên mạng xã hội để xem có ai nhận ra không. Câu They hoped this would help them to find the person who’d filmed it diễn tả chính xác mục đích của hành động đó. Câu sau tiếp tục kể kết quả khi một chương trình máy tính xác định được địa điểm quay."
+      },
+      {
+        "gap": 20,
+        "correct": "H",
+        "tag": "Sequence",
+        "html": "<strong>20. H:</strong> <strong>[Sequence]</strong><br>Đáp án <strong>H</strong> đúng vì câu trước nói một người bạn của William đọc được tin trên báo và báo cho gia đình. Bước tiếp theo hợp lý nhất là gia đình liên lạc ngay với cặp đôi đã tìm thấy máy ảnh. Sau đó việc William và bố được mời tới hòn đảo trở nên hoàn toàn logic."
+      }
+    ]
+  },
+  {
+    "id": "pet_book2_p4_test3",
+    "title": "Julie Danes, teenage comedy performer",
+    "gapRange": { "start": 16, "end": 20 },
+    "content_html": "<p>Julie Danes is in many ways like any other 14-year-old. She enjoys having a laugh, and making other people laugh. The only difference is that when Julie tells a joke, she’s often in front of an audience of hundreds of people. She’s a successful comedian in Boston, in the USA.</p><p>Since Julie started as a comedian, her performance schedule has become busier and busier. <span class=\"drop-zone\" data-id=\"16\">[16]</span> She thinks that she’s probably performed in public about 60 times at theatres all around the city.</p><p>Even though she’s much younger than most of the other comedians in Boston, she’s not in fact the only young person doing comedy on stage there. <span class=\"drop-zone\" data-id=\"17\">[17]</span> However, it’s really only age that they have in common – Julie says their styles are very different. When she goes on stage, people in the audience are curious about the fact that she’s quite young for a comedian. <span class=\"drop-zone\" data-id=\"18\">[18]</span> But Julie’s act also covers lots of other topics, just like those of older comedians.</p><p>When she first became interested in performing comedy, she felt slightly anxious about telling her parents of her plans. <span class=\"drop-zone\" data-id=\"19\">[19]</span> Despite this, they still haven’t been to one of her shows. They don’t want her to feel under extra pressure – she might feel more nervous than usual if they were there.</p><p><span class=\"drop-zone\" data-id=\"20\">[20]</span> And when that day comes, Julie’s mum and dad will make sure they are in the audience. And they’ll certainly be very proud parents!</p>",
+    "options": [
+      { "id": "A", "text": "And so of course, they all enjoy her jokes about that." },
+      { "id": "B", "text": "Many of these theatres are great places to perform." },
+      { "id": "C", "text": "But when she did, they were pleased, and encouraged her to try it." },
+      { "id": "D", "text": "They’ve travelled all over the USA to watch her perform." },
+      { "id": "E", "text": "In fact, she now appears on stage about once a week." },
+      { "id": "F", "text": "Another 14-year-old, Brandon Phillips, frequently performs at the same shows." },
+      { "id": "G", "text": "Julie’s promised to let them know as soon as she feels ready for them to see her." },
+      { "id": "H", "text": "That’s why she likes appearing in front of so many people." }
+    ],
+    "answers": { "16": "E", "17": "F", "18": "A", "19": "C", "20": "G" },
+    "explanations": [
+      {
+        "gap": 16,
+        "correct": "E",
+        "tag": "Detail / Addition",
+        "html": "<strong>16. E:</strong> <strong>[Detail / Addition]</strong><br>Đáp án <strong>E</strong> đúng vì câu trước nói lịch biểu diễn của Julie ngày càng bận hơn, còn câu sau cho biết tổng số lần cô đã diễn công khai. Câu In fact, she now appears on stage about once a week bổ sung rất hợp về tần suất biểu diễn hiện tại và nối mượt với thông tin sau đó."
+      },
+      {
+        "gap": 17,
+        "correct": "F",
+        "tag": "Example / Reference",
+        "html": "<strong>17. F:</strong> <strong>[Example / Reference]</strong><br>Đáp án <strong>F</strong> đúng vì câu trước nói Julie không phải là người trẻ duy nhất diễn comedy ở Boston. Câu Another 14-year-old, Brandon Phillips, frequently performs at the same shows đưa ra ví dụ cụ thể. Câu sau dùng they để chỉ Julie và Brandon, nên liên kết rất chặt."
+      },
+      {
+        "gap": 18,
+        "correct": "A",
+        "tag": "Cause and effect",
+        "html": "<strong>18. A:</strong> <strong>[Cause and effect]</strong><br>Đáp án <strong>A</strong> đúng vì câu trước nói khán giả tò mò vì Julie còn khá trẻ đối với một comedian. Câu And so of course, they all enjoy her jokes about that cho thấy Julie biến chính sự tò mò đó thành chất liệu gây cười. Câu sau dùng also để nói rằng ngoài chủ đề tuổi tác, cô còn nói về nhiều chủ đề khác."
+      },
+      {
+        "gap": 19,
+        "correct": "C",
+        "tag": "Sequence / Contrast",
+        "html": "<strong>19. C:</strong> <strong>[Sequence / Contrast]</strong><br>Đáp án <strong>C</strong> đúng vì câu trước nói Julie lo lắng về việc nói với bố mẹ, còn câu này cho biết khi cô thực sự nói ra, bố mẹ lại ủng hộ và khuyến khích cô thử. Câu sau mở đầu bằng Despite this, cho thấy dù bố mẹ phản ứng tích cực, họ vẫn chưa tới xem show nào của cô."
+      },
+      {
+        "gap": 20,
+        "correct": "G",
+        "tag": "Reference / Future plan",
+        "html": "<strong>20. G:</strong> <strong>[Reference / Future plan]</strong><br>Đáp án <strong>G</strong> đúng vì câu sau có cụm when that day comes, nên cần một câu trước đó xác định day là ngày nào. Câu Julie’s promised to let them know as soon as she feels ready for them to see her tạo đúng mốc đó: ngày Julie cảm thấy đã sẵn sàng để bố mẹ tới xem."
+      }
+    ]
+  },
+  {
+    "id": "pet_book2_p4_test4",
+    "title": "Lost Irish beach returns after 33 years",
+    "gapRange": { "start": 16, "end": 20 },
+    "content_html": "<p>Achill Island, off the coast of Ireland, is a popular tourist destination. It has beautiful mountains and clean beaches. The island was suddenly in the news in 1984 because of something that happened near the village of Dooagh. <span class=\"drop-zone\" data-id=\"16\">[16]</span> They discovered that their beach had disappeared during the night, leaving behind just rocks. For years after that, only small amounts of sand returned to the once-beautiful shore, and fewer and fewer tourists went there. <span class=\"drop-zone\" data-id=\"17\">[17]</span> The effect of this was felt by everyone in the small community.</p><p>Then, in 2017, something incredible happened. People couldn’t believe their eyes when, one morning, they found that their beach had returned, and the rocks were once again covered in soft golden sand! <span class=\"drop-zone\" data-id=\"18\">[18]</span> They said that the amount of sand under the sea near the coast had slowly increased. Then, during a period of strong winds and powerful waves, most of it was carried to the shore.</p><p>The people of the island were of course delighted to have their beach back, and for some time, it attracted hundreds of visitors. <span class=\"drop-zone\" data-id=\"19\">[19]</span> Business owners in the area were also hopeful that the beach would encourage surfers to return to the region, making it a popular holiday destination again. <span class=\"drop-zone\" data-id=\"20\">[20]</span> No one was sure whether it was absolutely safe.</p><p>Later, a special type of seaweed – a plant that grows in the sea – appeared on the beach. It is traditionally used to help crops grow, so its return was particularly good news. The local people are hopeful that now the sand is finally here to stay.</p>",
+    "options": [
+      { "id": "A", "text": "They were able to experience these amazing events." },
+      { "id": "B", "text": "At first, however, people were advised to avoid going into the sea." },
+      { "id": "C", "text": "Losing so many visitors meant that many hotels and restaurants had to close." },
+      { "id": "D", "text": "But a most surprising thing happened that night." },
+      { "id": "E", "text": "Scientists from an Irish university provided a possible explanation." },
+      { "id": "F", "text": "Despite these benefits to plants and animals, a few people were disappointed." },
+      { "id": "G", "text": "One morning, the people living there had a nasty shock." },
+      { "id": "H", "text": "Tourists wanted to see the power of nature for themselves." }
+    ],
+    "answers": { "16": "G", "17": "C", "18": "E", "19": "H", "20": "B" },
+    "explanations": [
+      {
+        "gap": 16,
+        "correct": "G",
+        "tag": "Context / Reference",
+        "html": "<strong>16. G:</strong> <strong>[Context / Reference]</strong><br>Đáp án <strong>G</strong> đúng vì câu sau bắt đầu bằng They discovered..., nên trước đó cần xuất hiện chủ thể rõ ràng là the people living there. Câu One morning, the people living there had a nasty shock giới thiệu đúng chủ thể này và tạo mạch rất tự nhiên dẫn vào việc họ phát hiện bãi biển đã biến mất."
+      },
+      {
+        "gap": 17,
+        "correct": "C",
+        "tag": "Cause and effect",
+        "html": "<strong>17. C:</strong> <strong>[Cause and effect]</strong><br>Đáp án <strong>C</strong> đúng vì câu trước nói fewer and fewer tourists went there, còn câu sau nói The effect of this was felt by everyone in the small community. Câu Losing so many visitors meant that many hotels and restaurants had to close giải thích chính xác ảnh hưởng của việc mất khách du lịch đối với cộng đồng địa phương."
+      },
+      {
+        "gap": 18,
+        "correct": "E",
+        "tag": "Reference / Explanation",
+        "html": "<strong>18. E:</strong> <strong>[Reference / Explanation]</strong><br>Đáp án <strong>E</strong> đúng vì câu sau mở đầu bằng They said..., nên trước chỗ trống cần có một nhóm người cụ thể để they quay lại chỉ. Câu Scientists from an Irish university provided a possible explanation đáp ứng đúng điều đó, đồng thời phù hợp với nội dung tiếp theo là phần giải thích khoa học về việc cát quay trở lại."
+      },
+      {
+        "gap": 19,
+        "correct": "H",
+        "tag": "Reason",
+        "html": "<strong>19. H:</strong> <strong>[Reason]</strong><br>Đáp án <strong>H</strong> đúng vì câu trước nói bãi biển đã thu hút hàng trăm visitors, và câu này giải thích lý do của hiện tượng đó: Tourists wanted to see the power of nature for themselves. Câu sau tiếp tục nói về hy vọng khu vực này sẽ trở thành điểm du lịch nổi tiếng trở lại, nên mạch ý về du khách rất liền."
+      },
+      {
+        "gap": 20,
+        "correct": "B",
+        "tag": "Contrast / Safety",
+        "html": "<strong>20. B:</strong> <strong>[Contrast / Safety]</strong><br>Đáp án <strong>B</strong> đúng vì câu trước nói người dân và doanh nghiệp hy vọng bãi biển sẽ kéo du khách quay lại, nhưng câu sau lại nói No one was sure whether it was absolutely safe. Câu At first, however, people were advised to avoid going into the sea tạo sự chuyển ý rất hợp lý từ niềm hy vọng sang sự thận trọng về độ an toàn."
+      }
     ]
   }
 ]
