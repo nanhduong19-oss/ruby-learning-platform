@@ -572,6 +572,1064 @@
         "explanation": "<strong>15. B:</strong> Vì từ nhỏ Louise đã thấy vùng đất này trên TV và mơ ước được tới đó (đoạn 1), việc viết nhật ký thể hiện sự bất ngờ và hạnh phúc khi được thực sự đặt chân đến nơi mình từng thấy hoàn toàn phù hợp với cảm xúc của chuyến đi."
       }
     ]
+  },
+      {
+    "id": "pet_trainer1_p3_test1",
+    "title": "Our Great Ocean Road adventure",
+    "content_html": "<p>My family and I recently went to Australia, to see my grandparents. But before we visited them, we went sightseeing along the Great Ocean Road, on the Australian coast.</p><p>Dad had intended to drive, but even though he was used to driving miles without getting exhausted, then read on the website that the road wouldn’t be an easy drive, with a number of sharp bends. Anyway, we thought he deserved to enjoy the fantastic views too, which he couldn’t do as our driver. So instead, we persuaded him to book discount bus tickets and off we went.</p><p>Our first stop was where wild kangaroos lived – and Dad and I were taking a walk when a big one appeared! For a moment, it seemed to consider coming towards us, which made me slightly nervous – but then it went off along the road, stopping to check if we were following. Although it was with us a while, I was so excited I didn’t even manage to pull out my camera. Then it looked back once more, and went off into the bushes.</p><p>That wasn’t the only wildlife we saw. I thought it unlikely we’d see Australia’s famous koala bears during our short visit, as I’d heard they were rare – but we weren’t disappointed at our next stop. In fact, we discovered there were roughly six million in that area! Sadly, some trees there were in a bad way with very few leaves, which people told us was because of the koalas, although I’d read that lack of water is actually the problem. Still, I guess they looked cute, and were easy to find – we just followed the tourists looking up into the trees!</p><p>Dad had booked a campsite for the night, with ready-made tents – for an adventure! I wasn’t sure about that, but they were actually luxury tents, within walking distance of some famous rocks and other places we hoped to visit. Dad also said the sounds of wild creatures would help us sleep. That sounded worrying – until the ‘wild creatures’ turned out to be frogs! So I was embarrassed by my fears – and kept awake by the frogs! But we had fun making meals together – we’d brought food, as we knew there’d be nowhere to eat.</p><p>In fact, this whole trip was fantastic!</p>",
+    "questions": [
+      {
+        "number": 11,
+        "text": "Donna’s Dad decided not to drive the Great Ocean Road himself because",
+        "options": {
+          "A": "he realised he wouldn’t enjoy the views as much.",
+          "B": "he thought it would be too tiring for him.",
+          "C": "he discovered the bus would be a cheaper option.",
+          "D": "he found out the route was very challenging."
+        },
+        "answer": "D",
+        "evidenceKeywords": [
+          "wouldn’t be an easy drive",
+          "sharp bends"
+        ],
+        "explanation": "<strong>11. D:</strong> Đoạn 2 nêu rõ con đường 'wouldn’t be an easy drive' và có 'sharp bends' (nhiều khúc cua gấp), cho thấy tuyến đường rất khó lái → chọn D."
+      },
+      {
+        "number": 12,
+        "text": "When Donna saw a kangaroo along the route, she was",
+        "options": {
+          "A": "worried that it might approach her.",
+          "B": "amazed at the size of it.",
+          "C": "sad that it didn’t stay with them long.",
+          "D": "disappointed that she had forgotten her camera."
+        },
+        "answer": "A",
+        "evidenceKeywords": [
+          "slightly nervous",
+          "coming towards us"
+        ],
+        "explanation": "<strong>12. A:</strong> Cụm 'made me slightly nervous' cho thấy cô lo lắng con kangaroo có thể tiến lại gần → chọn A."
+      },
+      {
+        "number": 13,
+        "text": "Donna says that the koala bears they saw were",
+        "options": {
+          "A": "responsible for damage to the trees.",
+          "B": "even more attractive than people had told her.",
+          "C": "more common than she’d expected.",
+          "D": "very skilled at hiding away from tourists."
+        },
+        "answer": "C",
+        "evidenceKeywords": [
+          "thought unlikely",
+          "roughly six million"
+        ],
+        "explanation": "<strong>13. C:</strong> Ban đầu nghĩ koala hiếm (rare) nhưng thực tế có rất nhiều ('six million'), nên chúng phổ biến hơn mong đợi → chọn C."
+      },
+      {
+        "number": 14,
+        "text": "What was Donna’s opinion of the place where they stayed?",
+        "options": {
+          "A": "She found it was less comfortable than she’d hoped.",
+          "B": "She liked the fact that it was convenient for sightseeing.",
+          "C": "She enjoyed hearing the sounds of nature as she slept.",
+          "D": "She was disappointed there was no restaurant nearby."
+        },
+        "answer": "B",
+        "evidenceKeywords": [
+          "within walking distance",
+          "famous rocks"
+        ],
+        "explanation": "<strong>14. B:</strong> Cụm 'within walking distance' cho thấy địa điểm rất thuận tiện để tham quan → chọn B."
+      },
+      {
+        "number": 15,
+        "text": "What might Donna write in her blog during the trip?",
+        "options": {
+          "A": "The bus we’re travelling on is pretty comfortable, with great views from the window. Grandma and Grandad are enjoying it, too!",
+          "B": "We can see quite a lot as we drive along, I just wish we could stop and get out to explore properly.",
+          "C": "Yesterday we went to see some huge rocks near our campsite – and we were really impressed! I’m surprised they’re not well known.",
+          "D": "I wasn’t looking forward to camping, in case there were wild animals, but we haven’t seen anything at all dangerous, so I feel silly now!"
+        },
+        "answer": "D",
+        "evidenceKeywords": [
+          "wasn’t sure",
+          "sounded worrying",
+          "embarrassed by my fears"
+        ],
+        "explanation": "<strong>15. D:</strong> Cô ban đầu lo lắng về động vật hoang dã nhưng sau nhận ra không nguy hiểm và thấy mình lo xa → phù hợp với D."
+      }
+    ]
+  },
+  {
+    "id": "pet_trainer1_p3_test2",
+    "title": "Coasteering",
+    "content_html": "<p>Lily Carter had no idea what present she wanted for her 14th birthday. But she’d always been keen on challenging sports, especially to do with water, like surfing and sailing. So when her parents heard about an activity called coasteering – exploring rocks along the coast by climbing and swimming – they thought Lily would love it. They found a course offered at an activity centre called Porthdean, just along the coast from the family home, which was perfect. So after checking it was led by experienced instructors, they signed her up.</p><p>Lily had seen a TV show about coasteering, and was interested in doing it, although she’d thought only adults could take part. But then she discovered that on courses at Porthdean, there’d also be people her age jumping from rocks into the sea, and also exploring caves – which she was never normally allowed to do, so she really wanted to go. But she still asked her dad to go along too and, although he wondered whether he’d like coasteering himself, he knew how much Lily wanted someone to accompany her, so he agreed.</p><p>Lily and her dad drove to Porthdean, where they attended a session with their instructors to learn basic safety and techniques and be given helmets and special wetsuits to keep the cold out. The group they joined was quite small, which meant they got lots of individual attention. Says Lily, ‘The entire trip was awesome – although the water was freezing! But our instructors encouraged the whole group so much, we were ready to try absolutely all the challenges, even stuff we hadn’t expected at all, like jumping off high cliffs! I must admit, the one I jumped off wasn’t that high, but Dad went much higher!’</p><p>‘Anyway, Dad and I hadn’t realised how hard it would be physically, so we were glad we were fit,’ explains Lily. ‘Even so, afterwards, we actually felt like we’d done loads of hard exercise in the gym! But I’ll keep the memories of that trip forever, I reckon. And the instructors are going to put a video of it onto the website, so my friends will see it. They’d never believe me otherwise!’</p>",
+    "questions": [
+      {
+        "number": 11,
+        "text": "Why did Lily’s parents choose Porthdean for her coasteering present?",
+        "options": {
+          "A": "It offered various courses in her favourite watersport.",
+          "B": "The instructors there were highly recommended.",
+          "C": "It wasn’t too far away from where they lived.",
+          "D": "She had already tried some activities there."
+        },
+        "answer": "C",
+        "evidenceKeywords": [
+          "along the coast",
+          "family home"
+        ],
+        "explanation": "<strong>11. C:</strong> Đoạn 1 có chi tiết 'just along the coast from the family home' (ngay dọc bờ biển gần nhà), cho thấy địa điểm không xa nơi họ sống."
+      },
+      {
+        "number": 12,
+        "text": "How did Lily feel about the coasteering course?",
+        "options": {
+          "A": "pleased that it included something she’d always wanted to try",
+          "B": "excited about doing the experience all on her own",
+          "C": "keen to find out more about what it involved",
+          "D": "interested to see whether she was the only teenager"
+        },
+        "answer": "A",
+        "evidenceKeywords": [
+          "interested in doing it",
+          "really wanted to go"
+        ],
+        "explanation": "<strong>12. A:</strong> Lily rất hứng thú và 'really wanted to go', cho thấy cô vui vì được thử điều mình luôn muốn thử."
+      },
+      {
+        "number": 13,
+        "text": "Lily particularly liked her instructors because they made sure everyone",
+        "options": {
+          "A": "was comfortable with the kit they were given.",
+          "B": "felt confident about the new things they would attempt.",
+          "C": "got the same amount of attention.",
+          "D": "knew all the activities they would take part in."
+        },
+        "answer": "B",
+        "evidenceKeywords": [
+          "encouraged the whole group",
+          "ready to try"
+        ],
+        "explanation": "<strong>13. B:</strong> 'encouraged the whole group' cho thấy giáo viên giúp mọi người tự tự tin thử thách mới."
+      },
+      {
+        "number": 14,
+        "text": "Lily says that after the course, she was",
+        "options": {
+          "A": "happy she’d shared something so exciting with her dad.",
+          "B": "sorry she hadn’t worked at getting fitter before she went.",
+          "C": "proud that her friends all thought she’d done well.",
+          "D": "surprised at how exhausted she was by the activities."
+        },
+        "answer": "D",
+        "evidenceKeywords": [
+          "loads of hard exercise",
+          "felt like"
+        ],
+        "explanation": "<strong>14. D:</strong> Lily nói cảm thấy như vừa tập luyện rất nặng → bất ngờ vì mệt."
+      },
+      {
+        "number": 15,
+        "text": "What would Lily text to a friend while she was away on the course?",
+        "options": {
+          "A": "I don’t think Dad was sure before he came that he’d enjoy it – but actually, he’s been braver than me!",
+          "B": "I wanted to do the coasteering course, and mentioned it to my parents before my birthday. But I never expected they’d let me go!",
+          "C": "Our session before the activities was great, although I really didn’t think I’d need a wetsuit for the cold – and I was right!",
+          "D": "Going into caves was amazing. I’d love to explore them by myself when we’re next at the beach – I’m sure my parents will let me!"
+        },
+        "answer": "A",
+        "evidenceKeywords": [
+          "Dad went much higher"
+        ],
+        "explanation": "<strong>15. A:</strong> Lily nói bố nhảy cao hơn mình, thể hiện bố dũng cảm hơn → phù hợp nội dung tin nhắn A."
+      }
+    ]
+  },
+  {
+    "id": "pet_trainer1_p3_test3",
+    "title": "Karina Moore – teenage high diver!",
+    "content_html": "<p>Several times a week, teenager Karina Moore trains at her local pool to jump from the high-diving board into the water – in an attempt to become a national diving champion.</p><p>Karina first learned about diving during a family break in Spain, where the resort’s pool had a high-diving board. Young people were diving off it, and it looked fun, but Karina didn’t join in, even though she was a strong swimmer. Then after returning home, she discovered a long-distance runner she’d always admired had started diving for relaxation – so she became more interested.</p><p>Karina joined a beginners’ diving class at her local pool. They had several sessions jumping onto soft materials before trying the high board. ‘The water looked a long way down,’ says Karina, ‘but after our training, I felt I’d handle it – without injuring myself! They’d warned me I’d land in the water fast – at around 60 kph – but I was prepared. I couldn’t wait to get started – although the others weren’t so keen! Anyway, I wasn’t disappointed by the experience.’</p><p>In Karina’s area, there’s now lots of interest in high diving, but it’s sometimes difficult for swimmers to find suitable practice facilities. Although the pools are deep enough, they’re in use so often by diving clubs that other people don’t get opportunities to practise. Fortunately, though, Karina’s coach noticed her talent and helped her develop her techniques. After only two years, she’s winning competitions in her area.</p><p>But what’s it like to concentrate so much on diving? ‘I train 20 hours a week,’ says Karina, ‘and I won’t pretend it’s easy – you have to enjoy it to spend so much time doing it! It’s not easy for my parents either, though – they drive me to training sessions early in the morning, and that costs money. But they’ve had financial help from sports organisations, luckily. And my schoolwork and social life are good. I still meet my mates – and there’s always the phone! The only thing I hadn’t realised was that the pool water would damage my hair – I used to love my long hair, but I’ve had to cut it short because it looked awful! But I’ll definitely keep on diving!’</p>",
+    "questions": [
+      {
+        "number": 11,
+        "text": "What made Karina keen to take up diving?",
+        "options": {
+          "A": "She wanted to repeat her holiday experience.",
+          "B": "She found out her athletics hero had taken it up.",
+          "C": "She’d visited a pool where some teenagers were doing it.",
+          "D": "She wanted a new challenge after her success at swimming."
+        },
+        "answer": "B",
+        "evidenceKeywords": [
+          "admired",
+          "started diving",
+          "more interested"
+        ],
+        "explanation": "<strong>11. B:</strong> Đoạn 2 cho biết Karina trở nên hứng thú khi biết một vận động viên cô ngưỡng mộ đã bắt đầu tập nhảy cầu ('she’d always admired had started diving'), tương ứng với 'athletics hero'."
+      },
+      {
+        "number": 12,
+        "text": "How did Karina feel the first time she used the high board?",
+        "options": {
+          "A": "worried about how far it was above the pool",
+          "B": "pleased to experience it with other beginners",
+          "C": "confident that she wouldn’t get hurt",
+          "D": "shocked to hit the water at such speed"
+        },
+        "answer": "C",
+        "evidenceKeywords": [
+          "felt I’d handle it",
+          "without injuring myself"
+        ],
+        "explanation": "<strong>12. C:</strong> Karina nói cô cảm thấy có thể xử lý được và không bị thương ('I felt I’d handle it – without injuring myself'), thể hiện sự tự tin."
+      },
+      {
+        "number": 13,
+        "text": "What does the writer suggest about diving facilities in Karina’s area?",
+        "options": {
+          "A": "They’re not used as much as they could be.",
+          "B": "There aren’t enough coaches teaching people to use them.",
+          "C": "There aren’t as many boards as there used to be.",
+          "D": "They’re not available to the public for long enough each day."
+        },
+        "answer": "D",
+        "evidenceKeywords": [
+          "in use so often",
+          "don’t get opportunities to practise"
+        ],
+        "explanation": "<strong>13. D:</strong> Các bể bơi bị dùng thường xuyên bởi câu lạc bộ nên người khác không có cơ hội luyện tập, nghĩa là không có đủ thời gian cho công chúng sử dụng."
+      },
+      {
+        "number": 14,
+        "text": "How does Karina feel about spending so much time diving?",
+        "options": {
+          "A": "surprised by one effect it has had on her",
+          "B": "sorry she no longer sees her friends so much",
+          "C": "anxious about the amount of money it costs",
+          "D": "grateful to be able to focus on something she loves"
+        },
+        "answer": "A",
+        "evidenceKeywords": [
+          "hadn’t realised",
+          "damage my hair"
+        ],
+        "explanation": "<strong>14. A:</strong> Karina bất ngờ vì nước hồ làm hỏng tóc ('I hadn’t realised... would damage my hair'), thể hiện sự ngạc nhiên về một tác động."
+      },
+      {
+        "number": 15,
+        "text": "What would the writer say about Karina?",
+        "options": {
+          "A": "She’s a young girl who’s achieved a lot by becoming a national diving champion – and all with very little support.",
+          "B": "She’s made enormous progress in a very short time – after only a couple of years, she’s already showing great signs of success.",
+          "C": "She has a lot of natural talent, but she’s already thinking of having a break from the high board for a while.",
+          "D": "She’s sad that she’s given up almost everything for her sport – and her lifestyle really sounds quite hard."
+        },
+        "answer": "B",
+        "evidenceKeywords": [
+          "after only two years",
+          "winning competitions"
+        ],
+        "explanation": "<strong>15. B:</strong> Sau chỉ hai năm, Karina đã giành chiến thắng trong các cuộc thi, cho thấy sự tiến bộ rất nhanh trong thời gian ngắn."
+      }
+    ]
+  },
+      {
+    "id": "pet_trainer1_p3_test4",
+    "title": "Cross-country skiing in Sweden",
+    "content_html": "<p>Last year, Mum and I wanted to try a winter sport called cross-country skiing – travelling on skis across the countryside. And pictures of one area in Sweden, with people skiing along through forests on wonderful white snow, persuaded us that destination was a good choice. We hadn't done much skiing, though, so weren't sure how difficult cross-country skiing was, compared with skiing fast down steep mountains. But we signed up to join a group of people, of all ages, plus a guide.</p><p>We'd read about the place we went to before we left, so we knew it was close to where Sweden ends and Norway starts. And our family knew we couldn't text home, as there was no internet connection – and actually, it was relaxing to be far from anywhere, or anyone. What we hadn't realised was that from there, we'd be able to see amazing coloured lights in the sky, which appeared at certain times of year, called the Northern Lights – what a sight!</p><p>On our first day there, I hated getting up in the dark, but it meant I saw the sun come up over the forest, so I was glad I did. And sunshine was forecast for the week, I was delighted to hear! But the real problem was my 15kg rucksack, full of food and clothes – I had no idea it would weigh that much. Anyway, we skied for hours across mainly flat snow. Having special light skis was supposed to help us climb the few hills there were – although I still couldn't do it!</p><p>Finally we stopped for the night. It wasn't until we'd reached our hut that our guide mentioned we'd just crossed a frozen lake to get there – but nothing surprised us by that point! Anyway, he gave us all jobs to do – cutting fire wood and cooking food – and soon we were having dinner, made from whatever food we'd brought – a strange mix, but it tasted delicious. And everywhere was so peaceful outside that none of us stayed awake long.</p><p>Mum and I want to try another winter sports trip, maybe snowboarding. But we'll probably end up just as exhausted as we were after this trip!</p>",
+    "questions": [
+      {
+        "number": 11,
+        "text": "Jenna and her mum decided to go cross-country skiing in Sweden because",
+        "options": {
+          "A": "they wanted a change from mountain skiing holidays.",
+          "B": "they'd heard the sport would be easier than skiing down hills.",
+          "C": "they'd met a group of people who wanted to go, too.",
+          "D": "they found a place there that they were keen to visit."
+        },
+        "answer": "D",
+        "evidenceKeywords": [
+          "pictures of one area in Sweden",
+          "persuaded us",
+          "destination was a good choice"
+        ],
+        "explanation": "<strong>11. D:</strong> Đoạn 1 nêu rõ 'pictures of one area in Sweden... persuaded us that destination was a good choice' (những bức ảnh về một vùng ở Thụy Điển... đã thuyết phục họ rằng đó là điểm đến tốt). Động từ <em>persuaded</em> và cụm <em>destination was a good choice</em> đồng nghĩa với việc họ tìm thấy một nơi mà họ rất muốn đến thăm (<em>keen to visit</em>)."
+      },
+      {
+        "number": 12,
+        "text": "After their arrival, what did they discover about where they were staying?",
+        "options": {
+          "A": "It wasn't far from the border with another country.",
+          "B": "They could get great views of a spectacular natural event.",
+          "C": "It was at a point where they couldn't use technology.",
+          "D": "They weren't near local people or their homes."
+        },
+        "answer": "B",
+        "evidenceKeywords": [
+          "hadn't realised",
+          "amazing coloured lights",
+          "Northern Lights"
+        ],
+        "explanation": "<strong>12. B:</strong> Đoạn 2 viết 'What we hadn't realised was that from there, we'd be able to see amazing coloured lights in the sky... called the Northern Lights' (Điều họ chưa nhận ra là có thể nhìn thấy Bắc cực quang tuyệt đẹp). <em>Amazing coloured lights / Northern Lights</em> = a spectacular natural event. Đây là điều họ khám phá ra sau khi đến nơi (<em>hadn't realised</em> trước đó)."
+      },
+      {
+        "number": 13,
+        "text": "How did Jenna feel about the long trips through the snow on skis?",
+        "options": {
+          "A": "surprised she had to carry such a heavy bag",
+          "B": "pleased about the weight of the skis she was given",
+          "C": "glad that going uphill wasn't as hard as she'd thought",
+          "D": "worried the good weather they were having wouldn't last"
+        },
+        "answer": "A",
+        "evidenceKeywords": [
+          "real problem",
+          "15kg rucksack",
+          "had no idea it would weigh that much"
+        ],
+        "explanation": "<strong>13. A:</strong> Đoạn 3 viết 'the real problem was my 15kg rucksack... I had no idea it would weigh that much' (vấn đề thực sự là chiếc ba lô 15kg... tôi không hề biết nó nặng đến vậy). Cụm <em>had no idea</em> = bất ngờ/ngạc nhiên (<em>surprised</em>); <em>weigh that much</em> tương đương <em>carry such a heavy bag</em>."
+      },
+      {
+        "number": 14,
+        "text": "Regarding their accommodation, Jenna says everyone",
+        "options": {
+          "A": "had difficulties getting to sleep there.",
+          "B": "was unhappy at the quality of the food.",
+          "C": "had to help out with all the housework.",
+          "D": "was shocked to hear details of their journey there."
+        },
+        "answer": "C",
+        "evidenceKeywords": [
+          "gave us all jobs to do",
+          "cutting fire wood",
+          "cooking food"
+        ],
+        "explanation": "<strong>14. C:</strong> Đoạn 4 viết 'he gave us all jobs to do – cutting fire wood and cooking food' (hướng dẫn viên giao việc cho tất cả – chặt củi và nấu ăn). <em>Jobs to do = cutting firewood + cooking</em> tương đương với <em>help out with housework</em>. Đáp án A sai vì 'none of us stayed awake long' cho thấy họ ngủ ngon; B sai vì bữa ăn 'tasted delicious'."
+      },
+      {
+        "number": 15,
+        "text": "What would Jenna text to a friend about her trip?",
+        "options": {
+          "A": "One reason we chose this trip was that we thought we'd be among loads of trees, which we love – but that hasn't happened so far.",
+          "B": "The people in our group were really friendly – but they were all Mum's age and older, really.",
+          "C": "I'm not used to getting out of bed so early to do things! But it was worth it, as the sunrise was wonderful.",
+          "D": "Mum and I have agreed that although the trip was great, we might attempt something less tiring on our next winter holiday."
+        },
+        "answer": "C",
+        "evidenceKeywords": [
+          "hated getting up in the dark",
+          "saw the sun come up",
+          "glad I did"
+        ],
+        "explanation": "<strong>15. C:</strong> Đoạn 3 viết 'I hated getting up in the dark, but it meant I saw the sun come up over the forest, so I was glad I did.' — Jenna ghét dậy sớm (<em>not used to getting out of bed so early</em>) nhưng thấy xứng đáng vì ngắm được bình minh (<em>it was worth it / sunrise was wonderful</em>). Đáp án D sai vì bài kết thúc với ý họ sẽ vẫn mệt như vậy, không phải tìm chuyến ít mệt hơn."
+      }
+    ]
+  },
+  {
+    "id": "pet_trainer1_p3_test5",
+    "title": "Our school newspaper",
+    "content_html": "<p>Some years ago, our head teacher, Mrs Waters, decided to start a school newspaper, and get as many students as possible to take on the job of producing it – and parents, too. She felt the newspaper would help them learn more about school life, through articles on things like sports achievements and arts projects, which not all students know about if they're not taking part. Students took the whole thing very seriously – and we now have a prize-winning newspaper!</p><p>Some of my friends joined the newspaper team immediately and enjoyed it. I'd always loved creative writing and drawing cartoons, which I thought would be perfect in the newspaper, so I signed up. My dad, who's a journalist, was pleased – he thought that even though I wasn't keen on a job like his, the newspaper would be a great opportunity for me. And he was right – I loved it! Dad often came along to give advice, which was popular with the students. It was difficult sometimes, if he was busy, but he learned a lot about the school that way.</p><p>My first job was writing a report about a sports event – a writing style I'd never attempted before. But Dad reminded me it was similar in some ways to writing a story – getting information in the right order. Once I'd understood that, there was no stopping me – and after my first efforts, I developed quite a professional style, which was brilliant. Sometimes the team couldn't use what I'd written, or my cartoons, for whatever reason, but I didn't mind. And sometimes it was hard to finish stuff on time, but I usually got there.</p><p>I'm now one of the editors – we decide what goes into the newspaper, so our names no longer appear in print. And it's stressful sometimes as we don't have much time, but we try to manage that properly. We also correct mistakes in people's articles, which we all had to get used to, but we were soon doing it without thinking – and in our own schoolwork, too. I still put off calling people outside school for comments on stuff, but I guess it's all good experience – at least, that's what Dad says!</p>",
+    "questions": [
+      {
+        "number": 11,
+        "text": "Michael's head teacher wanted to start a student newspaper to",
+        "options": {
+          "A": "provide an activity for students not interested in sport or art.",
+          "B": "make students feel more confident about taking part in something.",
+          "C": "keep students better informed about what was happening at school.",
+          "D": "give students the experience of being responsible for something."
+        },
+        "answer": "C",
+        "evidenceKeywords": [
+          "learn more about school life",
+          "not all students know about"
+        ],
+        "explanation": "<strong>11. C:</strong> Đoạn 1 nêu rõ mục đích của Mrs Waters: tờ báo sẽ giúp học sinh 'learn more about school life, through articles on things like sports achievements and arts projects, which not all students know about' – tức là bà muốn học sinh được cập nhật thông tin về các hoạt động ở trường mà không phải em nào cũng biết, khớp với đáp án C."
+      },
+      {
+        "number": 12,
+        "text": "Michael decided to join the newspaper because",
+        "options": {
+          "A": "he had ideas about some work he could do for it.",
+          "B": "he was considering a career in journalism.",
+          "C": "his friends had encouraged him to do so.",
+          "D": "he liked the idea of being part of a team."
+        },
+        "answer": "A",
+        "evidenceKeywords": [
+          "always loved creative writing",
+          "drawing cartoons",
+          "would be perfect in the newspaper"
+        ],
+        "explanation": "<strong>12. A:</strong> Michael tham gia vì 'I'd always loved creative writing and drawing cartoons, which I thought would be perfect in the newspaper' – anh đã nghĩ sẵn về những việc mình có thể đóng góp cho tờ báo, khớp với A 'he had ideas about some work he could do for it'. Đáp án B sai vì anh không muốn theo nghề bố ('I wasn't keen on a job like his')."
+      },
+      {
+        "number": 13,
+        "text": "When Michael first started working on the newspaper, he was",
+        "options": {
+          "A": "disappointed when his stories sometimes weren't used.",
+          "B": "delighted at the way his writing skills improved.",
+          "C": "pleased to find he could make use of his art skills.",
+          "D": "worried he'd be late completing some of his writing."
+        },
+        "answer": "B",
+        "evidenceKeywords": [
+          "developed quite a professional style",
+          "which was brilliant"
+        ],
+        "explanation": "<strong>13. B:</strong> Đoạn 3 mô tả: 'after my first efforts, I developed quite a professional style, which was brilliant' – Michael vui mừng vì kỹ năng viết tiến bộ rõ rệt, khớp với B 'delighted at the way his writing skills improved'. Đáp án A sai vì anh nói 'I didn't mind' khi bài không được dùng."
+      },
+      {
+        "number": 14,
+        "text": "What does Michael say about his role on the newspaper now?",
+        "options": {
+          "A": "He feels uncomfortable about correcting other students' work.",
+          "B": "He still needs to improve the way he manages his time.",
+          "C": "He's happier to handle making telephone calls to others.",
+          "D": "He's become better at making articles more accurate."
+        },
+        "answer": "D",
+        "evidenceKeywords": [
+          "correct mistakes in people's articles",
+          "soon doing it without thinking"
+        ],
+        "explanation": "<strong>14. D:</strong> Đoạn cuối viết 'We also correct mistakes in people's articles, which we all had to get used to, but we were soon doing it without thinking' – ban đầu phải làm quen nhưng dần trở nên thành thục, đồng nghĩa với D 'He's become better at making articles more accurate'. Đáp án A sai vì anh không còn cảm thấy khó chịu nữa."
+      },
+      {
+        "number": 15,
+        "text": "What would Michael's dad say about the newspaper?",
+        "options": {
+          "A": "I was surprised at how keen Michael was to get involved – he's never shown that much interest in writing before.",
+          "B": "I occasionally had problems finding the time to help out at Michael's school, but the students really seemed to like my suggestions.",
+          "C": "Michael would never admit it, but I know he's proud to see his name in the newspaper these days – and I am, too!",
+          "D": "It's been great to finally find out about life at the school through reading the newspaper. I didn't really know much about it before."
+        },
+        "answer": "B",
+        "evidenceKeywords": [
+          "Dad often came along to give advice",
+          "popular with the students",
+          "difficult sometimes, if he was busy"
+        ],
+        "explanation": "<strong>15. B:</strong> Bài viết nêu 'Dad often came along to give advice, which was popular with the students. It was difficult sometimes, if he was busy' – bố đôi khi gặp khó khăn về thời gian nhưng lời khuyên được học sinh đón nhận tích cực, khớp chính xác với đáp án B. Đáp án A sai vì bố không ngạc nhiên mà còn vui vì đây là cơ hội tốt cho Michael."
+      }
+    ]
+  },
+  {
+    "id": "pet_trainer1_p3_test6",
+    "title": "Whale-watching trip",
+    "content_html": "<p>A while ago, my friend Olivia was telling me about a whale-watching trip she'd been on, in Canada. I wanted to tell her I was about to do the same thing, off the north coast of the UK, where my grandparents live. Whales had recently appeared there again, and my grandparents were convinced we'd see some – so I was sure my trip would be as good as Olivia's! But then I saw some reviews of the trip my dad had booked for us, when no-one had seen <em>any</em> whales at all. So, in the end, I decided not to tell Olivia anything about my trip, in case it wasn't successful!</p><p>Anyway, Dad and I set off on our trip – which was Dad's idea – and it was fantastic! Travelling out to sea on the tour boat with our guide, we soon reached the spot where whales often appeared. Then we waited – and nothing happened. I was sure this wouldn't last, though. People kept calling out they'd seen one, which was exciting – but then it turned out they were wrong. Then finally I saw something move under the water – a minke whale! So I felt like a hero for the rest of the trip!</p><p>The whale was a wonderful sight, with its huge back not far from the boat. Our guide said it was around five tonnes in weight and around 10 metres long. Yet, despite its size, it swam alongside us at speed, and with little effort. We waited to see if more appeared, and some time later, we saw three more some distance away, that kept diving under the water and coming up again. Then just after I'd filmed them, they disappeared.</p><p>Although the water's less deep around the coast, larger whale species appear in the area with minke whales, feeding on fish. But minkes are curious creatures, so they're more likely to approach tourist boats – which was why we were successful! Then later, up on the cliffs, we looked out to sea, searching for signs of whales. Sometimes seabirds diving into the water means whales are around, as they're stealing the whales' meal. We were unlucky, sadly – but we'll be back!</p>",
+    "questions": [
+      {
+        "number": 11,
+        "text": "Jack wasn't keen to mention his whale-watching trip to Olivia because",
+        "options": {
+          "A": "he thought her trip sounded a lot more exciting.",
+          "B": "he'd read some negative reports about where he was going.",
+          "C": "he wasn't sure if his dad had definitely arranged it.",
+          "D": "he didn't know whether she was very interested in whales."
+        },
+        "answer": "B",
+        "evidenceKeywords": [
+          "reviews",
+          "no-one had seen any whales",
+          "in case it wasn't successful"
+        ],
+        "explanation": "<strong>11. B:</strong> Trong đoạn 1, Jack kể rằng anh đã xem các đánh giá về chuyến đi mà bố đặt, trong đó không ai nhìn thấy cá voi: 'I saw some reviews of the trip my dad had booked for us, when no-one had seen any whales at all.' Đây là lý do anh không muốn kể với Olivia vì sợ chuyến đi thất bại. Từ 'reviews' trong bài tương đương với 'reports' trong đáp án B."
+      },
+      {
+        "number": 12,
+        "text": "On board the whale-watching boat, Jack",
+        "options": {
+          "A": "was proud to be the first person to see a whale.",
+          "B": "began to worry that they might all be disappointed.",
+          "C": "tried not to get excited when anyone saw something.",
+          "D": "was glad he'd persuaded his dad to come with him."
+        },
+        "answer": "A",
+        "evidenceKeywords": [
+          "finally I saw something move under the water",
+          "felt like a hero"
+        ],
+        "explanation": "<strong>12. A:</strong> Đoạn 2 mô tả Jack là người đầu tiên thực sự nhìn thấy cá voi: 'Then finally I saw something move under the water – a minke whale! So I felt like a hero for the rest of the trip!' Cụm 'felt like a hero' thể hiện sự tự hào vì là người đầu tiên phát hiện ra cá voi, tương đương với đáp án A 'was proud to be the first person to see a whale'."
+      },
+      {
+        "number": 13,
+        "text": "When Jack saw the minke whale, he was",
+        "options": {
+          "A": "surprised at how close it came to the boat.",
+          "B": "amazed that it was so much bigger than he'd imagined.",
+          "C": "impressed that it moved through the water so easily.",
+          "D": "delighted to see it had arrived with several others."
+        },
+        "answer": "C",
+        "evidenceKeywords": [
+          "despite its size",
+          "swam alongside us at speed",
+          "with little effort"
+        ],
+        "explanation": "<strong>13. C:</strong> Đoạn 3 viết 'Yet, despite its size, it swam alongside us at speed, and with little effort.' Dù cá voi rất to lớn (5 tấn, 10 mét), nó vẫn bơi nhanh và dễ dàng — điều khiến Jack ấn tượng. Đáp án C 'impressed that it moved through the water so easily' khớp với 'swam at speed, and with little effort'. Các đáp án A, B, D đều không được bài văn đề cập đến trong ngữ cảnh này."
+      },
+      {
+        "number": 14,
+        "text": "Jack suggests minke whales appeared in the same area as the boat because",
+        "options": {
+          "A": "they knew there were plenty of fish there.",
+          "B": "they were attracted by the arrival of the visitors.",
+          "C": "they didn't have to compete for food with seabirds.",
+          "D": "they preferred how deep the water was there."
+        },
+        "answer": "B",
+        "evidenceKeywords": [
+          "minkes are curious creatures",
+          "more likely to approach tourist boats",
+          "which was why we were successful"
+        ],
+        "explanation": "<strong>14. B:</strong> Đoạn 4 giải thích 'minkes are curious creatures, so they're more likely to approach tourist boats – which was why we were successful!' Cá voi minke tò mò và có xu hướng tiếp cận thuyền du lịch, nghĩa là bị thu hút bởi sự xuất hiện của du khách. Đáp án B 'they were attracted by the arrival of the visitors' diễn đạt chính xác ý này. Đáp án A là lý do cá voi lớn hơn xuất hiện (feeding on fish), không phải minke."
+      },
+      {
+        "number": 15,
+        "text": "What would Jack text to his grandparents about the whales?",
+        "options": {
+          "A": "I'll send you my video of the group of whales – they only appeared briefly, so they weren't as interesting as the first one we saw.",
+          "B": "Dad said he'd really wanted to go to Canada to watch whales, like my friend Olivia – but now we're really happy we came here.",
+          "C": "I must take you up to the cliffs to look for whales – we've seen them every time we've been there, so far.",
+          "D": "You were so sure our whale-watching trip would be a success, while I still had doubts – but you were right."
+        },
+        "answer": "D",
+        "evidenceKeywords": [
+          "grandparents were convinced we'd see some",
+          "decided not to tell Olivia",
+          "in case it wasn't successful"
+        ],
+        "explanation": "<strong>15. D:</strong> Ông bà Jack 'were convinced we'd see some' (rất tin chắc họ sẽ thấy cá voi), trong khi Jack lại có chút nghi ngờ sau khi đọc các đánh giá tiêu cực. Chuyến đi cuối cùng thành công. Đáp án D 'You were so sure our whale-watching trip would be a success, while I still had doubts – but you were right' phản ánh chính xác tình huống này. Đáp án A sai vì nhóm cá voi sau biến mất ngay sau khi Jack quay phim; B sai vì bố là người đề xuất chuyến đi (Dad's idea), không phải muốn đi Canada; C sai vì trên vách đá lần này họ không thấy cá voi."
+      }
+    ]
+  },
+      {
+    "id": "pet_trainer2_p3_test1",
+    "title": "Toby Harris, actor",
+    "content_html": "<p>Acting is something that I’ve been interested in for ages. My aunt belonged to a drama group, and I used to watch her shows when I was a child. But it was only when I was 11 that I joined a theatre club and started acting regularly. I had accompanied a school friend, who was nervous about going alone, and I signed up that same evening! My drama teacher was happy because she’d always said I was talented.</p><p>A while later, a film director saw me in one of the club’s plays and asked me to be in her film. I said yes, and for me, that was the start of everything. I thought the film would be scary to do, as I was the youngest person at the film studio. I was really calm during the whole thing though, which I hadn’t expected. Everyone was so friendly! I didn’t have that much to do, not like the main star. He’s become very well-known since we worked together. All his films are extremely successful.</p><p>I’ve done a few films now. The last was a comedy, which I was glad to finish – it’s not something I find easy! I often get asked for tips about getting into films. Everyone thinks that who you know is important. Maybe that used to be true. Nowadays, it’s about experience. There are lots of directors looking for new actors for different film projects, so accept as much work as you can! Even two minutes on camera is useful. Also, ignore reviews. Positive comments are lovely to get, but people can also be unkind!</p><p>Recently, I finished a big film, and now I’m planning for the future. I tried for a part in a television series; they chose someone else in the end unfortunately – I’m fine with it, though. It’s part of being an actor! I’m taking advantage of a break to do some horse riding. I was taught how to do it on an advanced acting course last year and I need to make sure I still remember everything – it’s good for my CV, to show I’d be good in action films, for example!</p>",
+    "questions": [
+      {
+        "number": 11,
+        "text": "Toby decided to join a theatre club after",
+        "options": {
+          "A": "his teacher recommended it to him.",
+          "B": "his aunt was involved in running it.",
+          "C": "he saw other children acting in one of its plays.",
+          "D": "he enjoyed a session he’d gone to with a friend."
+        },
+        "answer": "D",
+        "evidenceKeywords": [
+          "accompanied a school friend",
+          "signed up that same evening"
+        ],
+        "explanation": "<strong>11. D:</strong> Toby đi cùng bạn đến CLB kịch và đăng ký ngay trong tối hôm đó, cho thấy anh thích trải nghiệm này. Các đáp án khác không đúng với nội dung bài."
+      },
+      {
+        "number": 12,
+        "text": "How did Toby feel about the first film he acted in?",
+        "options": {
+          "A": "excited about working with the famous people in it",
+          "B": "surprised at how relaxed he felt when making it",
+          "C": "pleased to have such a big part in it",
+          "D": "amazed at how popular it was"
+        },
+        "answer": "B",
+        "evidenceKeywords": [
+          "really calm",
+          "hadn’t expected"
+        ],
+        "explanation": "<strong>12. B:</strong> Toby bất ngờ vì mình cảm thấy rất bình tĩnh khi quay phim. Điều này thể hiện qua cụm 'which I hadn’t expected'."
+      },
+      {
+        "number": 13,
+        "text": "Toby advises young people interested in being in films to",
+        "options": {
+          "A": "ask for people’s opinions about their performance.",
+          "B": "watch a range of films by different directors.",
+          "C": "get to know other people in the industry.",
+          "D": "take any roles that are offered."
+        },
+        "answer": "D",
+        "evidenceKeywords": [
+          "accept as much work as you can",
+          "two minutes on camera is useful"
+        ],
+        "explanation": "<strong>13. D:</strong> Toby khuyên nên nhận mọi cơ hội diễn xuất để tích lũy kinh nghiệm, dù là vai nhỏ."
+      },
+      {
+        "number": 14,
+        "text": "What is Toby going to do next?",
+        "options": {
+          "A": "practise a useful skill",
+          "B": "star in a TV programme",
+          "C": "play a part in an exciting film",
+          "D": "teach on a course for advanced actors"
+        },
+        "answer": "A",
+        "evidenceKeywords": [
+          "horse riding",
+          "taking advantage of a break"
+        ],
+        "explanation": "<strong>14. A:</strong> Toby sẽ dành thời gian luyện cưỡi ngựa – một kỹ năng hữu ích cho sự nghiệp diễn xuất."
+      },
+      {
+        "number": 15,
+        "text": "What would Toby write in his blog about acting?",
+        "options": {
+          "A": "I’m still trying to find a good way to deal with being told I’m not the right person for a role – it just doesn’t get any easier, I’m afraid!",
+          "B": "I’m so pleased I’ve been in such a variety of films. My favourites are the funny ones – they’re always fun, as you’d expect!",
+          "C": "All my success has come because of someone who was in the audience at a show I did. I’m very lucky!",
+          "D": "I regret wasting time deciding whether to get involved in my first drama group. If you think you’ll enjoy something, try it!"
+        },
+        "answer": "C",
+        "evidenceKeywords": [
+          "film director saw me",
+          "start of everything"
+        ],
+        "explanation": "<strong>15. C:</strong> Thành công của Toby bắt đầu khi một đạo diễn nhìn thấy anh diễn và mời đóng phim, phù hợp với ý trong đáp án C."
+      }
+    ]
+  },
+  {
+    "id": "pet_trainer2_p3_test2",
+    "title": "Jacob Harvey - Lead singer with the band Mason",
+    "content_html": "<p>Fans always ask how Mason started. My guitar teacher knew I wanted to be in a band and said putting posters up at school to find musicians could help. The trouble was, I knew my classmates weren’t into rock, like me. In the end, I heard about a band who’d recently stopped playing. The singer had moved away, so they couldn’t practise. I messaged the drummer and the keyboard player. We did some songs together, and we’ve been together ever since. We’ve become close mates: me singing, Kath on drums and Victor on keyboards.</p><p>That was eight years ago. Our audiences have increased, and we play in bigger places. We still do concerts in our home town, though, on every tour – that’s important to us. I still get nervous before a concert, but once I’m on stage I feel fine. Sometimes things go wrong, but that’s OK! And being in front of an audience improves our performance. The atmosphere’s incredible, with everyone videoing their favourite songs on their phones!</p><p>We’ve recently met Gary Keen from rock band The 45s. He took us round his studio and let us record our song Days there! He stayed to listen and made some interesting suggestions. He even promised to take a copy to a meeting he was having with an international music company! And he’s put a link to us on his social media. More than anything, that’s what’s got even more people talking about us, and it’s what really changes things.</p><p>People sometimes want advice about being in a band. Well, when you get more well-known, people start offering to manage you. Don’t do anything you don’t want to do; don’t worry about doing things yourself; it’s better than being with the wrong person. You need to get your music heard, though. Giving away tickets to shows is a good way to do this. Just remember to develop your own style and be original. And maybe one day, you’ll get recognised in the street! The first time that happened was amazing! And we’re very happy to be in photos and chat with people. We’re nothing without our fans, after all!</p>",
+    "questions": [
+      {
+        "number": 11,
+        "text": "How did Jacob find people for his band?",
+        "options": {
+          "A": "He invited musicians from another band to play with him.",
+          "B": "His teacher suggested a band to join.",
+          "C": "He put a notice up on his school noticeboard.",
+          "D": "He chose musicians who were already his friends."
+        },
+        "answer": "A",
+        "evidenceKeywords": [
+          "heard about a band",
+          "messaged the drummer",
+          "keyboard player"
+        ],
+        "explanation": "<strong>11. A:</strong> Jacob nghe về một ban nhạc đã ngừng hoạt động và liên hệ với các thành viên còn lại. Điều này cho thấy anh đã tìm người từ một ban nhạc khác, không phải bạn bè hay từ trường."
+      },
+      {
+        "number": 12,
+        "text": "What does Jacob say about playing music to an audience?",
+        "options": {
+          "A": "Going on stage gets easier each time.",
+          "B": "Making mistakes is very embarrassing.",
+          "C": "Doing a live show makes the band play better.",
+          "D": "Seeing people recording the songs is annoying."
+        },
+        "answer": "C",
+        "evidenceKeywords": [
+          "improves our performance",
+          "in front of an audience"
+        ],
+        "explanation": "<strong>12. C:</strong> Câu 'being in front of an audience improves our performance' cho thấy biểu diễn trực tiếp giúp ban nhạc chơi tốt hơn."
+      },
+      {
+        "number": 13,
+        "text": "What did Jacob find most useful about meeting a famous musician?",
+        "options": {
+          "A": "Gary included some information about the band online.",
+          "B": "Gary introduced Jacob to a new contact in the music business.",
+          "C": "Jacob got help to finish writing a song.",
+          "D": "Gary let them use his music studio."
+        },
+        "answer": "A",
+        "evidenceKeywords": [
+          "put a link",
+          "social media",
+          "more than anything"
+        ],
+        "explanation": "<strong>13. A:</strong> Jacob nhấn mạnh 'More than anything' việc Gary đăng link ban nhạc lên mạng xã hội giúp họ được chú ý nhiều hơn."
+      },
+      {
+        "number": 14,
+        "text": "Jacob’s advice to other young bands is to",
+        "options": {
+          "A": "create a website to advertise yourselves.",
+          "B": "let people see you play for free.",
+          "C": "get a manager as soon as you can.",
+          "D": "follow the latest trends in music."
+        },
+        "answer": "B",
+        "evidenceKeywords": [
+          "giving away tickets",
+          "good way"
+        ],
+        "explanation": "<strong>14. B:</strong> Jacob khuyên 'Giving away tickets to shows is a good way' tức là cho vé miễn phí để quảng bá âm nhạc."
+      },
+      {
+        "number": 15,
+        "text": "What would fans of Mason say about the band?",
+        "options": {
+          "A": "I love that all the members have great voices – it’s good that they all have a chance to sing, not just Jacob!",
+          "B": "I live in the band’s home town. I wish they’d play here when they’re on tour – they stopped doing that as soon as they got famous!",
+          "C": "Days is my favourite song – I loved that the lead singer of The 45s sang on it too!",
+          "D": "The fact that Mason are always willing to talk to their fans is great. It shows they think we’re important to them."
+        },
+        "answer": "D",
+        "evidenceKeywords": [
+          "chat with people",
+          "nothing without our fans"
+        ],
+        "explanation": "<strong>15. D:</strong> Jacob nói họ thích trò chuyện với fan và coi fan rất quan trọng, nên fan sẽ đánh giá cao điều này."
+      }
+    ]
+  },
+  {
+    "id": "pet_trainer2_p3_test3",
+    "title": "River Cleaning Event",
+    "content_html": "<p>I recently took part in an event called a River Clean, where volunteers collect rubbish from a river. I'd wanted to do one ever since I saw an online post from a school friend, describing one she'd done. Then one day, down near the river, there was a poster on the noticeboard providing details about a River Clean event. It included the phone number of the person setting it up so you could register your name. And that's what I did!</p><p>On the day, I went to the river and saw some people standing around. Despite the faces not being familiar, everyone looked friendly. Most had brought thick gloves, which the organisers had asked us to do if possible. I was pleased there were spare ones to borrow, as I realised I'd left mine at home. I'd been in a rush because I hadn't wanted to be late! We read through a list of instructions, and after being given the chance to ask questions, we started collecting.</p><p>I'm generally a sociable person, but once I started, I mostly worked in silence, probably because I had to focus so much. When we'd finished, despite there being only a small number of us, we'd filled four big trucks with rubbish. Unfortunately, I think it will keep appearing in the river in future, but seeing everything we'd removed in one place felt like an achievement and clearly showed the problem. I'd never imagined there'd be so much rubbish, and by far the most common sort was plastic packets.</p><p>We finished exactly at midday, and before we went home, we completed a short questionnaire about our top idea for solving the problem of rubbish in rivers. Everyone had useful ones, like providing more recycling bins – although I think people need to be taught to use them! There's lots of information about recycling in schools, but in people's homes, too much plastic often goes into general rubbish and can end up back in the water. Actually, though, I think that unless people start buying products that aren't wrapped in plastic, nothing we do will have an effect, even if we did a river clean weekly! So that's what I put.</p>",
+    "questions": [
+      {
+        "number": 11,
+        "text": "How did Lily find out that the event was happening?",
+        "options": {
+          "A": "from talking to someone she knew at school",
+          "B": "from speaking to the organisers",
+          "C": "from some information by the river",
+          "D": "from an advertisement on social media"
+        },
+        "answer": "C",
+        "evidenceKeywords": [
+          "poster",
+          "noticeboard",
+          "near the river"
+        ],
+        "explanation": "<strong>11. C:</strong> Lily thấy poster trên bảng thông báo gần con sông ('poster on the noticeboard... near the river'), nên đáp án đúng là thông tin ở gần con sông."
+      },
+      {
+        "number": 12,
+        "text": "When she arrived at the river, Lily",
+        "options": {
+          "A": "recognised some of the other volunteers.",
+          "B": "found she'd forgotten some important equipment.",
+          "C": "listened to a talk about what she had to do.",
+          "D": "discovered the event had started without her."
+        },
+        "answer": "B",
+        "evidenceKeywords": [
+          "left mine at home",
+          "gloves"
+        ],
+        "explanation": "<strong>12. B:</strong> Lily nhận ra cô quên găng tay ('I'd left mine at home'), đây là dụng cụ quan trọng nên đáp án đúng là B."
+      },
+      {
+        "number": 13,
+        "text": "How did Lily feel after the River Clean event?",
+        "options": {
+          "A": "surprised by the amount of rubbish she found",
+          "B": "upset that there was still rubbish in the river",
+          "C": "amazed by the wide variety of rubbish she collected",
+          "D": "disappointed that so few people helped clean up the rubbish"
+        },
+        "answer": "A",
+        "evidenceKeywords": [
+          "never imagined",
+          "so much rubbish"
+        ],
+        "explanation": "<strong>13. A:</strong> Lily nói cô chưa từng tưởng tượng có nhiều rác như vậy ('never imagined there'd be so much rubbish'), thể hiện sự ngạc nhiên."
+      },
+      {
+        "number": 14,
+        "text": "Lily says the most important thing people can do is to",
+        "options": {
+          "A": "teach their children to respect the environment.",
+          "B": "take part in river clean events regularly.",
+          "C": "use the bins at the river.",
+          "D": "change their shopping habits."
+        },
+        "answer": "D",
+        "evidenceKeywords": [
+          "buying products",
+          "not wrapped in plastic"
+        ],
+        "explanation": "<strong>14. D:</strong> Lily cho rằng cần thay đổi thói quen mua hàng ('buying products that aren't wrapped in plastic'), nên đáp án đúng là D."
+      },
+      {
+        "number": 15,
+        "text": "What would Lily write in a text to her friend?",
+        "options": {
+          "A": "I didn’t like having to spend my time picking up other people’s rubbish and I think I wasted my time.",
+          "B": "I’m so glad I got to take part. It’s not something I’d ever heard of before, and I think it’s a great idea.",
+          "C": "Everyone was just concentrating on their section of the river, so we didn’t spend a lot of time chatting. Quite unusual for me!",
+          "D": "The organisers are sending us a link for a form where we can suggest solutions to the problem. I think that’s a good idea."
+        },
+        "answer": "C",
+        "evidenceKeywords": [
+          "worked in silence",
+          "sociable person"
+        ],
+        "explanation": "<strong>15. C:</strong> Lily nói cô thường hòa đồng nhưng lại làm việc trong im lặng ('worked in silence'), nên đây là điều khác thường và phù hợp với đáp án C."
+      }
+    ]
+  },
+  {
+    "id": "pet_trainer2_p3_test4",
+    "title": "My hobby: cycling",
+    "content_html": "<p>All my family are into sport; in fact, my older brother is an excellent runner. When he started going out on training runs, I accompanied him on my bike because I knew I couldn’t run as fast as him! When he went away to college, I missed my cycle rides, so Dad suggested I joined a cycle club. The only one nearby was the Three Hills cycle club. His friend’s son had been a member once and enjoyed it, so that’s what I did!</p><p>I went and signed up, and was invited on a group cycle ride. Because it was my first time, I was given a special jacket and shorts to wear, which was useful. I wasn’t sure what to expect; I’d thought everyone would be quicker than me, but everything was fine, and I managed to stay near the front! Because there were different abilities in the group, we kept stopping for breaks. I didn’t mind, because it meant I could chat to the leader, although I was happy to keep going! She knew someone in the national cycle team, and it was interesting hearing about his experiences.</p><p>That was six months ago, and I’ve been on various group rides since then, and some two-day trips. They’re fun, and exploring fantastic scenery is a bonus. The next ride’s taking place in a city. We’re careful on roads, and there’s always a safety talk before we set off, plus we can deal with flat tyres and things. But we’ll still need to pay attention in heavy traffic – it’ll be fine – it’s just not something I’m familiar with. I’m excited about trying out the bike I got recently. I’ve not had time yet.</p><p>For anyone new to cycling, I’d say try your local club for reasonable second-hand bikes as you can spend loads on brand new ones. There’s also information online from experts on the latest equipment, but I’ve found the best thing is to just ride; but don’t push yourself too hard. You’re supposed to be having fun, so if you feel like stopping for a bit, then do. And if you pack a snack, you’ll have more energy to enjoy yourself!</p>",
+    "questions": [
+      {
+        "number": 11,
+        "text": "Why did Zack decide to join a cycle club?",
+        "options": {
+          "A": "He wanted to improve his cycling speed.",
+          "B": "He knew other people in the club at the time.",
+          "C": "He realised he preferred cycling to doing another sport.",
+          "D": "He wanted the opportunity to continue doing an activity."
+        },
+        "answer": "D",
+        "evidenceKeywords": [
+          "missed my cycle rides",
+          "joined a cycle club"
+        ],
+        "explanation": "<strong>11. D:</strong> Zack nói rằng anh ấy nhớ việc đạp xe khi anh trai đi học xa, vì vậy tham gia CLB để tiếp tục hoạt động này."
+      },
+      {
+        "number": 12,
+        "text": "When Zack did his first cycle ride with the club, he was",
+        "options": {
+          "A": "surprised by how well he did compared to the others.",
+          "B": "pleased he’d bought the right cycling clothes.",
+          "C": "relieved at how many times they stopped for a rest.",
+          "D": "excited to be in a group with a well-known cyclist."
+        },
+        "answer": "A",
+        "evidenceKeywords": [
+          "thought everyone would be quicker",
+          "stayed near the front"
+        ],
+        "explanation": "<strong>12. A:</strong> Zack nghĩ người khác sẽ nhanh hơn nhưng thực tế anh làm tốt, nên cảm thấy ngạc nhiên."
+      },
+      {
+        "number": 13,
+        "text": "What is Zack looking forward to doing on the club trip?",
+        "options": {
+          "A": "cycling in some beautiful countryside",
+          "B": "using a new bicycle",
+          "C": "learning some basic repairs",
+          "D": "practising riding in busy places"
+        },
+        "answer": "B",
+        "evidenceKeywords": [
+          "excited",
+          "trying out the bike"
+        ],
+        "explanation": "<strong>13. B:</strong> Zack mong chờ được thử chiếc xe đạp mới mà anh vừa mua."
+      },
+      {
+        "number": 14,
+        "text": "What advice does Zack have for people just starting cycling?",
+        "options": {
+          "A": "Keep going, no matter how tired you feel.",
+          "B": "Spend money on the best bike you can.",
+          "C": "Prepare food to take with you on rides.",
+          "D": "Watch professional cyclists for tips on technique."
+        },
+        "answer": "C",
+        "evidenceKeywords": [
+          "pack a snack",
+          "more energy"
+        ],
+        "explanation": "<strong>14. C:</strong> Zack khuyên mang đồ ăn nhẹ để có thêm năng lượng khi đạp xe."
+      },
+      {
+        "number": 15,
+        "text": "What would Zack write in a letter to his grandparents?",
+        "options": {
+          "A": "I love the whole-day rides my cycle club organises. If we could do ones that lasted even longer, I’d be the first to sign up!",
+          "B": "I like my club because I’m always cycling with people of similar levels. It means no one gets left behind.",
+          "C": "I’m so glad I chose Three Hills, rather than choosing a closer club. It’s definitely the right one for me.",
+          "D": "Don’t worry about me – every time we go on a ride, someone from the club reminds us what we need to do to stay safe."
+        },
+        "answer": "D",
+        "evidenceKeywords": [
+          "safety talk",
+          "before we set off"
+        ],
+        "explanation": "<strong>15. D:</strong> Bài đọc nhấn mạnh sự an toàn trước mỗi chuyến đi, nên phù hợp với nội dung câu D."
+      }
+    ]
+  },
+  {
+    "id": "pet_trainer2_p3_test5",
+    "title": "Class trip to Harston Forest",
+    "content_html": "<p>Last week, my class went to Harston Forest as part of our science course. We’re lucky because we’ve done a few trips to places this year. Our teacher, Mr Jones, told us to find out about the wildlife we might see. Because the books in our library aren’t very modern, we accessed online nature sites instead, with links Mr Jones gave us. He also said to consider some questions to ask at the visitor centre, as guides were giving a talk and could provide answers. I didn’t have any, but other students did.</p><p>Then we went to the forest. On a previous family visit, my dad forgot a map, and I remember how relieved we were to find the car again! This time was completely different, as we were just following the guides. We closed our eyes and listened for birds. At first, everything was silent. But soon, we heard birds singing. I couldn’t believe the range of sounds, from really quiet to pretty loud! Our guides knew what each one was, and before long I did too, which was great – everything sounded so similar before.</p><p>Our teacher put us into groups, ready to do an experiment, and luckily, I was with my friends. We counted different plant species in one hour. That might seem like ages; we were really hurrying by the end, though! Being careful not to stand on any plants, we measured a five-metre square on the ground. We put stones down so we knew where to work, and recorded the plants inside that area. We used a list with plant pictures on it – the photos weren’t brilliant, but we managed well.</p><p>After a picnic – we avoided barbecues as they could cause fires and damage the forest – we were shown holes in trees. We had to guess which animals make their homes inside, and how they survive hot and cold weather. It was a lot to remember, but of course, we were only looking at local species – if you’re studying different forests, there’d be hundreds of them!</p><p>Mr Jones has asked us to create displays to share what we learned with our families. They should be very interesting!</p>",
+    "questions": [
+      {
+        "number": 11,
+        "text": "What did Ellie do before the day of the trip?",
+        "options": {
+          "A": "got information from a website",
+          "B": "read some up-to-date textbooks",
+          "C": "listened to an expert who knew the area",
+          "D": "thought about what to ask when she got there"
+        },
+        "answer": "A",
+        "evidenceKeywords": [
+          "accessed online nature sites"
+        ],
+        "explanation": "<strong>11. A:</strong> Ellie nói rằng cô đã truy cập các trang web thiên nhiên để tìm thông tin, tương ứng với 'got information from a website'."
+      },
+      {
+        "number": 12,
+        "text": "How did Ellie feel about being in the forest?",
+        "options": {
+          "A": "anxious about getting lost",
+          "B": "surprised at how little noise there was",
+          "C": "excited about visiting somewhere new",
+          "D": "pleased to be able to identify some wildlife"
+        },
+        "answer": "D",
+        "evidenceKeywords": [
+          "before long I did too",
+          "which was great"
+        ],
+        "explanation": "<strong>12. D:</strong> Ellie vui vì có thể nhận biết các âm thanh của chim, thể hiện qua 'which was great'."
+      },
+      {
+        "number": 13,
+        "text": "What did Ellie find difficult about the experiment?",
+        "options": {
+          "A": "not damaging the plants",
+          "B": "completing the task in time",
+          "C": "working out which area to search",
+          "D": "taking clear enough pictures"
+        },
+        "answer": "B",
+        "evidenceKeywords": [
+          "really hurrying by the end"
+        ],
+        "explanation": "<strong>13. B:</strong> Họ phải làm rất nhanh vào cuối giờ, chứng tỏ khó hoàn thành đúng thời gian."
+      },
+      {
+        "number": 14,
+        "text": "In the afternoon, the students did an activity to",
+        "options": {
+          "A": "show them how to protect forests.",
+          "B": "help them learn about different sorts of forests.",
+          "C": "teach them about the places creatures live in.",
+          "D": "remind them about problems caused by climate change."
+        },
+        "answer": "C",
+        "evidenceKeywords": [
+          "animals make their homes",
+          "survive"
+        ],
+        "explanation": "<strong>14. C:</strong> Hoạt động giúp học về nơi sống của động vật và cách chúng tồn tại."
+      },
+      {
+        "number": 15,
+        "text": "What would Ellie say to her grandparents about the trip?",
+        "options": {
+          "A": "We all enjoyed ourselves. It was the first time our science class has had a day away from school!",
+          "B": "It was fun having the chance to cook outside in the forest – I didn’t know we were going to do that!",
+          "C": "I was pleased that we could decide who we wanted to be in a group with for the activity to count plants.",
+          "D": "I’ve told mum all about the trip of course, but she’ll like seeing my presentation on it."
+        },
+        "answer": "D",
+        "evidenceKeywords": [
+          "create displays",
+          "share with our families"
+        ],
+        "explanation": "<strong>15. D:</strong> Ellie sẽ làm bài trình bày để chia sẻ với gia đình, nên đáp án D phù hợp nhất."
+      }
+    ]
+  },
+  {
+    "id": "pet_trainer2_p3_test6",
+    "title": "Monika Alson: kart racing driver",
+    "content_html": "<p>I drive karts: small racing cars. I started aged 10, and although that’s young, I’d already been in a bike-racing club for two years! Another member was into kart racing, and a conversation with her convinced me to have a go. I persuaded my brother to come along. I thought he’d enjoy it – he’d started at the bike club with me, but got bored. Unfortunately, the same happened with karts. I really loved it though, and even spent hours watching kart videos online!</p><p>Soon, I was asked to enter a competition. It was a big event, with prizes presented by well-known sportspeople. I personally hadn’t heard of them, but I was looking forward to taking part. Because I was the youngest competitor there, I was entering for the experience – when I came fourth, I couldn’t believe it! Afterwards, there were interviews from sports channels, and I was amazed anyone would want to know so much about me! I got a medal for taking part, but the winner got a huge silver cup!</p><p>Kart racing’s important in my life, and in my family’s. If one of my parents is working, the other always comes to watch me compete. Because I’m still at school, I’m very busy. I can cycle to my race training sessions straight after school and still be home to get my homework done because I live close to the kart training track. Then I get to bed so I have enough sleep before being up early, ready to start again. I’m careful I don’t get too tired, which means unfortunately I sometimes have to refuse party invitations from classmates. Hopefully it’ll be worth it, but I don’t like doing that.</p><p>I’ve got a big race soon. I’m preparing by continuing the gym sessions I’ve always done, but with extra strength-building classes. I’m seeing benefits already. All tracks are different, and as the one where the race takes place is six hours’ drive away, practising there isn’t an option. I’ve seen videos of people racing there. It’s not the same, though. Luckily, my coach knows it well, and even won as a new driver there years ago. Hopefully, I’ll do the same!</p>",
+    "questions": [
+      {
+        "number": 11,
+        "text": "Monika decided she wanted to try driving karts after",
+        "options": {
+          "A": "she watched a film about the sport.",
+          "B": "she talked to a young female driver.",
+          "C": "she got bored with another activity she was doing.",
+          "D": "she saw how much her brother enjoyed the activity."
+        },
+        "answer": "B",
+        "evidenceKeywords": [
+          "conversation with her",
+          "convinced me"
+        ],
+        "explanation": "<strong>11. B:</strong> Câu 'a conversation with her convinced me to have a go' cho thấy Monika quyết định thử sau khi nói chuyện với một nữ tay đua."
+      },
+      {
+        "number": 12,
+        "text": "When Monika did her first competition, she felt",
+        "options": {
+          "A": "excited about meeting some celebrities.",
+          "B": "impressed by the prize she received.",
+          "C": "surprised by the media interest.",
+          "D": "confident that she would win."
+        },
+        "answer": "C",
+        "evidenceKeywords": [
+          "amazed",
+          "interviews",
+          "sports channels"
+        ],
+        "explanation": "<strong>12. C:</strong> Monika nói 'I was amazed anyone would want to know so much about me', cho thấy cô ngạc nhiên về sự quan tâm của truyền thông."
+      },
+      {
+        "number": 13,
+        "text": "What does Monika find difficult about her life?",
+        "options": {
+          "A": "missing social activities with her friends",
+          "B": "feeling exhausted at school after a big race",
+          "C": "having to get up early to practise kart driving",
+          "D": "managing to complete schoolwork on time"
+        },
+        "answer": "A",
+        "evidenceKeywords": [
+          "refuse party invitations",
+          "classmates"
+        ],
+        "explanation": "<strong>13. A:</strong> Việc phải từ chối lời mời đi chơi với bạn bè cho thấy cô gặp khó khăn trong việc tham gia hoạt động xã hội."
+      },
+      {
+        "number": 14,
+        "text": "What has been useful preparation for Monika’s next race?",
+        "options": {
+          "A": "studying previous race winners",
+          "B": "starting training with a new coach",
+          "C": "trying some new fitness exercises",
+          "D": "visiting the track where the race takes place"
+        },
+        "answer": "C",
+        "evidenceKeywords": [
+          "extra strength-building classes",
+          "seeing benefits"
+        ],
+        "explanation": "<strong>14. C:</strong> Câu 'extra strength-building classes. I’m seeing benefits already' cho thấy các bài tập thể lực mới giúp ích cho việc chuẩn bị."
+      },
+      {
+        "number": 15,
+        "text": "What would Monika say in a text to a friend?",
+        "options": {
+          "A": "Sometimes I feel a bit sad because when my parents have to work, it means no one from my family can see me race.",
+          "B": "I can’t believe how lucky I’ve been – I’ve always finished in the top three in my races!",
+          "C": "I’m lucky my parents are happy to spend so long taking me to the practice track. They can’t wait until I can drive there myself, though!",
+          "D": "I’m so pleased that I didn’t have the same opinion about kart racing as my brother! It’s been such a positive experience for me."
+        },
+        "answer": "D",
+        "evidenceKeywords": [
+          "brother got bored",
+          "I really loved it"
+        ],
+        "explanation": "<strong>15. D:</strong> Monika thích kart racing trong khi anh trai thì chán, nên đây là trải nghiệm tích cực đối với cô."
+      }
+    ]
   }
     ]
   }
