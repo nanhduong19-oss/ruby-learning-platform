@@ -110,5 +110,89 @@
       { "number": 25, "options": ["A. solved", "B. answered", "C. succeeded", "D. found"], "answer": "A", "explanation": "Nghĩa: solved=giải quyết; answered=trả lời; succeeded=thành công; found=tìm thấy. Chọn A vì solve a problem = giải quyết vấn đề (đúng ngữ cảnh 'this problem'). Loại B: answer dùng cho câu hỏi. Loại C: cần cấu trúc succeeded in doing. Loại D: found it không đúng nghĩa 'giải quyết'." },
       { "number": 26, "options": ["A. lost", "B. kept", "C. fell", "D. spilt"], "answer": "D", "explanation": "Nghĩa: lost=làm mất; kept=giữ; fell=rơi (chủ thể tự rơi); spilt=làm đổ/đổ tràn. Chọn D vì collocation: spill liquid on + N = làm đổ chất lỏng lên... Loại C: fell sẽ khiến 'liquid' là chủ thể rơi, không phải Bell (cần: liquid fell on...). Loại A/B: sai nghĩa." }
     ]
+  },
+  {
+    "id": "pettrainerbook1_p5_test1",
+    "type": "part5",
+    "title": "Ice Sculptures in Fairbanks",
+    "passage": "Many cities have parks for people to enjoy. And it's very (21) ___ to find wonderful sculptures in them. However, some sculptures found in Fairbanks, Alaska, aren't quite the same as in other cities. When the temperature (22) ___ at the end of winter, they all disappear \u2013 because they're made of ice!\n\nFairbanks has been the home of the World Ice Art Championships for over 20 years, and artists from many different countries come to create spectacular ice sculptures. The ice is brought from a lake (23) ___ near the sculpture park. It's said to be so clear that visitors can read a newspaper through it \u2013 even though the individual pieces are over one metre (24) ___!\n\nVisitors also have the (25) ___ to make their own ice sculptures if they wish, at special classes. There's a children's play park, too, where (26) ___ everything is made of ice, including sculptures of favourite animals. It's a great place to visit!",
+    "questions": [
+      { "number": 21, "options": ["A. usual", "B. general", "C. common", "D. familiar"], "answer": "C", "explanation": "Chọn C vì 'very common' là cách nói tự nhiên để chỉ điều gì đó phổ biến. 'Usual' thường không đi kèm với 'very'. 'General' (chung chung) và 'familiar' (quen thuộc) không hợp ngữ cảnh." },
+      { "number": 22, "options": ["A. develops", "B. rises", "C. grows", "D. builds"], "answer": "B", "explanation": "Chọn B vì 'rises' dùng cho nhiệt độ (tăng lên). Các động từ còn lại không mô tả đúng sự thay đổi nhiệt độ trong thời tiết." },
+      { "number": 23, "options": ["A. located", "B. arranged", "C. contained", "D. attached"], "answer": "A", "explanation": "Chọn A vì 'located near' dùng để chỉ vị trí của hồ nước. Key takeaway: 'be located near/at/in'." },
+      { "number": 24, "options": ["A. heavy", "B. large", "C. strong", "D. thick"], "answer": "D", "explanation": "Chọn D vì 'thick' (dày) là tính từ mô tả kích thước được đặt sau đơn vị đo lường cụ thể (one metre thick)." },
+      { "number": 25, "options": ["A. occasion", "B. benefit", "C. opportunity", "D. ability"], "answer": "C", "explanation": "Chọn C vì cấu trúc 'have the opportunity to do something' (có cơ hội làm việc gì đó)." },
+      { "number": 26, "options": ["A. totally", "B. absolutely", "C. completely", "D. fully"], "answer": "B", "explanation": "Chọn B vì 'absolutely everything' là cụm từ đi kèm (collocation) phổ biến để nhấn mạnh sự bao quát toàn bộ." }
+    ]
+  },
+  {
+    "id": "pettrainerbook1_p5_test2",
+    "type": "part5",
+    "title": "Sheep can recognise faces!",
+    "passage": "Many people think sheep aren't very intelligent creatures. But in fact, (21) ___ to new research, they may be cleverer than we think. For example, sheep can actually be trained to recognise human faces from photographs!\n\nRecognising faces is an important human social (22) ___ . However, it seems that sheep are also social animals that can recognise other sheep as well as (23) ___ humans. In experiments, researchers trained eight sheep to recognise the faces of celebrities from photographs. Training involved getting the sheep to (24) ___ decisions about the photos they saw. At one end of a room, they would see two different photographs, and would receive a (25) ___ of food for approaching the photograph of the celebrity; if they approached the wrong photograph, they got nothing. Over time, they learned to (26) ___ getting food with the celebrity's photograph. And after training, the sheep correctly chose the celebrity's face eight times out of ten!",
+    "questions": [
+      { "number": 21, "options": ["A. regarding", "B. following", "C. resulting", "D. according"], "answer": "D", "explanation": "Chọn D vì 'according' là từ duy nhất đi với giới từ 'to' tạo thành cụm 'according to' (theo như). Các từ khác không đi với 'to' theo nghĩa này." },
+      { "number": 22, "options": ["A. skill", "B. talent", "C. knowledge", "D. method"], "answer": "A", "explanation": "Chọn A vì 'social skill' (kỹ năng xã hội) là một cụm từ (collocation) thường xuyên đi cùng nhau để chỉ khả năng tương tác." },
+      { "number": 23, "options": ["A. ordinary", "B. usual", "C. familiar", "D. frequent"], "answer": "C", "explanation": "Chọn C vì 'familiar humans' mang nghĩa những người quen thuộc (những người chúng đã từng thấy qua). Các tính từ khác không mô tả đúng đặc tính nhận diện khuôn mặt." },
+      { "number": 24, "options": ["A. set", "B. make", "C. have", "D. do"], "answer": "B", "explanation": "Chọn B vì collocation chuẩn là 'make a decision' (đưa ra quyết định). Không dùng set/have/do với 'decisions' trong ngữ cảnh này." },
+      { "number": 25, "options": ["A. reward", "B. benefit", "C. tip", "D. goal"], "answer": "A", "explanation": "Chọn A vì 'reward' mang nghĩa phần thưởng cho một hành động đúng (ở đây là chọn đúng ảnh). 'Benefit' (lợi ích) hay 'tip' (tiền boa/mẹo) không phù hợp." },
+      { "number": 26, "options": ["A. attach", "B. join", "C. add", "D. connect"], "answer": "D", "explanation": "Chọn D vì cấu trúc 'connect A with B' có nghĩa là kết nối hoặc liên tưởng điều này với điều kia (thức ăn gắn liền với bức ảnh đúng)." }
+    ]
+  },
+  {
+    "id": "pettrainerbook1_p5_test3",
+    "type": "part5",
+    "title": "Music can change the taste of vegetables!",
+    "passage": "Many children, and some adults too, dislike the taste of certain vegetables. The flavours of foods such as cabbage and broccoli are generally the ones people mention as their least (21) ___ vegetables, as these vegetables are believed to have an extremely (22) ___ taste.\n\nHowever, according to an Oxford psychologist, children might change their (23) ___ about these foods if they can hear simple music while they're eating \u2013 such as the sounds that come from one musical instrument, called a wind chime. This instrument often (24) ___ in people's gardens, and plays sweet notes when the wind blows through it. These notes may make the food seem to taste sweeter than it would do normally.\n\nHowever, many adults (25) ___ that their tastes developed as they grew up, so they now enjoy a far greater range of food. As a result, they're much more (26) ___ to eat the kind of vegetables they always hated during their childhood.",
+    "questions": [
+      { "number": 21, "options": ["A. pleasant", "B. delicious", "C. special", "D. favourite"], "answer": "D", "explanation": "Chọn D vì cụm 'least favourite' là cách nói chuẩn để chỉ món đồ/thứ mà mình ghét nhất hoặc ít thích nhất." },
+      { "number": 22, "options": ["A. bitter", "B. hard", "C. heavy", "D. raw"], "answer": "A", "explanation": "Chọn A vì 'bitter' (đắng) là tính từ mô tả vị giác phù hợp nhất với các loại rau như bắp cải hay bông cải xanh trong ngữ cảnh bị trẻ em ghét." },
+      { "number": 23, "options": ["A. senses", "B. minds", "C. moods", "D. reasons"], "answer": "B", "explanation": "Chọn B vì cụm 'change their minds' có nghĩa là thay đổi ý kiến hoặc quan điểm về một vấn đề nào đó." },
+      { "number": 24, "options": ["A. drops", "B. connects", "C. attaches", "D. hangs"], "answer": "D", "explanation": "Chọn D vì 'hangs' (treo) là động từ mô tả trạng thái của chuông gió (wind chime) trong vườn." },
+      { "number": 25, "options": ["A. complain", "B. advise", "C. admit", "D. warn"], "answer": "C", "explanation": "Chọn C vì 'admit that' mang nghĩa thừa nhận một sự thật nào đó (ở đây là sự thay đổi về khẩu vị theo thời gian)." },
+      { "number": 26, "options": ["A. likely", "B. possible", "C. reasonable", "D. sure"], "answer": "A", "explanation": "Chọn A vì cấu trúc 'be likely to V' dùng để chỉ khả năng cao sẽ xảy ra một hành động nào đó." }
+    ]
+  },
+  {
+    "id": "pettrainerbook1_p5_test4",
+    "type": "part5",
+    "title": "Clever birds",
+    "passage": "The wild birds known as ravens are thought to be very clever. In fact, they can solve some quite (21) ___ problems, especially when they're trying to get food. For example, one bird was filmed taking a box of nuts from a bird table and (22) ___ it onto the ground, so that it would break and the bird could eat the nuts inside!\n\nScientists also (23) ___ that the birds could actually use stones as tools to (24) ___ out simple tasks. So in an experiment, they taught five birds to use a tool to open a box with food inside. The birds soon became very (25) ___ at doing this. So for the next experiment, the birds were given a small (26) ___ of tools to choose from. They always picked the tool that scientists had given them for the first task. And hours later, they could still remember which tool they'd used!",
+    "questions": [
+      { "number": 21, "options": ["A. expert", "B. complicated", "C. heavy", "D. confused"], "answer": "B", "explanation": "Chọn B vì 'complicated problems' mang nghĩa những vấn đề phức tạp, phù hợp để mô tả trí thông minh của loài quạ." },
+      { "number": 22, "options": ["A. letting", "B. falling", "C. dropping", "D. leaving"], "answer": "C", "explanation": "Chọn C vì 'dropping something onto...' nghĩa là thả vật gì đó xuống. Con chim chủ động thả hộp hạt xuống để làm vỡ nó." },
+      { "number": 23, "options": ["A. noticed", "B. advised", "C. watched", "D. studied"], "answer": "A", "explanation": "Chọn A vì 'noticed that' nghĩa là nhận thấy/nhận ra điều gì đó thông qua quan sát." },
+      { "number": 24, "options": ["A. take", "B. carry", "C. make", "D. check"], "answer": "B", "explanation": "Chọn B vì cụm động từ 'carry out tasks' có nghĩa là thực hiện hoặc tiến hành các nhiệm vụ." },
+      { "number": 25, "options": ["A. experienced", "B. intelligent", "C. correct", "D. keen"], "answer": "A", "explanation": "Chọn A vì cấu trúc 'experienced at (doing) something' nghĩa là trở nên thành thạo hoặc có kinh nghiệm trong việc gì." },
+      { "number": 26, "options": ["A. group", "B. total", "C. amount", "D. number"], "answer": "D", "explanation": "Chọn D vì cụm 'a number of + danh từ đếm được số nhiều' dùng để chỉ một vài hoặc một số lượng nhất định." }
+    ]
+  },
+  {
+    "id": "pettrainerbook1_p5_test5",
+    "type": "part5",
+    "title": "Colouring books",
+    "passage": "Many people probably used to spend time adding colour to pictures in colouring books when they were children. However, once people get older, very few of them continue with the hobby. Instead, they (21) ___ their crayons away in the cupboard forever.\n\nHowever, psychology researchers now think that even for adults, (22) ___ as little as ten minutes a day colouring pictures in this way can bring huge (23) ___ . For example, some people say that it improves their (24) ___ for a while by making them feel more cheerful and generally calmer.\n\nOne reason for this may be that other activities (25) ___ with art, such as drawing or painting, can actually be quite stressful, especially if you don't feel very successful at it. But adding colour to a picture that's already drawn for you (26) ___ only a low level of skill, so you can relax rather than becoming anxious about it!",
+    "questions": [
+      { "number": 21, "options": ["A. leave", "B. set", "C. give", "D. put"], "answer": "D", "explanation": "Chọn D vì cụm động từ 'put away' có nghĩa là cất đi, phù hợp với ngữ cảnh cất bút màu vào tủ khi không còn chơi nữa." },
+      { "number": 22, "options": ["A. taking", "B. completing", "C. spending", "D. filling"], "answer": "C", "explanation": "Chọn C vì cấu trúc 'spend + time + V-ing' dùng để chỉ việc dành ra bao nhiêu thời gian để làm một việc gì đó." },
+      { "number": 23, "options": ["A. benefits", "B. interests", "C. favours", "D. uses"], "answer": "A", "explanation": "Chọn A vì 'benefits' (lợi ích) là danh từ phù hợp nhất để nói về những tác động tích cực mà việc tô màu mang lại cho sức khỏe tinh thần." },
+      { "number": 24, "options": ["A. character", "B. mood", "C. condition", "D. mind"], "answer": "B", "explanation": "Chọn B vì cụm 'improve someone's mood' (cải thiện tâm trạng) khớp với các tính từ miêu tả cảm xúc ở vế sau như 'cheerful' và 'calmer'." },
+      { "number": 25, "options": ["A. connected", "B. joined", "C. compared", "D. attached"], "answer": "A", "explanation": "Chọn A vì cấu trúc 'be connected with' dùng để chỉ mối liên hệ hoặc sự liên quan giữa các hoạt động nghệ thuật với nhau." },
+      { "number": 26, "options": ["A. depends", "B. calls", "C. lacks", "D. requires"], "answer": "D", "explanation": "Chọn D vì 'requires' (đòi hỏi/yêu cầu) được dùng để nói về mức độ kỹ năng cần thiết để thực hiện một công việc nào đó." }
+    ]
+  },
+  {
+    "id": "pettrainerbook1_p5_test6",
+    "type": "part5",
+    "title": "A brief history of apples",
+    "passage": "Do you always have a piece of fruit for your lunch? If you do, it's probably an apple! This is true particularly in places like western Europe, where apples have grown for hundreds of years. So it would be easy to (21) ___ that's where they came from originally.\n\nIn fact, though, the fruit we know today has been on an extraordinary (22) ___ over the centuries. Research suggests modern apples originally came all the way from Kazakhstan in Asia, and (23) ___ up in Europe partly because of people carrying goods along the famous Silk Road, from western Europe all the way to China in the east. This helped to spread apples in both (24) ___ . People (25) ___ down their apples after they'd finished eating them, and the seeds entered the ground and produced new types of apple trees. Farmers were then able to start developing a much (26) ___ range of apples.",
+    "questions": [
+      { "number": 21, "options": ["A. consider", "B. wonder", "C. imagine", "D. expect"], "answer": "C", "explanation": "Chọn C vì 'easy to imagine' mang nghĩa là dễ dàng để hình dung hoặc giả định một điều gì đó dù nó có thể không đúng." },
+      { "number": 22, "options": ["A. distance", "B. travel", "C. course", "D. journey"], "answer": "D", "explanation": "Chọn D vì 'journey' (hành trình) là danh từ phù hợp nhất để mô tả quá trình di chuyển và phát triển lịch sử của quả táo qua nhiều thế kỷ." },
+      { "number": 23, "options": ["A. reached", "B. ended", "C. set", "D. kept"], "answer": "B", "explanation": "Chọn B vì phrasal verb 'ended up' có nghĩa là cuối cùng thì ở đâu hoặc kết thúc ở một tình trạng nào đó sau một quá trình dài." },
+      { "number": 24, "options": ["A. routes", "B. ways", "C. directions", "D. paths"], "answer": "C", "explanation": "Chọn C vì 'in both directions' là cụm từ cố định chỉ việc đi hoặc lan tỏa theo cả hai hướng ngược nhau." },
+      { "number": 25, "options": ["A. threw", "B. dropped", "C. fell", "D. let"], "answer": "A", "explanation": "Chọn A vì 'threw down' mô tả hành động vứt bỏ thứ gì đó (lõi táo) xuống đất sau khi sử dụng xong." },
+      { "number": 26, "options": ["A. longer", "B. deeper", "C. higher", "D. broader"], "answer": "D", "explanation": "Chọn D vì 'a broader range' là cụm từ dùng để chỉ một sự đa dạng, phong phú hơn về chủng loại." }
+    ]
   }
 ]
