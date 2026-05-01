@@ -118,5 +118,305 @@
       {"number": 29, "answer": "next", "accepted": ["next", "this", "that"], "explanation": "next week/this week/that week đều có thể hợp lý."},
       {"number": 30, "answer": "let", "explanation": "Cụm cố định: let me know = cho mình biết nhé."}
     ]
-  }
+  },
+  {
+  "id": "trainerbook1_p5_test1",
+  "type": "part5",
+  "title": "A letter to Aunt Nel",
+  "passage": "From: Giles | To: Aunt Nel\nDear Aunt Nel,\nThank you very (0) ___ for the book you sent me. It was very kind (25) ___ you. Actually, History of Space Travel sounds like (26) ___ brilliant title. I’m really interested (27) ___ that kind of thing – exploring space and learning about the moon. I’ll start it after I finish the one I’m reading now, (28) ___ is about how cars are made.\n\nThe holidays are nearly finished now. I go back (29) ___ school next week. Then I’ve only got two more years of school, so I need to decide (30) ___ to do next!",
+  "example": {"number": 0, "answer": "much", "explanation": "Cụm cố định: **thank you very much** = cảm ơn rất nhiều."},
+  "questions": [
+    {"number": 25, "answer": "of", "explanation": "Cấu trúc: **It is kind of someone to do something** → nhận xét hành động của người."},
+    {"number": 26, "answer": "a", "explanation": "Danh từ số ít → **a + adj + noun** → a brilliant title."},
+    {"number": 27, "answer": "in", "explanation": "Cụm cố định: **interested in + N/V-ing**."},
+    {"number": 28, "answer": "which", "explanation": "Mệnh đề quan hệ không xác định: **, which + V** bổ sung thông tin."},
+    {"number": 29, "answer": "to", "explanation": "Cụm cố định: **go back to + place**."},
+    {"number": 30, "answer": "what", "explanation": "Cấu trúc: **decide what to do** = quyết định làm gì."}
+  ]
+},
+  {
+  "id": "trainerbook1_p5_test2",
+  "type": "part5",
+  "title": "A school trip to the theatre",
+  "passage": "Last week, everyone in my class (0) ___ on a trip to the theatre. We travelled there (25) ___ coach. The theatre is about 10 kilometres away, so it was much (26) ___ far to walk. The play was Romeo and Juliet. It’s probably the (27) ___ famous play. We studied it at school, so I knew (28) ___ it was about. It’s a love story but also the saddest play I (29) ___ ever seen. At the end, several (30) ___ the people in my class were crying.",
+  "example": {"number": 0, "answer": "went", "explanation": "Quá khứ của **go → went**."},
+  "questions": [
+    {"number": 25, "answer": "by", "explanation": "Phương tiện: **by + transport** → by coach."},
+    {"number": 26, "answer": "too", "explanation": "Cấu trúc: **too + adj** = quá… → too far."},
+    {"number": 27, "answer": "most", "explanation": "So sánh nhất: **the most + adj** → most famous."},
+    {"number": 28, "answer": "what", "explanation": "Mệnh đề danh từ: **know what + clause**."},
+    {"number": 29, "answer": "have", "accepted": ["have", "'ve"], "explanation": "Hiện tại hoàn thành: **have + V3** → have ever seen."},
+    {"number": 30, "answer": "of", "explanation": "Cấu trúc: **several of + determiner + noun**."}
+  ]
+},
+  {
+  "id": "trainerbook1_p5_test3",
+  "type": "part5",
+  "title": "A holiday email",
+  "passage": "From: Jake\nHi guys!\nThis is (0) ___ best holiday ever! Plakias is such (25) ___ beautiful place. The meals in the hotel are fantastic. For breakfast, you can have as (26) ___ as you want. Tomorrow I’m going to try windsurfing (27) ___ the first time. I’m really excited because I (28) ___ never done it before. I love it here so much that I (30) ___ like to come back next year!",
+  "example": {"number": 0, "answer": "the", "explanation": "So sánh nhất: **the + superlative**."},
+  "questions": [
+    {"number": 25, "answer": "a", "explanation": "Cấu trúc: **such a + adj + noun**."},
+    {"number": 26, "answer": "much", "explanation": "Cấu trúc: **as much as** = bao nhiêu cũng được."},
+    {"number": 27, "answer": "for", "explanation": "Cụm cố định: **for the first time**."},
+    {"number": 28, "answer": "have", "accepted": ["have", "'ve"], "explanation": "Hiện tại hoàn thành: **have never + V3**."},
+    {"number": 29, "answer": "to", "explanation": "Cấu trúc: **excited to + V**."},
+    {"number": 30, "answer": "would", "accepted": ["would", "'d"], "explanation": "Cấu trúc: **would like to + V**."}
+  ]
+},
+  {
+  "id": "trainerbook1_p5_test4",
+  "type": "part5",
+  "title": "Email about piano lessons",
+  "passage": "From: Gemma | To: Anne\nHi Anne,\nI know you have piano lessons. I want (0) ___ start too, and I remember your teacher doesn’t charge too (25) ___. What’s he like? Is he good (26) ___ explaining things? Can you let (27) ___ know soon?\n\nFrom: Anne\nHi Gemma,\nMy teacher is called Ben. I always have (28) ___ good time in lessons. I don’t know if I (29) ___ getting any better! If you’re looking (30) ___ a teacher, Ben will be perfect for you.",
+  "example": {"number": 0, "answer": "to", "explanation": "Cấu trúc: **want to + V**."},
+  "questions": [
+    {"number": 25, "answer": "much", "explanation": "Cụm: **too much** = quá nhiều."},
+    {"number": 26, "answer": "at", "explanation": "Cấu trúc: **good at + V-ing**."},
+    {"number": 27, "answer": "me", "explanation": "Cụm: **let me know**."},
+    {"number": 28, "answer": "a", "explanation": "Cụm: **have a good time**."},
+    {"number": 29, "answer": "am", "accepted": ["am", "'m"], "explanation": "Hiện tại tiếp diễn: **am/is/are + V-ing**."},
+    {"number": 30, "answer": "for", "explanation": "Cụm: **look for + noun**."}
+  ]
+},
+  {
+  "id": "trainerbook1_p5_test5",
+  "type": "part5",
+  "title": "Weekend plan email",
+  "passage": "From: Joanna | To: Emma\nHi Emma,\nHow (0) ___ meeting on Saturday morning? I thought maybe we could go (25) ___ a bike ride. We can go to Moreton-on-Sea and get something (26) ___ eat. In fact, there were six (27) ___ us, and we had (28) ___ really amazing day. I don’t think it will take more (29) ___ four hours. Can you let (30) ___ know if you can come?",
+  "example": {"number": 0, "answer": "about", "explanation": "Cấu trúc: **How about + V-ing**."},
+  "questions": [
+    {"number": 25, "answer": "for", "accepted": ["for", "on"], "explanation": "Cụm: **go for/on a bike ride**."},
+    {"number": 26, "answer": "to", "explanation": "Cấu trúc: **something to + V**."},
+    {"number": 27, "answer": "of", "explanation": "Cụm: **number of + object pronoun** → six of us."},
+    {"number": 28, "answer": "a", "explanation": "Cấu trúc: **have a + adj + noun**."},
+    {"number": 29, "answer": "than", "explanation": "So sánh: **more than**."},
+    {"number": 30, "answer": "me", "explanation": "Cụm: **let me know**."}
+  ]
+},
+  {
+  "id": "trainerbook1_p5_test6",
+  "type": "part5",
+  "title": "School activity email",
+  "passage": "From: Mrs Hammond | To: Class 9\nDear Class 9,\nNext week, we (0) ___ going to do something different. It will be an excellent way (25) ___ practise your English. If you (26) ___ like to do this, please (27) ___ me know.\n\nFrom: Andrew | To: Mrs Hammond\nDear Mrs Hammond,\nThank you (28) ___ your email. I can (29) ___ everybody about my team. I play in (30) ___ Saturday afternoons.",
+  "example": {"number": 0, "answer": "are", "explanation": "Cấu trúc: **be going to**."},
+  "questions": [
+    {"number": 25, "answer": "to", "explanation": "Cấu trúc: **way to + V**."},
+    {"number": 26, "answer": "would", "accepted": ["would", "'d"], "explanation": "Cấu trúc: **would like to + V**."},
+    {"number": 27, "answer": "let", "explanation": "Cụm: **let me know**."},
+    {"number": 28, "answer": "for", "explanation": "Cụm: **thank you for**."},
+    {"number": 29, "answer": "tell", "accepted": ["tell", "inform"], "explanation": "Cấu trúc: **tell somebody about something**."},
+    {"number": 30, "answer": "on", "accepted": ["on", "most"], "explanation": "Cụm thời gian: **on + days** → on Saturday afternoons."}
+  ]
+},
+  {
+  "id": "trainerbook2_p5_test1",
+  "type": "part5",
+  "title": "Doctor appointment email",
+  "passage": "From: Julia Hamilton | To: Mr Elphick\nDear Mr Elphick,\nI (0) ___ sorry, but I have an appointment (25) ___ the doctor tomorrow at 2:30. This means that I need (26) ___ leave school during our geography lesson. The doctor’s surgery is ten minutes away (27) ___ school, so may I leave at 2.20, please?\nBest wishes,\nJulia Hamilton (class 5B)\n\nFrom: Elphick | To: Julia\nDear Julia,\nThank you very (28) ___ for your email. Yes, of course it is fine (29) ___ you to leave early. If you need ten minutes to walk there, why don’t you leave class at 2.15? Then you will have enough time to get there (30) ___ hurrying.\nSee you tomorrow,\nMr Elphick",
+  "example": {"number": 0, "answer": "am", "explanation": "Cấu trúc: **I am sorry** = tôi xin lỗi / tôi rất tiếc."},
+  "questions": [
+    {"number": 25, "answer": "with", "explanation": "Cụm cố định: **have an appointment with someone** = có cuộc hẹn với ai đó."},
+    {"number": 26, "answer": "to", "explanation": "Cấu trúc: **need to + V** = cần làm gì."},
+    {"number": 27, "answer": "from", "explanation": "Cấu trúc khoảng cách: **away from + place** = cách xa nơi nào."},
+    {"number": 28, "answer": "much", "explanation": "Cụm cố định: **Thank you very much for + N** = cảm ơn rất nhiều vì điều gì."},
+    {"number": 29, "answer": "for", "explanation": "Cấu trúc: **It is fine for someone to do something** = ai đó được phép / không sao khi làm gì."},
+    {"number": 30, "answer": "without", "explanation": "Cấu trúc: **without + V-ing** = mà không cần làm gì. → without hurrying = không cần vội."}
+  ]
+},
+  {
+  "id": "trainerbook2_p5_test2",
+  "type": "part5",
+  "title": "Tennis plan",
+  "passage": "Hi Jasmine,\nIt’s nearly the weekend! I want (0) ___ check if you’re busy. How (25) ___ a game of tennis at Basildon Park on Sunday? I’m free all day, but I don’t know (26) ___ time is good for you. Is 11 OK? And then we can go into town afterwards (27) ___ you like. Can you let me know?\nCheers,\nAmber\n\nHi Amber,\nCool, let’s have a game at 11 and then go shopping. I’m not sure (28) ___ to get to the tennis courts because I’ve never done that before. Should we take the number 12 bus, or take a tram? (29) ___ doesn’t matter now. Let’s just decide (30) ___ we meet. I’ll come round to your place about 10.30.\nSee you then!\nJasmine",
+  "example": {"number": 0, "answer": "to", "explanation": "Cấu trúc: **want to + V** = muốn làm gì."},
+  "questions": [
+    {"number": 25, "answer": "about", "explanation": "Cấu trúc gợi ý: **How about + N/V-ing?** = Hay là…? / Bạn thấy… thế nào?"},
+    {"number": 26, "answer": "what", "explanation": "Cấu trúc: **what time** = mấy giờ / thời gian nào."},
+    {"number": 27, "answer": "if", "explanation": "Cấu trúc điều kiện nhẹ: **if you like** = nếu bạn muốn."},
+    {"number": 28, "answer": "how", "explanation": "Cấu trúc: **how to + V** = cách làm gì. → how to get to the tennis courts = cách đến sân tennis."},
+    {"number": 29, "answer": "It", "accepted": ["It", "That", "This"], "explanation": "Cấu trúc: **It/That/This doesn’t matter** = điều đó không quan trọng."},
+    {"number": 30, "answer": "when", "explanation": "Cấu trúc: **decide when + clause** = quyết định khi nào."}
+  ]
+},
+  {
+  "id": "trainerbook2_p5_test3",
+  "type": "part5",
+  "title": "A new computer game",
+  "passage": "From: Jonas | To: Gerry\nHi Gerry,\nI’ve got a new computer game and it’s really cool. I’ve had so (0) ___ fun playing it that I want to tell you all (25) ___ it. It’s called Train Driver, and you see (26) ___ it’s like to drive a train around a big city. You have (27) ___ get your passengers around the city safely, but you must also complete your journey as quickly (28) ___ possible. I think it’s the kind (29) ___ game that you would like. (30) ___ you have time, we can play a game together after school.\nLet me know.\nCheers,\nJonas",
+  "example": {"number": 0, "answer": "much", "explanation": "Cấu trúc: **so much + uncountable noun** = rất nhiều. 'Fun' là danh từ không đếm được."},
+  "questions": [
+    {"number": 25, "answer": "about", "explanation": "Cấu trúc: **tell someone about something** = kể cho ai nghe về điều gì."},
+    {"number": 26, "answer": "what", "explanation": "Cấu trúc: **what it is like to + V** = việc gì đó như thế nào."},
+    {"number": 27, "answer": "to", "explanation": "Cấu trúc: **have to + V** = phải làm gì."},
+    {"number": 28, "answer": "as", "explanation": "Cấu trúc so sánh ngang bằng: **as + adverb + as possible** = càng… càng tốt."},
+    {"number": 29, "answer": "of", "explanation": "Cụm danh từ: **kind of + noun** = loại / kiểu gì."},
+    {"number": 30, "answer": "If", "accepted": ["If", "When"], "explanation": "Cấu trúc điều kiện/thời gian: **If/When + clause, main clause** = nếu/khi có thời gian thì có thể làm việc khác."}
+  ]
+},
+  {
+  "id": "trainerbook2_p5_test4",
+  "type": "part5",
+  "title": "Science homework",
+  "passage": "From: Jake | To: Alex\nHi Alex,\nHow’s (0) ___ going? I’ve got a question for you. In science class, Mr Billet was telling us (25) ___ our homework. Well, I forgot (26) ___ write it in my notebook. And now I can’t remember (27) ___ to do for homework! Can you help?\nThanks,\nJake\n\nFrom: Alex | To: Jake\nHi Jake,\nDon’t worry, I was listening to Mr Billet! He said he’s going to email us a short video. It explains how the batteries for electric cars (28) ___ usually made these days. At the end (29) ___ the film, there’s a quiz. We just need to answer as (30) ___ questions as we can.\nAlex",
+  "example": {"number": 0, "answer": "it", "explanation": "Câu hỏi giao tiếp cố định: **How’s it going?** = Dạo này thế nào?"},
+  "questions": [
+    {"number": 25, "answer": "about", "explanation": "Cấu trúc: **tell someone about something** = nói với ai về điều gì."},
+    {"number": 26, "answer": "to", "explanation": "Cấu trúc: **forget to + V** = quên phải làm việc gì."},
+    {"number": 27, "answer": "what", "explanation": "Cấu trúc: **remember what to do** = nhớ phải làm gì."},
+    {"number": 28, "answer": "are", "explanation": "Câu bị động hiện tại đơn: **are + past participle** → are usually made."},
+    {"number": 29, "answer": "of", "explanation": "Cụm cố định: **at the end of + noun** = ở cuối của cái gì."},
+    {"number": 30, "answer": "many", "explanation": "Cấu trúc: **as many + plural noun + as possible / as we can** = càng nhiều… càng tốt."}
+  ]
+},
+  {
+  "id": "trainerbook2_p5_test5",
+  "type": "part5",
+  "title": "Campsite message",
+  "passage": "From: Emily | To: Mum\nHi Mum,\nThis is just a quick message to (0) ___ you know that we’ve arrived at the campsite. The bus journey took more (25) ___ two hours, but I didn’t get bored because I was chatting (26) ___ my school friends. (27) ___ are lots of fun activities to do here! For example, we can go swimming in the lake, as (28) ___ as play beach volleyball. I’m really excited (29) ___ sleeping in my tent tonight! But I’m glad that I don’t (30) ___ to get up early in the morning, though. Tomorrow afternoon, our teacher is taking us for a long walk on some forest paths. I can’t wait!\nLove,\nEmily",
+  "example": {"number": 0, "answer": "let", "explanation": "Cụm cố định: **let someone know** = cho ai biết."},
+  "questions": [
+    {"number": 25, "answer": "than", "explanation": "Cấu trúc so sánh: **more than + number** = hơn một con số nào đó."},
+    {"number": 26, "answer": "with", "accepted": ["with", "to"], "explanation": "Cấu trúc: **chat with/to someone** = trò chuyện với ai."},
+    {"number": 27, "answer": "There", "explanation": "Cấu trúc tồn tại: **There are + plural noun** = có nhiều cái gì."},
+    {"number": 28, "answer": "well", "explanation": "Cấu trúc: **as well as + V-ing / noun** = cũng như / ngoài ra còn."},
+    {"number": 29, "answer": "about", "explanation": "Cấu trúc: **excited about + N/V-ing** = hào hứng về việc gì."},
+    {"number": 30, "answer": "need", "accepted": ["need", "have"], "explanation": "Cấu trúc: **don’t need to + V / don’t have to + V** = không cần / không phải làm gì."}
+  ]
+},
+  {
+  "id": "trainerbook2_p5_test6",
+  "type": "part5",
+  "title": "My favourite hobby: birdwatching",
+  "passage": "My favourite hobby: birdwatching\nBy Lucy Walkins, 12\n\nI’m a birdwatcher – someone who loves (0) ___ watch birds in the wild.\nBirdwatching became my favourite hobby after my grandma gave (25) ___ a bird book last year. (26) ___ loves birdwatching and now I do too! We often go out in (27) ___ countryside together, and look for birds. My favourite time is spring, because this is (28) ___ baby birds are born. I also love hearing birds sing, because every kind of bird has (29) ___ own song. I also have a really cool app. When a bird is singing, the app tells me what kind of bird (30) ___ is.",
+  "example": {"number": 0, "answer": "to", "explanation": "Cấu trúc: **love to + V** = thích làm gì."},
+  "questions": [
+    {"number": 25, "answer": "me", "explanation": "Sau động từ 'gave' cần tân ngữ: **gave me + noun** = đưa/tặng cho tôi cái gì."},
+    {"number": 26, "answer": "She", "explanation": "Cần chủ ngữ chỉ 'my grandma': **She + verb**."},
+    {"number": 27, "answer": "the", "explanation": "Cụm cố định: **in the countryside** = ở vùng nông thôn."},
+    {"number": 28, "answer": "when", "explanation": "Cấu trúc: **This is when + clause** = đây là lúc/khi mà việc gì xảy ra."},
+    {"number": 29, "answer": "its", "accepted": ["its", "their"], "explanation": "Cấu trúc sở hữu: **its/their own + noun** = bài hát riêng của nó/chúng."},
+    {"number": 30, "answer": "it", "explanation": "Cần đại từ thay cho 'the bird': **what kind of bird it is** = đó là loài chim gì."}
+  ]
+},
+  {
+  "id": "ketbook2_p5_test1",
+  "type": "part5",
+  "title": "History project email",
+  "passage": "From: Sylvia | To: Felix\nI’m so glad we (0) ___ doing our history project together! (25) ___ you think the college library will have some useful books about local history? (26) ___ don’t we meet there tomorrow? Remember we’ve only got three weeks before we have (27) ___ give the project to the teacher.\n\nFrom: Felix | To: Sylvia\nDon’t worry! (28) ___ we work really hard, then our project will be brilliant! I’m sure we’ll find lots (29) ___ interesting books there. I’m afraid I’m busy tomorrow, (30) ___ I’m free on Friday.",
+  "example": {"number": 0, "answer": "are", "explanation": "Hiện tại tiếp diễn: **are + V-ing** → are doing."},
+  "questions": [
+    {"number": 25, "answer": "Do", "explanation": "Câu hỏi Yes/No: **Do + subject + verb?** → Do you think…?"},
+    {"number": 26, "answer": "Why", "explanation": "Cấu trúc đề xuất: **Why don’t we + V?** = Sao chúng ta không…?"},
+    {"number": 27, "answer": "to", "explanation": "Cấu trúc: **have to + V** = phải làm gì."},
+    {"number": 28, "answer": "If", "explanation": "Câu điều kiện loại 1: **If + present, will + V**."},
+    {"number": 29, "answer": "of", "explanation": "Cấu trúc: **lots of + noun** = nhiều."},
+    {"number": 30, "answer": "but", "accepted": ["but", "however", "although"], "explanation": "Liên từ tương phản: **but / however / although** = nhưng."}
+  ]
+},
+  {
+  "id": "ketbook2_p5_test2",
+  "type": "part5",
+  "title": "New house email",
+  "passage": "From: Erin | To: Lara\nHow (0) ___ you? I moved into a new house last month. It’s a lot bigger (25) ___ my old house, and (26) ___ is a big garden at the back. I can’t wait (27) ___ grow some vegetables in it!\nIt’s taken me and my parents (28) ___ long time to paint all the rooms. So (29) ___ you like to come and stay with me next weekend? If the weather’s good, Mum says we can have a barbecue. I can show (30) ___ some interesting places in my town too.",
+  "example": {"number": 0, "answer": "are", "explanation": "Câu hỏi giao tiếp: **How are you?**"},
+  "questions": [
+    {"number": 25, "answer": "than", "explanation": "So sánh hơn: **bigger than**."},
+    {"number": 26, "answer": "there", "explanation": "Cấu trúc tồn tại: **There is/are**."},
+    {"number": 27, "answer": "to", "explanation": "Cấu trúc: **can’t wait to + V** = rất mong chờ."},
+    {"number": 28, "answer": "a", "explanation": "Cụm: **a long time**."},
+    {"number": 29, "answer": "would", "explanation": "Cấu trúc mời: **Would you like to + V?**"},
+    {"number": 30, "answer": "you", "explanation": "Đại từ tân ngữ: **show you something**."}
+  ]
+},
+  {
+  "id": "ketbook2_p5_test3",
+  "type": "part5",
+  "title": "Visit my town email",
+  "passage": "From: Ellie | To: Leah\nI’m really pleased you’re coming (0) ___ stay at my house next week. We haven’t seen each other for such (25) ___ long time!\n(26) ___ are lots of things to do (27) ___ my town, so I’m sure we’ll have lots of fun. We can visit the museum and the theatre. Our new shopping centre has some really great shops, and they’re cheaper (28) ___ the ones in the city.\nI’ll meet you at the airport on Saturday. (29) ___ time does your flight arrive? Please let (30) ___ know.",
+  "example": {"number": 0, "answer": "to", "explanation": "Cấu trúc: **come to + V**."},
+  "questions": [
+    {"number": 25, "answer": "a", "explanation": "Cụm: **such a + adj + noun**."},
+    {"number": 26, "answer": "There", "explanation": "Cấu trúc: **There are**."},
+    {"number": 27, "answer": "in", "accepted": ["in", "near", "around"], "explanation": "Giới từ chỉ nơi chốn: **in/near/around + place**."},
+    {"number": 28, "answer": "than", "explanation": "So sánh hơn: **cheaper than**."},
+    {"number": 29, "answer": "What", "explanation": "Câu hỏi: **What time…?**"},
+    {"number": 30, "answer": "me", "accepted": ["me", "us"], "explanation": "Cụm: **let me/us know**."}
+  ]
+},
+  {
+  "id": "ketbook2_p5_test4",
+  "type": "part5",
+  "title": "Basketball team email",
+  "passage": "From: Marcia | To: Annie\nI am trying (0) ___ start a girls’ basketball team at college. Are you interested (25) ___ joining it? Basketball’s (26) ___ excellent way to get exercise, and it can also be a (27) ___ of fun.\nOur sports teacher says she will be our coach, but only (28) ___ we can get enough girls. We will probably practise once or twice a week.\n(29) ___ you know any other girls we can ask to be on the team? Let me know as soon (30) ___ possible.",
+  "example": {"number": 0, "answer": "to", "explanation": "Cấu trúc: **try to + V**."},
+  "questions": [
+    {"number": 25, "answer": "in", "explanation": "Cấu trúc: **interested in + V-ing**."},
+    {"number": 26, "answer": "an", "explanation": "Mạo từ: **an + nguyên âm (excellent)**."},
+    {"number": 27, "answer": "lot", "accepted": ["lot", "load"], "explanation": "Cụm: **a lot of / loads of fun**."},
+    {"number": 28, "answer": "if", "accepted": ["if", "when"], "explanation": "Câu điều kiện: **if/when + clause**."},
+    {"number": 29, "answer": "Do", "explanation": "Câu hỏi Yes/No: **Do you know…?**"},
+    {"number": 30, "answer": "as", "explanation": "Cụm: **as soon as possible** = càng sớm càng tốt."}
+  ]
+},
+  {
+  "id": "ketbook2fS_p5_test1",
+  "type": "part5",
+  "title": "New house email",
+  "passage": "From: Dave | To: Ali\nI’ve got some news (0) ___ you. We’ve just moved into our new house. We moved because Dad got a new job in March.\n\nOur new house has three floors and is a lot bigger (25) ___ our old one. I really like (26) ___. My bedroom is at (27) ___ top and I can see a long way from my window. Our garden is really big. Dad has said he’ll build me a treehouse (28) ___ my school holiday begins.\n\nI’m starting at a new school next week. I hope I’ll (29) ___ able to make new friends. I’m worried about it, but also excited. (30) ___ you have any news?",
+  "example": {"number": 0, "answer": "for", "explanation": "Cụm: **news for someone** = tin cho ai."},
+  "questions": [
+    {"number": 25, "answer": "than", "explanation": "So sánh hơn: **bigger than + N**."},
+    {"number": 26, "answer": "it", "explanation": "Đại từ thay thế: **it = the house** (tránh lặp)." },
+    {"number": 27, "answer": "the", "explanation": "Cụm: **at the top** = ở trên cùng."},
+    {"number": 28, "answer": "when", "accepted": ["when","after","before"], "explanation": "Liên từ thời gian: **when/after/before + clause**."},
+    {"number": 29, "answer": "be", "explanation": "Cấu trúc: **will be able to + V** = sẽ có thể."},
+    {"number": 30, "answer": "Do", "accepted": ["do","did"], "explanation": "Câu hỏi: **Do you have…?** (hiện tại) hoặc **Did you have…?** (quá khứ)."}
+  ]
+},
+  {
+  "id": "ketbook2fS_p5_test2",
+  "type": "part5",
+  "title": "Picnic plan",
+  "passage": "From: Andy | To: Tom\nLet’s take a picnic with us when (0) ___ go to the river tomorrow. I saw on TV that the weather is going to (25) ___ really nice. I’ll make (26) ___ few sandwiches, so can you bring some drinks?\n\nFrom: Tom | To: Andy\nYes, a picnic sounds like a great idea! I can get some drinks (27) ___ my way. Would you prefer cola (28) ___ orange juice? The shop near my house sells both of (29) ___. Don’t forget your swimming things. I’ll bring my football (30) ___ I can find it.",
+  "example": {"number": 0, "answer": "we", "explanation": "Chủ ngữ: **we go**."},
+  "questions": [
+    {"number": 25, "answer": "be", "explanation": "Tương lai: **be going to + V** → be nice."},
+    {"number": 26, "answer": "a", "explanation": "Cụm: **a few + plural noun**."},
+    {"number": 27, "answer": "on", "explanation": "Cụm: **on my way** = trên đường."},
+    {"number": 28, "answer": "or", "accepted": ["or","to"], "explanation": "Lựa chọn: **A or B**."},
+    {"number": 29, "answer": "them", "accepted": ["them","these","those"], "explanation": "Đại từ thay thế danh từ số nhiều."},
+    {"number": 30, "answer": "if", "explanation": "Điều kiện: **if + clause**."}
+  ]
+},
+  {
+  "id": "ketbook2fS_p5_test3",
+  "type": "part5",
+  "title": "Baseball club",
+  "passage": "From: Marty | To: Robbie\nHave (0) ___ ever played baseball? I played it at my last school and it (25) ___ really good fun! We liked it more (26) ___ all the other sports. I’d like to start a baseball club here. What (27) ___ you think?\n\nFrom: Robbie | To: Marty\nThat sounds like (28) ___ great idea! (29) ___ don’t you make a poster and ask teachers to put it up? I’m sure (30) ___ are lots of students who’d love to learn.",
+  "example": {"number": 0, "answer": "you", "explanation": "Câu hỏi: **Have you ever…?**"},
+  "questions": [
+    {"number": 25, "answer": "was", "accepted": ["was","is"], "explanation": "Miêu tả: **was/is good fun**."},
+    {"number": 26, "answer": "than", "explanation": "So sánh hơn: **more than**."},
+    {"number": 27, "answer": "do", "explanation": "Câu hỏi: **What do you think?**"},
+    {"number": 28, "answer": "a", "explanation": "Cụm: **a great idea**."},
+    {"number": 29, "answer": "Why", "explanation": "Cấu trúc: **Why don’t you + V?**"},
+    {"number": 30, "answer": "there", "explanation": "Cấu trúc: **there are**."}
+  ]
+},
+  {
+  "id": "ketbook2fS_p5_test4",
+  "type": "part5",
+  "title": "Holiday email",
+  "passage": "From: Amy | To: Jake\nI’m on holiday with my family and we (0) ___ having a great time! Our hotel is really nice and (25) ___ is a beautiful beach not far away. The weather here is much warmer (26) ___ it is at home.\n\n(27) ___ rained yesterday so we decided to go ice-skating. The day was a (28) ___ of fun.\n\nWe’re planning (29) ___ do some shopping at (30) ___ weekend.",
+  "example": {"number": 0, "answer": "are", "explanation": "Hiện tại tiếp diễn: **are having**."},
+  "questions": [
+    {"number": 25, "answer": "there", "explanation": "Cấu trúc: **there is/are**."},
+    {"number": 26, "answer": "than", "explanation": "So sánh hơn: **warmer than**."},
+    {"number": 27, "answer": "It", "explanation": "Chủ ngữ giả: **It rained**."},
+    {"number": 28, "answer": "lot", "accepted": ["lot","load"], "explanation": "Cụm: **a lot/load of fun**."},
+    {"number": 29, "answer": "to", "explanation": "Cấu trúc: **plan to + V**."},
+    {"number": 30, "answer": "the", "explanation": "Cụm: **at the weekend** (BrE)."}
+  ]
+}
 ]
