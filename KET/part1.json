@@ -611,5 +611,2695 @@
 ],
 "answer": "B",
 "explanation": "Đáp án B đúng vì mẹ hỏi Joe rằng 'Bây giờ con đã hiểu rõ hơn những gì cô giáo muốn chưa?' ('Is it clearer now what she wants?'), ám chỉ việc giáo viên đã giải thích và giúp cậu hiểu đề bài tập về nhà. Đáp án A sai vì Joe đi gặp giáo viên để hỏi rõ yêu cầu, không phải để xin đổi bài tập khác. Đáp án C sai vì mẹ nhắc Joe có thể gọi về cho mẹ nếu cần, chứ không phải bảo giáo viên gọi."
-}
+},
+  {
+    "id": "p1_q25",
+    "type": "part1",
+    "sign_type": "street_sign",
+    "sign": {
+      "location_label": "Zoo Entrance",
+      "style": "blue_info",
+      "icon": "🦁",
+      "lines": [
+        {
+          "text": "Rockerfeller Zoo",
+          "size": "large",
+          "weight": "bold"
+        },
+        {
+          "text": "Adults: £15.50 | Children under 16: £11.75",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "Buy two child tickets to receive a third for free",
+          "size": "medium",
+          "weight": "bold"
+        }
+      ]
+    },
+    "question": "What do we learn from this notice?",
+    "options": [
+      "A. There are discounts for everyone who comes to the zoo.",
+      "B. Children can only come into the zoo if they're with an adult.",
+      "C. If three children visit the zoo, only two of them must buy a ticket."
+    ],
+    "answer": "C",
+    "explanation": "Đáp án C đúng vì thông báo ghi mua 2 vé trẻ em được tặng vé thứ 3 miễn phí, nghĩa là nhóm 3 trẻ em chỉ cần trả tiền 2 vé. Đáp án A sai vì ưu đãi chỉ dành cho trẻ em, không phải tất cả mọi người. Đáp án B sai vì không có quy định phải đi kèm người lớn."
+  },
+  {
+    "id": "p1_q26",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "📱",
+      "from": "Harry",
+      "to": "Jack",
+      "body": "Hi Jack, I’ll buy our concert tickets. Shall I get one for your brother too? They’re £20 or £25 to sit at the front."
+    },
+    "question": "What does Harry want to know?",
+    "options": [
+      "A. if Jack wants to go to the concert",
+      "B. how much the concert tickets cost",
+      "C. how many tickets to buy for the concert"
+    ],
+    "answer": "C",
+    "explanation": "Đáp án C đúng vì Harry hỏi 'Shall I get one for your brother too?' để xác định xem cần mua tổng cộng bao nhiêu vé (cho 2 người hay 3 người). Đáp án A sai vì Jack chắc chắn đi. Đáp án B sai vì Harry đã nêu rõ giá vé trong tin nhắn."
+  },
+  {
+    "id": "p1_q27",
+    "type": "part1",
+    "sign_type": "street_sign",
+    "sign": {
+      "location_label": "Auckland Station",
+      "style": "blue_info",
+      "icon": "🏢",
+      "lines": [
+        {
+          "text": "Auckland Station",
+          "size": "large",
+          "weight": "bold"
+        },
+        {
+          "text": "Too much luggage? Take the lift. It's safe and quick.",
+          "size": "medium",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "This sign tells you",
+    "options": [
+      "A. where to find the lift at the station.",
+      "B. what to do if you have a lot of heavy things to carry.",
+      "C. where to go if something dangerous takes place."
+    ],
+    "answer": "B",
+    "explanation": "Đáp án B đúng vì 'too much luggage' (nhiều hành lý) tương đương với 'heavy things to carry', và biển báo khuyên nên dùng thang máy. Đáp án A sai vì biển báo không chỉ vị trí cụ thể của thang máy. Đáp án C sai vì mang nặng không phải là tình huống nguy hiểm."
+  },
+  {
+    "id": "p1_q28",
+    "type": "part1",
+    "sign_type": "street_sign",
+    "sign": {
+      "location_label": "Restaurant Sign",
+      "style": "school_pinned",
+      "icon": "🍴",
+      "lines": [
+        {
+          "text": "If adults want to order something from our children’s menu for under 13s, just ask!",
+          "size": "medium",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "What is this notice saying?",
+    "options": [
+      "A. The children’s menu is only for younger guests.",
+      "B. Anyone can order food from the children’s menu.",
+      "C. Guests who are 13 or over can have adult meals."
+    ],
+    "answer": "B",
+    "explanation": "Đáp án B đúng vì thông báo cho phép người lớn (adults) cũng có thể gọi món từ thực đơn trẻ em, nghĩa là bất kỳ ai cũng có thể gọi. Đáp án A và C sai vì giới hạn độ tuổi, đi ngược lại nội dung cho phép của biển báo."
+  },
+  {
+    "id": "p1_q29",
+    "type": "part1",
+    "sign_type": "school_notice",
+    "sign": {
+      "location_label": "Poster",
+      "style": "blue_info",
+      "icon": "📞",
+      "lines": [
+        {
+          "text": "It’s OK not to be OK. Talk to us any time.",
+          "size": "medium",
+          "weight": "bold"
+        },
+        {
+          "text": "We’re here to listen. Call us on: 0800 234456",
+          "size": "medium",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "This message is for people who want to",
+    "options": [
+      "A. receive some helpful advice.",
+      "B. make some new friends.",
+      "C. help people who have problems."
+    ],
+    "answer": "A",
+    "explanation": "Đáp án A đúng vì đây là thông điệp từ một đường dây hỗ trợ tinh thần ('We’re here to listen'), dành cho người cần sự giúp đỡ hoặc lời khuyên. Đáp án B sai vì đây không phải dịch vụ kết bạn. Đáp án C sai vì thông điệp hướng tới người cần giúp, không phải người đi giúp."
+  },
+  {
+    "id": "p1_q30",
+    "type": "part1",
+    "sign_type": "school_notice",
+    "sign": {
+      "location_label": "Noticeboard",
+      "style": "school_pinned",
+      "icon": "🎹",
+      "lines": [
+        {
+          "text": "Today’s piano performance will take place at the later time of 2:15.",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "It’s still in Room 11. See you there!",
+          "size": "medium",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "Which detail about the concert has changed?",
+    "options": [
+      "A. when it starts",
+      "B. where it happening",
+      "C. which instrument is being played"
+    ],
+    "answer": "A",
+    "explanation": "Đáp án A đúng vì cụm từ 'later time' (thời gian muộn hơn) cho thấy giờ bắt đầu đã thay đổi. Đáp án B sai vì địa điểm vẫn là Phòng 11 ('still in Room 11'). Đáp án C sai vì nhạc cụ vẫn là piano."
+  },
+  {
+    "id": "p1_q31",
+    "type": "part1",
+    "sign_type": "street_sign",
+    "sign": {
+      "location_label": "Railway Station",
+      "style": "blue_info",
+      "icon": "🚆",
+      "lines": [
+        {
+          "text": "Railway station",
+          "size": "large",
+          "weight": "bold"
+        },
+        {
+          "text": "This way to the main exit",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "Follow signs for passengers who need taxis",
+          "size": "small",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "This sign tells you",
+    "options": [
+      "A. where to go if you want to leave the station.",
+      "B. how to find the right platform for your train.",
+      "C. what’s the best way to get to the station."
+    ],
+    "answer": "A",
+    "explanation": "Đáp án A đúng vì 'exit' là lối ra để rời khỏi nhà ga. Đáp án B sai vì không nhắc đến số sân ga (platform). Đáp án C sai vì đây là chỉ dẫn lối ra, không phải đường đến ga."
+  },
+  {
+    "id": "p1_q32",
+    "type": "part1",
+    "sign_type": "school_notice",
+    "sign": {
+      "location_label": "Hanwell Gym",
+      "style": "school_pinned",
+      "icon": "🏋️",
+      "lines": [
+        {
+          "text": "Hanwell Gym",
+          "size": "large",
+          "weight": "bold"
+        },
+        {
+          "text": "We can lend you any sports equipment you need.",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "Please return things when you finish.",
+          "size": "medium",
+          "weight": "bold"
+        }
+      ]
+    },
+    "question": "What is this message saying?",
+    "options": [
+      "A. Remember to give back any sports equipment that you borrow.",
+      "B. Please only use sports equipment that belongs to you.",
+      "C. Ask gym staff if you want to buy sports equipment."
+    ],
+    "answer": "A",
+    "explanation": "Đáp án A đúng vì 'return things' tương đương với 'give back' (trả lại đồ đã mượn). Đáp án B sai vì gym cho mượn đồ. Đáp án C sai vì thông báo không nhắc đến việc mua bán."
+  },
+  {
+    "id": "p1_q33",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "🎸",
+      "from": "Holly",
+      "to": "Ross",
+      "body": "Hi Ross, There's a school concert on 5 or 6 May (not sure which). It sounds brilliant. I can get us tickets, if you're interested."
+    },
+    "question": "Holly is writing to Ross to",
+    "options": [
+      "A. check the date of the concert.",
+      "B. ask if he wants to go with her.",
+      "C. tell him she is playing in a concert."
+    ],
+    "answer": "B",
+    "explanation": "Đáp án B đúng vì cụm từ 'get us tickets' thể hiện lời mời Ross đi xem cùng. Đáp án A sai vì Holly không nhờ Ross xác nhận ngày. Đáp án C sai vì Holly chỉ là khán giả đi xem."
+  },
+  {
+    "id": "p1_q34",
+    "type": "part1",
+    "sign_type": "school_notice",
+    "sign": {
+      "location_label": "School Corridor",
+      "style": "school_pinned",
+      "icon": "🎭",
+      "lines": [
+        {
+          "text": "Did you know there are lots of careers in theatre like acting, lighting, costumes and so on?",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "Ask your acting teacher for more details!",
+          "size": "medium",
+          "weight": "bold"
+        }
+      ]
+    },
+    "question": "What is this notice doing?",
+    "options": [
+      "A. telling students about the next school play",
+      "B. giving students information about acting classes",
+      "C. letting students know there are a variety of theatre jobs"
+    ],
+    "answer": "C",
+    "explanation": "Đáp án C đúng vì 'careers' đồng nghĩa với 'jobs', thông báo giới thiệu sự đa dạng ngành nghề trong nhà hát. Đáp án A và B sai vì không nói về một vở kịch hay lớp học cụ thể."
+  },
+  {
+    "id": "p1_q35",
+    "type": "part1",
+    "sign_type": "street_sign",
+    "sign": {
+      "location_label": "Park Fence",
+      "style": "blue_info",
+      "icon": "🐝",
+      "lines": [
+        {
+          "text": "CHESTERFIELD PARK",
+          "size": "large",
+          "weight": "bold"
+        },
+        {
+          "text": "This spring we’re growing more flowers for bees and insects than ever before!",
+          "size": "medium",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "What is this message saying?",
+    "options": [
+      "A. Please help us to keep the park tidy.",
+      "B. We want this park to be a good place for nature.",
+      "C. Visitors must not touch the plants or animals at the park."
+    ],
+    "answer": "B",
+    "explanation": "Đáp án B đúng vì việc trồng hoa cho ong/côn trùng là giúp ích cho thiên nhiên. Đáp án A và C sai vì biển báo không đưa ra yêu cầu hay quy định cấm đoán nào đối với khách."
+  },
+  {
+    "id": "p1_q36",
+    "type": "part1",
+    "sign_type": "street_sign",
+    "sign": {
+      "location_label": "Gallery Entrance",
+      "style": "blue_info",
+      "icon": "🖼️",
+      "lines": [
+        {
+          "text": "You’re welcome to take photos of our pictures, but please don’t touch them.",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "No food or drink. Snacks are available at the café.",
+          "size": "medium",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "Where might you see this notice?",
+    "options": [
+      "A. an art museum",
+      "B. in a café",
+      "C. in a camera shop"
+    ],
+    "answer": "A",
+    "explanation": "Đáp án A đúng vì các quy định về bảo vệ tranh (không chạm) và cấm ăn uống là đặc trưng của bảo tàng nghệ thuật. Đáp án B và C không phù hợp với ngữ cảnh bảo quản hiện vật này."
+  },
+  {
+    "id": "p1_q37",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "🥱",
+      "from": "Alexandra",
+      "to": "Luke",
+      "body": "Hi Luke, I've just finished my homework. That's great... except now I've got nothing to do all evening! See you tomorrow!"
+    },
+    "question": "Why has Alexandra written to Luke?",
+    "options": [
+      "A. to say that she needs help",
+      "B. to tell him she is feeling bored",
+      "C. to ask him if he wants to meet"
+    ],
+    "answer": "B",
+    "explanation": "Đáp án B đúng vì cụm từ 'got nothing to do all evening' thể hiện cô ấy đang rảnh rỗi và buồn chán. Đáp án A sai vì bài tập đã xong. Đáp án C sai vì không có lời mời gặp mặt tối nay."
+  },
+  {
+    "id": "p1_q38",
+    "type": "part1",
+    "sign_type": "email",
+    "sign": {
+      "location_label": "Computer Screen",
+      "style": "email",
+      "icon": "⛰️",
+      "from": "Mr Hammonds",
+      "to": "Year 9 students",
+      "subject": "mountain trip",
+      "body": "Remember what I told you about tomorrow's trip. Please come with your own lunch, because we'll be several kilometres from the nearest shop."
+    },
+    "question": "Why has the teacher written this email?",
+    "options": [
+      "A. to let pupils know where they are going",
+      "B. to tell pupils what to bring",
+      "C. to suggest what pupils can buy on the trip"
+    ],
+    "answer": "B",
+    "explanation": "Đáp án B đúng vì yêu cầu tự chuẩn bị bữa trưa là chỉ dẫn về thứ cần mang theo. Đáp án A sai vì địa điểm đã được nói từ trước. Đáp án C sai vì giáo viên nói rõ là không có chỗ để mua đồ."
+  },
+  {
+    "id": "p1_q39",
+    "type": "part1",
+    "sign_type": "street_sign",
+    "sign": {
+      "location_label": "Station Notice",
+      "style": "blue_info",
+      "icon": "🚲",
+      "lines": [
+        {
+          "text": "Please check if there's enough space for you and your bicycle on certain trains.",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "It's easy, and there's no extra cost for passengers with bicycles.",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "www.biketrain.org",
+          "size": "small",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "What do we learn from this notice?",
+    "options": [
+      "A. People can sometimes take bikes on trains.",
+      "B. Passengers with bikes can get cheaper tickets.",
+      "C. You must buy a ticket for your bike when you're on the train."
+    ],
+    "answer": "A",
+    "explanation": "Đáp án A đúng vì 'on certain trains' nghĩa là chỉ một số tàu nhất định, tương ứng với 'sometimes'. Đáp án B sai vì xe đạp được miễn phí chứ không làm giảm giá vé người. Đáp án C sai vì không cần mua vé cho xe đạp."
+  },
+  {
+    "id": "p1_q40",
+    "type": "part1",
+    "sign_type": "school_notice",
+    "sign": {
+      "location_label": "Noticeboard",
+      "style": "school_pinned",
+      "icon": "🐕",
+      "lines": [
+        {
+          "text": "My dog's name is Spot. He's lovely and friendly.",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "Unfortunately I can't take him for a walk at the moment.",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "But if you can, please call 07893487233.",
+          "size": "medium",
+          "weight": "bold"
+        }
+      ]
+    },
+    "question": "This notice was written by someone who",
+    "options": [
+      "A. is looking for a pet.",
+      "B. wants someone to join them on walks with a dog.",
+      "C. needs help looking after a pet."
+    ],
+    "answer": "C",
+    "explanation": "Đáp án C đúng vì người viết cần tìm người dắt chó đi dạo hộ do bản thân bận/không thể đi. Đáp án A sai vì họ đã có chó. Đáp án B sai vì họ nhờ người đi thay chứ không phải đi cùng."
+  },
+  {
+    "id": "p1_q41",
+    "type": "part1",
+    "sign_type": "email",
+    "sign": {
+      "location_label": "Computer Screen",
+      "style": "email",
+      "icon": "🏒",
+      "from": "Mr Ashcroft",
+      "to": "Parents of class 4B",
+      "subject": "Your child's hockey game today",
+      "body": "Dear Parents, The coach back from our match at Elston School is delayed by 30 minutes. Please wait for pupils outside school."
+    },
+    "question": "This message is for parents who",
+    "options": [
+      "A. want to know what time the match starts.",
+      "B. have watched the match against Elston School.",
+      "C. are collecting their children after a sports match."
+    ],
+    "answer": "C",
+    "explanation": "Đáp án C đúng vì nội dung thông báo về việc xe về trễ dành cho phụ huynh đang đợi đón con. Đáp án A sai vì trận đấu đã xong. Đáp án B sai vì phụ huynh này đang đợi ở trường, không phải người đi xem trực tiếp."
+  },
+  {
+    "id": "p1_q42",
+    "type": "part1",
+    "sign_type": "street_sign",
+    "sign": {
+      "location_label": "Wall Sign",
+      "style": "blue_info",
+      "icon": "💪",
+      "lines": [
+        {
+          "text": "Please remember we sometimes we get very busy.",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "Please don't use equipment for more than ten minutes if someone's waiting.",
+          "size": "medium",
+          "weight": "bold"
+        },
+        {
+          "text": "We want all our members to stay fit!",
+          "size": "medium",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "Where might you see this message?",
+    "options": [
+      "A. at a gym",
+      "B. at a swimming pool",
+      "C. in a classroom"
+    ],
+    "answer": "A",
+    "explanation": "Đáp án A đúng vì các từ 'equipment', 'members' và 'stay fit' chỉ xuất hiện đồng thời tại phòng tập gym. Hồ bơi hay lớp học không có bối cảnh sử dụng thiết bị giới hạn thời gian như vậy."
+  },
+  {
+    "id": "p1_q43",
+    "type": "part1",
+    "sign_type": "street_sign",
+    "sign": {
+      "location_label": "Booking Office",
+      "style": "blue_info",
+      "icon": "🐴",
+      "lines": [
+        {
+          "text": "Horse rides €60 for children and adults",
+          "size": "medium",
+          "weight": "bold"
+        },
+        {
+          "text": "Pay €20 now to book your ride online",
+          "size": "small",
+          "weight": "normal"
+        },
+        {
+          "text": "Pay the other €40 in cash on the day",
+          "size": "small",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "This notice explains",
+    "options": [
+      "A. what different horse rides cost.",
+      "B. how to save money on horse rides.",
+      "C. when and how to pay for a horse ride."
+    ],
+    "answer": "C",
+    "explanation": "Thông báo giải thích rõ quy trình thanh toán: trả một phần khi đặt chỗ và phần còn lại vào ngày tham gia bằng tiền mặt."
+  },
+  {
+    "id": "p1_q44",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "🏠",
+      "from": "Jack",
+      "to": "Leo",
+      "body": "Hi Leo, I know I told you to come to my flat at noon, but mum says you’re welcome to come before. How does that sound?"
+    },
+    "question": "What is the message saying?",
+    "options": [
+      "A. Jack wants Leo to visit him later this afternoon.",
+      "B. Leo can go to Jack’s before noon if he likes.",
+      "C. Jack’s mother wants to know what time Leo is coming."
+    ],
+    "answer": "B",
+    "explanation": "Jack nói rằng Leo có thể đến trước buổi trưa (before noon) thay vì đúng 12 giờ như đã hẹn."
+  },
+  {
+    "id": "p1_q45",
+    "type": "part1",
+    "sign_type": "school_notice",
+    "sign": {
+      "location_label": "Book Review",
+      "style": "school_pinned",
+      "icon": "📚",
+      "lines": [
+        {
+          "text": "I couldn't stop reading this. I wanted to know what happened to this group of friends.",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "Don't open this book! Especially after dark!",
+          "size": "medium",
+          "weight": "bold"
+        }
+      ]
+    },
+    "question": "This book is for",
+    "options": [
+      "A. people who enjoy scary stories.",
+      "B. people who want to understand their friends.",
+      "C. people who like reading before they go to sleep."
+    ],
+    "answer": "A",
+    "explanation": "Cảnh báo không nên đọc sau khi trời tối cho thấy đây là một cuốn sách thuộc thể loại truyện kinh dị."
+  },
+  {
+    "id": "p1_q46",
+    "type": "part1",
+    "sign_type": "email",
+    "sign": {
+      "location_label": "Computer Screen",
+      "style": "email",
+      "icon": "⛷️",
+      "from": "Ms Hansworth",
+      "to": "Parents",
+      "body": "Like I explained at the meeting, let us know if there's anything your child can't eat before the school skiing trip."
+    },
+    "question": "Why has Ms Hansworth written this message?",
+    "options": [
+      "A. to invite parents to a meeting",
+      "B. to ask parents for information",
+      "C. to let parents know about a school trip"
+    ],
+    "answer": "B",
+    "explanation": "Cô Hansworth viết để hỏi phụ huynh về các thông tin y tế/dinh dưỡng (những gì học sinh không ăn được) cho chuyến đi."
+  },
+  {
+    "id": "p1_q47",
+    "type": "part1",
+    "sign_type": "street_sign",
+    "sign": {
+      "location_label": "Café Wall",
+      "style": "blue_info",
+      "icon": "☕",
+      "lines": [
+        {
+          "text": "Today only!",
+          "size": "large",
+          "weight": "bold"
+        },
+        {
+          "text": "Order a slice of cake to receive a drink at no extra cost.",
+          "size": "medium",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "What does this notice tell us?",
+    "options": [
+      "A. Free drinks are available every day.",
+      "B. Cakes are cheaper than usual today.",
+      "C. You get a free drink if you buy some cake."
+    ],
+    "answer": "C",
+    "explanation": "Cụm 'at no extra cost' xác nhận rằng đồ uống sẽ được miễn phí nếu khách hàng mua một miếng bánh."
+  },
+  {
+    "id": "p1_q48",
+    "type": "part1",
+    "sign_type": "email",
+    "sign": {
+      "location_label": "Computer Screen",
+      "style": "email",
+      "icon": "📐",
+      "from": "Mr Rosebush",
+      "to": "maths students",
+      "body": "It says on the answer sheet that question 7 is 125 cm. It should say 125 km. Well done if you noticed!"
+    },
+    "question": "Why has Mr Rosebush written to the pupils?",
+    "options": [
+      "A. tell them where to find the answers",
+      "B. to say that some information is wrong",
+      "C. to ask them to do their maths homework"
+    ],
+    "answer": "B",
+    "explanation": "Thầy giáo gửi thông báo để đính chính một thông tin sai lệch trên tờ đáp án (đơn vị đo lường bị nhầm lẫn)."
+  },
+  {
+    "id": "p1_q49",
+    "type": "part1",
+    "sign_type": "street_sign",
+    "sign": {
+      "location_label": "Swimming Pool Entrance",
+      "style": "blue_info",
+      "icon": "🏊",
+      "lines": [
+        {
+          "text": "Be careful!",
+          "size": "large",
+          "weight": "bold"
+        },
+        {
+          "text": "The pool temperature is much lower than normal.",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "It'll be repaired soon.",
+          "size": "small",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "What is this notice saying?",
+    "options": [
+      "A. The pool is getting fixed today.",
+      "B. The water is colder than usual.",
+      "C. There have been swimming accidents here recently."
+    ],
+    "answer": "B",
+    "explanation": "Thông báo cho biết nhiệt độ thấp hơn bình thường, đồng nghĩa với việc nước lạnh hơn bình thường."
+  },
+  {
+    "id": "p1_q50",
+    "type": "part1",
+    "sign_type": "email",
+    "sign": {
+      "location_label": "Computer Screen",
+      "style": "email",
+      "icon": "🎒",
+      "from": "Mr Nairobi",
+      "to": "All students",
+      "subject": "School trip",
+      "body": "You may use the hotel pool most days, but if you don't want to, that's no problem – just let me know."
+    },
+    "question": "The teacher says that pupils",
+    "options": [
+      "A. can choose to swim or not.",
+      "B. will be able to swim every day.",
+      "C. should tell him when they want to go swimming."
+    ],
+    "answer": "A",
+    "explanation": "Thầy giáo cho phép học sinh tự quyết định có tham gia bơi lội hay không qua câu 'if you don't want to, that's no problem'."
+  },
+  {
+    "id": "p1_q51",
+    "type": "part1",
+    "sign_type": "label",
+    "sign": {
+      "location_label": "Medicine Bottle",
+      "style": "white_label",
+      "icon": "💊",
+      "lines": [
+        {
+          "text": "For help with headaches",
+          "size": "medium",
+          "weight": "bold"
+        },
+        {
+          "text": "Do not take if you have heart problems",
+          "size": "small",
+          "weight": "normal"
+        },
+        {
+          "text": "Take 20 minutes after food",
+          "size": "small",
+          "weight": "normal"
+        },
+        {
+          "text": "Tell your doctor if you feel worse",
+          "size": "small",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "What information do the instructions/does this message include?",
+    "options": [
+      "A. when to take the medicine",
+      "B. how much of the medicine to take",
+      "C. who to contact if you have any questions"
+    ],
+    "answer": "A",
+    "explanation": "Dòng 'Take 20 minutes after food' cung cấp thông tin về thời điểm cần dùng thuốc."
+  },
+  {
+    "id": "p1_q52",
+    "type": "part1",
+    "sign_type": "school_notice",
+    "sign": {
+      "location_label": "Review App",
+      "style": "review_bubble",
+      "icon": "🛹",
+      "lines": [
+        {
+          "text": "Victoria Park ⭐⭐⭐⭐⭐",
+          "size": "medium",
+          "weight": "bold"
+        },
+        {
+          "text": "It has a huge playground and a brilliant area for skateboarding.",
+          "size": "small",
+          "weight": "normal"
+        },
+        {
+          "text": "There’s also a cafe with delicious cakes!",
+          "size": "small",
+          "weight": "normal"
+        },
+        {
+          "text": "Amina, 12",
+          "size": "small",
+          "weight": "italic"
+        }
+      ]
+    },
+    "question": "What is Amina saying in this review?",
+    "options": [
+      "A. She prefers skateboarding at the park.",
+      "B. The cafe offers a wide selection of food.",
+      "C. There are several things to do at the park."
+    ],
+    "answer": "C",
+    "explanation": "Amina nhắc đến khu vui chơi, khu trượt ván và quán cà phê, cho thấy công viên có đa dạng hoạt động."
+  },
+  {
+    "id": "p1_q53",
+    "type": "part1",
+    "sign_type": "street_sign",
+    "sign": {
+      "location_label": "Building Wall",
+      "style": "brick_wall_sign",
+      "icon": "🚪",
+      "lines": [
+        {
+          "text": "Talk starts at 7pm",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "Event is fully booked",
+          "size": "medium",
+          "weight": "bold"
+        },
+        {
+          "text": "After 7pm enter through back door",
+          "size": "medium",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "What information is included in this notice?",
+    "options": [
+      "A. where to buy tickets",
+      "B. what to do if you arrive late",
+      "C. how long the event takes place"
+    ],
+    "answer": "B",
+    "explanation": "Hướng dẫn đi cửa sau sau 7 giờ tối chính là chỉ dẫn cho những người đến muộn."
+  },
+  {
+    "id": "p1_q54",
+    "type": "part1",
+    "sign_type": "email",
+    "sign": {
+      "location_label": "Computer Screen",
+      "style": "email",
+      "icon": "🧥",
+      "from": "jake@mymail.com",
+      "to": "Class 8",
+      "subject": "My school jacket",
+      "body": "Hi, I've lost my new school jacket. If you know where it is, please let me know. It's expensive and I need it!"
+    },
+    "question": "Jake wants to know if any of his classmates",
+    "options": [
+      "A. have seen his jacket.",
+      "B. can lend him a jacket.",
+      "C. wants to buy a jacket."
+    ],
+    "answer": "A",
+    "explanation": "Jake đang tìm áo khoác bị mất nên cậu ấy muốn biết có bạn nào nhìn thấy nó hay không."
+  },
+  {
+    "id": "p1_q55",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "📗",
+      "from": "Ali",
+      "to": "Sam",
+      "body": "Hi Sam, I’ve found a green notebook in the library. Is it yours? If not, do you know whose it is? Let me know. Ali."
+    },
+    "question": "Ali wrote this message to",
+    "options": [
+      "A. tell Sam that he has lost his notebook.",
+      "B. find out who a notebook belongs to.",
+      "C. ask Sam if he can borrow a notebook."
+    ],
+    "answer": "B",
+    "explanation": "Ali hỏi Sam xem cuốn sổ có phải của Sam không hoặc Sam có biết của ai không, nhằm tìm chủ nhân cho cuốn sổ nhặt được."
+  },
+  {
+    "id": "p1_q56",
+    "type": "part1",
+    "sign_type": "email",
+    "sign": {
+      "location_label": "Computer Screen",
+      "style": "email",
+      "icon": "🚀",
+      "from": "Mr. Lopez",
+      "to": "All Students",
+      "subject": "Science Club",
+      "body": "Please remember to bring the $5 for our trip to the space museum next week. Give it to me before Friday."
+    },
+    "question": "Why has the teacher written this email?",
+    "options": [
+      "A. to remind students to pay for a trip",
+      "B. to tell students about a trip they went on",
+      "C. to ask students to go to a museum to pay for a trip"
+    ],
+    "answer": "A",
+    "explanation": "Thầy giáo nhắc học sinh mang tiền ($5) để đóng cho chuyến đi tham quan bảo tàng không gian vào tuần tới."
+  },
+  {
+    "id": "p1_q57",
+    "type": "part1",
+    "sign_type": "street_sign",
+    "sign": {
+      "location_label": "Gym Entrance",
+      "style": "blue_info",
+      "icon": "💪",
+      "lines": [
+        {
+          "text": "New City Gym",
+          "size": "large",
+          "weight": "bold"
+        },
+        {
+          "text": "Special offer for students!",
+          "size": "medium",
+          "weight": "bold"
+        },
+        {
+          "text": "Join before the end of the month and pay only £15 a month for the first six months.",
+          "size": "small",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "What does the gym offer students?",
+    "options": [
+      "A. a cheap price for six months if they join any time",
+      "B. a lower price for joining soon",
+      "C. a discount for all members this month"
+    ],
+    "answer": "B",
+    "explanation": "Phòng gym đưa ra mức giá ưu đãi £15/tháng nếu sinh viên đăng ký trước thời hạn cuối tháng."
+  },
+  {
+    "id": "p1_q58",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "🐟",
+      "from": "Petra",
+      "to": "Elena",
+      "body": "Hi Elena, can you lend me that book about fish again? I’ve nearly finished my project, but I need to check some facts. Thanks!"
+    },
+    "question": "Why did Petra send this message?",
+    "options": [
+      "A. to tell Elena she has finished her project",
+      "B. to help Elena with a project about fish",
+      "C. to borrow a book again"
+    ],
+    "answer": "C",
+    "explanation": "Petra sử dụng từ 'again' khi hỏi mượn sách, chứng tỏ cô ấy muốn mượn lại cuốn sách đó một lần nữa để phục vụ dự án."
+  },
+  {
+    "id": "p1_q59",
+    "type": "part1",
+    "sign_type": "street_sign",
+    "sign": {
+      "location_label": "Stairs",
+      "style": "yellow_caution",
+      "icon": "⚠️",
+      "lines": [
+        {
+          "text": "Caution! Wet floor.",
+          "size": "large",
+          "weight": "bold"
+        },
+        {
+          "text": "Please use the other stairs while the cleaners are working here. Thank you.",
+          "size": "medium",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "This notice tells people",
+    "options": [
+      "A. they cannot use any stairs today.",
+      "B. to go a different way to go up or down.",
+      "C. to help the cleaners wash the floor."
+    ],
+    "answer": "B",
+    "explanation": "Yêu cầu 'use the other stairs' nghĩa là hướng dẫn mọi người đi lối khác để tránh khu vực đang lau dọn."
+  },
+  {
+    "id": "p1_q60",
+    "type": "part1",
+    "sign_type": "email",
+    "sign": {
+      "location_label": "Computer Screen",
+      "style": "email",
+      "icon": "🎨",
+      "from": "Mrs. Green",
+      "to": "Class 9B",
+      "subject": "Art Class",
+      "body": "Our art class will be in the library today because Room 4 is being painted. Don't forget your brushes!"
+    },
+    "question": "Where will the art class be today?",
+    "options": [
+      "A. in the library",
+      "B. in Room 4",
+      "C. in a shop that sells brushes"
+    ],
+    "answer": "A",
+    "explanation": "Thông báo xác nhận địa điểm học thay đổi sang thư viện (library) do phòng học cũ đang được sơn lại."
+  },
+  {
+    "id": "p1_q61",
+    "type": "part1",
+    "sign_type": "street_sign",
+    "sign": {
+      "location_label": "Shop Counter",
+      "style": "blue_info",
+      "icon": "🧾",
+      "lines": [
+        {
+          "text": "Fashionista Clothes",
+          "size": "large",
+          "weight": "bold"
+        },
+        {
+          "text": "Please keep the receipt - you cannot return anything without it.",
+          "size": "medium",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "",
+    "options": [
+      "A. Make sure that your receipt is correct before you leave the shop.",
+      "B. If you want to bring something back to this shop, you need a receipt.",
+      "C. Someone will check your receipt when you go out of the shop."
+    ],
+    "answer": "B",
+    "explanation": "Đáp án B đúng vì thông báo nêu rõ không thể trả lại hàng nếu thiếu hóa đơn ('cannot return anything without it'). Đáp án A và C không được đề cập trong nội dung biển báo."
+  },
+  {
+    "id": "p1_q62",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "📚",
+      "from": "Sally",
+      "to": "Luke",
+      "body": "Luke, Thanks for asking me to go to the cinema. It sounds fun, but I'm afraid I've got too much homework. Maybe some other time. Sally"
+    },
+    "question": "Sally is telling Luke",
+    "options": [
+      "A. why she is too busy to see a movie.",
+      "B. which homework she needs to complete.",
+      "C. when she will be available to see a movie."
+    ],
+    "answer": "A",
+    "explanation": "Đáp án A đúng vì Sally giải thích lý do không đi xem phim được là do quá nhiều bài tập ('too much homework'). Đáp án B sai vì cô không nêu tên bài tập cụ thể. Đáp án C sai vì cô chỉ hẹn chung chung 'lúc khác'."
+  },
+  {
+    "id": "p1_q63",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "📖",
+      "from": "Jessica",
+      "to": "",
+      "body": "Did anyone pick up my biology textbook by mistake after our science lesson in the library? I don't mind coming to get it from you. Jessica"
+    },
+    "question": "",
+    "options": [
+      "A. Jessica needs to borrow a textbook from someone in her science class.",
+      "B. Jessica wants someone from her science class to bring her textbook to her.",
+      "C. Jessica is hoping someone in her science class has found her textbook."
+    ],
+    "answer": "C",
+    "explanation": "Đáp án C đúng vì Jessica đang hỏi xem có ai nhặt nhầm sách của mình không. Đáp án A sai vì đây là sách của cô ấy, không phải đi mượn. Đáp án B sai vì cô ấy nói sẽ tự đến lấy chứ không bắt người khác mang tới."
+  },
+  {
+    "id": "p1_q64",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "🗓️",
+      "from": "Nathan",
+      "to": "Laila",
+      "body": "Laila, I'm visiting my grandparents this weekend so I can't meet you to finish our art project. Are you free this Thursday instead? Nathan"
+    },
+    "question": "Why did Nathan write the message?",
+    "options": [
+      "A. to check if Laila can work on their art project over the weekend",
+      "B. to tell Laila he won't be able to complete the project on his own",
+      "C. to ask Laila if she's able to meet him earlier than they planned"
+    ],
+    "answer": "C",
+    "explanation": "Đáp án C đúng vì Nathan đề xuất gặp vào thứ Năm thay vì cuối tuần như kế hoạch ban đầu, tức là gặp sớm hơn. Đáp án A sai vì Nathan khẳng định cuối tuần anh ấy bận."
+  },
+  {
+    "id": "p1_q65",
+    "type": "part1",
+    "sign_type": "street_sign",
+    "sign": {
+      "location_label": "Website Ad",
+      "style": "blue_info",
+      "icon": "🎵",
+      "lines": [
+        {
+          "text": "24 hour sale!",
+          "size": "large",
+          "weight": "bold"
+        },
+        {
+          "text": "Download any 10 songs for 99p",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "Then £1.99 per song as usual",
+          "size": "small",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "",
+    "options": [
+      "A. You have 24 hours to buy as many songs as you like for 99p each.",
+      "B. The cost of each song is £1.99 after you buy more than ten songs.",
+      "C. Some popular songs that cost £1.99 aren't included in the sale."
+    ],
+    "answer": "B",
+    "explanation": "Đáp án B đúng vì giá ưu đãi chỉ dành cho 10 bài đầu, sau đó giá sẽ trở lại mức £1.99. Đáp án A sai vì giá 99p không áp dụng cho số lượng bài hát không giới hạn."
+  },
+  {
+    "id": "p1_q66",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "🚲",
+      "from": "Stella",
+      "to": "Aaron",
+      "body": "Aaron, Thanks for lending me your bike. I'll bring it back as soon as mine is repaired. It might be ready by next weekend. Stella"
+    },
+    "question": "",
+    "options": [
+      "A. Stella is checking when Aaron will need his bike back.",
+      "B. Stella can't say exactly when she will be able to return Aaron's bike.",
+      "C. Stella wants to know if she can borrow Aaron's bike until next weekend."
+    ],
+    "answer": "B",
+    "explanation": "Đáp án B đúng vì thời gian trả xe phụ thuộc vào việc sửa xe của Stella ('as soon as mine is repaired'), và cô ấy chỉ đoán là có thể vào cuối tuần tới ('might be')."
+  },
+  {
+    "id": "p1_q67",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "🏸",
+      "from": "Ben",
+      "to": "Toby",
+      "body": "Toby, Thanks for inviting me to your badminton party at the sports club next Saturday afternoon. Will I know anyone else there? Ben"
+    },
+    "question": "Ben wants to know",
+    "options": [
+      "A. who is going to the party.",
+      "B. what they're going to do at the party.",
+      "C. what time the party starts."
+    ],
+    "answer": "A",
+    "explanation": "Đáp án A đúng vì câu hỏi 'Will I know anyone else there?' thể hiện Ben muốn biết những người tham gia là ai. Đáp án B và C sai vì hoạt động và thời gian đều đã được nêu trong tin nhắn."
+  },
+  {
+    "id": "p1_q68",
+    "type": "part1",
+    "sign_type": "school_notice",
+    "sign": {
+      "location_label": "Noticeboard",
+      "style": "school_pinned",
+      "header": "Summer show",
+      "icon": "🎸",
+      "lines": [
+        {
+          "text": "I have some great actors and dancers but still need people who play instruments.",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "We practise Tuesdays and Thursdays after school.",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "Mrs Jenkins",
+          "size": "medium",
+          "weight": "bold"
+        }
+      ]
+    },
+    "question": "For the show, Mrs Jenkins is looking for",
+    "options": [
+      "A. some better actors and dancers.",
+      "B. anyone with free time this summer.",
+      "C. students who are good at music."
+    ],
+    "answer": "C",
+    "explanation": "Đáp án C đúng vì Mrs Jenkins nêu rõ đang cần người chơi nhạc cụ ('need people who play instruments'), tức là những học sinh có năng khiếu âm nhạc."
+  },
+  {
+    "id": "p1_q69",
+    "type": "part1",
+    "sign_type": "school_notice",
+    "sign": {
+      "location_label": "Noticeboard",
+      "style": "school_pinned",
+      "icon": "⛵",
+      "lines": [
+        {
+          "text": "Are you an excellent swimmer and over 10 years old?",
+          "size": "medium",
+          "weight": "bold"
+        },
+        {
+          "text": "Then you can join the sailing club!",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "Thursdays 5 - 8 p.m. Only £50 per term",
+          "size": "medium",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "",
+    "options": [
+      "A. New members of any age are welcome to join the club.",
+      "B. You must be able to swim to become a member of the club.",
+      "C. There is a special price for new members who join the club on Thursday."
+    ],
+    "answer": "B",
+    "explanation": "Đáp án B đúng vì bơi lội xuất sắc ('excellent swimmer') là điều kiện bắt buộc để gia nhập. Đáp án A sai vì giới hạn tuổi là trên 10. Đáp án C sai vì mức phí £50 là phí cố định hàng kỳ."
+  },
+  {
+    "id": "p1_q70",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "📕",
+      "from": "Sally",
+      "to": "Justin",
+      "body": "Justin, Have you still got that history book of mine? Could you let me have it back because Rob needs it for the weekend? Sally"
+    },
+    "question": "What should Justin do?",
+    "options": [
+      "A. lend the book to Rob when he's finished reading it",
+      "B. return the book so that someone else can read it",
+      "C. use the book over the weekend"
+    ],
+    "answer": "B",
+    "explanation": "Đáp án B đúng vì Sally muốn lấy lại sách ('let me have it back') để cho Rob mượn. Do đó Justin cần trả lại sách cho Sally."
+  },
+  {
+    "id": "p1_q71",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "🕶️",
+      "from": "Karin",
+      "to": "Serena",
+      "body": "Serena, I saw your text about Dad's birthday present, but we always get him socks! What about sunglasses? Mum can take us to get some. Karin"
+    },
+    "question": "",
+    "options": [
+      "A. Karin doesn't agree with Serena about what to buy their father.",
+      "B. Karin thinks their mother will have better ideas for a present.",
+      "C. Karin doesn't know what to buy her father for his birthday."
+    ],
+    "answer": "A",
+    "explanation": "Đáp án A đúng vì Karin bác bỏ ý tưởng mua tất của Serena ('but we always get him socks!') và đưa ra ý tưởng khác."
+  },
+  {
+    "id": "p1_q72",
+    "type": "part1",
+    "sign_type": "street_sign",
+    "sign": {
+      "location_label": "Library",
+      "style": "blue_info",
+      "icon": "💻",
+      "lines": [
+        {
+          "text": "City Library",
+          "size": "large",
+          "weight": "bold"
+        },
+        {
+          "text": "Library computers are for members only - ask receptionist about becoming a member.",
+          "size": "medium",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "",
+    "options": [
+      "A. You need to ask the receptionist which computers you can use.",
+      "B. Only people who work at the library can use the computers.",
+      "C. If you join the library, you can use the computers."
+    ],
+    "answer": "C",
+    "explanation": "Đáp án C đúng vì máy tính dành cho thành viên, và thông báo hướng dẫn cách để trở thành thành viên nhằm sử dụng dịch vụ này."
+  },
+  {
+    "id": "p1_q73",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "🏸",
+      "from": "Sebastian",
+      "to": "Lisa",
+      "body": "Lisa, About our badminton match at the sports club this afternoon - I can't find my racket anywhere. Do you have a spare one? Sebastian"
+    },
+    "question": "Sebastian is asking Lisa if",
+    "options": [
+      "A. she knows where the match is taking place.",
+      "B. she can lend him some equipment.",
+      "C. she is free to play badminton today."
+    ],
+    "answer": "B",
+    "explanation": "Đáp án B đúng vì Sebastian hỏi mượn vợt dự phòng ('spare one'), một loại dụng cụ thể thao. Đáp án A và C sai vì địa điểm và thời gian thi đấu đã được xác định trước đó."
+  },
+  {
+    "id": "p1_q74",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "🚗",
+      "from": "Dave",
+      "to": "Mike",
+      "body": "Mike, I looked online and there's no bus to the beach on Saturday morning! My mum can't drive us - is your dad free? Dave"
+    },
+    "question": "Dave would like Mike to",
+    "options": [
+      "A. check the bus timetable for Saturday.",
+      "B. ask his father to give them a lift on Saturday.",
+      "C. find out the quickest way to drive to the beach."
+    ],
+    "answer": "B",
+    "explanation": "Đáp án B đúng vì Dave nhờ Mike hỏi bố có rảnh không để chở họ đi khi các phương tiện khác đều không khả dụng. Đáp án A sai vì Dave đã tự kiểm tra lịch trình xe buýt."
+  },
+  {
+    "id": "p1_q75",
+    "type": "part1",
+    "sign_type": "email",
+    "sign": {
+      "location_label": "Computer Screen",
+      "style": "email",
+      "icon": "📓",
+      "from": "Nancy",
+      "to": "Fred",
+      "subject": "",
+      "body": "I didn't copy down what our maths homework is for tomorrow. Can you have a look in your homework diary and email me?"
+    },
+    "question": "",
+    "options": [
+      "A. Nancy has lost her homework diary.",
+      "B. Nancy needs help with some difficult homework.",
+      "C. Nancy forgot to make a note of what she needs to do."
+    ],
+    "answer": "C",
+    "explanation": "Đáp án C đúng vì Nancy thừa nhận không chép lại bài tập ('didn't copy down'). Đáp án A sai vì Nancy chỉ quên chép bài, không phải làm mất sổ. Đáp án B sai vì cô ấy chưa biết đề bài là gì."
+  },
+  {
+    "id": "p1_q76",
+    "type": "part1",
+    "sign_type": "school_notice",
+    "sign": {
+      "location_label": "School Library",
+      "style": "school_pinned",
+      "header": "School Library",
+      "icon": "⏰",
+      "lines": [
+        {
+          "text": "From next week library will open at 8.00 and close at 5.30 (Wednesdays 8.30-4.30)",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "Speak to staff about booking a school laptop",
+          "size": "medium",
+          "weight": "bold"
+        }
+      ]
+    },
+    "question": "",
+    "options": [
+      "A. Library staff won't have much time to help you next week.",
+      "B. Arrive early at the library if you would like to book a school laptop.",
+      "C. The times when you can visit the library will change soon."
+    ],
+    "answer": "C",
+    "explanation": "Đáp án C đúng vì thông báo cập nhật giờ hoạt động mới áp dụng từ tuần tới ('From next week'). Các đáp án A và B mang tính suy diễn, không có trong văn bản."
+  },
+  {
+    "id": "p1_q77",
+    "type": "part1",
+    "sign_type": "school_notice",
+    "sign": {
+      "location_label": "Noticeboard",
+      "style": "school_pinned",
+      "header": "School Sports Day",
+      "icon": "🏆",
+      "lines": [
+        {
+          "text": "(This will take place in hall instead of field if it rains - check website)",
+          "size": "small",
+          "weight": "normal"
+        },
+        {
+          "text": "Friday, 28 September 9.00 a.m. - 3.00 p.m.",
+          "size": "medium",
+          "weight": "bold"
+        },
+        {
+          "text": "Parents and friends welcome",
+          "size": "medium",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "",
+    "options": [
+      "A. If the weather is bad, we will cancel sports day.",
+      "B. All students should come to the hall at 9.00 a.m. on Friday.",
+      "C. Students can invite visitors to come and enjoy the day."
+    ],
+    "answer": "C",
+    "explanation": "Đáp án C đúng vì thông báo mời phụ huynh và bạn bè đến dự. Đáp án A sai vì nếu mưa sự kiện sẽ dời vào hội trường chứ không hủy. Đáp án B sai vì chỉ vào hội trường nếu trời mưa."
+  },
+  {
+    "id": "p1_q78",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "💬",
+      "from": "Mum",
+      "to": "Joe",
+      "body": "Joe, Did you discuss that homework with your teacher? Is it clearer now what she wants? I'm home now if you need to call. Mum"
+    },
+    "question": "Mum is asking if Joe's teacher",
+    "options": [
+      "A. has changed his homework.",
+      "B. helped him to understand his homework.",
+      "C. needs to speak to her about his homework."
+    ],
+    "answer": "B",
+    "explanation": "Đáp án B đúng vì câu hỏi 'Is it clearer now...?' của người mẹ hướng đến việc liệu Joe đã được giáo viên giải thích để hiểu rõ bài tập hơn chưa."
+  },
+  {
+    "id": "p1_q79",
+    "type": "part1",
+    "sign_type": "school_notice",
+    "sign": {
+      "location_label": "Music Room Door",
+      "style": "school_pinned",
+      "icon": "🎹",
+      "lines": [
+        {
+          "text": "The music room is closed for cleaning until 1 p.m. today.",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "Please use the hall for your practice instead.",
+          "size": "medium",
+          "weight": "bold"
+        }
+      ]
+    },
+    "question": "Mrs. Hill is telling students",
+    "options": [
+      "A. where they should go to practice.",
+      "B. that the music room will be closed all day.",
+      "C. to help her clean the music room."
+    ],
+    "answer": "A",
+    "explanation": "Thông báo hướng dẫn học sinh chuyển sang hội trường (hall) để tập luyện thay vì phòng nhạc đang bị đóng cửa."
+  },
+  {
+    "id": "p1_q80",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "🎬",
+      "from": "Tom",
+      "to": "Ben",
+      "body": "Hi Ben, I'm going to the cinema with some friends at 6 p.m. Do you want to come? I can buy your ticket. Let me know by 4 p.m."
+    },
+    "question": "What should Ben do?",
+    "options": [
+      "A. meet Tom at the cinema at 4 p.m.",
+      "B. answer Tom's message before 4 p.m.",
+      "C. buy a ticket for Tom before 6 p.m."
+    ],
+    "answer": "B",
+    "explanation": "Cụm 'Let me know by 4 p.m.' yêu cầu Ben phải phản hồi tin nhắn trước thời gian này."
+  },
+  {
+    "id": "p1_q81",
+    "type": "part1",
+    "sign_type": "street_sign",
+    "sign": {
+      "location_label": "Park Gate",
+      "style": "blue_info",
+      "icon": "🚫",
+      "lines": [
+        {
+          "text": "No ball games in the park.",
+          "size": "large",
+          "weight": "bold"
+        },
+        {
+          "text": "Please use the special sports area for football and other games.",
+          "size": "medium",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "This notice tells people",
+    "options": [
+      "A. they cannot play any games in the park.",
+      "B. to pay to use the special sports area.",
+      "C. they can only play ball in one part of the park."
+    ],
+    "answer": "C",
+    "explanation": "Biển báo cấm chơi bóng ở khu vực chung và yêu cầu chuyển đến khu vực thể thao riêng biệt, nghĩa là chỉ được chơi ở một phần quy định của công viên."
+  },
+  {
+    "id": "p1_q82",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "📖",
+      "from": "Anna",
+      "to": "Sam",
+      "body": "Hi Sam, I forgot my history book at school. Can I borrow yours tonight? I'll bring it back tomorrow morning. Thanks!"
+    },
+    "question": "Why did Anna send this message?",
+    "options": [
+      "A. to tell Sam she has lost her history book",
+      "B. to ask if she can use Sam's book",
+      "C. to invite Sam to study history with her"
+    ],
+    "answer": "B",
+    "explanation": "Anna sử dụng câu hỏi 'Can I borrow yours...?' để xin phép sử dụng cuốn sách của Sam."
+  },
+  {
+    "id": "p1_q83",
+    "type": "part1",
+    "sign_type": "school_notice",
+    "sign": {
+      "location_label": "Library Board",
+      "style": "blue_info",
+      "icon": "📚",
+      "lines": [
+        {
+          "text": "Library News",
+          "size": "large",
+          "weight": "bold"
+        },
+        {
+          "text": "You can now borrow up to 10 books at a time!",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "Please remember to return them within 3 weeks.",
+          "size": "small",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "What is the new rule at the library?",
+    "options": [
+      "A. Students can take more books than before.",
+      "B. Books can be kept for longer than 3 weeks.",
+      "C. Students can now buy books from the library."
+    ],
+    "answer": "A",
+    "explanation": "Việc cho phép mượn tối đa 10 cuốn cùng lúc ngụ ý rằng học sinh có thể mượn số lượng nhiều hơn so với quy định cũ."
+  },
+  {
+    "id": "p1_q84",
+    "type": "part1",
+    "sign_type": "email",
+    "sign": {
+      "location_label": "Computer Screen",
+      "style": "email",
+      "icon": "🏀",
+      "from": "Mr. Jones",
+      "to": "Basketball team",
+      "subject": "Practice tonight",
+      "body": "Practice is cancelled tonight because the gym is being used for a school play. See you all on Friday!"
+    },
+    "question": "Why has Mr. Jones written this email?",
+    "options": [
+      "A. to say he is too busy to come to practice",
+      "B. to tell the team that there is no practice tonight",
+      "C. to ask the team to come to practice on Friday instead"
+    ],
+    "answer": "B",
+    "explanation": "Thầy giáo gửi email để thông báo về việc hủy buổi tập tối nay do xung đột lịch sử dụng nhà thể chất."
+  },
+  {
+    "id": "p1_q85",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "👖",
+      "from": "Sarah",
+      "to": "Jane",
+      "body": "Hi Jane, I'm at the department store. They have the jeans you liked, but only in blue. Shall I get them for you?"
+    },
+    "question": "Sarah is writing to",
+    "options": [
+      "A. offer to buy something for Jane.",
+      "B. tell Jane that she has bought the jeans.",
+      "C. ask Jane if she can borrow her jeans."
+    ],
+    "answer": "A",
+    "explanation": "Sarah hỏi Jane có muốn mình mua hộ chiếc quần jeans màu xanh không, đây là một lời đề nghị mua hàng giúp."
+  },
+  {
+    "id": "p1_q86",
+    "type": "part1",
+    "sign_type": "email",
+    "sign": {
+      "location_label": "Computer Screen",
+      "style": "email",
+      "icon": "🧪",
+      "from": "Mr. Black",
+      "to": "All Students",
+      "subject": "Science Lab",
+      "body": "The science lab is being used for exams today. Please go to Room 12 for your science lesson."
+    },
+    "question": "Mr. Black is telling students",
+    "options": [
+      "A. what time their science lesson starts.",
+      "B. where their science lesson will be today.",
+      "C. about an exam they have next week."
+    ],
+    "answer": "B",
+    "explanation": "Thầy giáo thông báo thay đổi địa điểm học từ phòng thí nghiệm sang phòng 12."
+  },
+  {
+    "id": "p1_q87",
+    "type": "part1",
+    "sign_type": "street_sign",
+    "sign": {
+      "location_label": "Emergency Door",
+      "style": "blue_info",
+      "icon": "🚪",
+      "lines": [
+        {
+          "text": "Keep this area clear.",
+          "size": "large",
+          "weight": "bold"
+        },
+        {
+          "text": "Emergency exit only.",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "Do not leave bags or boxes here.",
+          "size": "small",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "This notice tells people",
+    "options": [
+      "A. where to find the main entrance.",
+      "B. where they can leave their bags.",
+      "C. not to put things in this area."
+    ],
+    "answer": "C",
+    "explanation": "Yêu cầu 'Keep clear' và 'Do not leave bags or boxes' đồng nghĩa với việc không được để đồ đạc ở khu vực này để đảm bảo lối thoát hiểm luôn thông thoáng."
+  },
+  {
+    "id": "p1_q88",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "⚽",
+      "from": "Leo",
+      "to": "Mark",
+      "body": "Hi Mark, I'm going to the park to play football. Do you want to join us? We'll be there from 3 p.m. to 5 p.m. Bring your own ball if you can."
+    },
+    "question": "Why did Leo send this message?",
+    "options": [
+      "A. to ask Mark if he can borrow a football",
+      "B. to invite Mark to play a sport",
+      "C. to tell Mark about a park he likes"
+    ],
+    "answer": "B",
+    "explanation": "Leo hỏi Mark 'Do you want to join us?' để mời Mark cùng chơi đá bóng tại công viên."
+  },
+  {
+    "id": "p1_q89",
+    "type": "part1",
+    "sign_type": "school_notice",
+    "sign": {
+      "location_label": "School Noticeboard",
+      "style": "school_pinned",
+      "icon": "🎨",
+      "lines": [
+        {
+          "text": "School Art Competition",
+          "size": "large",
+          "weight": "bold"
+        },
+        {
+          "text": "Please give your paintings to Mrs. White by Friday.",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "The winner will be announced next Monday.",
+          "size": "small",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "What should students do?",
+    "options": [
+      "A. give their work to a teacher by the end of the week.",
+      "B. find out who won the competition on Friday.",
+      "C. enter the competition by going online."
+    ],
+    "answer": "A",
+    "explanation": "Học sinh cần nộp bài (paintings) cho cô giáo (Mrs. White) vào thứ Sáu (hạn chót là cuối tuần)."
+  },
+  {
+    "id": "p1_q90",
+    "type": "part1",
+    "sign_type": "email",
+    "sign": {
+      "location_label": "Computer Screen",
+      "style": "email",
+      "icon": "🍕",
+      "from": "Pizza Palace",
+      "to": "Customers",
+      "subject": "Special Offer!",
+      "body": "Buy any large pizza today and get a small one for free! Delivery only."
+    },
+    "question": "This email is telling customers that",
+    "options": [
+      "A. they can get free pizza every day this week.",
+      "B. they should go to the restaurant to get a free pizza.",
+      "C. they can get some free food if they order today."
+    ],
+    "answer": "C",
+    "explanation": "Thông báo về ưu đãi mua 1 tặng 1 (tặng bánh nhỏ miễn phí) nếu khách hàng đặt hàng trong ngày hôm nay qua dịch vụ giao hàng."
+  },
+  {
+    "id": "p1_q91",
+    "type": "part1",
+    "sign_type": "email",
+    "sign": {
+      "location_label": "Computer Screen",
+      "style": "email",
+      "icon": "🎭",
+      "from": "Mrs. Reed",
+      "to": "All students",
+      "subject": "Drama Club",
+      "body": "There will be no drama club after school today. Please go home at the usual time. See you next Wednesday!"
+    },
+    "question": "Why has Mrs. Reed written this email?",
+    "options": [
+      "A. to tell students that a club meeting is cancelled",
+      "B. to invite students to join the drama club",
+      "C. to ask students to stay at school later today"
+    ],
+    "answer": "A",
+    "explanation": "Thông báo 'no drama club... today' xác nhận buổi sinh hoạt câu lạc bộ hôm nay đã bị hủy bỏ."
+  },
+  {
+    "id": "p1_q92",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "📕",
+      "from": "Sophie",
+      "to": "Anna",
+      "body": "Hi Anna, I'm at the bookshop. I've found the dictionary you need for your French class. It's £10. Do you want me to buy it for you?"
+    },
+    "question": "Why did Sophie send this message?",
+    "options": [
+      "A. to ask Anna if she can borrow a dictionary",
+      "B. to offer to buy something for Anna",
+      "C. to tell Anna that she needs £10"
+    ],
+    "answer": "B",
+    "explanation": "Sophie hỏi Anna có muốn mình mua hộ cuốn từ điển không, đây là một lời đề nghị giúp đỡ mua hàng."
+  },
+  {
+    "id": "p1_q93",
+    "type": "part1",
+    "sign_type": "school_notice",
+    "sign": {
+      "location_label": "Library Entrance",
+      "style": "blue_info",
+      "icon": "🚫",
+      "lines": [
+        {
+          "text": "Please do not bring food or drinks into the library.",
+          "size": "medium",
+          "weight": "bold"
+        },
+        {
+          "text": "You can leave them on the table near the door.",
+          "size": "small",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "This notice tells students",
+    "options": [
+      "A. that they can eat and drink in the library.",
+      "B. where they can buy food and drinks.",
+      "C. where to put their food before they go inside."
+    ],
+    "answer": "C",
+    "explanation": "Biển báo chỉ dẫn học sinh để đồ ăn lên bàn ở gần cửa trước khi vào thư viện."
+  },
+  {
+    "id": "p1_q94",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "🏀",
+      "from": "Mark",
+      "to": "Tom",
+      "body": "Hi Tom, I've got two tickets for the basketball game tonight. My brother can't go, so do you want his ticket? Let me know as soon as possible."
+    },
+    "question": "Mark is writing to Tom to",
+    "options": [
+      "A. ask Tom to buy a ticket for him.",
+      "B. invite Tom to a basketball game.",
+      "C. find out if Tom can lend him some money."
+    ],
+    "answer": "B",
+    "explanation": "Mark hỏi Tom có muốn lấy chiếc vé dư không để rủ Tom đi xem bóng rổ cùng mình."
+  },
+  {
+    "id": "p1_q95",
+    "type": "part1",
+    "sign_type": "street_sign",
+    "sign": {
+      "location_label": "Pool Gate",
+      "style": "blue_info",
+      "icon": "🔧",
+      "lines": [
+        {
+          "text": "Swimming Lessons",
+          "size": "large",
+          "weight": "bold"
+        },
+        {
+          "text": "The pool is closed for repairs this week.",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "Lessons will start again next Monday at the usual time.",
+          "size": "small",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "What should students know?",
+    "options": [
+      "A. There are no swimming lessons this week.",
+      "B. Swimming lessons will start on a different day next week.",
+      "C. The time of the swimming lessons has changed."
+    ],
+    "answer": "A",
+    "explanation": "Do hồ bơi đang sửa chữa trong tuần này nên mọi lớp học bơi đều không diễn ra."
+  },
+  {
+    "id": "p1_q96",
+    "type": "part1",
+    "sign_type": "email",
+    "sign": {
+      "location_label": "Computer Screen",
+      "style": "email",
+      "icon": "📜",
+      "from": "Mr. Green",
+      "to": "Class 10",
+      "subject": "History Homework",
+      "body": "Please remember to send me your history projects by 4 p.m. on Friday. Do not bring them to the classroom."
+    },
+    "question": "Mr. Green wants students to",
+    "options": [
+      "A. give him their projects in the history lesson.",
+      "B. finish their projects before Friday morning.",
+      "C. send their work to him instead of bringing it to school."
+    ],
+    "answer": "C",
+    "explanation": "Thầy giáo yêu cầu gửi bài (send) và dặn rõ không mang bản cứng đến lớp, nghĩa là nộp bài qua hình thức trực tuyến."
+  },
+  {
+    "id": "p1_q97",
+    "type": "part1",
+    "sign_type": "email",
+    "sign": {
+      "location_label": "Computer Screen",
+      "style": "email",
+      "icon": "🌿",
+      "from": "Mrs. Black",
+      "to": "Class 9",
+      "subject": "Science Lesson",
+      "body": "We will meet in the school garden today to study plants. Do not go to the science lab. See you at 2 p.m.!"
+    },
+    "question": "Why has Mrs. Black written this email?",
+    "options": [
+      "A. to tell students to go to the science lab",
+      "B. to tell students where the class will meet",
+      "C. to ask students to bring some plants to school"
+    ],
+    "answer": "B",
+    "explanation": "Thông báo thay đổi địa điểm học tập từ phòng thí nghiệm sang vườn trường."
+  },
+  {
+    "id": "p1_q98",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "✏️",
+      "from": "Alex",
+      "to": "Sam",
+      "body": "Hi Sam, I’ve found a blue pencil case in the playground. Is it yours? It has some pens and a ruler inside. Let me know."
+    },
+    "question": "Alex wrote this message to",
+    "options": [
+      "A. tell Sam that he has lost his pencil case",
+      "B. find out who a pencil case belongs to",
+      "C. ask Sam if he can borrow a ruler"
+    ],
+    "answer": "B",
+    "explanation": "Alex nhặt được hộp bút và đang nhắn tin để tìm chủ nhân của nó."
+  },
+  {
+    "id": "p1_q99",
+    "type": "part1",
+    "sign_type": "street_sign",
+    "sign": {
+      "location_label": "Museum Entrance",
+      "style": "blue_info",
+      "icon": "🚀",
+      "lines": [
+        {
+          "text": "City Museum",
+          "size": "large",
+          "weight": "bold"
+        },
+        {
+          "text": "Special Exhibition: Space Travel",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "Tickets: £5 for adults, free for students",
+          "size": "small",
+          "weight": "bold"
+        }
+      ]
+    },
+    "question": "What is true about the museum?",
+    "options": [
+      "A. Students do not have to pay for tickets.",
+      "B. Everyone can go to the exhibition for free.",
+      "C. The museum opens at 4 p.m. every day."
+    ],
+    "answer": "A",
+    "explanation": "Thông tin 'free for students' xác nhận học sinh được miễn phí vé vào cửa."
+  },
+  {
+    "id": "p1_q100",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "👟",
+      "from": "Ben",
+      "to": "Leo",
+      "body": "Hi Leo, I’m at the sports shop. They have the football boots you wanted in your size! Do you want me to get them for you?"
+    },
+    "question": "Why did Ben send this message?",
+    "options": [
+      "A. to tell Leo that he has bought some football boots",
+      "B. to ask Leo if he can borrow some football boots",
+      "C. to offer to buy something for Leo"
+    ],
+    "answer": "C",
+    "explanation": "Ben đề nghị mua hộ đôi giày bóng đá mà Leo đang cần."
+  },
+  {
+    "id": "p1_q101",
+    "type": "part1",
+    "sign_type": "street_sign",
+    "sign": {
+      "location_label": "Pool Wall",
+      "style": "blue_info",
+      "icon": "🚿",
+      "lines": [
+        {
+          "text": "No running or jumping near the pool.",
+          "size": "medium",
+          "weight": "bold"
+        },
+        {
+          "text": "Please use the showers before you go swimming.",
+          "size": "medium",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "This notice tells people",
+    "options": [
+      "A. that they can run and jump near the pool",
+      "B. to wash before they get into the water",
+      "C. where to find the swimming pool"
+    ],
+    "answer": "B",
+    "explanation": "Yêu cầu sử dụng vòi hoa sen (showers) chính là yêu cầu người bơi phải tắm rửa/làm sạch trước khi xuống hồ."
+  },
+  {
+    "id": "p1_q102",
+    "type": "part1",
+    "sign_type": "email",
+    "sign": {
+      "location_label": "Computer Screen",
+      "style": "email",
+      "icon": "🏆",
+      "from": "Mr. White",
+      "to": "Art students",
+      "subject": "Art Competition",
+      "body": "Well done to everyone who entered the competition. The winners will be announced in the school hall at 1 p.m. on Friday."
+    },
+    "question": "Mr. White is telling students",
+    "options": [
+      "A. how to enter an art competition",
+      "B. when they will hear the results of a competition",
+      "C. that they have won a competition"
+    ],
+    "answer": "B",
+    "explanation": "Thầy giáo thông báo thời gian cụ thể sẽ công bố kết quả cuộc thi mỹ thuật."
+  },
+  {
+    "id": "p1_q103",
+    "type": "part1",
+    "sign_type": "email",
+    "sign": {
+      "location_label": "Computer Screen",
+      "style": "email",
+      "icon": "⛵",
+      "from": "Emma",
+      "to": "Lucy",
+      "body": "Can you come sailing this weekend? My dad's rented a small boat for two days. It doesn't matter that it's your first time."
+    },
+    "question": "Emma says it's not a problem that",
+    "options": [
+      "A. there isn't much space on the boat.",
+      "B. the sailing trip will be very short.",
+      "C. Lucy has never sailed before."
+    ],
+    "answer": "C",
+    "explanation": "Đáp án C đúng vì Emma viết 'It doesn't matter that it's your first time', nghĩa là việc Lucy chưa từng đi thuyền trước đây không phải là vấn đề."
+  },
+  {
+    "id": "p1_q104",
+    "type": "part1",
+    "sign_type": "school_notice",
+    "sign": {
+      "location_label": "Noticeboard",
+      "style": "school_pinned",
+      "header": "Friday singing lessons",
+      "icon": "🎵",
+      "lines": [
+        {
+          "text": "(Room 3B)",
+          "size": "small",
+          "weight": "normal"
+        },
+        {
+          "text": "Please tell Mrs Topson by Thursday afternoon if interested.",
+          "size": "medium",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "",
+    "options": [
+      "A. Mrs Topson is telling students about a change to their singing lessons.",
+      "B. Mrs Topson is offering to give singing lessons on Thursdays and Fridays.",
+      "C. Mrs Topson would like to know who wants to have singing lessons."
+    ],
+    "answer": "C",
+    "explanation": "Đáp án C đúng vì thông báo yêu cầu những học sinh quan tâm báo danh với giáo viên, nhằm mục đích thu thập danh sách người muốn học."
+  },
+  {
+    "id": "p1_q105",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "📖",
+      "from": "Max",
+      "to": "Jamie",
+      "body": "Hi Jamie, You left your maths book at my house yesterday. I'll bring it to school tomorrow and give it to you. Max"
+    },
+    "question": "",
+    "options": [
+      "A. Max has borrowed one of Jamie’s books.",
+      "B. Max and Jamie will have a maths class tomorrow.",
+      "C. Max has found Jamie’s school book."
+    ],
+    "answer": "C",
+    "explanation": "Đáp án C đúng vì Max thông báo Jamie để quên sách ở nhà mình, tức là Max đã tìm thấy cuốn sách bị bỏ quên đó."
+  },
+  {
+    "id": "p1_q106",
+    "type": "part1",
+    "sign_type": "email",
+    "sign": {
+      "location_label": "Computer Screen",
+      "style": "email",
+      "icon": "📝",
+      "from": "Mr Thomas",
+      "to": "Students",
+      "body": "Anyone interested in becoming a member of an after-school sports club this term must complete an online form first."
+    },
+    "question": "",
+    "options": [
+      "A. You cannot join a sports club until you have filled in a form.",
+      "B. If you belong to a sports club, check online for details about it.",
+      "C. The sports clubs aren't taking new members because they're already full."
+    ],
+    "answer": "A",
+    "explanation": "Đáp án A đúng vì 'must complete an online form first' thiết lập một điều kiện bắt buộc: phải điền form trước khi có thể gia nhập câu lạc bộ."
+  },
+  {
+    "id": "p1_q107",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "🍝",
+      "from": "Mum",
+      "to": "Jack",
+      "body": "Jack, I'm working late tonight - back by 7. Turn the heating on if you're cold. You'll find some pasta in the fridge. Mum"
+    },
+    "question": "Jack's mother says",
+    "options": [
+      "A. there is a problem with the heating.",
+      "B. she's left some food ready for Jack.",
+      "C. she'll be home at the usual time."
+    ],
+    "answer": "B",
+    "explanation": "Đáp án B đúng vì câu 'You'll find some pasta in the fridge' xác nhận mẹ đã để lại thức ăn sẵn trong tủ lạnh cho Jack."
+  },
+  {
+    "id": "p1_q108",
+    "type": "part1",
+    "sign_type": "email",
+    "sign": {
+      "location_label": "Computer Screen",
+      "style": "email",
+      "icon": "📰",
+      "from": "School magazine team",
+      "to": "All students",
+      "subject": "School magazine",
+      "body": "We need some articles for the school magazine. Email me with your ideas by Tuesday. I'll need the finished articles in two weeks."
+    },
+    "question": "The school magazine",
+    "options": [
+      "A. will be available on Tuesday.",
+      "B. is looking for writers.",
+      "C. needs new readers."
+    ],
+    "answer": "B",
+    "explanation": "Đáp án B đúng vì việc kêu gọi gửi bài viết ('need some articles') đồng nghĩa với việc tạp chí đang tìm kiếm cộng tác viên/người viết bài."
+  },
+  {
+    "id": "p1_q109",
+    "type": "part1",
+    "sign_type": "school_notice",
+    "sign": {
+      "location_label": "Noticeboard",
+      "style": "school_pinned",
+      "header": "School picnic",
+      "icon": "🧺",
+      "lines": [
+        {
+          "text": "Bring sandwiches, but sorry – no chocolate.",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "I have bottles of water for everyone.",
+          "size": "medium",
+          "weight": "bold"
+        },
+        {
+          "text": "Don’t forget a jacket – the weather won’t be very warm.",
+          "size": "medium",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "",
+    "options": [
+      "A. Students don’t need to bring their own drinks to the picnic.",
+      "B. Students will not have a picnic if the weather’s bad.",
+      "C. Students can bring any food they like to the picnic."
+    ],
+    "answer": "A",
+    "explanation": "Đáp án A đúng vì câu 'I have bottles of water for everyone' khẳng định nước uống đã được chuẩn bị sẵn. Đáp án C sai vì có quy định cấm mang sô-cô-la."
+  },
+  {
+    "id": "p1_q110",
+    "type": "part1",
+    "sign_type": "street_sign",
+    "sign": {
+      "location_label": "Advertisement",
+      "style": "blue_info",
+      "header": "Bike for sale – £100",
+      "icon": "🚲",
+      "lines": [
+        {
+          "text": "Two years old and has new tyres and lights",
+          "size": "small",
+          "weight": "normal"
+        },
+        {
+          "text": "Good for riding in town or exploring the countryside",
+          "size": "medium",
+          "weight": "normal"
+        },
+        {
+          "text": "Contact Kevin – 033126502",
+          "size": "small",
+          "weight": "bold"
+        }
+      ]
+    },
+    "question": "What does the advert say?",
+    "options": [
+      "A. The bike has a few things wrong with it.",
+      "B. Call Kevin to find out how much the bike costs.",
+      "C. You can use the bike in different kinds of places."
+    ],
+    "answer": "C",
+    "explanation": "Đáp án C đúng vì quảng cáo nêu xe phù hợp cho cả môi trường đô thị và nông thôn. Đáp án B sai vì giá bán đã được công khai ngay trên tiêu đề là £100."
+  },
+  {
+    "id": "p1_q111",
+    "type": "part1",
+    "sign_type": "email",
+    "sign": {
+      "location_label": "Computer Screen",
+      "style": "email",
+      "icon": "🖱️",
+      "header": "This month's newsletter",
+      "body": "This month's newsletter available to download. Includes everything students need to know about school."
+    },
+    "question": "",
+    "options": [
+      "A. Students can find out information about the school in an online newsletter.",
+      "B. Students need to tell the school if they are interested in receiving a newsletter.",
+      "C. Students should let the school know what they want included in the newsletter."
+    ],
+    "answer": "A",
+    "explanation": "Đáp án A đúng vì việc 'available to download' xác nhận đây là bản tin trực tuyến chứa các thông tin quan trọng về trường học."
+  },
+  {
+    "id": "p1_q112",
+    "type": "part1",
+    "sign_type": "school_notice",
+    "sign": {
+      "location_label": "School Library",
+      "style": "school_pinned",
+      "header": "Library",
+      "icon": "📚",
+      "lines": [
+        {
+          "text": "If you would like to take out any books to read during the school holidays, Friday is the last day you can do this.",
+          "size": "medium",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "",
+    "options": [
+      "A. Students must return books to the library before Friday.",
+      "B. The school library will be closed on Friday.",
+      "C. Students should borrow books by the end of Friday."
+    ],
+    "answer": "C",
+    "explanation": "Đáp án C đúng vì thông báo xác định thứ Sáu là hạn chót ('last day') để mượn sách cho kỳ nghỉ lễ."
+  },
+  {
+    "id": "p1_q113",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "📱",
+      "from": "Peter",
+      "to": "Danny",
+      "body": "Hi Danny, I hope your cold's better. Mr Morgan said don't worry about bringing your history project to class – you can upload it instead."
+    },
+    "question": "What should Danny do?",
+    "options": [
+      "A. give his project to Peter",
+      "B. post his project online",
+      "C. bring his project to school"
+    ],
+    "answer": "B",
+    "explanation": "Đáp án B đúng vì thầy giáo cho phép Danny 'upload' dự án thay vì mang trực tiếp đến lớp, tương đương với việc đăng tải trực tuyến."
+  },
+  {
+    "id": "p1_q114",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "🏠",
+      "from": "Dad",
+      "to": "Priti",
+      "body": "Priti, I'm still at work. Grandma will meet you after school and take you back to hers for dinner. I'll be there soon after that."
+    },
+    "question": "Why did Priti's dad write this message?",
+    "options": [
+      "A. to explain to Priti when he will see her.",
+      "B. to tell Priti he will eat with her this evening",
+      "C. to ask Priti to contact her grandmother"
+    ],
+    "answer": "A",
+    "explanation": "Đáp án A đúng vì bố nhắn để thông báo cho Priti biết lộ trình và thời gian bố sẽ có mặt để gặp cô sau khi cô ăn tối ở nhà bà."
+  },
+  {
+    "id": "p1_q115",
+    "type": "part1",
+    "sign_type": "email",
+    "sign": {
+      "location_label": "Computer Screen",
+      "style": "email",
+      "icon": "💃",
+      "from": "Ms Graham",
+      "to": "Dance group",
+      "body": "The gym's not available tomorrow for practice because of the roof repairs, but we can use the school hall after 4:00 p.m."
+    },
+    "question": "",
+    "options": [
+      "A. The dance group won't be able to use the school hall tomorrow.",
+      "B. The repairs to the gym roof will be finished at 4:00 p.m. tomorrow.",
+      "C. Dance practice will not be in the usual place tomorrow."
+    ],
+    "answer": "C",
+    "explanation": "Đáp án C đúng vì địa điểm tập luyện thay đổi từ phòng gym sang hội trường trường do việc sửa chữa mái nhà."
+  },
+  {
+    "id": "p1_q116",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "🤒",
+      "from": "Tilly",
+      "to": "Julia",
+      "body": "Julia, The history trip's this Friday, but I'm still feeling ill. I'll decide tomorrow if I'm going and then I'll let the teacher know."
+    },
+    "question": "",
+    "options": [
+      "A. The history trip is happening tomorrow instead of Friday.",
+      "B. Tilly may not be well enough to go on the school trip.",
+      "C. Julia should tell the teacher if Tilly is going on the trip or not."
+    ],
+    "answer": "B",
+    "explanation": "Đáp án B đúng vì Tilly đang bị ốm ('feeling ill') và chưa chắc chắn có thể tham gia chuyến đi vào thứ Sáu hay không."
+  },
+  {
+    "id": "p1_q117",
+    "type": "part1",
+    "sign_type": "school_notice",
+    "sign": {
+      "location_label": "Noticeboard",
+      "style": "school_pinned",
+      "header": "Highfields School computer club",
+      "icon": "💻",
+      "lines": [
+        {
+          "text": "Starts Monday 4:30 p.m.",
+          "size": "small",
+          "weight": "normal"
+        },
+        {
+          "text": "Learn how to make interesting websites",
+          "size": "medium",
+          "weight": "bold"
+        }
+      ]
+    },
+    "question": "",
+    "options": [
+      "A. If you join this club, you might get better at making websites.",
+      "B. The members of this club need to have experience of making websites.",
+      "C. The club wants students to think of ideas to make the school website interesting."
+    ],
+    "answer": "A",
+    "explanation": "Đáp án A đúng vì mục tiêu của câu lạc bộ là dạy học sinh cách làm web, giúp họ cải thiện kỹ năng này."
+  },
+  {
+    "id": "p1_q118",
+    "type": "part1",
+    "sign_type": "email",
+    "sign": {
+      "location_label": "Computer Screen",
+      "style": "email",
+      "icon": "🎨",
+      "from": "Mr Green",
+      "to": "Students",
+      "body": "I'd like to have your art projects this Friday if possible. If you haven't finished, bring them to my office by Monday 9:00 a.m."
+    },
+    "question": "What is Mr Green telling students?",
+    "options": [
+      "A. They should begin their art projects on Monday.",
+      "B. He would like to talk to them about their projects on Friday.",
+      "C. They can have some extra time to complete their projects."
+    ],
+    "answer": "C",
+    "explanation": "Đáp án C đúng vì thầy giáo cho phép nộp bài muộn hơn vào sáng thứ Hai nếu chưa xong vào thứ Sáu, tức là gia hạn thêm thời gian."
+  },
+  {
+    "id": "p1_q119",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "⚽",
+      "from": "Simon",
+      "to": "Mum",
+      "body": "Mum, I'm at football practice with Joe. Can I invite him for supper afterwards? We've both done all our homework."
+    },
+    "question": "",
+    "options": [
+      "A. Simon would like to bring Joe home with him.",
+      "B. Simon is thinking of going to football practice with Joe.",
+      "C. Simon wants Joe to help him with his homework."
+    ],
+    "answer": "A",
+    "explanation": "Đáp án A đúng vì Simon xin phép mời bạn về ăn tối ('invite him for supper'), điều này đồng nghĩa với việc đưa bạn về nhà."
+  },
+  {
+    "id": "p1_q120",
+    "type": "part1",
+    "sign_type": "email",
+    "sign": {
+      "location_label": "Computer Screen",
+      "style": "email",
+      "icon": "🕶️",
+      "from": "David",
+      "to": "Chloe",
+      "body": "Did I leave my sunglasses at your house? Check the kitchen table. If you find them, can you bring them to school tomorrow?"
+    },
+    "question": "",
+    "options": [
+      "A. David is checking where Chloe has put his sunglasses.",
+      "B. David is going to lend Chloe his sunglasses.",
+      "C. David is trying to find out if Chloe has his sunglasses."
+    ],
+    "answer": "C",
+    "explanation": "Đáp án C đúng vì David đang hỏi thăm xem liệu mình có để quên kính ở nhà Chloe hay không thông qua việc nhờ kiểm tra bàn bếp."
+  },
+  {
+    "id": "p1_q121",
+    "type": "part1",
+    "sign_type": "school_notice",
+    "sign": {
+      "location_label": "Noticeboard",
+      "style": "school_pinned",
+      "header": "Greenfields Sports Club",
+      "icon": "🎾",
+      "lines": [
+        {
+          "text": "Half-price when you join with a friend!",
+          "size": "medium",
+          "weight": "bold"
+        },
+        {
+          "text": "Offer available January only.",
+          "size": "small",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "What will happen at the club in January?",
+    "options": [
+      "A. Extra sports will become available for members to try.",
+      "B. Two people can join for the price of one.",
+      "C. New members will pay nothing for a month."
+    ],
+    "answer": "B",
+    "explanation": "Đáp án B đúng vì ưu đãi 'nửa giá khi tham gia cùng bạn' đồng nghĩa với việc hai người cùng tham gia nhưng chỉ tốn phí bằng một người."
+  },
+  {
+    "id": "p1_q122",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Mobile Phone Screen",
+      "style": "handwritten_note",
+      "icon": "📚",
+      "from": "Jack",
+      "to": "Holly",
+      "body": "Holly, I've lost my maths textbook! Can I borrow yours so I can do the homework? Will you be at home at 5:00 p.m.?"
+    },
+    "question": "Why has Jack written this text?",
+    "options": [
+      "A. to ask Holly to explain a problem in the textbook",
+      "B. to ask Holly if she has found his textbook",
+      "C. to ask Holly to lend him a textbook"
+    ],
+    "answer": "C",
+    "explanation": "Đáp án C đúng vì Jack hỏi trực tiếp mượn sách của Holly ('Can I borrow yours?') do đã làm mất sách của mình."
+  },
+  {
+    "id": "p1_q123",
+    "type": "part1",
+    "sign_type": "message",
+    "sign": {
+      "location_label": "Note",
+      "style": "handwritten_note",
+      "icon": "👕",
+      "from": "Mum",
+      "to": "Tom",
+      "body": "Tom, Make sure you've put your homework in your school bag - and pick up those clothes from your bedroom floor before I get home."
+    },
+    "question": "What does Tom’s mum want Tom to do before she gets home?",
+    "options": [
+      "A. finish his homework",
+      "B. tidy his bedroom",
+      "C. change his clothes"
+    ],
+    "answer": "B",
+    "explanation": "Đáp án B đúng vì việc nhặt quần áo dưới sàn phòng ngủ là một phần của việc dọn dẹp phòng cho ngăn nắp."
+  },
+  {
+    "id": "p1_q124",
+    "type": "part1",
+    "sign_type": "school_notice",
+    "sign": {
+      "location_label": "Café Door",
+      "style": "school_pinned",
+      "header": "School Café",
+      "icon": "🥪",
+      "lines": [
+        {
+          "text": "Monday / Tuesday next week - no hot food",
+          "size": "medium",
+          "weight": "bold"
+        },
+        {
+          "text": "Drinks and sandwiches only",
+          "size": "medium",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "",
+    "options": [
+      "A. The café will be closed for several days next week.",
+      "B. Some kinds of food won't be available for part of next week.",
+      "C. Students are asked to bring sandwiches to school next week."
+    ],
+    "answer": "B",
+    "explanation": "Đáp án B đúng vì vào đầu tuần tới, một số món ăn (đồ ăn nóng) sẽ không được phục vụ, chỉ giới hạn ở một vài loại đồ nguội."
+  },
+  {
+    "id": "p1_q125",
+    "type": "part1",
+    "sign_type": "email",
+    "sign": {
+      "location_label": "Computer Screen",
+      "style": "email",
+      "icon": "🎾",
+      "from": "Kate",
+      "to": "Hannah",
+      "body": "You missed tennis club today, and the day of the competition has changed to Monday. Will you have your new racket by then?"
+    },
+    "question": "Why has Kate written this email?",
+    "options": [
+      "A. to tell Hannah to remember her tennis racket",
+      "B. to ask Hannah why she didn't go to the tennis club",
+      "C. to give Hannah new information about the competition"
+    ],
+    "answer": "C",
+    "explanation": "Đáp án C đúng vì mục đích chính của Kate là cập nhật cho Hannah về việc thay đổi ngày thi đấu sang thứ Hai."
+  },
+  {
+    "id": "p1_q126",
+    "type": "part1",
+    "sign_type": "school_notice",
+    "sign": {
+      "location_label": "Noticeboard",
+      "style": "school_pinned",
+      "icon": "📅",
+      "lines": [
+        {
+          "text": "Timetables for next term will be ready to collect from the school office next week, or you can print them from the website from tomorrow.",
+          "size": "medium",
+          "weight": "normal"
+        }
+      ]
+    },
+    "question": "",
+    "options": [
+      "A. There are two ways of finding out about next term’s timetable.",
+      "B. Students who don’t have a computer can get their timetable this week.",
+      "C. Go to the school office next week for information about printing your timetable."
+    ],
+    "answer": "A",
+    "explanation": "Đáp án A đúng vì thông báo nêu rõ hai hình thức: nhận trực tiếp tại văn phòng hoặc tự in từ website."
+  }
 ]
