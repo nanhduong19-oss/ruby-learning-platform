@@ -534,5 +534,503 @@
         "explanation": "<strong>18. A:</strong> Ở câu hỏi cuối, Tim khẳng định điều tuyệt vời nhất là: 'I get letters from young people who’ve read my books and articles and enjoy my work. I just love that!' (Tôi nhận được thư từ những người trẻ đọc và yêu thích tác phẩm của tôi. Tôi rất thích điều đó!), nghĩa là anh thích được nghe phản hồi từ người hâm mộ."
       }
     ]
+  },
+  {
+    "id": "trainerbook1_p3_test1",
+    "title": "Will’s blog",
+    "content_html": "<p>One day my dad said, ‘Why don’t we have a street party?’ This means that the street is closed so cars can’t use it, and people put tables and chairs out in the street, then have a party! Dad said there was one in 1977 and he still remembers it well. Everyone loved it! I couldn’t believe that since 1977 they never had another one. If it was so good, why not do it again?</p><p>We started to organise it, together with some other people. I helped to make the web page, so everyone on the street knew about the party and could post their old photos from the party in 1977. There were some pictures of my dad when he was a kid, together with his friends, who have moved away from the street now. It was interesting to see that the buildings on the street haven’t changed at all!</p><p>My mum was a bit worried about the party. ‘But a lot of people on the street don’t really know each other’, she said. ‘What if they don’t have anything to talk about?’ I just said, ‘Relax, Mum. It’ll be great.’</p><p>So, what was the party like? It was fantastic! My friends and I really liked speaking to an old lady called Louisa. She’s 89 and was telling us about when she and her friends were our age. So now I always chat to her when I see her on the street. I didn’t know who she was before, so I’m glad we had the party.</p>",
+    "questions": [
+      {
+        "number": 14,
+        "text": "Why was Will surprised?",
+        "options": {
+          "A": "His father wanted to have a street party.",
+          "B": "There hasn’t been a street party for a long time.",
+          "C": "Many people remembered the last street party."
+        },
+        "answer": "B",
+        "evidenceKeywords": [
+          "couldn’t believe",
+          "since 1977",
+          "never had another one"
+        ],
+        "explanation": "<strong>14. B:</strong> Will ngạc nhiên vì đã quá lâu không có bữa tiệc nào tổ chức trên phố này. Trong bài có câu: 'I couldn’t believe that since 1977 they never had another one' (Tôi không thể tin được rằng kể từ năm 1977 họ chưa bao giờ tổ chức một bữa tiệc nào khác)."
+      },
+      {
+        "number": 15,
+        "text": "What did the photos from 1977 show?",
+        "options": {
+          "A": "The street still looks the same now.",
+          "B": "There are more children living in the street now.",
+          "C": "The same people still live on the street now."
+        },
+        "answer": "A",
+        "evidenceKeywords": [
+          "buildings",
+          "haven’t changed at all"
+        ],
+        "explanation": "<strong>15. A:</strong> Các bức ảnh từ năm 1977 cho thấy diện mạo đường phố không thay đổi. Bài viết nêu: 'It was interesting to see that the buildings on the street haven’t changed at all!' (Thật thú vị khi thấy các tòa nhà trên phố chẳng thay đổi chút nào cả!)."
+      },
+      {
+        "number": 16,
+        "text": "Why was Will’s mother worried?",
+        "options": {
+          "A": "She thought that the party was too expensive.",
+          "B": "She thought that people might not come to the party.",
+          "C": "She thought that the guests might not talk to each other."
+        },
+        "answer": "C",
+        "evidenceKeywords": [
+          "don’t really know each other",
+          "don’t have anything to talk about"
+        ],
+        "explanation": "<strong>16. C:</strong> Mẹ của Will lo lắng vì hàng xóm không quen biết nhau nên sẽ không có chuyện để nói: 'What if they don’t have anything to talk about?' (Lỡ như họ không có chuyện gì để nói với nhau thì sao?)."
+      },
+      {
+        "number": 17,
+        "text": "Will and his friends enjoyed",
+        "options": {
+          "A": "hearing Louisa’s stories.",
+          "B": "meeting Louisa’s friends.",
+          "C": "telling Louisa about their lives."
+        },
+        "answer": "A",
+        "evidenceKeywords": [
+          "liked speaking to",
+          "telling us about when she and her friends were our age"
+        ],
+        "explanation": "<strong>17. A:</strong> Will và các bạn thích thú với việc nghe những câu chuyện quá khứ của bà Louisa: 'She... was telling us about when she and her friends were our age' (Bà ấy đã kể cho chúng tôi nghe về thời bà và bạn bà bằng tuổi chúng tôi)."
+      },
+      {
+        "number": 18,
+        "text": "What is the best title for the article?",
+        "options": {
+          "A": "Why I love street parties",
+          "B": "The street party we had",
+          "C": "How to have a street party"
+        },
+        "answer": "B",
+        "evidenceKeywords": [
+          "blog",
+          "organise",
+          "what was the party like",
+          "was fantastic"
+        ],
+        "explanation": "<strong>18. B:</strong> Tiêu đề phù hợp nhất là 'Bữa tiệc đường phố chúng tôi đã tổ chức' (The street party we had) vì nội dung xuyên suốt kể về sự kiện cụ thể mà gia đình Will đã thực hiện."
+      }
+    ]
+  },
+  {
+    "id": "trainerbook1_p3_test2",
+    "title": "Starting photography",
+    "content_html": "<p>Have you ever wanted to take better pictures of your family, of your dinner or of your cat? Well, I can help you. In fact, that’s what makes photography such a fantastic hobby. It doesn’t matter if you have a nice new camera or just use your phone. We photographers are always trying to improve. We want today’s photos to be more interesting than yesterday’s.</p><p>In my photography classes, I’ll show you how to find your own style, not just take the same photos as all your friends. But you’ll need to be out of bed early and take pictures in the best light, before it gets too bright. We’ll talk more about light in Week 1.</p><p>Actually, I’ve never read a book about photography, and I get bored watching videos on the net. I started to understand more about photography by looking at my own photos. I thought about what was wrong with them and decided how to do better next time. And in Week 2, I’ll ask you to do the same with photos you have taken.</p><p>Do you want to know what I think? I don’t think there’s anyone who can’t take amazing photos. Not everyone wants to, and that’s cool. But if you do, come along to Room 4D on Wednesdays after lunch from 1:30 to 2:00.</p>",
+    "questions": [
+      {
+        "number": 14,
+        "text": "Why does Mrs Howells enjoy photography?",
+        "options": {
+          "A": "She loves using her new camera.",
+          "B": "She likes taking photos of her family.",
+          "C": "She enjoys trying to take better pictures."
+        },
+        "answer": "C",
+        "evidenceKeywords": [
+          "always trying to improve",
+          "more interesting than yesterday’s"
+        ],
+        "explanation": "<strong>14. C:</strong> Tác giả đề cập: 'We photographers are always trying to improve' (Chúng tôi luôn cố gắng cải thiện), cho thấy niềm vui đến từ việc nỗ lực để có những bức ảnh tốt hơn mỗi ngày."
+      },
+      {
+        "number": 15,
+        "text": "What advice does Mrs Howells give?",
+        "options": {
+          "A": "Take pictures with your friends.",
+          "B": "Don’t take photos if it is dark.",
+          "C": "Take photos early in the morning."
+        },
+        "answer": "C",
+        "evidenceKeywords": [
+          "out of bed early",
+          "best light"
+        ],
+        "explanation": "<strong>15. C:</strong> Lời khuyên trực tiếp trong bài là: 'you’ll need to be out of bed early' (bạn cần phải rời giường sớm) để tận dụng ánh sáng tốt nhất, tức là chụp ảnh vào sáng sớm."
+      },
+      {
+        "number": 16,
+        "text": "How did Mrs Howells learn about photography?",
+        "options": {
+          "A": "from books",
+          "B": "from her mistakes",
+          "C": "from videos on the web"
+        },
+        "answer": "B",
+        "evidenceKeywords": [
+          "looking at my own photos",
+          "what was wrong with them"
+        ],
+        "explanation": "<strong>16. B:</strong> Mrs Howells học bằng cách xem lại ảnh mình đã chụp và tìm ra 'what was wrong with them' (những điểm chưa ổn/sai sót) để làm tốt hơn, thay vì học qua sách hay video."
+      },
+      {
+        "number": 17,
+        "text": "Mrs Howells believes that",
+        "options": {
+          "A": "everybody should learn photography.",
+          "B": "photography is a great hobby for everyone.",
+          "C": "everybody can take good photos if they want to."
+        },
+        "answer": "C",
+        "evidenceKeywords": [
+          "don’t think there’s anyone who can’t take amazing photos"
+        ],
+        "explanation": "<strong>17. C:</strong> Câu văn 'I don’t think there’s anyone who can’t take amazing photos' khẳng định niềm tin của bà rằng bất kỳ ai cũng có khả năng chụp ảnh đẹp."
+      },
+      {
+        "number": 18,
+        "text": "Why has Mrs Howells written this text?",
+        "options": {
+          "A": "to ask pupils what they like photographing",
+          "B": "to tell pupils about a photography course",
+          "C": "to answer pupils’ questions about photography"
+        },
+        "answer": "B",
+        "evidenceKeywords": [
+          "In my photography classes",
+          "come along to Room 4D"
+        ],
+        "explanation": "<strong>18. B:</strong> Mục đích chính của bài viết là giới thiệu về lớp học nhiếp ảnh tại phòng 4D vào thứ Tư hàng tuần để học sinh tham gia."
+      }
+    ]
+  },
+  {
+    "id": "trainerbook1_p3_test3",
+    "title": "Isabella Rose Taylor",
+    "content_html": "<p>Lots of people become good at something when they are young. And quite a lot of children know what career they want to follow when they are older. But not everyone opens their own company. This is exactly what Isabella Rose Taylor has done. She started designing clothes when she was eight years old.</p><p>At the time, she was a keen painter. She used a lot of reds, blues and yellows, and these colours helped her to think of new clothes which she could make.</p><p>When she started designing and making clothes, Isabella just made clothes for fun. But people liked her designs, so soon she started selling them online. Now she has a business and takes part in fashion shows. She runs her business from the family home, where she has made one room into an office, and another into a studio where the clothes are made.</p><p>Isabella has also found time to finish school and get a college degree. She's intelligent, and she has thousands of followers online who love her stuff. It's brilliant that she already has people who work for her. Above all, she really knows what is needed to succeed in the world of fashion. And I am sure that she will.</p><p>'The way I see it is I get to follow my dream and be a teenager at the same time. I think I’m pretty lucky,' she says.</p>",
+    "questions": [
+      {
+        "number": 14,
+        "text": "What does the writer say is unusual about Isabella Rose Taylor?",
+        "options": {
+          "A": "She planned her future career when she was very young.",
+          "B": "She started her own business when she was very young.",
+          "C": "She got interested in fashion when she was very young."
+        },
+        "answer": "B",
+        "evidenceKeywords": [
+          "not everyone opens their own company",
+          "Isabella Rose Taylor has done",
+          "eight years old"
+        ],
+        "explanation": "<strong>14. B:</strong> Tác giả nhận định không phải ai cũng mở công ty riêng khi còn nhỏ, và đó chính là điều Isabella đã làm (mở công ty thiết kế từ năm 8 tuổi)."
+      },
+      {
+        "number": 15,
+        "text": "What does Isabella say about painting and making clothes?",
+        "options": {
+          "A": "It is important to paint good pictures of clothes.",
+          "B": "The colours in her paintings gave her ideas for clothes to make.",
+          "C": "She uses paint to put her favourite colours on the clothes she makes."
+        },
+        "answer": "B",
+        "evidenceKeywords": [
+          "colours helped her to think of new clothes"
+        ],
+        "explanation": "<strong>15. B:</strong> Đoạn 2 nêu rõ những màu sắc cô sử dụng khi vẽ tranh đã giúp cô có ý tưởng về những bộ trang phục mới mà cô có thể tạo ra."
+      },
+      {
+        "number": 16,
+        "text": "What do we learn about Isabella’s home?",
+        "options": {
+          "A": "Everything for her business is done in the same room at home.",
+          "B": "Her home is too small, so she’s looking for another one.",
+          "C": "She’s made changes to her home so that she can work there."
+        },
+        "answer": "C",
+        "evidenceKeywords": [
+          "made one room into an office",
+          "another into a studio"
+        ],
+        "explanation": "<strong>16. C:</strong> Isabella đã cải tạo một phòng trong nhà thành văn phòng và một phòng khác thành xưởng may để phục vụ công việc kinh doanh."
+      },
+      {
+        "number": 17,
+        "text": "Why does the writer think that Isabella will do well in the future?",
+        "options": {
+          "A": "She is already very popular online.",
+          "B": "She understands the fashion business.",
+          "C": "She has brilliant people who work for her."
+        },
+        "answer": "B",
+        "evidenceKeywords": [
+          "knows what is needed to succeed",
+          "world of fashion"
+        ],
+        "explanation": "<strong>17. B:</strong> Tác giả tin tưởng vào tương lai của cô vì cô thực sự hiểu rõ những gì cần thiết để thành công trong thế giới thời trang."
+      },
+      {
+        "number": 18,
+        "text": "What is the best title for the article?",
+        "options": {
+          "A": "The girl who can’t wait to start working in fashion soon",
+          "B": "The problem with working and studying",
+          "C": "A hobby that is becoming a career"
+        },
+        "answer": "C",
+        "evidenceKeywords": [
+          "made clothes for fun",
+          "Now she has a business"
+        ],
+        "explanation": "<strong>18. C:</strong> Bài đọc mô tả quá trình Isabella từ việc may đồ giải trí (hobby) trở thành một doanh nhân thời trang thực thụ (career)."
+      }
+    ]
+  },
+  {
+    "id": "trainerbook1_p3_test4",
+    "title": "An amazing stay at the Ocean View Hotel",
+    "content_html": "<p>I’m usually sad to say goodbye to my cousins after visiting them in Australia. But last June I wasn’t. We had to change planes in the Middle East on the way back and had to stay overnight. I just couldn’t wait to get to our hotel.</p><p>The first thing I noticed in the hotel was all the glass. It was really bright, so I don’t know why all the lights were on in the building! There was also loud rock music playing, which I loved (but my parents didn’t)! There weren’t many people waiting at the reception, so we were soon in our rooms.</p><p>The garden wasn’t what I expected. ‘Dad,’ I said, ‘you told me there was a pool!’ He took me back into the reception area and then up in the lift to the 39th floor and out onto the top of the building. ‘Here it is,’ he said. It was amazing! Swimming under the clouds was awesome.</p><p>I’ve stayed in some great hotels around the world, but nothing as cool as that one! I saw photographs of it before I went, but they don’t really show how large the building is. I couldn’t believe it. Everything is huge – the building, the pool, the meals (which were delicious, too, by the way)! There’s so much to do and see there. I hope we can go back again and stay for longer!</p>",
+    "questions": [
+      {
+        "number": 14,
+        "text": "The writer says that last June, she felt",
+        "options": {
+          "A": "excited about where she was going.",
+          "B": "sad because she was leaving her cousins.",
+          "C": "angry because of the delay in her journey."
+        },
+        "answer": "A",
+        "evidenceKeywords": [
+          "last June I wasn't",
+          "couldn't wait to get to our hotel"
+        ],
+        "explanation": "<strong>14. A:</strong> Tác giả khẳng định lần này cô không thấy buồn khi rời Australia mà cực kỳ mong đợi được đến khách sạn."
+      },
+      {
+        "number": 15,
+        "text": "What was the hotel like inside?",
+        "options": {
+          "A": "dark",
+          "B": "noisy",
+          "C": "busy"
+        },
+        "answer": "B",
+        "evidenceKeywords": [
+          "loud rock music playing"
+        ],
+        "explanation": "<strong>15. B:</strong> Khách sạn có nhạc rock mở rất to, điều này khiến không gian bên trong trở nên ồn ào (noisy)."
+      },
+      {
+        "number": 16,
+        "text": "Where was the hotel's pool?",
+        "options": {
+          "A": "in the hotel garden",
+          "B": "on the roof of the hotel",
+          "C": "close to the hotel's reception area"
+        },
+        "answer": "B",
+        "evidenceKeywords": [
+          "39th floor",
+          "top of the building"
+        ],
+        "explanation": "<strong>16. B:</strong> Bể bơi nằm ở tầng 39, phía trên cùng của tòa nhà, tức là trên mái (roof)."
+      },
+      {
+        "number": 17,
+        "text": "What do we learn about the writer in the last paragraph?",
+        "options": {
+          "A": "She hasn't visited many hotels in her life.",
+          "B": "She didn't have time to see everything in the hotel.",
+          "C": "She didn't know the hotel is so big."
+        },
+        "answer": "C",
+        "evidenceKeywords": [
+          "photographs... don't really show how large",
+          "couldn't believe it"
+        ],
+        "explanation": "<strong>17. C:</strong> Tác giả ngạc nhiên vì kích thước thực tế của tòa nhà lớn hơn rất nhiều so với những gì cô thấy qua ảnh trước đó."
+      },
+      {
+        "number": 18,
+        "text": "Why has the writer written this text?",
+        "options": {
+          "A": "to describe what the hotel looks like",
+          "B": "to say how the hotel could improve",
+          "C": "to explain why she loved the hotel"
+        },
+        "answer": "C",
+        "evidenceKeywords": [
+          "amazing",
+          "awesome",
+          "nothing as cool as that one"
+        ],
+        "explanation": "<strong>18. C:</strong> Toàn bộ bài viết là những lời khen ngợi và trải nghiệm tuyệt vời, nhằm giải thích lý do tại sao cô ấy lại yêu thích khách sạn này."
+      }
+    ]
+  },
+  {
+    "id": "trainerbook1_p3_test5",
+    "title": "Where playing video games IS real life",
+    "content_html": "<p>Seo-yun Cho doesn’t have time for hobbies because she spends all her time playing video games. ‘I practise as much as I can so I will improve,’ she says. ‘This is what I really need to do.’</p><p>Seo-yun and her friends are members of KS Fireflies 6, a video game team. She and the other members share a flat in Seoul’s business district. Since they all left school, they have managed to make playing video games their life.</p><p>Every day, Seo-yun gets up after a good night’s sleep at 10 a.m. and goes for a jog for an hour, before sitting down at her computer and starting to play. She and her friends have a few breaks to eat and relax during the day and the evening, but Seo-yun thinks that after midnight is when she has more fun playing than at any other time. She usually goes to bed at 3 a.m.</p><p>Seo-yun and the rest of the team need to train hard and keep fit, as top players need to do about 500 mouse-clicks a minute. Video games are big business in South Korea, and the best players (like KS Fireflies 6) usually become even better-known than top baseball or volleyball players.</p><p>Some people might get bored after playing video games for an hour or two. But these guys are actually getting paid to do something they love as a job. Many of them would even like to do it for free!</p>",
+    "questions": [
+      {
+        "number": 14,
+        "text": "What is the most important thing for Seo-yun Cho?",
+        "options": {
+          "A": "trying new video games",
+          "B": "getting better at video games",
+          "C": "finding enough time to play video games"
+        },
+        "answer": "B",
+        "evidenceKeywords": [
+          "practise as much as I can",
+          "so I will improve",
+          "really need to do"
+        ],
+        "explanation": "<strong>14. B:</strong> Trong đoạn đầu, Seo-yun khẳng định mục tiêu của mình: 'I practise as much as I can so I will improve' (Tôi luyện tập nhiều nhất có thể để tiến bộ) và 'This is what I really need to do' (Đây là điều tôi thực sự cần làm), cho thấy việc nâng cao kỹ năng là quan trọng nhất."
+      },
+      {
+        "number": 15,
+        "text": "Seo-yun and her friends",
+        "options": {
+          "A": "live together.",
+          "B": "went to school together.",
+          "C": "have a business together."
+        },
+        "answer": "A",
+        "evidenceKeywords": [
+          "share a flat",
+          "in Seoul’s business district"
+        ],
+        "explanation": "<strong>15. A:</strong> Đoạn 2 cho biết: 'She and the other members share a flat in Seoul’s business district' (Cô ấy và các thành viên khác ở chung một căn hộ), cụm từ 'share a flat' đồng nghĩa với 'live together'."
+      },
+      {
+        "number": 16,
+        "text": "What does Seo-yun say about playing games at night?",
+        "options": {
+          "A": "It’s when she feels happiest.",
+          "B": "It’s the time that she most enjoys playing.",
+          "C": "It sometimes makes her tired."
+        },
+        "answer": "B",
+        "evidenceKeywords": [
+          "after midnight",
+          "more fun playing",
+          "than at any other time"
+        ],
+        "explanation": "<strong>16. B:</strong> Ở đoạn 3, Seo-yun chia sẻ: 'after midnight is when she has more fun playing than at any other time' (sau nửa đêm là lúc cô ấy thấy vui hơn bất kỳ lúc nào khác khi chơi), tương ứng với việc cô ấy thích chơi nhất vào thời điểm này."
+      },
+      {
+        "number": 17,
+        "text": "What does the writer say about sports?",
+        "options": {
+          "A": "Seo-yun and her friends play a lot of sports video games.",
+          "B": "Seo-yun and her friends play sports to get fit.",
+          "C": "Seo-yun and her friends are more famous than some sports players."
+        },
+        "answer": "C",
+        "evidenceKeywords": [
+          "become even better-known",
+          "than top baseball or volleyball players"
+        ],
+        "explanation": "<strong>17. C:</strong> Trong đoạn 4, tác giả so sánh độ nổi tiếng: 'become even better-known than top baseball or volleyball players' (trở nên nổi tiếng hơn cả các cầu thủ bóng chày hay bóng chuyền hàng đầu). 'Better-known' đồng nghĩa với 'more famous'."
+      },
+      {
+        "number": 18,
+        "text": "Why does the writer think that Seo-yun and her friends are lucky?",
+        "options": {
+          "A": "because they earn a lot of money",
+          "B": "because they don’t need to look for another job",
+          "C": "because they are doing something that they love"
+        },
+        "answer": "C",
+        "evidenceKeywords": [
+          "getting paid",
+          "do something they love",
+          "as a job"
+        ],
+        "explanation": "<strong>18. C:</strong> Ở đoạn cuối, người viết giải thích lý do họ may mắn: 'getting paid to do something they love as a job' (được trả tiền để làm công việc mà họ yêu thích)."
+      }
+    ]
+  },
+  {
+    "id": "trainerbook1_p3_test6",
+    "title": "Would you like to be an astronaut?",
+    "content_html": "<p>You don’t have to be Superman to fly in space. Many men and women from many different countries have done it. For example, the European Space Agency (ESA) now has 14 astronauts from 8 different countries.</p><p>The first thing is this – you need to be sure it’s the job that you really want to do. It requires a lot of hard work and several years of study at university before astronaut training even begins. Most people start this between 27 and 37 years of age. Many astronauts also train to become pilots first.</p><p>Astronauts come from all over Europe and the world, and it’s important that they can speak the same languages. They have to speak English, and they are given Russian lessons. Some also learn another language, for example Japanese, as a number of astronauts are Japanese speakers.</p><p>If you are still at school and you’d like to be an astronaut when you’re older, it’s not too early to start developing the skills you will need. Playing video games is a great thing to do, as it helps you to think quickly and clearly. This is what you will need to do when you travel in space.</p><p>Another good thing to do is sports, especially team sports. They make you fit, of course, but more importantly, they help you learn how to do things together with your colleagues. So, maybe planning a game of football for next weekend isn’t a bad idea?</p>",
+    "questions": [
+      {
+        "number": 14,
+        "text": "The first paragraph says that",
+        "options": {
+          "A": "lots of people can be an astronaut.",
+          "B": "there are astronauts from all countries.",
+          "C": "only 14 people from Europe have become astronauts."
+        },
+        "answer": "A",
+        "evidenceKeywords": [
+          "Many men and women",
+          "many different countries",
+          "have done it"
+        ],
+        "explanation": "<strong>14. A:</strong> Đoạn đầu tiên cho biết 'Many men and women from many different countries have done it' (Nhiều người nam và nữ từ nhiều quốc gia khác nhau đã thực hiện được), chứng tỏ rất nhiều người có thể trở thành phi hành gia."
+      },
+      {
+        "number": 15,
+        "text": "The writer says",
+        "options": {
+          "A": "you need to be a pilot before you become an astronaut.",
+          "B": "it’s important to know that being an astronaut is right for you.",
+          "C": "when you start training to be an astronaut, you must be between 27 and 37."
+        },
+        "answer": "B",
+        "evidenceKeywords": [
+          "need to be sure",
+          "job that you really want to do"
+        ],
+        "explanation": "<strong>15. B:</strong> Tác giả khuyên 'you need to be sure it’s the job that you really want to do' (bạn cần chắc chắn đó là công việc bạn thực sự muốn làm), tức là xác định công việc này có phù hợp với mình không là điều quan trọng nhất."
+      },
+      {
+        "number": 16,
+        "text": "Which languages do ESA astronauts know how to speak after training?",
+        "options": {
+          "A": "English and Russian",
+          "B": "English and Japanese",
+          "C": "English, Japanese and Russian"
+        },
+        "answer": "A",
+        "evidenceKeywords": [
+          "have to speak English",
+          "given Russian lessons"
+        ],
+        "explanation": "<strong>16. A:</strong> Bài đọc nêu rõ họ phải nói tiếng Anh và được học tiếng Nga: 'They have to speak English, and they are given Russian lessons'. Tiếng Nhật chỉ là ví dụ cho một số người học thêm chứ không phải tất cả."
+      },
+      {
+        "number": 17,
+        "text": "Why can playing video games be useful if you want to be an astronaut?",
+        "options": {
+          "A": "There are many video games about space travel.",
+          "B": "Video games can teach you to think fast.",
+          "C": "Video games help you to understand how computers work."
+        },
+        "answer": "B",
+        "evidenceKeywords": [
+          "helps you to think quickly",
+          "and clearly"
+        ],
+        "explanation": "<strong>17. B:</strong> Chơi trò chơi điện tử giúp 'think quickly and clearly' (suy nghĩ nhanh chóng và rõ ràng), tương ứng với phương án 'think fast'."
+      },
+      {
+        "number": 18,
+        "text": "How can sports help you to become an astronaut?",
+        "options": {
+          "A": "They help you to get fit.",
+          "B": "They give you something to do in your free time.",
+          "C": "They help you to work well with other people."
+        },
+        "answer": "C",
+        "evidenceKeywords": [
+          "learn how to do things together",
+          "with your colleagues"
+        ],
+        "explanation": "<strong>18. C:</strong> Thể thao (đặc biệt là đồng đội) giúp phi hành gia 'learn how to do things together with your colleagues' (học cách làm việc cùng nhau với đồng nghiệp), tức là làm việc nhóm tốt với người khác."
+      }
+    ]
   }
 ]
