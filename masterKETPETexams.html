@@ -224,6 +224,12 @@ body{
 .btn-start:hover{transform:translateY(-2px);box-shadow:0 8px 28px rgba(185,28,28,.42)}
 .btn-start:active{transform:translateY(0)}
 .btn-start:disabled{opacity:.45;cursor:not-allowed;transform:none}
+.btn-spinner{
+  display:inline-block;width:20px;height:20px;
+  border:3px solid rgba(255,255,255,.35);border-top-color:#fff;
+  border-radius:50%;animation:spin .7s linear infinite;
+}
+@keyframes spin{to{transform:rotate(360deg)}}
 
 /* ── MISC ── */
 .teacher-bar{
@@ -1777,7 +1783,11 @@ async function handleStart() {
     } else {
       S.student = { id:'TEACHER', name:'Teacher', class:'Staff' };
     }
+    const btn = document.getElementById('btn-start');
+    btn.disabled = true;
+    btn.innerHTML = '<span class="btn-spinner"></span> Loading Full Test...';
     await startFullTest(S.level, null);
+    btn.disabled = false; btn.innerHTML = '⬡ START PRACTICE';
     return;
   }
 
@@ -1797,7 +1807,8 @@ async function handleStart() {
   if (!valid) return;
 
   const btn = document.getElementById('btn-start');
-  btn.disabled = true; btn.textContent = 'Loading…';
+  btn.disabled = true;
+  btn.innerHTML = '<span class="btn-spinner"></span> Loading...';
 
   try {
     const url = CFG.dataUrls[S.partKey];
@@ -1817,13 +1828,13 @@ async function handleStart() {
     }
     if (!Array.isArray(allRawData) || allRawData.length === 0) throw new Error('Empty data');
   } catch(err) {
-    btn.disabled = false; btn.textContent = '⬡ START PRACTICE';
+    btn.disabled = false; btn.innerHTML = '⬡ START PRACTICE';
     const errEl = document.getElementById('data-error');
     errEl.textContent = 'Could not load questions: ' + err.message;
     errEl.style.display = 'block';
     return;
   }
-  btn.disabled = false; btn.textContent = '⬡ START PRACTICE';
+  // Keep spinner showing while building quiz - button stays disabled until screen switches
 
   // Fetch wrong IDs from sheet for prioritisation
   if (!S.teacherMode && CFG.scriptUrl) {
@@ -3714,6 +3725,7 @@ document.getElementById('btn-another').addEventListener('click', () => {
   document.querySelectorAll('.part-option').forEach(o => o.classList.remove('active'));
   document.getElementById('set-selector').style.display = 'none';
   document.getElementById('btn-start').disabled = true;
+  document.getElementById('btn-start').innerHTML = '⬡ START PRACTICE';
   showScreen('welcome');
 });
 
